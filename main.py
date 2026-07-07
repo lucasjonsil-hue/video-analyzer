@@ -5,6 +5,8 @@ import numpy as np
 import tempfile
 import os
 import uuid
+from datetime import datetime, timezone
+import requests
 from dotenv import load_dotenv
 from fastapi import FastAPI, File, UploadFile, HTTPException, Form
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -16,6 +18,59 @@ load_dotenv()
 
 app = FastAPI()
 client = anthropic.Anthropic()
+
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GITHUB_REPO = os.environ.get("GITHUB_REPO", "lucasjonsil-hue/video-analyzer")
+VALID_NOTE_CATEGORIES = {"ai_ideas", "gym", "other"}
+
+
+def save_note_to_github(result: dict, source: str) -> None:
+    if not GITHUB_TOKEN:
+        return
+
+    category = result.get("note_category")
+    if category not in VALID_NOTE_CATEGORIES:
+        category = "other"
+
+    path = f"notes/{category}.md"
+    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+    }
+
+    get_resp = requests.get(api_url, headers=headers, timeout=15)
+    if get_resp.status_code == 200:
+        existing = get_resp.json()
+        current_content = base64.b64decode(existing["content"]).decode("utf-8")
+        sha = existing["sha"]
+    elif get_resp.status_code == 404:
+        current_content = f"# {category.replace('_', ' ').title()} Notes\n"
+        sha = None
+    else:
+        get_resp.raise_for_status()
+        return
+
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    entry = (
+        f"\n## {timestamp}\n"
+        f"Source: {source}\n\n"
+        f"{result.get('summary', '')}\n\n"
+        f"{result.get('overview', '')}\n\n"
+        + "\n".join(f"- {point}" for point in result.get("key_points", []))
+        + "\n"
+    )
+    new_content = current_content + entry
+
+    payload = {
+        "message": f"Add {category} note from video analysis",
+        "content": base64.b64encode(new_content.encode("utf-8")).decode("utf-8"),
+    }
+    if sha:
+        payload["sha"] = sha
+
+    put_resp = requests.put(api_url, headers=headers, json=payload, timeout=15)
+    put_resp.raise_for_status()
 
 
 def extract_frames(video_path: str, num_frames: int = 5) -> list[str]:
@@ -85,7 +140,8 @@ def analyze_frames_with_claude(frames_b64: list[str]) -> dict:
             "- content_type: one of [tutorial, entertainment, news, advertisement, vlog, sports, music, documentary, other]\n"
             "- energy: one of [low, medium, high]\n"
             "- pacing: one of [slow, moderate, fast]\n"
-            "- hook_strength: one of [weak, moderate, strong] (how engaging the opening is)\n\n"
+            "- hook_strength: one of [weak, moderate, strong] (how engaging the opening is)\n"
+            "- note_category: one of [ai_ideas, gym, other] — ai_ideas if the video is about AI, coding, prompts, or agents; gym if it's about fitness, workouts, or training; other otherwise\n\n"
             "Respond with ONLY valid JSON, no markdown, no explanation."
         )
     })
@@ -129,6 +185,11 @@ async def analyze_video(video: UploadFile = File(...)):
         if not frames:
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
         result = analyze_frames_with_claude(frames)
+        try:
+            save_note_to_github(result, source=video.filename or "uploaded file")
+            result["note_saved"] = True
+        except requests.RequestException:
+            result["note_saved"] = False
         return JSONResponse(content=result)
     except ValueError as e:
         raise HTTPException(status_code=422, detail=str(e))
@@ -145,6 +206,11 @@ async def analyze_video_url(url: str = Form(...)):
         if not frames:
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
         result = analyze_frames_with_claude(frames)
+        try:
+            save_note_to_github(result, source=url)
+            result["note_saved"] = True
+        except requests.RequestException:
+            result["note_saved"] = False
         return JSONResponse(content=result)
     except ValueError as e:
         raise HTTPException(status_code=422, detail=str(e))

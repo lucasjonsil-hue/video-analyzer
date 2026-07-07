@@ -419,7 +419,12 @@
       });
 
       results.style.display = "block";
-      status.textContent = "Analysis complete.";
+      if (data.note_saved && data.note_category) {
+        const label = { ai_ideas: "AI Ideas", gym: "Gym", other: "Other" }[data.note_category] || data.note_category;
+        status.textContent = `Analysis complete. Saved to ${label} notes.`;
+      } else {
+        status.textContent = "Analysis complete.";
+      }
       status.className = "status";
     }
 
