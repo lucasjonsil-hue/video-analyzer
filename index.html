@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Analyzer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f13;
+      color: #e8e8f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 16px;
+      padding: 2.5rem;
+      width: 100%;
+      max-width: 560px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      color: #6b6b8a;
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+    }
+
+    .drop-zone {
+      border: 2px dashed #2a2a3a;
+      border-radius: 12px;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+
+    .drop-zone:hover, .drop-zone.dragover {
+      border-color: #a78bfa;
+      background: rgba(167, 139, 250, 0.05);
+    }
+
+    .drop-zone input[type="file"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+    }
+
+    .drop-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .drop-label {
+      font-size: 0.95rem;
+      color: #9090b0;
+    }
+
+    .drop-label strong {
+      color: #a78bfa;
+    }
+
+    .file-hint {
+      font-size: 0.75rem;
+      color: #5a5a7a;
+      margin-top: 0.4rem;
+    }
+
+    .selected-file {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: #60a5fa;
+      display: none;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      margin-top: 1.25rem;
+      padding: 0.85rem;
+      background: linear-gradient(135deg, #7c3aed, #2563eb);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+
+    .btn:hover:not(:disabled) { opacity: 0.88; }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    .status {
+      margin-top: 1.25rem;
+      font-size: 0.875rem;
+      text-align: center;
+      min-height: 1.25rem;
+      color: #6b6b8a;
+    }
+
+    .status.loading { color: #a78bfa; }
+    .status.error   { color: #f87171; }
+
+    .spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(167,139,250,0.3);
+      border-top-color: #a78bfa;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .results {
+      margin-top: 1.75rem;
+      display: none;
+    }
+
+    .results h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #c4b5fd;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #2a2a3a;
+    }
+
+    .summary-box {
+      background: #12121a;
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: #cccce0;
+      margin-bottom: 1.25rem;
+    }
+
+    .badges {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    .badge {
+      background: #12121a;
+      border: 1px solid #2a2a3a;
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+    }
+
+    .badge-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #5a5a7a;
+      margin-bottom: 0.3rem;
+    }
+
+    .badge-value {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #e8e8f0;
+      text-transform: capitalize;
+    }
+
+    .badge-value.high,   .badge-value.strong { color: #4ade80; }
+    .badge-value.medium, .badge-value.moderate { color: #facc15; }
+    .badge-value.low,    .badge-value.weak   { color: #f87171; }
+    .badge-value.fast    { color: #60a5fa; }
+    .badge-value.slow    { color: #94a3b8; }
+
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 0.6rem;
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #6b6b8a;
+      background: #12121a;
+      border: 1px solid #2a2a3a;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .tab.active {
+      color: #fff;
+      background: linear-gradient(135deg, #7c3aed, #2563eb);
+      border-color: transparent;
+    }
+
+    .url-input {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      background: #12121a;
+      border: 1px solid #2a2a3a;
+      border-radius: 10px;
+      color: #e8e8f0;
+      font-size: 0.9rem;
+    }
+
+    .url-input:focus { outline: none; border-color: #a78bfa; }
+
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    .overview-box {
+      background: #12121a;
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: #b8b8d0;
+      margin-bottom: 1.25rem;
+    }
+
+    .key-points {
+      list-style: none;
+      margin-bottom: 1.25rem;
+    }
+
+    .key-points li {
+      font-size: 0.85rem;
+      color: #cccce0;
+      padding: 0.45rem 0 0.45rem 1.1rem;
+      position: relative;
+      border-bottom: 1px solid #202030;
+    }
+
+    .key-points li:last-child { border-bottom: none; }
+
+    .key-points li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: #a78bfa;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #5a5a7a;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Video Analyzer</h1>
+    <p class="subtitle">Upload a video and get an AI-powered analysis in seconds.</p>
+
+    <div class="tabs">
+      <div class="tab active" id="tabUpload">Upload File</div>
+      <div class="tab" id="tabUrl">Paste URL</div>
+    </div>
+
+    <div class="panel active" id="panelUpload">
+      <div class="drop-zone" id="dropZone">
+        <input type="file" id="fileInput" accept="video/*" />
+        <div class="drop-icon">🎬</div>
+        <div class="drop-label"><strong>Choose a video</strong> or drag it here</div>
+        <div class="file-hint">MP4, AVI, MOV, WebM — up to 500 MB</div>
+      </div>
+      <div class="selected-file" id="selectedFile"></div>
+    </div>
+
+    <div class="panel" id="panelUrl">
+      <input type="text" class="url-input" id="urlInput" placeholder="Paste a YouTube, TikTok, or Instagram link…" />
+    </div>
+
+    <button class="btn" id="analyzeBtn" disabled>Analyze Video</button>
+    <div class="status" id="status"></div>
+
+    <div class="results" id="results">
+      <h2>Analysis Results</h2>
+      <div class="summary-box" id="summary"></div>
+      <div class="section-label">Overview</div>
+      <div class="overview-box" id="overview"></div>
+      <div class="section-label">Key Points</div>
+      <ul class="key-points" id="keyPoints"></ul>
+      <div class="section-label">Performance Metrics</div>
+      <div class="badges">
+        <div class="badge">
+          <div class="badge-label">Content Type</div>
+          <div class="badge-value" id="contentType"></div>
+        </div>
+        <div class="badge">
+          <div class="badge-label">Energy</div>
+          <div class="badge-value" id="energy"></div>
+        </div>
+        <div class="badge">
+          <div class="badge-label">Pacing</div>
+          <div class="badge-value" id="pacing"></div>
+        </div>
+        <div class="badge">
+          <div class="badge-label">Hook Strength</div>
+          <div class="badge-value" id="hookStrength"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const fileInput   = document.getElementById("fileInput");
+    const dropZone    = document.getElementById("dropZone");
+    const selectedFile = document.getElementById("selectedFile");
+    const analyzeBtn  = document.getElementById("analyzeBtn");
+    const status      = document.getElementById("status");
+    const results     = document.getElementById("results");
+    const urlInput    = document.getElementById("urlInput");
+    const tabUpload   = document.getElementById("tabUpload");
+    const tabUrl      = document.getElementById("tabUrl");
+    const panelUpload = document.getElementById("panelUpload");
+    const panelUrl    = document.getElementById("panelUrl");
+
+    let chosenFile = null;
+    let mode = "upload";
+
+    function resetForNewInput() {
+      analyzeBtn.disabled = true;
+      results.style.display = "none";
+      status.textContent = "";
+      status.className = "status";
+    }
+
+    function switchMode(newMode) {
+      mode = newMode;
+      tabUpload.classList.toggle("active", mode === "upload");
+      tabUrl.classList.toggle("active", mode === "url");
+      panelUpload.classList.toggle("active", mode === "upload");
+      panelUrl.classList.toggle("active", mode === "url");
+      resetForNewInput();
+    }
+
+    tabUpload.addEventListener("click", () => switchMode("upload"));
+    tabUrl.addEventListener("click", () => switchMode("url"));
+
+    function setFile(file) {
+      if (!file) return;
+      chosenFile = file;
+      selectedFile.textContent = `Selected: ${file.name} (${(file.size / 1024 / 1024).toFixed(1)} MB)`;
+      selectedFile.style.display = "block";
+      analyzeBtn.disabled = false;
+      results.style.display = "none";
+      status.textContent = "";
+      status.className = "status";
+    }
+
+    fileInput.addEventListener("change", () => setFile(fileInput.files[0]));
+
+    dropZone.addEventListener("dragover", (e) => { e.preventDefault(); dropZone.classList.add("dragover"); });
+    dropZone.addEventListener("dragleave", () => dropZone.classList.remove("dragover"));
+    dropZone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      dropZone.classList.remove("dragover");
+      setFile(e.dataTransfer.files[0]);
+    });
+
+    urlInput.addEventListener("input", () => {
+      analyzeBtn.disabled = urlInput.value.trim().length === 0;
+      results.style.display = "none";
+      status.textContent = "";
+      status.className = "status";
+    });
+
+    function renderResults(data) {
+      document.getElementById("summary").textContent      = data.summary       || "—";
+      document.getElementById("overview").textContent      = data.overview      || "—";
+      document.getElementById("contentType").textContent   = data.content_type  || "—";
+      document.getElementById("energy").textContent        = data.energy        || "—";
+      document.getElementById("pacing").textContent        = data.pacing        || "—";
+      document.getElementById("hookStrength").textContent  = data.hook_strength || "—";
+
+      const keyPointsEl = document.getElementById("keyPoints");
+      keyPointsEl.innerHTML = "";
+      (data.key_points || []).forEach((point) => {
+        const li = document.createElement("li");
+        li.textContent = point;
+        keyPointsEl.appendChild(li);
+      });
+
+      ["energy", "pacing", "hookStrength"].forEach((id) => {
+        const el = document.getElementById(id);
+        el.className = "badge-value " + (el.textContent || "").toLowerCase();
+      });
+
+      results.style.display = "block";
+      status.textContent = "Analysis complete.";
+      status.className = "status";
+    }
+
+    analyzeBtn.addEventListener("click", async () => {
+      if (mode === "upload" && !chosenFile) return;
+      if (mode === "url" && !urlInput.value.trim()) return;
+
+      analyzeBtn.disabled = true;
+      results.style.display = "none";
+      status.innerHTML = mode === "url"
+        ? '<span class="spinner"></span>Downloading video, extracting frames, and analyzing…'
+        : '<span class="spinner"></span>Extracting frames and analyzing…';
+      status.className = "status loading";
+
+      try {
+        let res;
+        if (mode === "upload") {
+          const formData = new FormData();
+          formData.append("video", chosenFile);
+          res = await fetch("/analyze", { method: "POST", body: formData });
+        } else {
+          const formData = new FormData();
+          formData.append("url", urlInput.value.trim());
+          res = await fetch("/analyze-url", { method: "POST", body: formData });
+        }
+
+        const data = await res.json();
+        if (!res.ok) {
+          throw new Error(data.detail || "Server error");
+        }
+        renderResults(data);
+      } catch (err) {
+        status.textContent = "Error: " + err.message;
+        status.className = "status error";
+      } finally {
+        analyzeBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
