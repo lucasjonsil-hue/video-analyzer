@@ -24,9 +24,9 @@ GITHUB_REPO = os.environ.get("GITHUB_REPO", "lucasjonsil-hue/video-analyzer")
 VALID_NOTE_CATEGORIES = {"ai_ideas", "gym", "other"}
 
 
-def save_note_to_github(result: dict, source: str) -> None:
+def save_note_to_github(result: dict, source: str) -> bool:
     if not GITHUB_TOKEN:
-        return
+        return False
 
     category = result.get("note_category")
     if category not in VALID_NOTE_CATEGORIES:
@@ -49,7 +49,6 @@ def save_note_to_github(result: dict, source: str) -> None:
         sha = None
     else:
         get_resp.raise_for_status()
-        return
 
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     entry = (
@@ -71,6 +70,7 @@ def save_note_to_github(result: dict, source: str) -> None:
 
     put_resp = requests.put(api_url, headers=headers, json=payload, timeout=15)
     put_resp.raise_for_status()
+    return True
 
 
 def extract_frames(video_path: str, num_frames: int = 5) -> list[str]:
@@ -186,8 +186,7 @@ async def analyze_video(video: UploadFile = File(...)):
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
         result = analyze_frames_with_claude(frames)
         try:
-            save_note_to_github(result, source=video.filename or "uploaded file")
-            result["note_saved"] = True
+            result["note_saved"] = save_note_to_github(result, source=video.filename or "uploaded file")
         except requests.RequestException:
             result["note_saved"] = False
         return JSONResponse(content=result)
