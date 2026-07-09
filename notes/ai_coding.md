@@ -82,3 +82,17 @@ The video presents three OSINT tools framed as powerful discoveries. First, Face
 - Airplanes.live reveals military and private aircraft hidden from mainstream flight trackers
 - The video uses a comment-based lead funnel as its CTA
 - Content is framed around intelligence and surveillance capabilities available to the public
+
+## 2026-07-09 17:53 UTC
+Source: https://www.instagram.com/reel/DaDBB43sPOJ/?igsh=NTc4MTIwNjQ2YQ==
+
+A content creator named Mariah Brunner shares three AI agent loops worth stealing from a compiled list of 15 popular loops. She explains how AI loops work and presents practical commands for the build-test-fix loop, goal meta-skill loop, and human-in-the-loop approval queue. She offers to send all 15 loops to viewers who comment '15'.
+
+Mariah opens by referencing a viral X post that compiled the top 15 AI loops people are running. She first defines what a loop is: it controls when and how long an AI agent keeps working, enabling multi-hour autonomous operation. She explains three core commands: Goal (works until outcome achieved), Loop (repeats while watching), and Schedule (runs while away). She then presents the three most useful loops: (1) Build-Test-Fix Loop — one agent writes code, a second tests and reports failures, they iterate until done; (2) Goal Meta-Skill — the AI rewrites vague requests into precise goals with defined end states, self-check criteria, constraints, and stop conditions; (3) Human-in-the-Loop Approval Queue — the workflow pauses and sends the user an approve/revise/skip message, treating human review as a queued step with deadlines. She credits the original 15-loop compilation to Matt van Horn. She closes with a CTA to comment '15' to receive all 15 loops plus her explainer guide.
+
+- AI loops control when and how long an agent keeps working autonomously
+- Build-Test-Fix loop: one agent codes, another tests, they iterate until complete
+- Goal Meta-Skill loop: AI rewrites vague prompts into precise, verifiable goals before acting
+- Human-in-the-Loop approval queue: workflow pauses for human approve/revise/skip before proceeding
+- Three core loop commands: Goal, Loop, and Schedule
+- Full list of 15 loops compiled by Matt van Horn is available via comment CTA
