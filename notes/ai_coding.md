@@ -194,3 +194,17 @@ The presenter, wearing a BAPE jacket in a purple-lit apartment, walks through fi
 - Security review tool scans entire codebase for vulnerabilities before publishing
 - Claude Mem gives Claude persistent memory across sessions so you never re-explain context
 - Stack by Gary Tan bundles 23 agent skills (engineers, executives, distribution) into one plugin
+
+## 2026-07-09 18:50 UTC
+Source: https://www.instagram.com/reel/DZ-ewLxP3si/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator wearing an LSU hoodie explains how to use Claude AI combined with Higgsfield.ai to automatically create short-form YouTube content about GTA 6. He walks through the technical setup of connecting Higgsfield as a custom MCP connector in Claude, then using it to generate clips from GTA 6 gameplay footage. He positions this as a major early opportunity to build a faceless YouTube channel.
+
+The presenter opens by hyping GTA 6 as one of the biggest entertainment launches in history, comparing it to GTA 5 which spawned many faceless YouTube millionaires. He then walks through a step-by-step tutorial: open Claude, go to Customize > Connectors > Add a Custom Connector, name it 'Higgsfield', visit higgsfield.ai/mcp to copy a link, paste it back into Claude. Then find a GTA 6 gameplay video, copy its link, paste it into Claude with a specific prompt, and within minutes you get short-form clips ready to post. He closes by offering a full A-to-Z guide to those who comment 'GTA 6', saying he'll DM it to them.
+
+- GTA 6 launch is expected to be the biggest entertainment event ever, creating a wave of YouTube channel opportunities
+- Use Claude's custom connector feature to integrate Higgsfield.ai as an MCP tool
+- Paste a GTA 6 gameplay video URL into Claude with a prompt to auto-generate short-form clips
+- The workflow produces postable short-form content in just a few minutes
+- This is positioned as a faceless YouTube channel strategy for early movers
+- Comment 'GTA 6' to receive a full A-to-Z guide via DM
