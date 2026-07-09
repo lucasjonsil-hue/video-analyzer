@@ -180,3 +180,17 @@ The creator starts with a 'hear me out' hook to grab attention, then proceeds to
 - AI tools can cover coding and marketing
 - Minimal stack is enough to ship a product
 - Strong motivational close: 'that's all you need to start building'
+
+## 2026-07-09 18:50 UTC
+Source: https://www.instagram.com/reel/DYAnUJCpCep/?igsh=NTc4MTIwNjQ2YQ==
+
+A content creator demonstrates five Claude Code plugins and tools that can transform the AI into a full development team. He covers tools for planning, front-end design, code review, security scanning, and persistent memory. The video ends with a pitch for a multi-skill plugin built by the CEO of Y Combinator.
+
+The presenter, wearing a BAPE jacket in a purple-lit apartment, walks through five tools to supercharge Claude Code: (1) Supermaven (150k+ GitHub stars) which makes Claude plan, write, test, and review code before outputting; (2) a front-end design tool with 285k+ installs made by Anthropic that improves UI output quality; (3) a parallel code review system using five agents that check for bugs, rules, and guidelines simultaneously; (4) a security review tool that scans the entire codebase for vulnerabilities before going live; and (5) Claude Mem (23k+ stars) which gives Claude persistent memory across sessions. He also mentions a bonus plugin called 'Stack by Gary Tan,' built by the Y Combinator CEO, which bundles 23 different AI agent skills including executives, engineers, and distribution managers working in parallel. He closes with a CTA to DM him the word 'skill' for more AI tool recommendations.
+
+- Supermaven forces Claude to plan, write, test, and review code before delivering output
+- Anthropic-built front-end design tool with 285k installs improves production UI quality
+- Five parallel code review agents check bugs, rules, and guidelines simultaneously
+- Security review tool scans entire codebase for vulnerabilities before publishing
+- Claude Mem gives Claude persistent memory across sessions so you never re-explain context
+- Stack by Gary Tan bundles 23 agent skills (engineers, executives, distribution) into one plugin
