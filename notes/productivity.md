@@ -39,3 +39,17 @@ The video begins during daytime with a man standing at his desk, with on-screen 
 - Even 20 minutes of doing nothing (staring at a wall) can bring huge mental differences
 - The video spans from daytime through late night to early morning, showing extended work sessions
 - Call to action: tag a business partner who needs to focus/lock in
+
+## 2026-07-09 06:11 UTC
+Source: https://www.instagram.com/reel/DZATsEFObzb/?igsh=NTc4MTIwNjQ2YQ==
+
+A person documents a productivity routine involving standing at a standing desk for 3 hours, suffering through discomfort, then working for 10 hours straight. The video spans from daytime through night, showing the progression of a long work session. It concludes with advice about staring at a wall for 20 minutes to reset focus.
+
+The video shows a young man at his home office setup with a standing desk, multiple monitors, a microphone, and a large LED clock. In the morning/daytime he stands at his desk following a self-imposed protocol: stand still for 3 hours, suffer through it, then work for 10 hours. The frames progress from bright daylight (around 5:29 AM) through evening (8:59 PM) and into late night (11:35 PM), visually demonstrating the long work session. A key tip shared mid-video is that even 20 minutes of sitting or standing while staring at a wall and doing nothing else can bring huge productivity differences. The video ends with a call to action to tag a business partner who needs to 'lock in.'
+
+- Stand still for 3 hours at a standing desk as a discipline practice
+- Work for 10 hours after the standing period
+- Suffering through discomfort builds mental resilience for business
+- Even 20 minutes of staring at a wall (doing nothing) can bring huge differences
+- Session documented from early morning through late night
+- Tag your biz partner who needs to lock in
