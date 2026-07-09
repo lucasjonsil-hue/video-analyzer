@@ -264,3 +264,17 @@ The creator opens by stating that the hottest AI job right now pays $200k+ and i
 - Anthropic.com is highlighted as a free, legitimate resource
 - Training employees on AI tools is highly valuable and lucrative consulting work
 - Viewers are encouraged to stop self-limiting and pursue AI opportunities
+
+## 2026-07-09 22:17 UTC
+Source: https://www.instagram.com/reel/DZcdGxvTLno/?igsh=NTc4MTIwNjQ2YQ==
+
+A man sitting in his car explains a clever technique for monitoring Claude AI's performance using 'canary' instructions. He describes how adding a small persistent instruction, like having Claude address you by name, can serve as an early warning system for when the AI begins to degrade or hallucinate. The video references a Hacker News comment and Peter Steinberger's concept of canaries in AI sessions.
+
+The creator films himself in a car and explains a practical AI productivity tip for Claude users. He introduces the concept of a 'canary' — a small, easily noticeable instruction embedded in your CLAUDE.md or system prompt that signals when Claude's context window is degrading. The specific example given is instructing Claude to always address you by your name at the start of every response. This isn't just for personalization — it acts as a behavioral signal. When Claude stops following that small instruction, it's an early warning that the session is beginning to degrade and hallucinations may be imminent. He references Peter Steinberger (creator of OpenClaude) and a Hacker News comment mentioning 'Mr Tinkleberry' as a humorous real-world example of this technique. The video ends by encouraging viewers to comment 'canary' for a resource document.
+
+- Add a small persistent instruction (like using your name) to Claude as a 'canary' signal
+- When Claude stops following the canary instruction, it's a sign the session is degrading
+- Claude degrades gradually — first ignoring small instructions, then hallucinating more broadly
+- This technique helps you know when to start a new session before errors compound
+- Concept is attributed to Peter Steinberger, creator of OpenClaude
+- A Hacker News user used 'Mr Tinkleberry' as their canary to detect context loss
