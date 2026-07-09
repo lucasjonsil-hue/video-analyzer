@@ -12,3 +12,16 @@ The video opens during daylight with the creator standing at his standing desk, 
 - Even 20 minutes of stillness (staring at a wall, doing nothing) can bring huge differences
 - The creator works from early morning through late night at a home office
 - The video ends with a social engagement CTA to tag a business partner
+
+## 2026-07-09 06:08 UTC
+Source: https://www.instagram.com/reel/DaJtJx1s7jC/?igsh=NTc4MTIwNjQ2YQ==
+
+A college student shares four free or discounted tools available through a .edu email address that he wishes he had known about during freshman orientation. The video covers StudentUniverse for flight discounts, Notion for organization, Whop.com/edu for making money online, and Canva Pro for graphic design.
+
+The creator opens by claiming that knowing how to use a .edu email address is a 'gold mine' that would have saved him a year of struggle. He then walks through four benefits: (1) ScholarTrip/StudentUniverse, which offers student-discounted flights (e.g., NYC to Australia for $600 instead of $1100+); (2) Notion, a note-taking and organization tool normally costing $10/month but free for students; (3) Whop.com/edu/students, a platform he personally recommends for students looking to make their first dollar online, showing a leaderboard of thousands of students already using it from schools like Michigan State and University of Michigan; (4) Canva Pro, a graphic design tool that costs $144/year for regular users but is free with a .edu email. The video is formatted as a quick-hit tips reel with screen recordings and casual commentary.
+
+- A .edu email unlocks significant free or discounted access to many tools and services
+- ScholarTrip offers heavily discounted student flights (e.g., $600 NYC to Australia vs $1100+)
+- Notion is free for students and great for notes, to-do lists, and budgeting
+- Whop.com/edu/students helps students earn money online with a large existing student community
+- Canva Pro is free for students, saving $144/year compared to the standard plan
