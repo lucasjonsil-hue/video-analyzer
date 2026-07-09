@@ -13,3 +13,17 @@ The presenter, dressed professionally in a navy suit and yellow tie, addresses s
 - Cored Certified Architect demonstrates advanced AI tool usage beyond basic chat
 - IBM Skills Build Certification covers cybersecurity fundamentals
 - All five certifications are free and suitable for adding to a CV
+
+## 2026-07-09 18:51 UTC
+Source: https://www.instagram.com/reel/DZ8DNSOR16-/?igsh=NTc4MTIwNjQ2YQ==
+
+A young content creator presents 10 free AI certifications that students should add to their resumes, highlighting offerings from Microsoft/LinkedIn, IBM, and Google Cloud. The video emphasizes the growing importance of AI credentials in today's job market and promises to share links to all certifications via comment engagement.
+
+The creator introduces a 'niche edition' list of 10 free AI certifications recommended for student resumes. He highlights three specific certifications: (1) Microsoft and LinkedIn's 'Career Essentials in Generative AI' (4.5 hours, covers Computer Ethics, AI, and Generative AI), noting that 66% of CEOs won't hire without AI experience; (2) IBM's Artificial Intelligence Fundamentals, described as longer but providing an IBM credential recognized by employers; and (3) Google Cloud's 'Introduction to Responsible AI,' which takes only 15 minutes and is highly relevant in today's market. The video ends with a call-to-action asking viewers to follow and comment 'resume' to receive links to all 10 certifications plus 20 more.
+
+- Microsoft & LinkedIn Career Essentials in Generative AI is a free 4.5-hour certification
+- 66% of CEOs say they won't hire candidates without AI experience
+- IBM AI Fundamentals provides an employer-recognized IBM credential
+- Google Cloud's Intro to Responsible AI takes only 15 minutes
+- All certifications are free and resume-worthy
+- Comment 'resume' to receive links to 10 certs plus 20 more
