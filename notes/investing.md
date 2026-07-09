@@ -27,3 +27,17 @@ The video opens with the creator holding what appears to be an earbud, stating '
 - The BlindTrade paper was accepted at ICLR 2026 FinAI Workshop
 - The 'AI Stock-Trading Stack' involves MCPs, AI agents, and scheduled triggers
 - Creator considers giving an AI $1,000 to test trading performance himself
+
+## 2026-07-09 22:19 UTC
+Source: https://www.instagram.com/reel/DZdpoloPxVp/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man sitting in a Lamborghini explains a strategy for making money on Polymarket by copying the trades of top-performing whale wallets. He walks through the steps of finding profitable traders on the leaderboard, using AI to identify consensus trades, and copying them. He also promotes a referral code for a signup bonus.
+
+The creator, filming from inside a Lamborghini, presents what he calls an 'unethical' but legal strategy for profiting on Polymarket, a blockchain-based prediction market platform. He claims even 13-year-olds are using this method to make $100/day. The strategy requires an iPhone and US residency. Step one is downloading the Polymarket app. Step two involves using a referral code 'devskip' to turn a $20 deposit into $70 via a bonus. Step three involves visiting the Polymarket leaderboard to identify the top 5 whale traders who make 5-10 trades daily and have $1M+ in profits over 30 days. He shows a screenshot of the leaderboard with users earning $1.7M-$2.9M monthly. Step four involves inputting those wallet addresses into ChatGPT or another AI to find consensus trades shared among all five whales. He shows a 'Consensus Matrix' tool that already does this for MLB games. Finally, you copy those consensus trades on your own wallet and repeat the process to compound profits. The video ends with a call to follow and check if the referral code is still active.
+
+- Copy-trading top Polymarket whale wallets is the core strategy
+- Use Polymarket leaderboard to find traders with $1M+ monthly profit making 5-10 trades/day
+- Feed wallet addresses into ChatGPT to identify consensus trades across multiple whales
+- Referral code 'devskip' allegedly gives $50 bonus on a $20 deposit
+- Blockchain transparency makes all trades publicly visible and copyable
+- A 'Consensus Matrix' tool already aggregates whale positions across markets
