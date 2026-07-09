@@ -55,3 +55,17 @@ The creator explains he just finished a demanding 10-week AI boot camp where wee
 - Install GasCount for agent orchestration to one-shot more projects
 - Use Playwright MCP to give the coding agent browser-based vision
 - Use GromySkill for the planning phase and Ponytail to reduce costs
+
+## 2026-07-09 17:52 UTC
+Source: https://www.instagram.com/reel/DaEmtArqmhW/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator demonstrates how to use Claude AI and Higgsfield to automatically generate GTA 6 gameplay clip videos for YouTube Shorts before the game even launches. The strategy involves copying GTA 6 gameplay URLs and using AI prompts to produce subtitle-ready short clips. The video ends with a call-to-action asking viewers to comment 'GTA6' to receive a full guide via DM.
+
+The creator opens by framing GTA 6 as the biggest game launch in history and notes that GTA 5 already created YouTube millionaires through clip channels. He then walks through a workflow connecting Claude AI to Higgsfield (an AI video tool) by pasting a URL and naming the integration. Next, he finds GTA 6 gameplay footage on YouTube, copies the URL, and feeds it into Claude with a specific prompt. Within seconds, Claude generates ready-to-post clips with subtitles optimized for YouTube Shorts. The creator emphasizes the importance of building an audience before launch day. A fake AI-generated thumbnail showing '$67,930 on Day 30' is used to illustrate potential earnings. The video closes with a DM funnel CTA asking viewers to comment 'GTA6' to receive the full guide.
+
+- Use Claude AI + Higgsfield to auto-generate GTA 6 YouTube Shorts clips
+- Strategy is to build audience before GTA 6 launch using existing leaked/gameplay footage
+- Claude generates subtitle-ready clips in seconds from a YouTube URL + prompt
+- GTA 5 clip channels already produced millionaires — GTA 6 seen as bigger opportunity
+- Comment 'GTA6' DM funnel used as lead generation CTA
+- Early mover advantage emphasized — start now before launch
