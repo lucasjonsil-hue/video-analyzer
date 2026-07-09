@@ -82,3 +82,17 @@ The video opens with a bathroom scene of a woman in heart-print white pajamas wi
 - Strong scarcity/urgency hook — collection previously sold out quickly
 - Targeted at gift-givers looking for Valentine's or romantic gifts
 - Pink satin packaging adds to the gifting appeal
+
+## 2026-07-09 06:40 UTC
+Source: https://www.instagram.com/reel/DZ57q-PB_1r/?igsh=NTc4MTIwNjQ2YQ==
+
+A content creator describes how his client Marco transformed from being skinny fat and depressed to a successful, muscular entrepreneur through identity-based psychological protocols. The video outlines a coaching methodology centered on rewiring subconscious self-concept using neuroscience and psychology. The approach focuses on 'identity architecture' rather than traditional fitness or productivity hacks.
+
+The speaker introduces Marco as a case study — someone who was previously skinny fat, depressed, and stuck in a dead-end job who tried every conventional protocol without success. The root cause was identified as an 'identity thermostat,' a subconscious baseline self-image the brain constantly reverts to. Marco's old identity was that of a depressed, unfinished-business basement-dweller, and his brain kept sabotaging progress to stay consistent with that image. The coach implemented two main protocols: (1) Future Self Narratives — detailed first-person writings from the perspective of the person Marco wanted to become, which began forming new neural pathways; and (2) Mismatch Audits — a technique where Marco would pause, label old negative behavioral patterns (e.g., 'employee loop'), take a breath, and perform the smallest action aligned with his future self. Daily micro-proofs were tracked as evidence supporting his new identity. Around week seven, Marco's brain stopped fighting the new behaviors and began reinforcing them naturally. He gained 15+ pounds of lean muscle, started a business, and developed unshakeable confidence. The speaker concludes that Marco didn't just change his body — he rebuilt his entire operating system through identity architecture.
+
+- The 'identity thermostat' concept: people regress to their subconscious baseline identity regardless of short-term progress
+- Future Self Narratives: detailed first-person writings about who you want to become to rewire neural pathways
+- Mismatch Audits: pausing, labeling old patterns, and taking the smallest congruent action aligned with your future self
+- Tracking micro-proofs daily builds weighted evidence for the new identity
+- Around week seven, the brain stops resisting and starts reinforcing positive behaviors automatically
+- True change requires rebuilding identity from the ground up, not just improving discipline
