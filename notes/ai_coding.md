@@ -69,3 +69,16 @@ The creator opens by framing GTA 6 as the biggest game launch in history and not
 - GTA 5 clip channels already produced millionaires — GTA 6 seen as bigger opportunity
 - Comment 'GTA6' DM funnel used as lead generation CTA
 - Early mover advantage emphasized — start now before launch
+
+## 2026-07-09 17:52 UTC
+Source: https://www.instagram.com/reel/DZP0i2xxs_-/?igsh=NTc4MTIwNjQ2YQ==
+
+A content creator showcases three OSINT (Open Source Intelligence) tools that they claim are underrated or hidden from mainstream users. The tools include a facial recognition search engine, an AI-powered dark web research agent, and a flight tracker that reveals military and private aircraft. The video ends with a call-to-action to comment 'OSINT' to receive links.
+
+The video presents three OSINT tools framed as powerful discoveries. First, FaceCheck.ID is demonstrated — a facial recognition tool that takes a single photo and finds all online appearances of that person, likened to movie-level surveillance tech. Second, 'Robin' is shown — an AI agent tool that autonomously navigates the dark web, scrapes content, and returns a clean summary with onion links, removing the need for Tor browser knowledge. Third, Airplanes.live is highlighted as a flight tracker that shows aircraft hidden from mainstream trackers like FlightAware, including military planes and private jets with paid removal requests. The video closes with a lead-generation CTA asking viewers to comment 'OSINT' to receive all the tool links.
+
+- FaceCheck.ID performs reverse facial recognition across the internet using a single photo
+- Robin is an AI-powered dark web OSINT tool that summarizes results including onion links
+- Airplanes.live reveals military and private aircraft hidden from mainstream flight trackers
+- The video uses a comment-based lead funnel as its CTA
+- Content is framed around intelligence and surveillance capabilities available to the public
