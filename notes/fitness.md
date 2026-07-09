@@ -138,3 +138,17 @@ The presenter sits at a desk with a countdown timer, wearing distinctive red-tin
 - Social health: see at least one friend per week
 - Limit alcohol, caffeine after noon, bright lights after sunset, and screen notifications
 - The body loves routine — consistency across sleep, diet, and lifestyle is key
+
+## 2026-07-09 23:34 UTC
+Source: https://www.instagram.com/reel/DZf4REAObTf/?igsh=NTc4MTIwNjQ2YQ==
+
+A shirtless fitness influencer presents his 'Anabolic Snack Maxxing' list outdoors in front of a whiteboard, detailing 9 specific foods and drinks to optimize hormones, energy, and physique for summer. He covers everything from a testosterone-boosting 'Playboy Potion' drink to oysters as a wild-caught multivitamin. The content is delivered in an energetic, bro-science style with some legitimate nutritional claims mixed with pseudoscience.
+
+The creator presents 9 'anabolic snacks' designed for summer fitness optimization, filmed outside with a whiteboard list visible behind him. (1) Playboy Potion: pomegranate juice + apple cider vinegar + creatine + pine pollen for testosterone and nitric oxide. (2) Beef Jelly: 20-40g beef gelatin powder in hot water as a bedtime collagen drink for gut, skin, hair. (3) Gut Bucket: large tub of non-fat Greek yogurt or skyr (80-90g protein) with maple syrup, cinnamon, and blueberries or raisins. (4) Caveman Cereal: grass-fed ground beef with raw cheese, sea salt, and grains of paradise for ~160-180g protein. (5) OJ Simpson: fresh/cold-pressed orange juice for thyroid support and anti-inflammation. (6) Dark Skin Choco: dark chocolate with flaky salt for copper and brain flavonoids. (7) Bee Bread: raw honey with organic bee pollen to boost testosterone, lower estrogen, and block histamine. (8) Raw Ice Cream: simple-ingredient ice cream (cream, egg yolks, vanilla, cane sugar) to lower cortisol before bed. (9) Wild Caught Multivitamin: oysters for dense micronutrients, immunity, and skin health. He closes with a call to follow for more.
+
+- Playboy Potion combines pomegranate juice, ACV, creatine, and pine pollen for testosterone and energy
+- Beef gelatin powder (20-40g nightly) is framed as the most potent collagen source for gut and skin
+- Caveman Cereal (grass-fed beef + raw cheese) provides 160-180g protein, eliminating need for protein powder
+- Bee Bread (raw honey + bee pollen) claimed to boost testosterone and lower estrogen via aromatase inhibition
+- Raw/simple-ingredient ice cream before bed is recommended to lower cortisol
+- Oysters are called the 'wild caught multivitamin' and ranked second only to beef liver in nutrient density
