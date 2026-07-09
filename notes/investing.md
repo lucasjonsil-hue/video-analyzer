@@ -13,3 +13,17 @@ The video opens with a bold claim that Claude (Anthropic's AI) has changed the s
 - Claimed 30%+ gain on Marvel stock as proof of concept
 - Offering the system/guide for free in exchange for comments and follows
 - Likely a lead generation or audience growth tactic
+
+## 2026-07-09 22:14 UTC
+Source: https://www.instagram.com/reel/DZXqKeWRfGJ/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator debunks AI stock trading courses and bots, arguing they are scams. He references actual research showing AI models perform worse than the S&P 500 and that they trade based on memorized famous stock names rather than genuine analysis. He humorously considers giving an AI $1,000 to test it himself.
+
+The video opens with the creator holding what appears to be an earbud, stating 'hide the names, the genius dies' as a teaser. He calls out creators selling AI trading bots and courses as scams. He shows a diagram of 'The AI Stock-Trading Stack' involving brokerage accounts, trading MCPs (like Interactive Brokers), AI agents (Claude, Cursor, Codex, Cline), and triggers like cron jobs with market data. He then references the StockBench platform (stockbench.github.io), which evaluates LLM agents on stock trading. He shows an academic paper (accepted at ICLR 2026 FinAI Workshop) called 'BlindTrade' demonstrating that AI models perform worse than SPY/S&P 500 benchmarks, and that when stock company names are hidden, AI performance changes drastically — proving the AI was memorizing famous tickers like Tesla from training data rather than doing real analysis. He ends by contemplating giving an AI $1,000 to test it, and labels the video 'episode three of AI scammers are a huge bummer.'
+
+- AI trading bots and courses are largely scams according to the creator
+- Research shows AI models underperform the S&P 500 in stock trading
+- When company names are hidden from AI, performance changes — proving it memorizes names like Tesla from training data
+- The BlindTrade paper was accepted at ICLR 2026 FinAI Workshop
+- The 'AI Stock-Trading Stack' involves MCPs, AI agents, and scheduled triggers
+- Creator considers giving an AI $1,000 to test trading performance himself
