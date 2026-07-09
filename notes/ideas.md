@@ -54,3 +54,17 @@ The video opens with a clip of Jacob Sartorius on a podcast claiming that no one
 - Clipping is presented as a lucrative side hustle anyone can start
 - Free community and training are available via a link in Eddie's bio
 - Clippers find campaigns, clip provided content, post it, and get paid
+
+## 2026-07-09 06:38 UTC
+Source: https://www.instagram.com/reel/DadfHYrkmr7/?igsh=NTc4MTIwNjQ2YQ==
+
+The video explores 'Clipping' — a new social media side hustle where people download content from brands/creators, edit it into short clips, and earn money per 1,000 views. A 23-year-old named Musa has made over $3 million doing this, and entrepreneur Eddie runs a company connecting Clippers with brands. The video positions Clipping as a disruptive force in traditional advertising.
+
+The video opens with Musa, a 23-year-old who has earned over $3 million through Clipping, filming himself on a flight making clips while noting he was featured on CNN. He explains the concept: using content rewards platforms where brands, influencers, musicians, and tourism boards post campaigns. Clippers download source content, edit it into short-form clips with captions, and post to TikTok, Instagram, or YouTube, earning around $1–$1.50 per 1,000 views. A live example shows a Call of Duty: Modern Warfare campaign with a $120,000 budget that has already garnered 114.2 million total views. Eddie, who runs Propaganda Media, argues this model is disrupting traditional advertising — referencing a PWC stat that over $1 trillion was spent on advertising last year — and predicts a third of that will shift to Clipping over the next decade. He compares it to a 'billboard in your pocket,' suggesting it is far more effective and targeted than outdoor advertising.
+
+- Clipping is a growing industry where people repurpose brand/creator content into short clips and earn per 1,000 views
+- Musa, age 23, has made over $3 million in top-line revenue from Clipping
+- Platforms exist where brands post campaigns (e.g., Call of Duty's $120K campaign with 114M views)
+- Clippers earn approximately $1–$1.50 per 1,000 views on TikTok, Instagram, and YouTube
+- Eddie (Propaganda Media) predicts Clipping will capture ~1/3 of the $1T+ ad market within a decade
+- Clipping is described as a 'billboard in your pocket' — more targeted and effective than traditional advertising
