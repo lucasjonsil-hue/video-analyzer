@@ -13,3 +13,17 @@ The video opens with a before/after comparison of the coach himself, contrasting
 - One high-carb day per week can boost leptin and thyroid output, breaking through fat loss plateaus
 - Client John achieved visible body recomposition in just 5 weeks using this optimized protocol
 - Constant low carbs cause metabolic slowdown, fatigue, and fat loss stalls
+
+## 2026-07-09 06:06 UTC
+Source: https://www.instagram.com/reel/DYZ7cKjxs5x/?igsh=NTc4MTIwNjQ2YQ==
+
+A fit young man demonstrates five daily exercises targeting back pain, shoulder posture, and tension relief. The video is filmed in a home kitchen setting and includes Portuguese text overlays and audio instructions. He promotes following his profile for more home workout content.
+
+The creator, a muscular young man, presents five simple daily exercises to improve posture and reduce pain. First, he demonstrates bringing arms together, raising and lowering them 20 times to reduce upper back curvature (corcunda). Second, he shows opening and closing the scapulas 20 times to reduce back and shoulder pain. Third, he interlaces fingers and tilts side to side 20 times to release tension points in the scapulas and improve posture. Fourth, he performs 20 elbow rotations at 90 degrees to correct rounded/drooping shoulder posture. Finally, he faces the camera and encourages viewers to follow his profile and comment 'I want' to build a pain-free, aesthetic, and functional body training at home.
+
+- Arm raise exercise (20 reps/day) reduces upper back curvature
+- Scapula open/close movement (20 reps/day) relieves back and shoulder pain
+- Interlaced finger side stretches (20 reps/day) release scapula tension and improve posture
+- 90-degree elbow rotations (20 reps/day) correct rounded shoulder posture
+- All exercises are home-based and require no equipment
+- Content is in Portuguese, targeting a Brazilian fitness audience
