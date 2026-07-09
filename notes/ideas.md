@@ -40,3 +40,17 @@ The creator opens on a high-rise balcony claiming that making $300/day ($10,000/
 - Finds viral source content by searching YouTube filtered by most popular
 - Posts one video per day consistently for six months
 - Encourages viewers to comment 'secret' for a detailed step-by-step breakdown
+
+## 2026-07-09 06:37 UTC
+Source: https://www.instagram.com/reel/Dac8aAQM70G/?igsh=NTc4MTIwNjQ2YQ==
+
+Jacob Sartorius reveals on a podcast that viral fame in streaming/content creation is largely manufactured through paid clipping campaigns. The video then transitions to Eddie, who runs a clipping agency called Propaganda Media, explaining how clippers can make money by clipping and posting content for paying clients. Eddie promotes his free community and training program for aspiring clippers.
+
+The video opens with a clip of Jacob Sartorius on a podcast claiming that no one truly goes viral organically — streamers and content creators are secretly paying clippers to distribute their content. This is used as a hook to introduce the concept of 'clipping' as a paid gig economy. Eddie, who identifies himself as running one of the biggest clipping agencies in the world called Propaganda Media, then appears and explains that he has been recruiting clippers away from Twitch by offering double pay. He claims to have over 100,000 clippers and to have generated 300 million views for clients in just a few weeks. Eddie pitches clipping as one of the best ways to make money online right now and directs viewers to a free community linked in his bio, where they can find paid campaigns, clip provided content, post it, and earn money. A step-by-step training for beginners is also available inside the community.
+
+- Jacob Sartorius claims all viral content is manufactured through paid clippers
+- Eddie runs Propaganda Media, one of the largest clipping agencies with 100,000+ clippers
+- The agency generated 300 million views for clients in just a few weeks
+- Clipping is presented as a lucrative side hustle anyone can start
+- Free community and training are available via a link in Eddie's bio
+- Clippers find campaigns, clip provided content, post it, and get paid
