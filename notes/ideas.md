@@ -96,3 +96,17 @@ The speaker introduces Marco as a case study — someone who was previously skin
 - Tracking micro-proofs daily builds weighted evidence for the new identity
 - Around week seven, the brain stops resisting and starts reinforcing positive behaviors automatically
 - True change requires rebuilding identity from the ground up, not just improving discipline
+
+## 2026-07-09 17:51 UTC
+Source: https://www.instagram.com/reel/DaIXcRiR2B-/?igsh=NTc4MTIwNjQ2YQ==
+
+A shirtless young man demonstrates how he set up a DIY grounding system by driving a copper rod into the earth and connecting it via a wire through his bedroom window to silver-lined cotton sheets on his bed. He believes this setup will help reduce inflammation and protect him from EMF while he sleeps. The video ends with him lying on the grounded sheets.
+
+The creator greets viewers with 'What's up, Goyim' while sitting on a ladder outside his house holding a long copper rod and wire. He explains he purchased an 8-foot copper rod and silver-lined cotton sheets, intending to connect them via a grounding wire to reduce inflammation and block EMF radiation during sleep. He shows FLIR thermal imaging comparing 'before grounding' and 'after grounding' body scans as supposed evidence of grounding's effectiveness. He then drives the copper rod deep into the ground outside, runs the wire up the side of the house and through a second-floor window, tapes and ties off the connection, and finally plugs the wire into the grounding connector on his silver-lined sheets. The video concludes with him lying on the bed, connected to the earth via the improvised grounding system, and noting the silver threading in the sheets.
+
+- DIY grounding setup using an 8-foot copper rod driven into the earth
+- Wire runs from ground rod up the house exterior and through a bedroom window
+- Silver-lined cotton sheets connect to the wire to enable 'grounding' during sleep
+- Claims grounding reduces inflammation and protects from EMF
+- Uses FLIR thermal imaging as visual 'proof' of grounding's anti-inflammatory effects
+- Pseudoscientific wellness trend presented as a practical DIY hack
