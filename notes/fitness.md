@@ -124,3 +124,17 @@ The creator, who appears to be a spearfisher, promotes a homemade beet-based hea
 - Claimed benefit: improved breath-holding for spearfishing
 - New users may experience digestive upset/detox symptoms initially
 - Long-term use said to greatly improve how you feel overall
+
+## 2026-07-09 18:52 UTC
+Source: https://www.instagram.com/reel/DZIpQTsyT25/?igsh=NTc4MTIwNjQ2YQ==
+
+A man wearing red-tinted glasses delivers rapid-fire health advice in under 60 seconds, covering sleep, diet, exercise, dental hygiene, social connection, and lifestyle habits. The video is framed as '$2 Million of health advice in 60 seconds' with a countdown timer visible throughout. The advice is concise, practical, and covers a wide range of wellness topics.
+
+The presenter sits at a desk with a countdown timer, wearing distinctive red-tinted glasses, and rapidly delivers condensed health tips across multiple categories. On diet, he recommends eating whole foods, avoiding sugar and processed foods, and walking after meals. For sleep, he emphasizes 8 hours, consistent bedtime before midnight, no screens an hour before bed, sleeping in a cold room, and avoiding food right before sleep. Exercise advice includes lifting heavy, stretching daily, and getting the heart rate up routinely. He covers oral hygiene (water pick, floss, brush, tongue scrape), hydration, sunlight exposure upon waking, sun protection midday, and good posture. Social health is addressed with seeing at least one friend per week. Additional tips include avoiding plastic, circulating air, breathing for stress, going to the dentist, protecting hearing, avoiding alcohol, cutting off coffee before noon, limiting bright lights after sunset, turning off notifications, limiting social media, not smoking, reading before bed, and embracing routine. The video ends with the timer approaching 60 seconds.
+
+- Sleep is the most important health factor: 8 hours, consistent bedtime, cold room, no screens before bed
+- Diet: eat whole foods, avoid sugar and processed foods, walk after meals
+- Exercise: lift heavy, stretch daily, get heart rate up routinely
+- Social health: see at least one friend per week
+- Limit alcohol, caffeine after noon, bright lights after sunset, and screen notifications
+- The body loves routine — consistency across sleep, diet, and lifestyle is key
