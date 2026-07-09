@@ -26,3 +26,17 @@ The video opens with the creator claiming he's reluctantly sharing a money-makin
 - Posts finished AI videos to YouTube Shorts for ad revenue
 - YouTube allegedly pays $2,000–$10,000 per million views on Shorts
 - Shows $53,910.23 estimated revenue dashboard as proof of concept
+
+## 2026-07-09 06:09 UTC
+Source: https://www.instagram.com/reel/DZIw6FGyYGw/?igsh=NTc4MTIwNjQ2YQ==
+
+A young content creator explains how he makes $300/day ($20,000/month) by posting AI-automated faceless YouTube Shorts focused on nature content. He walks through his workflow using a tool called ViewMax.io to remove captions from viral videos and regenerate them with AI scripts and voiceovers.
+
+The creator opens on a high-rise balcony claiming that making $300/day ($10,000/month) is more achievable than people think, specifically through YouTube Shorts rather than dropshipping or crypto. He reveals his channel 'Discovery Dose' which gets hundreds of millions of views posting nature videos. His workflow involves: searching YouTube for viral nature story videos filtered by most popular, pasting them into ViewMax.io to remove existing captions using AI, then using the same platform's AI scriptwriter and AI voiceover tools to create a new video using the original footage. He claims to post one video per day for six months and average $20,000/month. He closes by teasing a more detailed breakdown if viewers comment the word 'secret.'
+
+- Posts faceless nature YouTube Shorts earning ~$20,000/month
+- Uses ViewMax.io to remove captions from viral videos and repurpose footage
+- AI scriptwriter and AI voiceover automate the content creation process
+- Finds viral source content by searching YouTube filtered by most popular
+- Posts one video per day consistently for six months
+- Encourages viewers to comment 'secret' for a detailed step-by-step breakdown
