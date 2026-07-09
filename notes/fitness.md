@@ -55,3 +55,17 @@ The creator introduces the shake as 'the protein shake banned by the NCAA' for i
 - Creator switched from Vital Farms eggs over concerns about linoleic acid content
 - Finished shake described as tasting like orange cream with no egg flavor
 - Promoted as superior to synthetic protein powders due to real, whole-food ingredients
+
+## 2026-07-09 06:08 UTC
+Source: https://www.instagram.com/reel/DXbmWs3EdnS/?igsh=NTc4MTIwNjQ2YQ==
+
+This video claims that holding your breath for 90 seconds triggers powerful biological responses including a 556% spike in growth hormone, stem cell activation, and EPO release. A person in scrubs (presenting as a medical professional) and a blonde man react to and validate these claims, framing it as suppressed health knowledge. They argue that breath holds replicate expensive medical treatments for free.
+
+The video opens with a conspiratorial framing, suggesting that breath holds are being 'gatekept' by medical and pharmaceutical establishments. The main claims presented are that a 90-second breath hold activates hypoxia-inducible factor (HIF), triggers stem cell release from blood and bone marrow, releases EPO (the same hormone associated with doping in cycling), and causes a 556% increase in human growth hormone (HGH). The man in scrubs references a 1986 study called the 'Djarova study' as evidence for the HGH claim. A second blonde man (filmed outdoors) reacts and adds that stem cell therapy costs $25,000+ from a doctor, framing breath holds as a free alternative. Text overlays and AI-generated summaries are shown to reinforce the claims. The video ends with a call to action to comment 'healed' to receive a YouTube video on how to perform breath holds.
+
+- A 90-second breath hold is claimed to trigger a 556% increase in human growth hormone
+- Breath holds allegedly activate stem cells, EPO, and VEGF (new blood vessel growth)
+- The video frames this as suppressed knowledge being 'gatekept' by pharmaceutical companies
+- Stem cell therapy costs $25,000+ from doctors; breath holds are presented as a free alternative
+- A 1986 Djarova study is cited as evidence for the HGH increase claim
+- Call to action: comment 'healed' to receive a detailed instructional YouTube video
