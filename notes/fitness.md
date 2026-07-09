@@ -83,3 +83,17 @@ The creator opens with a provocative claim that coconut water is wasteful for he
 - DIY electrolyte water: 4 servings Nu Salt + Celtic salt in a gallon jug
 - This combination mimics commercial electrolyte packets at lower cost
 - Nu Salt has more potassium per serving than a banana
+
+## 2026-07-09 06:40 UTC
+Source: https://www.instagram.com/reel/DYNaNIWvyO3/?igsh=NTc4MTIwNjQ2YQ==
+
+A man presents sleep hacks in a simplified, caveman-style speech format, delivering science-backed sleep tips using only single words or very short phrases. The video uses cartoon illustrations to reinforce key points about sleep hygiene. The humorous format makes the advice accessible and memorable.
+
+The presenter sits at a desk holding a microphone and delivers sleep optimization tips using extremely simplified language — as if speaking to someone who cannot understand full sentences. Key advice includes: avoiding food 4 hours before bed (eating raises heart rate which disrupts sleep), no phone use 1 hour before bed, going for a walk or reading instead, keeping a consistent bedtime, dimming lights and avoiding blue light as the sun goes down, keeping the bedroom dark, cold, and quiet, and getting 15 minutes of morning sunlight to regulate the body's circadian rhythm. Cartoon animations illustrate concepts like a boy holding a clock showing 10:00 PM and sleeping children in a dark room. The format is comedic but the underlying sleep science is legitimate.
+
+- Avoid eating 4 hours before bed — digestion raises heart rate and disrupts sleep
+- No phone use 1 hour before bed; opt for walking, breathing, or reading instead
+- Keep a consistent bedtime every night to help regulate your body clock
+- Avoid blue light in the evening; dim lights as the sun goes down
+- Keep your bedroom dark, cold, and quiet for optimal sleep
+- Get 15 minutes of morning sunlight to set your circadian rhythm
