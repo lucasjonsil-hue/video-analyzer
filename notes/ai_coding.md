@@ -250,3 +250,17 @@ The creator opens with a provocative claim that vibe coding is for amateurs whil
 - Security and rate limiting are essential to prevent financial exploitation
 - Caching, scaling, and error tracking are required for a production-ready app
 - Without all these layers, the app is not worth selling
+
+## 2026-07-09 22:10 UTC
+Source: https://www.instagram.com/reel/DZNyEF1Nts8/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man discusses the 'forward deployed engineer' role at AI companies, claiming it pays $200k+ and is accessible to non-technical people. He argues that AI careers are more approachable than people think and that courses are unnecessary, pointing to Anthropic's website and emphasizing practical skills like training employees on AI tools.
+
+The creator opens by stating that the hottest AI job right now pays $200k+ and involves mostly talking to Claude (Anthropic's AI). He tells viewers to search 'forward deployed engineer' on LinkedIn, showing ~47,990 results. He emphasizes that this role is accessible to non-technical people and that the barrier to entry is artificially inflated by course sellers online. He visits Anthropic's website to show it as a legitimate resource. He argues that the most valuable AI consultants he knows are non-technical, and that something as simple as training employees on how to use AI tools provides more real value to companies than complex technical automation. He ends with an encouraging call to action for viewers to stop self-limiting and get out there.
+
+- Forward deployed engineer is described as the hottest AI job, paying $200k+
+- The role is largely accessible to non-technical people
+- Course sellers are artificially gatekeeping AI careers
+- Anthropic.com is highlighted as a free, legitimate resource
+- Training employees on AI tools is highly valuable and lucrative consulting work
+- Viewers are encouraged to stop self-limiting and pursue AI opportunities
