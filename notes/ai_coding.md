@@ -222,3 +222,17 @@ The video opens with a bold claim that most people overpay for software because 
 - Camofox Browser prevents AI agents from getting fingerprinted/blocked during web scraping
 - LibreChat consolidates ChatGPT, Claude, and Gemini into one free interface
 - Viewer engagement CTA: comment and repost for a full guide with all repo links
+
+## 2026-07-09 18:52 UTC
+Source: https://www.instagram.com/reel/DZDkJUgIBtf/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man sitting on a leather couch recommends three YouTube videos for learning Claude AI, suggesting viewers watch them instead of Netflix. The videos range from beginner tutorials to advanced Claude Code and agentic AI content. He presents a learning path from complete beginner to building AI-powered businesses.
+
+The creator sits casually on a brown leather couch and addresses viewers directly, framing the content as a productivity alternative to Netflix. He recommends three specific YouTube videos: First, a full tutorial by 'AI Foundations' offering an updated 2026 breakdown of Claude from beginner to advanced level. Second, a Claude Code tutorial by 'Zeno Automate' that teaches users how to build agentic AI systems so AI works autonomously rather than requiring constant prompting. Third, a deep-dive into agentic AI by 'Teacher's Tech', positioned as advanced content for those who already have a foundation. The overall narrative arc is a structured learning path: beginner Claude usage → Claude Code → agentic AI business building.
+
+- Watch AI Foundations for a 2026 beginner-to-advanced Claude tutorial
+- Zeno Automate covers Claude Code to build agentic AI systems
+- Teacher's Tech deep dives agentic AI for those with existing foundation
+- Learning path designed to go from complete beginner to AI business builder
+- Framed as a productive alternative to watching Netflix
+- Goal is to be ahead of 99% of Claude users
