@@ -110,3 +110,16 @@ The creator greets viewers with 'What's up, Goyim' while sitting on a ladder out
 - Claims grounding reduces inflammation and protects from EMF
 - Uses FLIR thermal imaging as visual 'proof' of grounding's anti-inflammatory effects
 - Pseudoscientific wellness trend presented as a practical DIY hack
+
+## 2026-07-09 18:50 UTC
+Source: https://www.instagram.com/reel/DYpZiAjBumO/?igsh=NTc4MTIwNjQ2YQ==
+
+A shirtless man filming himself on a beach promotes a method for creating and selling high-ticket digital products using AI (Claude). He claims to have made over a million dollars working for himself and promises viewers they can earn significant monthly income by packaging their knowledge into digital products.
+
+The creator opens with a hook about becoming the friend who 'doesn't work' but has more money than everyone else. He claims Instagram targets his videos at people seeking an escape from the 9-to-5 lifestyle. He then describes a process involving pasting a prompt into Claude (referred to as 'cloth'), which interviews the user about their life experience and knowledge, then generates a high-ticket digital product concept in about 20 minutes. He references 'Shelby's sad' making $5 million in a month as a success example. He argues that even 1,000 views per video can convert 3-4 buyers, and with a high-ticket product this could yield $10K/month, scaling to $90K/month with one conversion per day. The video ends with a call-to-action to DM him the word 'SCRIPT' to get started.
+
+- Use Claude AI to interview you and generate a high-ticket digital product based on your skills
+- Claims to have made over $1 million working for himself
+- Even 1,000 views per video can generate meaningful conversions for high-ticket products
+- Potential earnings framed as $10K–$90K/month depending on conversion rate
+- CTA: DM the word 'SCRIPT' to receive the prompt/system
