@@ -166,3 +166,17 @@ The video presents a step-by-step tutorial on building a personal AI knowledge m
 - Feed all forgotten/saved content (podcasts, books, articles) into raw sources
 - Ask weekly synthesis questions; answers are saved back to the vault so it gets smarter
 - Set up a weekly health check to detect contradictions and outdated information
+
+## 2026-07-09 18:49 UTC
+Source: https://www.instagram.com/reel/DXkDulQAGnF/?igsh=NTc4MTIwNjQ2YQ==
+
+A developer shares his recommended tech stack for indie hackers or solo builders. He quickly runs through tools for coding, hosting, backend, code review, payments, and marketing. The video ends with a motivational call to action to start building.
+
+The creator starts with a 'hear me out' hook to grab attention, then proceeds to list his go-to stack for building and shipping products solo. He recommends: Claude (or a similar AI) for coding assistance, an unspecified service for hosting, Supabase for backend/database needs, CodeRabbit for code review, Stripe for monetization, and an open-source or AI-based tool for marketing. He emphasizes this is all you need and closes with encouragement to start building immediately.
+
+- Use Supabase for backend/database needs
+- Use Stripe for monetizing your product
+- Use CodeRabbit for automated code review
+- AI tools can cover coding and marketing
+- Minimal stack is enough to ship a product
+- Strong motivational close: 'that's all you need to start building'
