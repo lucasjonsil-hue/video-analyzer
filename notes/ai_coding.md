@@ -208,3 +208,17 @@ The presenter opens by hyping GTA 6 as one of the biggest entertainment launches
 - The workflow produces postable short-form content in just a few minutes
 - This is positioned as a faceless YouTube channel strategy for early movers
 - Comment 'GTA 6' to receive a full A-to-Z guide via DM
+
+## 2026-07-09 18:52 UTC
+Source: https://www.instagram.com/reel/DZCGFaNs_Dj/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator presents 7 free GitHub repositories that collectively replace over $6,500/month in SaaS tools, covering everything from email automation to AI image generation and financial terminals. The video is part of a '99 days of actual AI' series and encourages viewers to comment for a full guide with links.
+
+The video opens with a bold claim that most people overpay for software because they don't know about 7 free GitHub repos. The host walks through each tool rapidly: 1) Gen2 GameBox - replaces Superhuman for email replies, 2) Open Generative AI - replaces Midjourney/Runway with access to 200+ AI image/video/voice models, 3) LibreChat - aggregates all major AI models in one interface replacing ChatGPT/Claude/Gemini subscriptions, 4) Fincept Terminal - replicates Bloomberg Terminal features (saving $24k/year) with 37 AI agents for financial analysis, 5) HyperFrames - AI video editing replacing Premiere Pro/CapCut and human editors, 6) Quad Ads - AI ad performance analyzer replacing agencies and tools like Triple Whale, 7) Camofox Browser - anti-detection browser for AI agents doing web scraping, replacing Perplexity Computer and tools like Outfire. The host closes by inviting viewers to comment and repost for a full guide with links to each repo.
+
+- 7 free GitHub repos claimed to replace $6,500+/month in SaaS tools
+- Open Generative AI gives access to 200+ AI image/video/voice models for free
+- Fincept Terminal replaces Bloomberg Terminal saving up to $24,000/year
+- Camofox Browser prevents AI agents from getting fingerprinted/blocked during web scraping
+- LibreChat consolidates ChatGPT, Claude, and Gemini into one free interface
+- Viewer engagement CTA: comment and repost for a full guide with all repo links
