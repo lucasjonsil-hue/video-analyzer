@@ -96,3 +96,17 @@ Mariah opens by referencing a viral X post that compiled the top 15 AI loops peo
 - Human-in-the-Loop approval queue: workflow pauses for human approve/revise/skip before proceeding
 - Three core loop commands: Goal, Loop, and Schedule
 - Full list of 15 loops compiled by Matt van Horn is available via comment CTA
+
+## 2026-07-09 18:44 UTC
+Source: https://www.instagram.com/reel/DUyCsFIkord/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator unboxes a Mac Mini purchased for $1,000 and sets it up to run OpenClaw, an AI agent platform. He walks through the setup process including installing OpenClaw via terminal, connecting apps and API keys, and giving the AI agent access to tools like Telegram and a credit card with a daily spend limit.
+
+The video begins outside an Apple Store where the creator reveals he just bought a Mac Mini for $1,000 to run an AI agent called OpenClaw. He explains the goal is to automate tasks and 'print money' by connecting the AI to apps and credit cards. He advises setting up a separate user account on the machine for security. The setup involves visiting OpenClaw AI's website, copying a terminal install command, and running it. He recommends having API keys (specifically Anthropic) ready beforehand. After running the install script, an onboarding window appears where he configures settings and enters API keys. He shows the skills/apps dashboard where various integrations can be enabled or blocked. He emphasizes caution about what access to grant. The agent is then accessible via Telegram. He reports that within 24 hours, the agent was already scraping thousands of leads, and he gave it a dedicated card with a $100 daily spend limit.
+
+- Buy a dedicated Mac Mini (~$1,000) and create a separate user account for the AI agent for security
+- Install OpenClaw by copying a curl command from openclaw.ai into Terminal
+- Have your Anthropic API keys ready before setup to save time
+- Use the skills dashboard to control which apps and tools the agent can access
+- Connect the agent to Telegram to interact with it and assign tasks
+- Give the agent a dedicated card with a daily spend limit (e.g. $100) for controlled autonomy
