@@ -138,3 +138,17 @@ The presenter opens by encouraging viewers to save the video for repeated refere
 - Clone Cronos base model from Hugging Face and install PyTorch with appropriate CUDA version
 - Always backtest strategies with synthetic data before using real money
 - CUDA (Compute Unified Device Architecture) enables GPU-accelerated heavy math computations
+
+## 2026-07-09 18:47 UTC
+Source: https://www.instagram.com/reel/DWO2YnrkVnN/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator explains how a recruiting AI startup raised $850M for what is essentially a chatbot connected to a database. He breaks down how anyone can replicate this type of AI product using Apollo.io and Claude via MCP server, effectively reverse-engineering expensive AI tools for free or selling the setup as a service.
+
+The creator opens by expressing disbelief that a recruiting chatbot was valued at $850 million. He argues that most AI companies are simply chatbots connected to databases and challenges viewers to look up any recently funded AI company to verify this. He then outlines a method: find an AI company that raised money, identify their underlying data source, connect it to Claude via MCP server, and add relevant action tools. As a concrete example, he walks through replicating a recruiting AI by connecting Apollo.io (275M+ contacts with filters like role, company size, industry, location, revenue range) to Claude. He also suggests optionally adding a database like Neon or Supabase to track outreach and avoid double-messaging. He concludes that this approach can be sold as a service, since people prefer interacting with all their tools through Claude.
+
+- Most AI startups are just chatbots connected to a database — the $850M recruiting chatbot is one example
+- The method: find a funded AI company, identify their data source, connect it to Claude via MCP server
+- Apollo.io (275M+ contacts) can be connected to Claude to replicate an AI recruiting tool
+- Add email/LinkedIn APIs and an optional Postgres database (Neon or Supabase) to track outreach and avoid duplicates
+- This stack can be built for free or near-free and sold as a service to others
+- Claude as a central hub for all tools is more appealing to end users than multiple separate SaaS tools
