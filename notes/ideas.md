@@ -68,3 +68,17 @@ The video opens with Musa, a 23-year-old who has earned over $3 million through 
 - Clippers earn approximately $1–$1.50 per 1,000 views on TikTok, Instagram, and YouTube
 - Eddie (Propaganda Media) predicts Clipping will capture ~1/3 of the $1T+ ad market within a decade
 - Clipping is described as a 'billboard in your pocket' — more targeted and effective than traditional advertising
+
+## 2026-07-09 06:39 UTC
+Source: https://www.instagram.com/p/DVrIzumjMSl/?igsh=NTc4MTIwNjQ2YQ==
+
+This is a promotional advertisement for Doran Rose's 'Sweetheart's Collection,' a Valentine's-themed sleepwear and accessories line featuring heart prints. The video showcases pajama sets and a silk sleep mask, emphasizing both style and comfort. It uses an engaging hook targeting gift-givers and highlights limited availability to create urgency.
+
+The video opens with a bathroom scene of a woman in heart-print white pajamas with a towel on her head, captioned 'Don't let your girlfriend see these,' creating curiosity and targeting a gift-buying audience. It then transitions to a model showcasing the white ruffled PJ set with small heart prints, described as a playful romantic silhouette. Another woman is shown unboxing a pink heart-print gift box, revealing what appears to be a pink satin sleep mask with a velcro closure. The narration highlights two pajama options — the ruffled PJ set and a long-tensile PJ set — as well as a 'highly rated deep sleep mask' with anti-aging benefits. The ad closes with a scarcity message noting the collection sold out quickly after launch but is now restocked.
+
+- Doran Rose Sweetheart's Collection features heart-print sleepwear and accessories
+- Two PJ options: ruffled set (playful) and long-tensile set (soft drape)
+- Includes a limited edition deep sleep mask with anti-aging claims
+- Strong scarcity/urgency hook — collection previously sold out quickly
+- Targeted at gift-givers looking for Valentine's or romantic gifts
+- Pink satin packaging adds to the gifting appeal
