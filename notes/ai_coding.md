@@ -124,3 +124,17 @@ The creator talks directly to camera in what appears to be a bedroom setting, sh
 - Use a Claude Markdown context file to coordinate multiple Claude Code instances
 - Skills let you repackage repeated instructions for efficiency
 - Stop hooks control when Claude Code ends its agentic loop, saving significant time
+
+## 2026-07-09 18:47 UTC
+Source: https://www.instagram.com/reel/DW-TOhIDgjh/?igsh=NTc4MTIwNjQ2YQ==
+
+A young creator introduces viewers to building an automated trading system using a Chinese AI model called Cronos, claiming no technical experience is required. He walks through the steps of setting up the system using an LLM like Claude, extracting a tarball, initializing a git repo, cloning the Cronos model, and installing dependencies including PyTorch with CUDA.
+
+The presenter opens by encouraging viewers to save the video for repeated reference. He claims to have read research on a Chinese AI model called Cronos that can trade markets autonomously. He emphasizes that no technical background is needed and that all you need is a computer and this video. He briefly explains what Cronos is: a zero-shot model capable of handling unseen markets, strong at volatility and risk management, options pricing, and generating synthetic data for strategy backtesting. He then walks through the setup process: starting with a conversation in Claude (an LLM) to design your trading system and generate a tarball artifact. Steps include navigating to a project folder in the terminal, extracting the tarball, initializing a git repository for version control, creating a virtual environment, installing dependencies, and securing the .env file. He then shows how to clone the Cronos base model from Hugging Face, install Hugging Face dependencies, and install PyTorch with CUDA (noting version 12.1 for older hardware and recommending 13.0 for newer). He closes by expressing genuine excitement for viewers attempting this.
+
+- Cronos is described as a zero-shot Chinese AI model for automated trading with strong volatility and risk management capabilities
+- No technical experience required — use an LLM like Claude to design and scaffold your project
+- Key setup steps: extract tarball, init git repo, create virtual environment, install dependencies, secure .env file
+- Clone Cronos base model from Hugging Face and install PyTorch with appropriate CUDA version
+- Always backtest strategies with synthetic data before using real money
+- CUDA (Compute Unified Device Architecture) enables GPU-accelerated heavy math computations
