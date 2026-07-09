@@ -25,3 +25,17 @@ The creator opens by claiming that knowing how to use a .edu email address is a 
 - Notion is free for students and great for notes, to-do lists, and budgeting
 - Whop.com/edu/students helps students earn money online with a large existing student community
 - Canva Pro is free for students, saving $144/year compared to the standard plan
+
+## 2026-07-09 06:10 UTC
+Source: https://www.instagram.com/reel/DZATsEFObzb/?igsh=NTc4MTIwNjQ2YQ==
+
+A productivity-focused video showing a man working long hours at a standing desk, transitioning from daytime to nighttime. The creator demonstrates a routine of standing still for 3 hours, suffering through discomfort, then working for 10 hours, claiming it makes business easier. It ends with a tip about staring at a wall for 20 minutes as a mental reset technique.
+
+The video begins during daytime with a man standing at his desk, with on-screen text listing steps: stand still for 3h, suffer, work for 10h, and business is now easy. Frame 2 shows him still at his standing desk at 8:59 PM, silhouetted against the evening sky, maintaining the same routine. Frame 3 shows him now sitting at his desk late at night around 11:35 PM, working at a computer with RGB lighting. Frame 4, set around 5:10 AM, shows him still at his desk with what appears to be a chess or grid-based application on screen, with text advising that even 20 minutes of sitting or standing while staring at a wall and doing nothing else will bring huge differences. The final frame is a black screen with a call-to-action to tag a business partner who needs to 'lock in'.
+
+- Stand still for 3 hours as a discipline/mental training exercise
+- Work for 10 consecutive hours after the standing challenge
+- The discomfort of standing is framed as making business feel easier by comparison
+- Even 20 minutes of doing nothing (staring at a wall) can bring huge mental differences
+- The video spans from daytime through late night to early morning, showing extended work sessions
+- Call to action: tag a business partner who needs to focus/lock in
