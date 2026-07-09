@@ -27,3 +27,17 @@ The presenter opens by claiming Anthropic's CEO is frustrated because a free dev
 - Claims 70% reduction in token consumption per session
 - Effectively upgrades a $20 plan to $100 plan level for free
 - GitHub link shared via comment engagement CTA
+
+## 2026-07-09 06:36 UTC
+Source: https://www.instagram.com/reel/DaBgI4uRmLe/?igsh=NTc4MTIwNjQ2YQ==
+
+A young creator presents three free AI certificates from OpenAI and Anthropic that students can add to their resumes. He covers OpenAI Applied AI Foundations, Anthropic AI Fluency, and OpenAI Agents and Workflows, briefly explaining what each certificate demonstrates to employers. He ends with a call-to-action to follow and comment 'ai' to receive links to these and 10 more certificates.
+
+The video opens with the creator holding a microphone and introducing the concept of 10 free, niche AI certificates from OpenAI and Anthropic that students should add to their resumes. He walks through three specific certificates: (1) OpenAI Applied AI Foundations, which teaches turning everyday tasks into repeatable ChatGPT workflows with inputs, checkpoints, and human review; (2) Anthropic AI Fluency: Framework & Foundations, which demonstrates to employers that you can use Claude effectively, ethically, and safely; and (3) OpenAI Agents and Workflows, which shows employers you can direct AI agents through structured tasks. Each certificate is shown visually on screen as it is described. The video closes with a social media engagement hook asking viewers to follow and comment 'ai' to receive links to all 13 certificates.
+
+- Three free AI certificates from OpenAI and Anthropic highlighted for student resumes
+- OpenAI Applied AI Foundations: focuses on turning tasks into repeatable ChatGPT workflows
+- Anthropic AI Fluency: demonstrates ethical and effective use of Claude
+- OpenAI Agents and Workflows: shows ability to direct AI agents through structured tasks
+- All certificates are free and officially issued by OpenAI or Anthropic
+- Comment 'ai' to receive links to these and 10 additional certificates
