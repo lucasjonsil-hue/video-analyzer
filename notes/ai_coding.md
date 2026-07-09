@@ -110,3 +110,17 @@ The video begins outside an Apple Store where the creator reveals he just bought
 - Use the skills dashboard to control which apps and tools the agent can access
 - Connect the agent to Telegram to interact with it and assign tasks
 - Give the agent a dedicated card with a daily spend limit (e.g. $100) for controlled autonomy
+
+## 2026-07-09 18:46 UTC
+Source: https://www.instagram.com/reel/DTM39qNjhwK/?igsh=NTc4MTIwNjQ2YQ==
+
+A young developer shares lessons learned after burning through a $200 Claude AI plan in one week. He covers productivity tips for using Claude Code efficiently, including VIM usage, Ghostty terminal, offloading prompt writing to ChatGPT, and using skills and stop hooks to save time.
+
+The creator talks directly to camera in what appears to be a bedroom setting, sharing three key lessons from intensive Claude Code usage. First, he recommends getting familiar with VIM and using Claude Code in terminal-only mode to save memory, plus using Ghostty terminal for multiple tabs — noting this is how the Claude Code creator himself works. Second, he explains how he taught Claude Code to offload prompt-writing to ChatGPT, since ChatGPT is better at crafting prompts even though Claude Code is better at coding. He describes setting up a Claude Markdown file with context so multiple Claude Code instances can work in parallel while ChatGPT drafts the next set of prompts. Third, he highlights 'skills' (reusable packaged instructions for repeated tasks) and 'stop hooks' (controlling when Claude Code exits its agentic loop) as the two most time-saving features to master.
+
+- Use VIM and terminal-only Claude Code to conserve memory and cost
+- Ghostty terminal enables multiple tabs for parallel Claude Code sessions
+- Offload prompt writing to ChatGPT while Claude Code handles the actual coding
+- Use a Claude Markdown context file to coordinate multiple Claude Code instances
+- Skills let you repackage repeated instructions for efficiency
+- Stop hooks control when Claude Code ends its agentic loop, saving significant time
