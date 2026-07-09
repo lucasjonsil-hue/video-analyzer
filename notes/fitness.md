@@ -69,3 +69,17 @@ The video opens with a conspiratorial framing, suggesting that breath holds are 
 - Stem cell therapy costs $25,000+ from doctors; breath holds are presented as a free alternative
 - A 1986 Djarova study is cited as evidence for the HGH increase claim
 - Call to action: comment 'healed' to receive a detailed instructional YouTube video
+
+## 2026-07-09 06:39 UTC
+Source: https://www.instagram.com/reel/DZnqTBAxWJO/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man in a car argues that coconut water is overpriced and unnecessary for gym-goers. He recommends using Nu Salt (potassium chloride) and Celtic sea salt mixed into a gallon of water as a cheaper alternative for electrolyte replenishment. He claims this combination provides the same core electrolytes found in commercial electrolyte packets.
+
+The creator opens with a provocative claim that coconut water is wasteful for health-conscious gym-goers. He introduces two products as a DIY electrolyte solution: Nu Salt, a potassium-based salt substitute, and Celtic sea salt, which provides sodium. He explains that most electrolyte packets are essentially just potassium and sodium, and these two salts replicate that at a fraction of the cost. He provides specific dosing guidance: approximately 4 servings of Nu Salt (~2100mg potassium) and about 400mg of Celtic salt per gallon of water. He contextualizes the potassium content by comparing it to bananas (400mg each), emphasizing the efficiency of Nu Salt. The video ends with a call to follow his account.
+
+- Coconut water is expensive and unnecessary for hydration
+- Nu Salt provides ~700mg potassium per 1/4 tsp serving
+- Celtic sea salt provides the sodium component of electrolytes
+- DIY electrolyte water: 4 servings Nu Salt + Celtic salt in a gallon jug
+- This combination mimics commercial electrolyte packets at lower cost
+- Nu Salt has more potassium per serving than a banana
