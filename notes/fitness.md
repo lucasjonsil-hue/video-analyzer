@@ -27,3 +27,17 @@ The creator, a muscular young man, presents five simple daily exercises to impro
 - 90-degree elbow rotations (20 reps/day) correct rounded shoulder posture
 - All exercises are home-based and require no equipment
 - Content is in Portuguese, targeting a Brazilian fitness audience
+
+## 2026-07-09 06:07 UTC
+Source: https://www.instagram.com/reel/DX7isWFs-tJ/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man explains how the anterior tibial tendon in the foot is a root cause of a chain of postural and aesthetic issues, from flat feet to facial development. He claims to have fixed multiple postural problems through targeted exercise and shares a specific isometric exercise to activate this tendon.
+
+The creator introduces the concept that the anterior tibial tendon is a foundational structure affecting both attractiveness and athleticism. He describes a domino effect: weakness in this tendon causes foot collapse, arch drop, tibial rotation, knee cave-in, anterior pelvic tilt, spinal overcompensation, forward head posture, ribcage compression, poor breathing, tongue dropping from the roof of the mouth, and ultimately downward/backward facial development. He claims personal success in fixing flat feet, anterior pelvic tilt, scoliosis, forward head posture, and improving facial structure. The video includes anatomical animations showing correct spinal spacing and a 3D model demonstrating head/jaw positioning. He prescribes a specific exercise: standing on a slant board one foot at a time, maximally flexing the anterior tibial tendon in an isometric hold until failure, repeated twice per leg.
+
+- The anterior tibial tendon weakness triggers a full-body postural chain reaction
+- Poor posture from this tendon can compress the ribcage, impair breathing, and affect facial development
+- The creator claims personal transformation: fixed flat feet, pelvic tilt, scoliosis, and forward head posture
+- Prescribed exercise: slant board single-leg isometric anterior tibial tendon hold to failure, 2x per leg
+- Tongue posture and breathing are linked to facial aesthetics through this postural chain
+- The video combines personal testimony with anatomical animations to support its claims
