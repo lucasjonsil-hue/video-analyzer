@@ -111,3 +111,16 @@ The creator, a very muscular young man, walks through a grocery store explaining
 - Replace diet soda with zero-sugar Snapple (5 calories per serving)
 - Limit carbs to pre-workout only when cutting; swap rice for zucchini if deep in a cut
 - Keep a small amount of a filling food (50g per meal) to avoid hunger-driven overeating
+
+## 2026-07-09 17:52 UTC
+Source: https://www.instagram.com/reel/DZXurerTfiS/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man explains his weekly beet juice routine as a health drink for spearfishers and general wellness. He describes soaking beet juice pulp for 4-5 days to create a concentrated 'ocean potion' that he claims improves breath-holding and overall health.
+
+The creator, who appears to be a spearfisher, promotes a homemade beet-based health drink he calls his 'ocean potion.' He explains that every week he juices beets, carrots, and ginger, drinks the fresh juice, then takes the leftover pulp and soaks it for four to five days to produce a very dense, dark red concentrated liquid. He holds up a mason jar containing the deep red drink throughout the video. He warns new drinkers that it may initially cause digestive upset and frequent bathroom trips due to a detox effect, but encourages pushing through that phase. He claims the drink has significant benefits for breath-holding underwater and for general health and wellbeing.
+
+- Weekly juice blend: beets, carrots, and ginger
+- Leftover pulp is soaked for 4-5 days to create a concentrated 'ocean potion'
+- Claimed benefit: improved breath-holding for spearfishing
+- New users may experience digestive upset/detox symptoms initially
+- Long-term use said to greatly improve how you feel overall
