@@ -97,3 +97,17 @@ The presenter sits at a desk holding a microphone and delivers sleep optimizatio
 - Avoid blue light in the evening; dim lights as the sun goes down
 - Keep your bedroom dark, cold, and quiet for optimal sleep
 - Get 15 minutes of morning sunlight to set your circadian rhythm
+
+## 2026-07-09 17:50 UTC
+Source: https://www.instagram.com/reel/DaOr6DJuKD6/?igsh=NTc4MTIwNjQ2YQ==
+
+A heavily muscular young man films himself doing a grocery haul at what appears to be Kroger/Walmart, explaining his diet choices for staying lean and muscular year-round. He walks through various aisles picking up high-protein, low-calorie foods while giving blunt, humorous commentary. The video is targeted at fitness enthusiasts who want to maintain muscle while cutting body fat.
+
+The creator, a very muscular young man, walks through a grocery store explaining his food choices for maintaining a jacked and shredded physique year-round. He starts in the snack/granola bar aisle, then moves to the dairy section where he picks up Oikos Triple Zero Greek yogurt. He recommends zero-sugar Snapple as a diet soda alternative at only 5 calories per serving. He grabs boneless skinless chicken breasts as a staple protein source, and 95/5 lean ground beef for minimal fat intake. He picks up a small number of carbs (appears to be crackers/bars) for pre-workout only. He notes that if you're in a deep cut (he mentions being 18 days out from a competition), you only get zucchini as a side instead of rice. He also mentions getting a small amount of something (likely oats or similar) at 50 grams per meal to keep from getting too hungry. The tone is crude, funny, and energetic throughout.
+
+- Choose low-calorie, high-protein foods like Oikos Triple Zero Greek yogurt
+- Pick low-calorie condiments — 10 cal BBQ sauce over 70 cal versions
+- Lean proteins: boneless skinless chicken breast and 95/5 ground beef
+- Replace diet soda with zero-sugar Snapple (5 calories per serving)
+- Limit carbs to pre-workout only when cutting; swap rice for zucchini if deep in a cut
+- Keep a small amount of a filling food (50g per meal) to avoid hunger-driven overeating
