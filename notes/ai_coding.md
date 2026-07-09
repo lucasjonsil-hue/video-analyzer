@@ -41,3 +41,17 @@ The video opens with the creator holding a microphone and introducing the concep
 - OpenAI Agents and Workflows: shows ability to direct AI agents through structured tasks
 - All certificates are free and officially issued by OpenAI or Anthropic
 - Comment 'ai' to receive links to these and 10 additional certificates
+
+## 2026-07-09 06:42 UTC
+Source: https://www.instagram.com/reel/DaWMJ1pp3Bg/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man shares the AI-assisted coding workflow he used to complete a rigorous 10-week AI boot camp. He breaks down a three-step process using Claude, cloud infrastructure, and open-source tools to maximize coding efficiency and one-shot project completions.
+
+The creator explains he just finished a demanding 10-week AI boot camp where weekly projects had to be submitted by Sunday or participants were kicked out. He shares the Claude-based workflow that helped him succeed. Step one: pay for Claude (even the $20/month plan) and set up Claude Code in the VS Code terminal. Step two: use a VPS (Virtual Private Server) so coding tasks run even when the laptop is closed, and use a terminal multiplexer like tmux or Herder to manage four to five projects simultaneously. Step three (biggest efficiency gain): install open-source repositories globally — specifically GasCount for agent orchestration, Playwright MCP to give the coding agent browser vision, and GromySkill for the planning phase. He also mentions a tool called Ponytail to cut API costs for those on the $20/month plan. He offers to send a document explaining the full workflow to anyone who comments.
+
+- Use Claude Code via VS Code terminal with a paid Claude plan
+- Set up a VPS so coding agents continue running with laptop closed
+- Use tmux/Herder for managing multiple terminal sessions simultaneously
+- Install GasCount for agent orchestration to one-shot more projects
+- Use Playwright MCP to give the coding agent browser-based vision
+- Use GromySkill for the planning phase and Ponytail to reduce costs
