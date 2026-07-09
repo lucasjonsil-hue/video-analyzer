@@ -236,3 +236,17 @@ The creator sits casually on a brown leather couch and addresses viewers directl
 - Learning path designed to go from complete beginner to AI business builder
 - Framed as a productive alternative to watching Netflix
 - Goal is to be ahead of 99% of Claude users
+
+## 2026-07-09 22:08 UTC
+Source: https://www.instagram.com/reel/DZLDPGExR-1/?igsh=NTc4MTIwNjQ2YQ==
+
+A developer contrasts 'vibe coding' (casually prompting AI to build apps) with 'agentic engineering' (systematically using AI agents to build production-ready full-stack software). He outlines all the critical layers a real app needs, from frontend to error tracking. The message is that without these components, you don't have a sellable product.
+
+The creator opens with a provocative claim that vibe coding is for amateurs while agentic engineering is for serious developers. He defines vibe coding as simply telling an AI to 'build me an app, make no mistakes' without any real engineering oversight. In contrast, agentic engineering means directing AI agents across every layer of a production system. He walks through a whiteboard listing all required components: a minified frontend that doesn't expose secrets, a database with Row Level Security (RLS) on platforms like Neon, proper authentication with user permissions, version control via Git, APIs for functionality, hosting and deployment, security measures, rate limiting, caching for performance, scaling with load balancing, and error tracking. He closes by asserting that without all these layers, you don't have an app worth selling.
+
+- Vibe coding = casually prompting AI; agentic engineering = systematically directing AI across all app layers
+- Frontend must be minified and not expose secrets or store sensitive data
+- Database needs Row Level Security (RLS); use platforms like Neon
+- Security and rate limiting are essential to prevent financial exploitation
+- Caching, scaling, and error tracking are required for a production-ready app
+- Without all these layers, the app is not worth selling
