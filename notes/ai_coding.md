@@ -152,3 +152,17 @@ The creator opens by expressing disbelief that a recruiting chatbot was valued a
 - Add email/LinkedIn APIs and an optional Postgres database (Neon or Supabase) to track outreach and avoid duplicates
 - This stack can be built for free or near-free and sold as a service to others
 - Claude as a central hub for all tools is more appealing to end users than multiple separate SaaS tools
+
+## 2026-07-09 18:49 UTC
+Source: https://www.instagram.com/reel/DXBCWkwj8vG/?igsh=NTc4MTIwNjQ2YQ==
+
+A tech content creator demonstrates how to build an AI-powered 'second brain' using Claude Code and Obsidian in three steps. The system organizes collected knowledge from articles, podcasts, books, and notes into a searchable vault that grows smarter over time. The creator offers a detailed guide and course community for those wanting to implement this system.
+
+The video presents a step-by-step tutorial on building a personal AI knowledge management system using Obsidian (a note-taking app) and Claude Code (Anthropic's AI). Step 1: Download Obsidian and create a vault, then install Claude Code pointed at that vault folder. Step 2: Create two subfolders — a 'raw sources' folder for all incoming content (articles, transcripts, book notes, podcasts, videos) and a 'wiki' folder where Claude writes organized summaries. A specific prompt from Andrej Karpathy is recommended as the key configuration. Step 3: Feed all your saved but forgotten content into raw sources, then ask weekly questions like 'what are the gaps in my knowledge?' Claude pulls from the vault and returns cited answers, saving those answers back into the wiki so the system compounds over time. A weekly health check feature is also shown, where Claude scans for contradictions and outdated information in your notes. The creator promotes a free guide (comment 'brain') and a paid course community (comment 'learn').
+
+- Use Obsidian + Claude Code to create a self-compounding AI knowledge base
+- Structure the vault with a 'raw sources' input folder and a 'wiki' output folder
+- Use Andrej Karpathy's prompt as the core configuration for Claude
+- Feed all forgotten/saved content (podcasts, books, articles) into raw sources
+- Ask weekly synthesis questions; answers are saved back to the vault so it gets smarter
+- Set up a weekly health check to detect contradictions and outdated information
