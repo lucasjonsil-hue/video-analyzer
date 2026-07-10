@@ -152,3 +152,17 @@ The creator presents 9 'anabolic snacks' designed for summer fitness optimizatio
 - Bee Bread (raw honey + bee pollen) claimed to boost testosterone and lower estrogen via aromatase inhibition
 - Raw/simple-ingredient ice cream before bed is recommended to lower cortisol
 - Oysters are called the 'wild caught multivitamin' and ranked second only to beef liver in nutrient density
+
+## 2026-07-10 00:04 UTC
+Source: https://www.instagram.com/reel/DXwvf7eudq2/?igsh=NTc4MTIwNjQ2YQ==
+
+A fitness content creator explains how to achieve body recomposition (losing fat while gaining muscle simultaneously). He breaks down the three key requirements: training with progressive overload close to failure, eating at maintenance calories (within 10%), and consuming sufficient protein.
+
+The video opens with the creator holding up a phone showing a fitness transformation photo to hook viewers. He then explains the concept of 'body recomp' — losing fat and building muscle at the same time — debunking the old belief that you need a calorie deficit for fat loss and a calorie surplus for muscle gain. He outlines three essential components: (1) Training heavy and close to failure on each set using a progressive overload program, not random workouts; (2) Eating at maintenance calories (within 10% above or below your TDEE) — using an example of 2500 calories maintenance, with recomp range of 2250–2750; (3) Getting enough protein, roughly 1 gram per pound of lean body mass. He ends by promoting a free calorie and protein calculator in his bio.
+
+- Body recomposition allows simultaneous fat loss and muscle gain without separate bulk/cut phases
+- Training heavy and close to failure with progressive overload is the most important factor
+- Eat within 10% of your maintenance calories — too much or too little sabotages recomp
+- Aim for ~1 gram of protein per pound of lean body mass to support muscle building
+- Random workouts are insufficient; a structured progressive overload program is required
+- A free calorie and protein calculator is offered in the creator's bio
