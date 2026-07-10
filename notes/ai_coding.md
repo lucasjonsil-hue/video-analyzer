@@ -318,3 +318,17 @@ The video opens with the creator in a plain room, then cuts to a dramatic AI-gen
 - Once connected, you can generate full videos directly from Claude prompts
 - The integration enables faceless YouTube channel content creation at scale
 - Claude can plan and generate entire video series with consistent visual styles
+
+## 2026-07-10 17:48 UTC
+Source: https://www.instagram.com/reel/DWcIFs7EVIh/?igsh=NTc4MTIwNjQ2YQ==
+
+This video explains how to maximize Claude AI by setting up a structured system with agents.md, a context folder, memory.md, and a skills folder. The creator walks through each component and how they work together to make Claude behave like a well-trained digital employee. The video ends with a call-to-action to comment 'Stack' for a detailed setup guide.
+
+The video opens with a question challenging viewers about why they'd underuse Claude AI. The presenter then outlines a four-part setup system: 1) An agents.md file that serves as an onboarding document covering your business, voice, and work preferences — Claude references this before every task. 2) A context folder containing deeper, more nuanced information about your work or business. 3) A memory.md file where Claude logs and continuously updates your personal preferences over time (e.g., remembering not to sign emails with 'cheers'). 4) A skills folder where you walk through a process once and Claude packages it into a reusable workflow, capable of turning a four-hour task into a single instruction. The video is visually animated with 3D motion graphics and ends with a thumbnail showing a whiteboard about building an AI team with digital employees.
+
+- Create an agents.md file to onboard Claude with your business context and preferences
+- Use a context folder for detailed, nuanced background information
+- Memory.md lets Claude log and update your preferences continuously over time
+- A skills folder turns complex workflows into single reusable instructions
+- This system can reduce a 4-hour task to a single command
+- Comment 'Stack' to receive a detailed setup guide
