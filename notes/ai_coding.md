@@ -278,3 +278,16 @@ The creator films himself in a car and explains a practical AI productivity tip 
 - This technique helps you know when to start a new session before errors compound
 - Concept is attributed to Peter Steinberger, creator of OpenClaude
 - A Hacker News user used 'Mr Tinkleberry' as their canary to detect context loss
+
+## 2026-07-10 00:05 UTC
+Source: https://www.instagram.com/reel/DYFLs_jueXa/?igsh=NTc4MTIwNjQ2YQ==
+
+A young creator shows off his custom AI setup he calls 'Jarvis,' built on Claude, that he can text like a contact to remotely control coding sessions on his computer. He demonstrates how Claude Code can spawn project sessions accessible from his phone, allowing him to make website changes remotely. He teases leaking his full method if the video gets 1000 likes.
+
+The creator compares his Claude setup to others, claiming his is far more advanced. He has named his Claude instance 'Jarvis' and texts it like a regular iMessage contact. The setup uses Claude Code with remote control sessions — when he texts Jarvis to work on a project, it spawns a tmux session on his desktop (running Claude Opus 4.7 with 1M context, xhigh effort, bypass permissions on) and returns a shareable URL he can open in the Claude mobile app to drive the session from his phone. He shows the Claude Code dashboard where a task 'Add new page to website' is listed as Connected, proving he can make real website changes from his phone. He also jokes he sends Claude selfies when bored and promises to leak his full methodology if the video hits 1000 likes.
+
+- He texts Claude (named 'Jarvis') like a phone contact to trigger remote coding sessions
+- Claude Code spawns a tmux session on his desktop with Opus 4.7, 1M context, bypass permissions enabled
+- A shareable session URL lets him control the coding session from the Claude mobile app on his phone
+- He successfully added a new page to his website remotely from his phone
+- He teases leaking the full setup method if the video reaches 1000 likes
