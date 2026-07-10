@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 server.log
+/tmp/
+/models/
+.claude/settings.local.json
+move-claude-to-F.ps1
