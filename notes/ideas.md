@@ -151,3 +151,17 @@ The presenter outlines a step-by-step method to earn $11K in 30 days starting fr
 - Charge $1,000 per website ($500 upfront, $500 on completion) plus $99/month for hosting
 - To hit $11K in 30 days, close just 10 clients out of a potential 6,000 outreach contacts
 - Recurring $99/month hosting creates compounding passive income over time
+
+## 2026-07-10 17:48 UTC
+Source: https://www.instagram.com/reel/DYeP7f2Am5M/?igsh=NTc4MTIwNjQ2YQ==
+
+A developer shows off his multi-phone and Mac Studio setup designed to market his iOS app called Merl across multiple social media accounts simultaneously. He currently has only $10 MRR and aims to reach $10,000/month within 6 months by running 2-3 accounts per phone, each promoting different features of his app daily. His strategy is to outcompete apps with larger marketing budgets through sheer volume of organic social content.
+
+The creator films his desk setup which includes four older Android phones in a multi-phone stand, a Mac Studio cluster, a mechanical keyboard, and a monitor displaying a RevenueCat dashboard showing $10 in revenue and 198 new customers. He explains his growth strategy: each of the four phones will run 2-3 social media accounts, each account focused on highlighting a different feature of his iOS app called Merl. He posts daily across all these accounts to generate massive organic reach without a large marketing budget. He clarifies he didn't buy this equipment specifically for this — the Mac Studio was from previous video projects and the phones are old Androids he already owned. He acknowledges the current $10 MRR is very low but is confident the strategy will scale it to $10,000/month within 6 months through consistent, high-volume content creation.
+
+- Currently at $10 MRR with iOS app called Merl, targeting $10,000/month in 6 months
+- Strategy: 4 phones x 2-3 accounts each = 8-12 accounts posting daily about different app features
+- Equipment repurposed from previous projects — not bought new for this strategy
+- Goal is to outcompete apps with larger marketing budgets through volume of organic social content
+- Uses RevenueCat dashboard to track revenue and subscriptions
+- Mac Studio cluster is part of setup but not yet being used for this strategy
