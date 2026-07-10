@@ -180,3 +180,17 @@ The creator, who claims to weigh 215 lbs and stay lean, shares his morning welln
 - Avoid cold water in the morning as it can negatively impact gut health and digestion
 - Cayenne pepper is included to boost circulation
 - The drink combines ginger, turmeric, black pepper, cayenne, ACV, pomegranate juice, warm water, and lemon
+
+## 2026-07-10 17:48 UTC
+Source: https://www.instagram.com/reel/DY807wGOP21/?igsh=NTc4MTIwNjQ2YQ==
+
+This video promotes 'Goata Movement,' a training methodology focused on correcting improper gait and movement patterns. The creator shares their personal transformation, showing how their flat-footed, inward-pointing walking style was corrected through specific exercises. The video showcases both field drills and gym-based kettlebell training as part of the program.
+
+The video opens with a young athlete in a field demonstrating movement drills near a training block, tagged with #Goatamovement. A second clip shows football players (Gators team) receiving hands-on coaching from a trainer during practice. The majority of the footage then shifts to a gym setting where an athlete performs kettlebell exercises on a balance platform. The audio narration explains that the creator previously had poor movement mechanics — inner ankle bones collapsing, feet pointing inward, and heels turned in — which also affected daily life. The speaker credits Goata Movement training for opening up the posterior chain and correcting these movement dysfunctions. They encourage viewers to incorporate Goata Movement exercises daily to fix their own movement patterns, citing personal success as proof.
+
+- Creator had collapsed inner ankles and inward-pointing feet affecting daily movement
+- Goata Movement targets the posterior chain to correct movement dysfunction
+- Program includes both field-based agility drills and gym exercises like kettlebell work
+- Daily practice of Goata Movement can fix improper gait patterns
+- Real-world application shown with football players receiving Goata-based coaching
+- Personal transformation used as testimony to validate the program
