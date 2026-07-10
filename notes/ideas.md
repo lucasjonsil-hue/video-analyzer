@@ -123,3 +123,17 @@ The creator opens with a hook about becoming the friend who 'doesn't work' but h
 - Even 1,000 views per video can generate meaningful conversions for high-ticket products
 - Potential earnings framed as $10K–$90K/month depending on conversion rate
 - CTA: DM the word 'SCRIPT' to receive the prompt/system
+
+## 2026-07-10 00:08 UTC
+Source: https://www.instagram.com/reel/DaRRaVggH-H/?igsh=NTc4MTIwNjQ2YQ==
+
+A young woman shares her top 3 side hustles that helped her go from broke college student to earning $3,000+ per month. She covers selling clothes on Depop, training AI through a platform called Invent Money, and website user testing. The video is aimed at college students looking for easy ways to make extra income.
+
+The creator introduces herself as someone who was once a broke college student and now makes $3,000 or more per month through side hustles. Her first recommendation is Depop, a resale app where she sells old clothes from herself, her mom, and sister, claiming it's easy and can net around $300. Second, she highlights Invent Money, a platform where users train AI for major companies like OpenAI, Tesla, and Anthropic, earning $20-$50 per hour after filling out a short waitlist form. Third, she mentions website user testing, where people get paid to give feedback on apps and websites. She closes by emphasizing that anyone with a phone in 2026 has no excuse to be broke.
+
+- Sell old clothes on Depop for easy extra cash (~$300 example)
+- Invent Money platform pays $20-$50/hr to train AI for companies like OpenAI and Tesla
+- Website user testing pays you to give feedback on apps
+- Presenter claims to earn $3,000+ per month from these combined hustles
+- All three methods require minimal startup cost or technical skill
+- Targeted at college students looking for flexible income
