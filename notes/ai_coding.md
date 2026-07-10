@@ -304,3 +304,17 @@ The creator introduces Claude Fable 5 as a powerful AI tool and promises three k
 - Clear context above 80% to avoid token waste and degraded output
 - Use open-source tool 'ponytail' from GitHub to cut costs by up to 75%
 - The planning document stage is the most critical part of working with AI coding tools
+
+## 2026-07-10 00:10 UTC
+Source: https://www.instagram.com/reel/DaTchfYzdNo/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator demonstrates how to connect Claude AI to Higgsfield, an AI video generation tool, via MCP (Model Context Protocol). The video shows how this integration allows users to generate cinematic AI videos directly through Claude using simple text prompts. The creator showcases examples including being on the Empire State Building and in a medieval castle with a dragon.
+
+The video opens with the creator in a plain room, then cuts to a dramatic AI-generated medieval castle background with a dragon flying behind him to demonstrate Higgsfield's capabilities. He explains that Higgsfield has changed filmmaking by enabling AI-generated video backgrounds and scenes. The main tutorial portion shows how to connect Higgsfield to Claude using MCP in three clicks: go to the Higgsfield website and click on MCP/CLI, copy the provided MCP server URL (https://mcp.higgsfield.ai/mcp), then open Claude, click the plus sign, go to connectors, manage connectors, add a custom connector, name it, and paste the link. Once connected, users can generate cinematic videos directly from Claude using text prompts. The final frame shows Claude generating detailed video content descriptions for a YouTube channel demo, covering topics like politics, finance, food, history, and space in a handmade diorama style.
+
+- Higgsfield AI can generate cinematic video backgrounds and scenes from text prompts
+- Connect Higgsfield to Claude via MCP by copying the URL from higgsfield.ai/mcp
+- In Claude, go to connectors > manage connectors > add custom connector and paste the URL
+- Once connected, you can generate full videos directly from Claude prompts
+- The integration enables faceless YouTube channel content creation at scale
+- Claude can plan and generate entire video series with consistent visual styles
