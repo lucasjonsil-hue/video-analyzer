@@ -346,3 +346,16 @@ The video opens with a hook about SaaS companies losing $130 billion because peo
 - Onboarding tools: easiest to vibe-code on the list
 - AI chatbot wrappers: buildable but API costs may outweigh the savings vs. a subscription
 - Comment 'build' to receive all the prompts used in the video
+
+## 2026-07-10 18:04 UTC
+Source: https://www.instagram.com/p/DaM_-hTFCeA/?img_index=1&igsh=NTc4MTIwNjQ2YQ==
+
+Image carousel (itsnextwork): 'The 10 levels of Claude Code' — a skill progression from basic terminal use to fully autonomous scheduled agents. (Read via screenshots + claude.ai share because the post is photos, not video.)
+
+The 10 levels: 1) Terminal (basic CLI use), 2) Memory (CLAUDE.md project context files), 3) Commands (built-in slash commands), 4) Custom commands, 5) Skills (reusable packaged workflows), 6) MCP (connecting external tools/data), 7) Subagents (delegating work to scoped agents), 8) Hooks (automatic triggers on events, e.g. run something whenever a file changes), 9) Headless (running Claude Code non-interactively from scripts), 10) Routines (scheduled/recurring autonomous runs). Status for Life Hacker 3000 as of 2026-07-10: levels 1-7 are in active use (CLAUDE.md, analyze-batch skill, MCP, batch-runner subagent). Hooks and Routines are the identified next steps — hooks could trigger the video pipeline automatically on new uploads, routines could run it unattended overnight.
+
+- 10-level progression: Terminal, CLAUDE.md, Commands, Custom commands, Skills, MCP, Subagents, Hooks, Headless, Routines
+- Lucas is already at ~level 7: CLAUDE.md, skills, MCP, and subagents all in use
+- Hooks (level 8) = event-triggered automation, e.g. auto-process new videos dropped in a folder
+- Routines (level 10) = scheduled unattended runs, e.g. overnight batch processing
+- All 10 are real Claude Code features - no hype in this one
