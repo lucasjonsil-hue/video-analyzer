@@ -332,3 +332,17 @@ The video opens with a question challenging viewers about why they'd underuse Cl
 - A skills folder turns complex workflows into single reusable instructions
 - This system can reduce a 4-hour task to a single command
 - Comment 'Stack' to receive a detailed setup guide
+
+## 2026-07-10 17:50 UTC
+Source: https://www.instagram.com/p/Dacji3xM7FZ/?igsh=NTc4MTIwNjQ2YQ==
+
+A creator analyzes which SaaS tools can be replaced by vibe-coded (AI-generated) alternatives, testing builds for CRM, project management, accounting, onboarding, and AI chatbot tools. The video is sponsored by Emergent and argues that some tools are worth building yourself while others are better purchased. The creator offers to send prompts to anyone who comments 'build'.
+
+The video opens with a hook about SaaS companies losing $130 billion because people are vibe-coding their own tools. The creator then systematically goes through five categories of business software to determine which ones are worth replacing with AI-built alternatives. For CRM (item 01), he builds one live and concludes it's worth building if your company is small. For project management (item 02), he calls it the easiest on the list. For accounting (item 03), he advises against building it yourself because bank sync integration poses security risks and existing software is easier. For onboarding tools (item 04), he says it nailed it and calls it actually the easiest to build. For an AI chatbot/wrapper tool (item 05), he notes it has Anthropic vibes but warns that API credit costs might make it cheaper to just subscribe to Claude or ChatGPT. The video is sponsored by Emergent and ends with a CTA to comment 'build' to receive all the prompts used.
+
+- SaaS companies are losing billions as people vibe-code their own tools
+- CRM: worth building if your company is small
+- Accounting tools: don't build them — bank sync is risky and existing software is easier
+- Onboarding tools: easiest to vibe-code on the list
+- AI chatbot wrappers: buildable but API costs may outweigh the savings vs. a subscription
+- Comment 'build' to receive all the prompts used in the video
