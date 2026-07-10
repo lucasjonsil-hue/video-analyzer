@@ -13,3 +13,17 @@ The video opens by referencing a $15,000 longevity coaching product and claiming
 - The AI 'skill' runs weekly, analyzes sleep/food/exercise data, and texts you what to improve
 - Blood work APIs can also be integrated as a bonus data source
 - MyFitnessPal has a native MCP; other options include FatSecret, Open Food Facts, Cal AI, Cronometer
+
+## 2026-07-10 17:47 UTC
+Source: https://www.instagram.com/reel/DXpjTbMAHwS/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man showcases how he uses Claude AI to manage his life and business through a custom-built personal dashboard. The video demonstrates a productivity system that tracks goals, gym progress, notes, and includes an AI mentor, all built using Claude for free. He emphasizes how this setup has helped him run a business with his brother.
+
+The creator begins in a tanning bed setting, introducing how Claude AI can help with life and business in imaginative ways. He then shows a personal dashboard on a computer monitor that tracks everything about him — gym goals, notes, business tasks — with a green progress bar showing 89% completion. He explains the dashboard was built using Claude and is paired with a fitness band worn on his wrist. He also mentions having built an AI mentor inside the app. The video cuts to him walking outside checking his phone, reinforcing that this system is accessible on the go. The final frame emphasizes how much this system helps him. The overall message is that Claude can be used creatively to build powerful personal productivity and business tools for free.
+
+- Claude AI was used to build a custom personal life dashboard for free
+- The dashboard tracks gym goals, notes, and business tasks in one place
+- An AI mentor was built into the app using Claude
+- The system is paired with a fitness/wearable band for tracking
+- The creator is actively running a business built with his brother using Claude
+- The video promotes using Claude creatively for self-improvement and entrepreneurship
