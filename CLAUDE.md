@@ -38,8 +38,21 @@ Location: `F:\Life3000` (project root IS the video analyzer — files live direc
 - Note categories (`VALID_NOTE_CATEGORIES` in `main.py`) match the full planned module suite, not just AI/gym: `fitness`, `productivity`, `investing`, `ai_coding`, `project_ideas` (ideas/upgrades for Life Hacker 3000 itself), `to_do`, `ideas` (general fallback).
 - Known open gaps (low priority right now — Lucas is only feeding ~30-second clips): only 5 frames sampled regardless of video length, so long videos get sparse visual coverage; transcription speed/timeout on long (10+ min) videos is untested.
 
-### 🔜 Next up: Email & Calendar Assistant
+### 🔨 In progress: Email & Calendar Assistant (started 2026-07-10)
 Deliberately sequenced *after* Video Analyzer because it involves OAuth and more security complexity — wanted an easier first win before tackling this.
+
+**v1 scope (email intake → video pipeline):** Lucas emails himself video links anyway, so the first feature is `email_intake.py` — reads unread Outlook.com inbox emails whose subject contains "video", extracts Instagram/YouTube/TikTok links from the body, feeds each to the local analyzer, marks the email read. Code is written; blocked on the one-time app registration below.
+
+**One-time setup Lucas must do himself (Microsoft requires the account owner to do this):**
+1. Go to https://portal.azure.com and sign in with lucasjonsil@outlook.com
+2. Search "App registrations" → "New registration"
+3. Name: `Life3000`; under "Supported account types" pick **"Personal Microsoft accounts only"**; leave Redirect URI empty; click Register
+4. In the new app: **Authentication** → scroll to "Advanced settings" → set **"Allow public client flows" to Yes** → Save
+5. On the **Overview** page, copy the **"Application (client) ID"** and add it to `F:\Life3000\.env` as a new line: `MS_CLIENT_ID=<that id>`
+
+Then run `py email_intake.py` (with the analyzer server up). First run prints a code — sign in at microsoft.com/devicelogin, and the login token is cached to `ms_token_cache.json` (gitignored) so later runs need no sign-in. Auth uses MSAL device-code flow with only the `Mail.ReadWrite` scope (read inbox + mark read; it cannot send mail or touch anything else).
+
+**Later (per Section 5 spec):** calendar read/write scopes, trip planner, prep checklists.
 
 ### 💡 Idea stage (not yet started): Investment AI Module
 Fully scoped below in Section 4 — ready to build once earlier modules are further along, or sooner if it makes sense to prototype the calculators (see note in that section).

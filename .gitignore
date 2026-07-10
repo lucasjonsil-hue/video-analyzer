@@ -6,3 +6,4 @@ server.log
 /models/
 .claude/settings.local.json
 move-claude-to-F.ps1
+ms_token_cache.json
