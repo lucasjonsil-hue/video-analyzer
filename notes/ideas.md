@@ -137,3 +137,17 @@ The creator introduces herself as someone who was once a broke college student a
 - Presenter claims to earn $3,000+ per month from these combined hustles
 - All three methods require minimal startup cost or technical skill
 - Targeted at college students looking for flexible income
+
+## 2026-07-10 00:12 UTC
+Source: https://www.instagram.com/reel/Dajl_inS2vz/?igsh=NTc4MTIwNjQ2YQ==
+
+A young entrepreneur explains how to make $11,000 in 30 days by building and selling websites to home service business owners using AI tools and Facebook groups. The strategy involves finding businesses without websites on Facebook, building a free preview site using Claude AI and GoHighLevel, then pitching a $1,000 website build plus $99/month hosting fee.
+
+The presenter outlines a step-by-step method to earn $11K in 30 days starting from scratch with just a laptop and two free tools. First, join Facebook groups containing home service business owners (one shown has 142,000 members). Browse member lists to find business owners without websites in their bios, then message them offering a free website preview. Use Claude AI to generate a prompt for that specific business, then paste it into GoHighLevel (a free website builder) to create the preview in about 5 minutes. Send the prospect a personalized Loom video walkthrough of their custom site preview instead of scheduling a live meeting. Pitch them $500 upfront to start and $500 upon completion for a total of $1,000 per site, plus $99/month for ongoing hosting and maintenance. To hit $11K, one would need to close 10 clients — reaching out to 200 businesses per day means closing 10 out of 6,000 contacts, generating $10K in one-time fees plus $1,000 in recurring monthly revenue. The presenter ends with a call to action to follow and comment 'guide' for a detailed breakdown, and shows a dashboard reflecting over $30K in monthly recurring revenue.
+
+- Find home service business owners in Facebook groups who lack websites in their bios
+- Use Claude AI to generate a business-specific website prompt, then build it free in GoHighLevel
+- Send a personalized Loom video instead of scheduling a live meeting to pitch the preview
+- Charge $1,000 per website ($500 upfront, $500 on completion) plus $99/month for hosting
+- To hit $11K in 30 days, close just 10 clients out of a potential 6,000 outreach contacts
+- Recurring $99/month hosting creates compounding passive income over time
