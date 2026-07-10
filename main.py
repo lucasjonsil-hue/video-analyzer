@@ -13,15 +13,28 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 import anthropic
 import yt_dlp
+from faster_whisper import WhisperModel
 
 load_dotenv()
 
+# Keep temp video files and the Whisper model cache on this drive (F:) rather
+# than the system default (C:), which is nearly full on this machine.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TEMP_DIR = os.path.join(BASE_DIR, "tmp")
+MODEL_DIR = os.path.join(BASE_DIR, "models")
+os.makedirs(TEMP_DIR, exist_ok=True)
+os.makedirs(MODEL_DIR, exist_ok=True)
+
 app = FastAPI()
 client = anthropic.Anthropic()
+whisper_model = WhisperModel("base", device="cpu", compute_type="int8", download_root=MODEL_DIR)
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "lucasjonsil-hue/video-analyzer")
-VALID_NOTE_CATEGORIES = {"ai_ideas", "gym", "other"}
+VALID_NOTE_CATEGORIES = {
+    "fitness", "productivity", "investing", "ai_coding",
+    "project_ideas", "to_do", "ideas",
+}
 
 
 def save_note_to_github(result: dict, source: str) -> bool:
@@ -30,7 +43,7 @@ def save_note_to_github(result: dict, source: str) -> bool:
 
     category = result.get("note_category")
     if category not in VALID_NOTE_CATEGORIES:
-        category = "other"
+        category = "ideas"
 
     path = f"notes/{category}.md"
     api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
@@ -97,8 +110,13 @@ def extract_frames(video_path: str, num_frames: int = 5) -> list[str]:
     return frames_b64
 
 
+def transcribe_audio(video_path: str) -> str:
+    segments, _ = whisper_model.transcribe(video_path, beam_size=1, vad_filter=True)
+    return " ".join(segment.text.strip() for segment in segments).strip()
+
+
 def download_video(url: str) -> str:
-    out_path = os.path.join(tempfile.gettempdir(), f"{uuid.uuid4().hex}.mp4")
+    out_path = os.path.join(TEMP_DIR, f"{uuid.uuid4().hex}.mp4")
     ydl_opts = {
         "format": "mp4/best",
         "outtmpl": out_path,
@@ -114,7 +132,7 @@ def download_video(url: str) -> str:
     return out_path
 
 
-def analyze_frames_with_claude(frames_b64: list[str]) -> dict:
+def analyze_frames_with_claude(frames_b64: list[str], transcript: str = "") -> dict:
     content = []
     for i, frame_b64 in enumerate(frames_b64):
         content.append({
@@ -130,10 +148,16 @@ def analyze_frames_with_claude(frames_b64: list[str]) -> dict:
             },
         })
 
+    transcript_text = transcript if transcript else "(no speech detected)"
+    content.append({
+        "type": "text",
+        "text": f"Transcript of the video's audio:\n{transcript_text}"
+    })
+
     content.append({
         "type": "text",
         "text": (
-            "Analyze these video frames and return a JSON object with exactly these fields:\n"
+            "Analyze these video frames and the audio transcript above, and return a JSON object with exactly these fields:\n"
             "- summary: a 2-3 sentence description of the video content\n"
             "- overview: a detailed multi-sentence overview of what happens/is covered, as if taking notes for someone who hasn't watched it\n"
             "- key_points: an array of 3-6 short strings, the main takeaways or notable moments\n"
@@ -141,7 +165,15 @@ def analyze_frames_with_claude(frames_b64: list[str]) -> dict:
             "- energy: one of [low, medium, high]\n"
             "- pacing: one of [slow, moderate, fast]\n"
             "- hook_strength: one of [weak, moderate, strong] (how engaging the opening is)\n"
-            "- note_category: one of [ai_ideas, gym, other] — ai_ideas if the video is about AI, coding, prompts, or agents; gym if it's about fitness, workouts, or training; other otherwise\n\n"
+            "- note_category: one of [fitness, productivity, investing, ai_coding, project_ideas, to_do, ideas]. Pick based on content:\n"
+            "  - fitness: workouts, training, nutrition, sleep/recovery, exercise form\n"
+            "  - productivity: calendar/scheduling, trip planning, email, general productivity or life-admin content\n"
+            "  - investing: investing, markets, personal finance, portfolio/money topics\n"
+            "  - ai_coding: AI, coding, prompts, agents, dev tools, or software tutorials\n"
+            "  - project_ideas: the video sparks a concrete idea, upgrade, or feature for Lucas's own 'Life Hacker 3000' project (only use this if the content clearly maps to something he could build/add to his own suite of tools)\n"
+            "  - to_do: the video implies a concrete action item or task Lucas should do\n"
+            "  - ideas: general or miscellaneous ideas that don't fit any category above\n"
+            "  Use ideas as the fallback if nothing else fits well.\n\n"
             "Respond with ONLY valid JSON, no markdown, no explanation."
         )
     })
@@ -163,6 +195,65 @@ def analyze_frames_with_claude(frames_b64: list[str]) -> dict:
         raise ValueError(f"Claude did not return valid JSON: {raw}")
 
 
+def parse_note_file(category: str, content: str) -> list[dict]:
+    notes = []
+    # Entries are appended as "## <timestamp>" blocks by save_note_to_github
+    for block in content.split("\n## ")[1:]:
+        lines = block.strip().split("\n")
+        timestamp = lines[0].strip()
+        source = ""
+        paragraphs = []
+        key_points = []
+        for line in lines[1:]:
+            line = line.strip()
+            if line.startswith("Source: "):
+                source = line[len("Source: "):]
+            elif line.startswith("- "):
+                key_points.append(line[2:])
+            elif line:
+                paragraphs.append(line)
+        notes.append({
+            "category": category,
+            "timestamp": timestamp,
+            "source": source,
+            "summary": paragraphs[0] if paragraphs else "",
+            "overview": paragraphs[1] if len(paragraphs) > 1 else "",
+            "key_points": key_points,
+        })
+    return notes
+
+
+@app.get("/api/notes")
+async def get_all_notes():
+    if not GITHUB_TOKEN:
+        raise HTTPException(status_code=500, detail="GITHUB_TOKEN not configured")
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+    }
+    list_resp = requests.get(
+        f"https://api.github.com/repos/{GITHUB_REPO}/contents/notes",
+        headers=headers, timeout=15,
+    )
+    list_resp.raise_for_status()
+    all_notes = []
+    for item in list_resp.json():
+        if not item["name"].endswith(".md"):
+            continue
+        category = item["name"][:-3]
+        file_resp = requests.get(item["download_url"], headers=headers, timeout=15)
+        if file_resp.status_code == 200:
+            all_notes.extend(parse_note_file(category, file_resp.text))
+    all_notes.sort(key=lambda n: n["timestamp"], reverse=True)
+    return JSONResponse(content={"notes": all_notes})
+
+
+@app.get("/notes", response_class=HTMLResponse)
+async def notes_page():
+    with open("notes.html", "r", encoding="utf-8") as f:
+        return f.read()
+
+
 @app.get("/", response_class=HTMLResponse)
 async def root():
     with open("index.html", "r", encoding="utf-8") as f:
@@ -176,7 +267,7 @@ async def analyze_video(video: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail=f"Unsupported file type: {video.content_type}")
 
     suffix = os.path.splitext(video.filename or "video.mp4")[1] or ".mp4"
-    with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
+    with tempfile.NamedTemporaryFile(delete=False, suffix=suffix, dir=TEMP_DIR) as tmp:
         tmp.write(await video.read())
         tmp_path = tmp.name
 
@@ -184,7 +275,8 @@ async def analyze_video(video: UploadFile = File(...)):
         frames = extract_frames(tmp_path, num_frames=5)
         if not frames:
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
-        result = analyze_frames_with_claude(frames)
+        transcript = transcribe_audio(tmp_path)
+        result = analyze_frames_with_claude(frames, transcript)
         try:
             result["note_saved"] = save_note_to_github(result, source=video.filename or "uploaded file")
         except requests.RequestException:
@@ -204,7 +296,8 @@ async def analyze_video_url(url: str = Form(...)):
         frames = extract_frames(tmp_path, num_frames=5)
         if not frames:
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
-        result = analyze_frames_with_claude(frames)
+        transcript = transcribe_audio(tmp_path)
+        result = analyze_frames_with_claude(frames, transcript)
         try:
             save_note_to_github(result, source=url)
             result["note_saved"] = True

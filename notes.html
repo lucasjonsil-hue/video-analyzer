@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes — Video Analyzer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f13;
+      color: #e8e8f0;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    .container { max-width: 860px; margin: 0 auto; }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle { color: #6b6b8a; font-size: 0.875rem; margin-bottom: 1.5rem; }
+    .subtitle a { color: #a78bfa; text-decoration: none; }
+    .subtitle a:hover { text-decoration: underline; }
+
+    .toolbar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; align-items: center; }
+
+    .filter-btn {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      color: #b8b8cc;
+      border-radius: 999px;
+      padding: 0.35rem 0.9rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover { border-color: #a78bfa; }
+    .filter-btn.active {
+      background: rgba(167, 139, 250, 0.15);
+      border-color: #a78bfa;
+      color: #d6c8ff;
+    }
+    .filter-btn .count { color: #6b6b8a; margin-left: 0.3rem; }
+
+    #search {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      color: #e8e8f0;
+      border-radius: 10px;
+      padding: 0.55rem 0.9rem;
+      font-size: 0.875rem;
+      width: 100%;
+      margin-bottom: 1.25rem;
+      outline: none;
+    }
+    #search:focus { border-color: #a78bfa; }
+
+    .note {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 14px;
+      padding: 1.25rem 1.4rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .note-head { display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
+
+    .badge {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      padding: 0.2rem 0.65rem;
+      background: rgba(96, 165, 250, 0.12);
+      color: #93c5fd;
+    }
+    .badge.ai_coding { background: rgba(167, 139, 250, 0.14); color: #c4b5fd; }
+    .badge.fitness { background: rgba(52, 211, 153, 0.12); color: #6ee7b7; }
+    .badge.productivity { background: rgba(251, 191, 36, 0.12); color: #fcd34d; }
+    .badge.investing { background: rgba(74, 222, 128, 0.12); color: #86efac; }
+    .badge.project_ideas { background: rgba(244, 114, 182, 0.13); color: #f9a8d4; }
+    .badge.ideas { background: rgba(96, 165, 250, 0.12); color: #93c5fd; }
+
+    .timestamp { color: #6b6b8a; font-size: 0.75rem; }
+
+    .summary { font-size: 0.9rem; line-height: 1.55; color: #d4d4e4; }
+
+    .note details { margin-top: 0.7rem; }
+    .note summary {
+      cursor: pointer;
+      color: #a78bfa;
+      font-size: 0.8rem;
+      user-select: none;
+    }
+    .note details[open] summary { margin-bottom: 0.6rem; }
+
+    .overview { font-size: 0.85rem; line-height: 1.6; color: #b8b8cc; margin-bottom: 0.6rem; }
+
+    ul.points { padding-left: 1.2rem; }
+    ul.points li { font-size: 0.85rem; line-height: 1.6; color: #b8b8cc; margin-bottom: 0.15rem; }
+
+    .source-link { display: inline-block; margin-top: 0.6rem; font-size: 0.78rem; color: #60a5fa; text-decoration: none; word-break: break-all; }
+    .source-link:hover { text-decoration: underline; }
+
+    .status { color: #6b6b8a; text-align: center; padding: 3rem 0; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Video Notes</h1>
+    <p class="subtitle"><a href="/">&larr; Back to analyzer</a> &nbsp;&middot;&nbsp; <span id="total"></span></p>
+
+    <div class="toolbar" id="filters"></div>
+    <input type="text" id="search" placeholder="Search notes... (e.g. Claude, tokens, workflow)" />
+
+    <div id="list"><p class="status">Loading notes from GitHub&hellip;</p></div>
+  </div>
+
+  <script>
+    let allNotes = [];
+    let activeCategory = "all";
+
+    const listEl = document.getElementById("list");
+    const filtersEl = document.getElementById("filters");
+    const searchEl = document.getElementById("search");
+    const totalEl = document.getElementById("total");
+
+    function esc(s) {
+      const d = document.createElement("div");
+      d.textContent = s || "";
+      return d.innerHTML;
+    }
+
+    function render() {
+      const q = searchEl.value.trim().toLowerCase();
+      const filtered = allNotes.filter(n => {
+        if (activeCategory !== "all" && n.category !== activeCategory) return false;
+        if (!q) return true;
+        return (n.summary + " " + n.overview + " " + n.key_points.join(" ")).toLowerCase().includes(q);
+      });
+
+      if (!filtered.length) {
+        listEl.innerHTML = '<p class="status">No notes match.</p>';
+        return;
+      }
+
+      listEl.innerHTML = filtered.map(n => `
+        <div class="note">
+          <div class="note-head">
+            <span class="badge ${esc(n.category)}">${esc(n.category.replace("_", " "))}</span>
+            <span class="timestamp">${esc(n.timestamp)}</span>
+          </div>
+          <p class="summary">${esc(n.summary)}</p>
+          <details>
+            <summary>Details &amp; key points</summary>
+            <p class="overview">${esc(n.overview)}</p>
+            <ul class="points">${n.key_points.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
+          </details>
+          ${n.source ? `<a class="source-link" href="${esc(n.source)}" target="_blank" rel="noopener">${esc(n.source)}</a>` : ""}
+        </div>
+      `).join("");
+    }
+
+    function renderFilters() {
+      const counts = {};
+      allNotes.forEach(n => { counts[n.category] = (counts[n.category] || 0) + 1; });
+      const cats = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+      const btn = (cat, label, count) =>
+        `<button class="filter-btn ${activeCategory === cat ? "active" : ""}" data-cat="${cat}">${label}<span class="count">${count}</span></button>`;
+      filtersEl.innerHTML =
+        btn("all", "All", allNotes.length) +
+        cats.map(c => btn(c, c.replace("_", " "), counts[c])).join("");
+      filtersEl.querySelectorAll(".filter-btn").forEach(b => {
+        b.onclick = () => { activeCategory = b.dataset.cat; renderFilters(); render(); };
+      });
+    }
+
+    searchEl.addEventListener("input", render);
+
+    fetch("/api/notes")
+      .then(r => {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(data => {
+        allNotes = data.notes;
+        totalEl.textContent = allNotes.length + " notes";
+        renderFilters();
+        render();
+      })
+      .catch(err => {
+        listEl.innerHTML = '<p class="status">Could not load notes: ' + esc(err.message) + "</p>";
+      });
+  </script>
+</body>
+</html>

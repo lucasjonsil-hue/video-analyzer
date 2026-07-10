@@ -21,19 +21,22 @@
 ## 2. Current Build Status
 
 ### ✅ Working: Video Analyzer (first module)
-Location: `F:\VideoAnalyzer` (git repo, pushed to `lucasjonsil-hue/video-analyzer` on GitHub)
+Location: `F:\Life3000` (project root IS the video analyzer — files live directly here, not in a subfolder. Git repo, pushed to `lucasjonsil-hue/video-analyzer` on GitHub. The old `F:\VideoAnalyzer` / `C:\Projects\VideoAnalyzer` paths no longer exist — always use `F:\Life3000`.)
 
 - Python 3.12.10 installed (invoke via `py`, not `python`, in this shell)
 - Node.js v24.18.0 installed
 - Claude Code v2.1.195 installed, authenticated via Claude Pro
-- Anthropic API key configured in `.env`
-- Verified end-to-end: `py -m uvicorn main:app` → upload/URL → frame extraction → Claude analysis → results, tested via real request against a generated test video
+- `ANTHROPIC_API_KEY` and `GITHUB_TOKEN` both configured in `.env` (GITHUB_TOKEN added 2026-07-09 — a fine-grained PAT scoped only to `lucasjonsil-hue/video-analyzer`, Contents: Read/write, no expiration)
+- Verified end-to-end (2026-07-09) on a real video: upload/URL → frame extraction → audio transcription → Claude analysis → note committed to GitHub
+- Local dev server: run via the `video-analyzer` preview launch config, OR `py -m uvicorn main:app` from `F:\Life3000`. Note: the launch config that's actually used lives at `C:\Users\User\.claude\.claude\launch.json` (the Claude Code session's own config dir), not a project-local `.claude/launch.json` — if the server won't start, check that file first.
 - Files:
-  - `main.py` — FastAPI backend. Extracts frames with OpenCV, or pulls video from a YouTube URL via `yt-dlp` first. Sends frames to Claude (vision) for a structured JSON analysis (summary, overview, key points, content type, energy, pacing, hook strength, note category). Auto-files each analysis as a note (`notes/{category}.md`) committed to the GitHub repo via the GitHub Contents API — only when `GITHUB_TOKEN` is set in `.env` (currently unset in this environment, so note-saving is a no-op and `note_saved` correctly reports `false`)
+  - `main.py` — FastAPI backend. Extracts 5 frames with OpenCV, or pulls video from a YouTube/TikTok/Instagram URL via `yt-dlp` first. Also transcribes the audio track locally via `faster-whisper` (the "base" model, CPU, no API cost). Sends both the frames and the transcript to Claude (vision) for a structured JSON analysis (summary, overview, key points, content type, energy, pacing, hook strength, note category). Auto-files each analysis as a note (`notes/{category}.md`) committed to the GitHub repo via the GitHub Contents API.
   - `index.html` — drag-and-drop / URL-input frontend
-  - `requirements.txt`
-  - `Dockerfile`, `.dockerignore` — containerized deploy config
-- Recent fix: `note_saved` used to report `true` even when no GitHub push happened (silent no-op when `GITHUB_TOKEN` missing); now returns an accurate bool
+  - `notes.html` + `GET /notes` + `GET /api/notes` (in `main.py`) — notes viewer added 2026-07-10: browsable card UI for all saved notes, with category filter, counts, and full-text search. Fetches live from the GitHub repo's `notes/*.md`.
+  - `requirements.txt` — now includes `faster-whisper`
+  - `Dockerfile`, `.dockerignore` — containerized deploy config. Dockerfile pre-downloads the Whisper model at build time so the container doesn't need runtime internet access. **Not build-tested** — Docker Desktop isn't installed on this machine yet. Deliberately deferred: install + verify it only when actually ready to deploy somewhere, not needed for local `uvicorn` use.
+- Note categories (`VALID_NOTE_CATEGORIES` in `main.py`) match the full planned module suite, not just AI/gym: `fitness`, `productivity`, `investing`, `ai_coding`, `project_ideas` (ideas/upgrades for Life Hacker 3000 itself), `to_do`, `ideas` (general fallback).
+- Known open gaps (low priority right now — Lucas is only feeding ~30-second clips): only 5 frames sampled regardless of video length, so long videos get sparse visual coverage; transcription speed/timeout on long (10+ min) videos is untested.
 
 ### 🔜 Next up: Email & Calendar Assistant
 Deliberately sequenced *after* Video Analyzer because it involves OAuth and more security complexity — wanted an easier first win before tackling this.
@@ -207,3 +210,21 @@ In effect: a lightweight, activity-scoped preference-memory system, checked agai
 2. ~~Get Video Analyzer running end-to-end (upload video → frame extraction → Claude API analysis → results in frontend)~~ ✅ done, verified
 3. Move to Email & Calendar Assistant
 4. Investment Module: consider prototyping the Calculators feature early since it needs no API integration
+
+### Backlog / parked ideas (from Lucas's phone-Claude chats & analyzed reels, 2026-07-10)
+- **Hooks for the video pipeline** — Claude Code hooks could auto-trigger batch processing when new links/files appear, removing the manual "paste links" step. Natural next upgrade (Lucas is at "level 7 of 10" on the Claude Code progression; hooks are level 8).
+- **LinkedIn / Depop automation** — posting listings/content where official APIs are restricted. Candidate tool: Browser Use (open-source AI browser agent). Parked as "someday".
+- **Saved-content organizer** — pull in content beyond video platforms. Candidate tools: Crawl4AI or Maxun.
+- **Supabase as data layer** — if/when the GitHub-markdown notes outgrow themselves, migrate to a real Postgres database (free tier) for filtering/tagging.
+- **Overnight routines** — scheduled unattended runs of the pipeline (Claude Code routines / scheduled tasks).
+
+---
+
+## 8. How Claude Should Operate On This Project
+
+- **Verify current state before trusting this doc or memory.** This project's location has already moved once (`C:\Projects\VideoAnalyzer` → `F:\VideoAnalyzer` → `F:\Life3000`). If a path, file, or piece of config mentioned here doesn't check out, verify on disk rather than assuming this doc is current — then update this doc.
+- **Delegate batch/repetitive work to the `batch-runner` subagent to keep the main conversation lean.** A dedicated agent is defined globally at `C:\Users\User\.claude\agents\batch-runner.md` (Haiku model, restricted to Bash/Read/Grep — cheap and scoped for exactly this). When Lucas wants to feed multiple videos through the analyzer at once (e.g. "process these 10 links"), don't run each one inline and dump all the tool output into the main conversation — spawn `batch-runner` (via the Agent tool, `subagent_type: batch-runner`) to work through the list and report back a short summary. This keeps token usage down and keeps the main thread readable. It's a general-purpose batch-processing agent, not Life-3000-specific, so it's reusable for other repetitive/mechanical tasks on future projects too.
+- **Efficiency preference:** Lucas cares about keeping token usage/cost down and wants Claude Code sessions run efficiently — favor local/free tooling over paid APIs when there's a reasonable local option (this is why transcription uses local `faster-whisper` instead of a paid speech-to-text API), and use subagents/summarization to avoid bloating the main context with raw tool output.
+- Lucas is new to a lot of this tooling — explain *what* a step does and *why* before doing anything non-trivial (installs, config changes, credential creation), not just narrate the steps.
+- **Canary instruction:** address Lucas by name in the first sentence of every response. This doubles as a session-health signal — if responses stop using his name, the context is degrading and it's time to wrap up and start a fresh session.
+- **Batch video processing has a skill:** use the `analyze-batch` skill (defined at `C:\Users\User\.claude\skills\analyze-batch\SKILL.md`) whenever Lucas pastes a list of video links. It handles dedupe-against-GitHub, server startup, batch-runner delegation, and final verification in one flow.
