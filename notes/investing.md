@@ -41,3 +41,17 @@ The creator, filming from inside a Lamborghini, presents what he calls an 'uneth
 - Referral code 'devskip' allegedly gives $50 bonus on a $20 deposit
 - Blockchain transparency makes all trades publicly visible and copyable
 - A 'Consensus Matrix' tool already aggregates whale positions across markets
+
+## 2026-07-10 00:07 UTC
+Source: https://www.instagram.com/reel/DYy2GXjyo1O/?igsh=NTc4MTIwNjQ2YQ==
+
+A 21-year-old college student breaks down his multiple income streams for the past month, totaling over $8,700. He covers earnings from UGC content creation, TikTok pages, investments, and a part-time clinic job. He ends with motivational messaging about lifestyle accessibility.
+
+The creator, a 21-year-old college student, shares a detailed income breakdown for the past month. His first income stream is UGC (User Generated Content) work through the Bounty app, which earned him $4,732. His second stream is a gym-focused TikTok account that generated $674. He also mentions investments, specifically noting that NVIDIA performed exceptionally well but declining to share the exact figure. His fourth stream is a part-time job at a clinic, which he does for career development purposes, earning him $3,243. Finally, he has a car-themed TikTok page that is still growing and brought in around $80. He concludes by encouraging viewers that building multiple income streams and achieving a desired lifestyle is more attainable than it seems.
+
+- UGC on the Bounty app earned $4,732 in one month
+- Gym TikTok account generated $674
+- NVIDIA investment did 'crazy numbers' (amount undisclosed)
+- Part-time clinic job paid $3,243
+- Car TikTok page is still growing, earned ~$80
+- Motivational close: multiple income streams are more achievable than they appear
