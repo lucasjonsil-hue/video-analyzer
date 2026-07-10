@@ -359,3 +359,16 @@ The 10 levels: 1) Terminal (basic CLI use), 2) Memory (CLAUDE.md project context
 - Hooks (level 8) = event-triggered automation, e.g. auto-process new videos dropped in a folder
 - Routines (level 10) = scheduled unattended runs, e.g. overnight batch processing
 - All 10 are real Claude Code features - no hype in this one
+
+## 2026-07-10 18:04 UTC
+Source: https://www.instagram.com/p/DZ_RLROlFoq/?img_index=3&igsh=NTc4MTIwNjQ2YQ==
+
+Image carousel: '10 GitHub repos killing paywalled apps' — free open-source alternatives to paid SaaS. All 10 are real, established projects. (Read via screenshots + claude.ai share because the post is photos, not video.)
+
+The 10 repos: Coolify (self-hosted deploy platform, push-to-git hosting on your own server), OpenHands (autonomous coding agent), Maxun (no-code web data extraction), Open WebUI (self-hosted chat UI for local/API models), Browser Use (AI agent that drives a real browser - fills forms, clicks, scrapes; useful where no official API exists), Langflow (visual builder for LLM pipelines), Supabase (Postgres + auth + storage; a real database once markdown notes outgrow themselves), Stirling PDF (self-hosted PDF toolkit), Crawl4AI (turns websites into clean LLM-ready data, handles JS-heavy pages), Dify (LLM app development platform). Relevance to Life Hacker 3000: Supabase for future structured storage, Crawl4AI for scraping beyond video platforms, Browser Use for automating sites without APIs. Note: this note and the '10 levels of Claude Code' note came from the same pair of carousel posts; the two Source URLs may be swapped between them.
+
+- All 10 are real, widely used open-source projects - no fake names
+- Supabase: free Postgres database + auth + storage, candidate for Life 3000's future data layer
+- Browser Use: AI agent drives a real browser - automation for sites with no API
+- Crawl4AI: converts any website into clean LLM-ready data
+- Coolify: self-host deployments if Life 3000 ever runs as a persistent service
