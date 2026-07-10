@@ -291,3 +291,16 @@ The creator compares his Claude setup to others, claiming his is far more advanc
 - A shareable session URL lets him control the coding session from the Claude mobile app on his phone
 - He successfully added a new page to his website remotely from his phone
 - He teases leaking the full setup method if the video reaches 1000 likes
+
+## 2026-07-10 00:10 UTC
+Source: https://www.instagram.com/reel/DaTEuWORetG/?igsh=NTc4MTIwNjQ2YQ==
+
+A young man explains three methods to maximize Claude's Sonnet/Fable 5 AI model for coding and development tasks. He covers architectural planning strategies, context window management, and an open-source cost-cutting tool called 'ponytail' from GitHub. The video is aimed at developers looking to get better results while reducing API costs.
+
+The creator introduces Claude Fable 5 as a powerful AI tool and promises three key methods to get the best results. Method one: use the Fable model exclusively for high-level architecture and planning documents, then delegate actual coding work to smaller, cheaper models. Method two: keep the AI's context window between 40-80% utilization for optimal performance, clearing context before it exceeds 80% to avoid degraded output and wasted tokens. Method three: use an open-source tool called 'ponytail' (available on GitHub) which reportedly cuts costs by up to 75% and improves efficiency. He ends with a call to action, asking viewers to comment 'table' to receive his full planning document.
+
+- Use Claude Fable 5 only for architecture and planning, then delegate to smaller models
+- Keep context window between 40-80% for best coding performance
+- Clear context above 80% to avoid token waste and degraded output
+- Use open-source tool 'ponytail' from GitHub to cut costs by up to 75%
+- The planning document stage is the most critical part of working with AI coding tools
