@@ -38,6 +38,14 @@ Location: `F:\Life3000` (project root IS the video analyzer — files live direc
 - Note categories (`VALID_NOTE_CATEGORIES` in `main.py`) match the full planned module suite, not just AI/gym: `fitness`, `productivity`, `investing`, `ai_coding`, `project_ideas` (ideas/upgrades for Life Hacker 3000 itself), `to_do`, `ideas` (general fallback).
 - Known open gaps (low priority right now — Lucas is only feeding ~30-second clips): only 5 frames sampled regardless of video length, so long videos get sparse visual coverage; transcription speed/timeout on long (10+ min) videos is untested.
 
+### 🔨 In progress: Trip & Event Planner (v1 code added 2026-07-11, on the MacBook)
+First real code for the Section 5 spec (the two 2026-07-10 planner.md entries were hand-made prototypes — since deleted as test data along with other junk notes in the 2026-07-11 notes cleanup).
+
+- `planner.py` — standalone module: `generate_plan(text)` calls Claude (claude-opus-4-8, adaptive thinking, structured JSON output via `output_config.format` so the response is guaranteed-valid JSON), classifies trip vs event, resolves relative dates, returns Plan A/B/Fancy for trips or a single now/day-before/morning-of checklist for other events. Saves to `notes/planner.md` via the GitHub Contents API (same pattern as the analyzer). Three entry points: FastAPI router (mounted in `main.py`: `GET /planner` page + `POST /api/plan`), CLI (`py planner.py "spearfishing Tuesday"`), or import.
+- `planner.html` — input box + rendered plan cards, same dark style as index.html.
+- v1 has no live weather/marine forecast source (spec open question) — plans say what to check and when instead. No gear memory yet (spec Feature B) — that's v2.
+- **Not yet run-tested** — written on the MacBook, which has no `.env` (no ANTHROPIC_API_KEY/GITHUB_TOKEN) and no Python env. Test on the desktop: `git pull` in `F:\Life3000`, start the server, open `/planner`.
+
 ### 🔨 In progress: Email & Calendar Assistant (started 2026-07-10)
 Deliberately sequenced *after* Video Analyzer because it involves OAuth and more security complexity — wanted an easier first win before tackling this.
 

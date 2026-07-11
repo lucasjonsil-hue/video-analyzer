@@ -15,6 +15,8 @@ import anthropic
 import yt_dlp
 from faster_whisper import WhisperModel
 
+from planner import router as planner_router
+
 load_dotenv()
 
 # Keep temp video files and the Whisper model cache on this drive (F:) rather
@@ -26,6 +28,7 @@ os.makedirs(TEMP_DIR, exist_ok=True)
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 app = FastAPI()
+app.include_router(planner_router)
 client = anthropic.Anthropic()
 whisper_model = WhisperModel("base", device="cpu", compute_type="int8", download_root=MODEL_DIR)
 
