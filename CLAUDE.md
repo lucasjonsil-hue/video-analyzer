@@ -228,10 +228,11 @@ In effect: a lightweight, activity-scoped preference-memory system, checked agai
 
 ## 7. Immediate Next Steps
 
-1. ~~Install Python on Windows to unblock the Video Analyzer server~~ ✅ done
-2. ~~Get Video Analyzer running end-to-end (upload video → frame extraction → Claude API analysis → results in frontend)~~ ✅ done, verified
-3. Move to Email & Calendar Assistant
-4. Investment Module: consider prototyping the Calculators feature early since it needs no API integration
+1. **⏰ FIRST THING next desktop session — remind Lucas to test Planner v1** (written 2026-07-11 on the Mac, never run): `git pull` in `F:\Life3000`, start the server, open `/planner`, try a real request (e.g. "spearfishing Saturday"), confirm the plan renders and lands in `notes/planner.md` on GitHub. Then mark this done here.
+2. ~~Install Python on Windows to unblock the Video Analyzer server~~ ✅ done
+3. ~~Get Video Analyzer running end-to-end (upload video → frame extraction → Claude API analysis → results in frontend)~~ ✅ done, verified
+4. Move to Email & Calendar Assistant (email intake still blocked on the Azure app registration — Lucas must do it, steps in §2)
+5. Investment Module: consider prototyping the Calculators feature early since it needs no API integration
 
 ### Backlog / parked ideas (from Lucas's phone-Claude chats & analyzed reels, 2026-07-10)
 - **Hooks for the video pipeline** — Claude Code hooks could auto-trigger batch processing when new links/files appear, removing the manual "paste links" step. Natural next upgrade (Lucas is at "level 7 of 10" on the Claude Code progression; hooks are level 8).
