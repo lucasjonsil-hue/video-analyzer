@@ -938,3 +938,24 @@ The creator introduces the concept that GitHub can serve as a free design asset 
 If you've ever seen one of these insane visual effects online, you're like, I could never build that. Yes you can because GitHub is your new design asset library and I promise you it's not intimidating. Since you like this one, this is a new mini series where I find and test all the repos I can. So this one is a classic called Lennis. It gives you that smooth velocity scroll that probably 90% of awards websites are using. You just drop it in and instantly upgrade your upside. I honestly use it for every single project I do. The second one's called G-SAP and this is the animation library that pros have been using for years. You can do every scroll, text, image, UI animation you could possibly think of. Even some of these web websites are using G-SAP. The third one's called Vanta and this is your fancy 3D animated backgrounds. WebGL that you can paste in in about five lines of code and you get these beautiful clouds, birds, waves for your hero sections. The last one is blowing up right now for a reason. React bits. A huge library of copy-paste animations for React. Let me know if you want to see more or get a tutorial.
 
 </details>
+
+## 2026-07-18 15:28 UTC
+Source: https://www.instagram.com/reel/Da3e9lrhAVi/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Quiver Quantitative
+
+This video demonstrates a new integration between QuiverQuant (alternative trade data) and Claude AI via an MCP server connector. The setup allows Claude to track and analyze stock trades made by politicians, corporate insiders, and hedge funds in real time. The creator shows how to enable the QuiverQuant MCP connector in Claude to surface potentially suspicious trading activity.
+
+The video opens with a portfolio dashboard showing $52,014 in total value, setting the investing context. It then explains that QuiverQuant has released an MCP (Model Context Protocol) server connector that plugs directly into Claude AI, enabling it to pull alternative trade data. A diagram shows the three-layer architecture: QuiverQuant data → MCP Server → Claude. The video highlights that users can track trades by high-profile figures like Donald Trump and Nancy Pelosi, as well as tens of thousands of other investors. Frame 4 shows Claude surfacing buy signals for MSFT, AAPL, NVDA, and JPM with dollar amounts, with NVDA flagged as suspicious. Frame 5 shows the actual Claude desktop app UI where the QuiverQuant MCP toggle is enabled. The creator offers to send setup instructions to anyone who comments 'link'.
+
+- QuiverQuant released an MCP connector that integrates with Claude AI
+- Claude can now pull and analyze stock trades by politicians, insiders, and hedge funds
+- Track trades from figures like Donald Trump and Nancy Pelosi
+- Claude can flag suspicious-looking trades automatically
+- Setup is done via the Claude desktop app's connector settings
+- Creator offers a setup guide for viewers who comment 'link'
+
+<details><summary>Full transcript</summary>
+
+Quad can now track stock trades by politicians, insiders and hedge funds. Whoever quantitative just released a connector that plugs right into Quad and lets it pull data on people's portfolios. You can see what stocks are being bought by Donald Trump, Nancy Pelosi, and tens of thousands of other investors. You can have Quad look for trades that look suspicious and do whatever else you want with the data. If you want setup instructions, comment, link and I'll send a guide.
+
+</details>
