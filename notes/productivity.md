@@ -45,3 +45,22 @@ The video opens with the creator claiming a Harvard frat member endorsed these t
 Why is nobody talking about this? This guy right here is in a frat at Harvard, and he just dropped the best college advice I've ever heard. This can get you a 4.0, just listen. So I said literally everyone should be using right now. Part 171. If you go to this website over here, you can find it down at any paid app for free. That includes capcat pro, Spotify premium, paid games, and a bunch of streaming services so you can watch whatever you want. And these are all free. Next up, if you go to this website, it builds you a full study guide just from uploading lectures. Describe a YouTube link and paste it in. And the result is a full study guide that includes practice quizzes throughout. You can even ask the chat box to make a mock exam. There works with any textbooks, documents, PDFs, PowerPoints, YouTube videos, or even websites. It's the best study method for students right now. They're even using at Harvard. I never thought I'd be trusting a frat boy, but here we are.
 
 </details>
+
+## 2026-07-18 06:01 UTC
+Source: https://www.instagram.com/reel/DY02HIfyGHk
+
+The video discusses a transition from Obsidian to Notion combined with Claude AI for productivity and knowledge management. The creator showcases their 'MEZ Studios' Notion workspace, which includes backend databases, SOPs, skills documentation, and a toolkit tracker.
+
+The video opens with two people discussing Obsidian as a note-taking tool, acknowledging it was good 'for a time' but implying they've moved on. The creator then reveals their current loyalty lies with Notion combined with Claude AI. They showcase several components of their Notion workspace called 'MEZ Backend': a structured backend database system with hubs for Growth, Client, and Content management; a Processes & SOPs Hub containing 72 documented standard operating procedures organized by category; and a comprehensive toolkit database called 'MEZ Studios Toolkit' that tracks all active tools, their categories, costs, use cases, and other metadata in a detailed table view.
+
+- Creator moved away from Obsidian to Notion + Claude AI combo
+- Uses Notion as a structured backend with multiple database hubs (Growth, Client, Content)
+- Maintains 72 documented SOPs in a Processes & SOPs Hub
+- Has a detailed Toolkit database tracking all tools used in their stack
+- Claude AI is paired with Notion for enhanced productivity workflows
+
+<details><summary>Full transcript</summary>
+
+Sure, I was happy. For a time. But I loyal to Viral. Not this but fairly excuse for a civilization.
+
+</details>
