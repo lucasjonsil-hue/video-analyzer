@@ -329,3 +329,23 @@ The presenter, dressed in medical scrubs, opens with a conspiratorial hook claim
 They are gatekeeping magnesium. Magnesium will turn you into a testosterone monster, but only if you're taking the right kind. Magnesium mallet and think muscle, muscle pain, weakness, low energy, this is your go-to. Magnesium tarot, think cardio vascular, or blood pressure, controlled heart rhythm, lowers blood sugar. Magnesium 3 and a thick brain. Emory, concentration, brain fogs, the only form that crosses the blood brain barrier. And my number one recommended for magnesium glycinate. Most absorbable, best for sleep, stress, recovery, and testosterone. Unless you have a specific condition, this is your go-to. Comment, mag, and I'll send you my magnesium blueprint, absolutely free.
 
 </details>
+
+## 2026-07-18 15:23 UTC
+Source: https://www.instagram.com/reel/DYwoJnjIpEA/?igsh=NTc4MTIwNjQ2YQ==
+Creator: JACOB
+
+A fit young man shares what he considers the ultimate 'peak morning routine' while outdoors in a sunny Mediterranean-looking location. He lists activities including sunlight exposure, water, banana, espresso, a morning run, an ocean swim, shower, and breakfast. The video ends with a humorous dark screen punchline saying he doesn't actually have this life.
+
+The creator films himself shirtless outdoors under a clear blue sky, sweaty and wearing bone conduction headphones and sunglasses on his head. He rhetorically asks what a 'peak morning routine' looks like, then lists the ideal elements: waking up with sunlight, drinking water, eating a banana, having an espresso, going for a morning run, doing an ocean swim, taking a shower, and eating breakfast. Overlay images of a banana and someone swimming in the ocean are shown to illustrate the points. He then says 'if this is not my life, if this is not my morning routine...' before cutting to a black screen with the punchline 'I don't want it,' suggesting this is an aspirational or humorous take on lifestyle content.
+
+- Ideal morning routine includes: sunlight, water, banana, espresso, run, ocean swim, shower, breakfast
+- Video is set in a sunny, likely Mediterranean outdoor location
+- Uses overlay visuals to illustrate key routine elements
+- Ends with a comedic black-screen punchline: 'I don't want it'
+- Aspirational lifestyle/fitness content with a self-aware humorous twist
+
+<details><summary>Full transcript</summary>
+
+Wake up, sunlight, water, banana, espresso, morning run, ocean swim, shower, and then breakfast. If this is not my life, if this is not my morning routine, I don't want it.
+
+</details>
