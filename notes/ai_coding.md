@@ -979,3 +979,24 @@ The creator introduces a GitHub project called 'career-ops' which she describes 
 Someone just made a GitHub repo to apply to jobs for you and it has 14 different agents working at the same time doing different things And I think he found a job through using this so check it out. It's called career ops and it's supposed to be a full Job search command center. So instead of manually tracking applications, it gets a it's like an AI powered pipeline And it evaluates offers and generates tailored PDFs and CVs and scans portals automatically and processes them in batch Tracks everything in a single source of truth with integrity checks I'm gonna try this out today and let you guys know how it works
 
 </details>
+
+## 2026-07-18 15:29 UTC
+Source: https://www.instagram.com/reel/DaVOUy1SD3N/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Nick Saraev
+
+A content creator discusses the leaked system prompt for Claude (Fable 5), which is over 120,000 characters and 1,500 lines long. He explains that these instructions can be injected into cheaper open-source models to replicate Anthropic's AI behavior. The video ends with a call-to-action to comment 'Fable' to receive the link.
+
+The video opens with a stylized 'Fable 5' graphic and the presenter reacting with excitement to news that Claude's (referred to as 'Fable 5') full system prompt has been leaked online. He shows the GitHub file 'claude-fable-5.md' containing over 1,500 lines and 120,000 characters of detailed instructions that Anthropic uses to control how Claude thinks, plans, and operates. The presenter highlights that this leaked prompt covers content safety, search behaviors, copyright limits, visualizer instructions, and more. He then makes a key insight: these instructions can be extracted and injected into cheaper open-source models like GLM 5.2 or Kimmy Cave 2.7, allowing them to follow the same behavioral playbook as Claude. He frames this as getting the best of both worlds — advanced reasoning behavior at a lower cost. The video closes with a social media engagement hook asking viewers to comment 'Fable' to receive the direct link to the leaked prompt.
+
+- Claude's full system prompt ('Fable 5') has been leaked and is publicly available on GitHub
+- The system prompt is over 120,000 characters and 1,500+ lines long
+- It covers content safety, search behavior, copyright rules, and AI tool instructions
+- The leaked prompt can be injected into cheaper open-source models like GLM 5.2 or Kimmy Cave 2.7
+- This technique reportedly improves results by replicating Anthropic's advanced AI behavior at lower cost
+- Engagement bait: viewers are asked to comment 'Fable' to get the link
+
+<details><summary>Full transcript</summary>
+
+Log Fable 5 just came back and somebody's already leaked the entire system prompt on the internet. And this isn't some basic prompt. It's 120,000 characters long, over 1,500 lines, and it covers the exact set of instructions and the topic uses to control how their most powerful model thinks, plans, and gets things done. And the best part is you can take these exact instructions and inject them into cheaper open source models, like GLM 5.2 or Kimmy Cave 2.7. So they follow the same playbook that an entropic built for the world's best AI model. This significantly improves results and allows you to get the best of both worlds. One of your selves, just comment Fable and I'll send you guys the link directly.
+
+</details>
