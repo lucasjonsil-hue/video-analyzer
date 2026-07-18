@@ -491,3 +491,23 @@ The video opens with two people in a bedroom, with the title 'How I built my AI 
 Oh, more of watching the charts! This little guy does it all for me. These are my results. This video is going over 100,000 views. Here's how I built that system. First install Clod. We're gonna be using Clod Code. Download every PDF, every YouTube transcript, everything online that you can find that talks about how your strategy works and the mechanics behind it. L-Clod Code, you go read this file and learn the strategy. Make sure to have it ask you questions if it needs to clarify certain mechanics. Don't let it just assume things. Install trading view. This is a great tutorial for learning how to connect trading to your Declod. Tell Clod Code to write you a script that's gonna notify you when your set of appears on your platform of choice. I asked you to notify me three minutes before it and 15 seconds before my set of appears. Then wait for text to trade.
 
 </details>
+
+## 2026-07-18 06:06 UTC
+Source: https://www.instagram.com/reel/DZAFoRZIvme
+
+A masked content creator demonstrates how to install Anthropic's financial services plugins for Claude desktop app in under one minute. The tutorial covers setting up four key financial analysis tools that were previously only available to Wall Street professionals.
+
+The video opens with a masked presenter wearing Gucci balaclava sitting in front of multiple trading screens. He claims that Anthropic has released financial tools that democratize Wall Street-level analysis. The tutorial walks through three steps: first, getting a paid Claude account and downloading the Claude desktop app; second, navigating to Co-Work settings to add a marketplace plugin from GitHub using Anthropic's financial services plugin URL; third, installing four specific plugins: financial analysis, equity research, earnings reviewer, and market researcher. A quick demo shows using the '/morning-note' slash command in a Co-Work session to generate a complete financial brief on any stock or crypto in under 60 seconds. The video ends with a call to action to join the creator's free community.
+
+- Install Claude desktop app with a paid plan to access financial plugins
+- Add Anthropic's financial services marketplace via GitHub URL in Co-Work settings
+- Four key plugins: financial analysis, equity research, earnings reviewer, market researcher
+- Use '/morning-note' slash command to generate instant stock/crypto analysis briefs
+- Complete financial analysis can be generated in under 60 seconds
+- Creator promotes a free community for followers
+
+<details><summary>Full transcript</summary>
+
+Claude just killed the finance industry and Tropic just handed everyone the exact tools that Wall Street has been gatekeeping for decades. And here is how to install them in under one minute. Step 1, open the Claude account, get a paid plan and download the Claude desktop app. Step 2, go to Co-Work, click Customize and then add marketplace from GitHub and paste in the address that will connect you to an Tropic's financial services plugin. Step 3, install the 4 plugins every day in Westerns needs. So that is financial analysis, equity research, earnings reviewer and market researcher. That's it. Okay, let's do a quick test. Open a co-work session, type forward slash morning node on any stock or crypto and then you've got a complete drive in under 60 seconds. And now follow me for more and come in Claude to get access to my free community.
+
+</details>
