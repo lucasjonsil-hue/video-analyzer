@@ -178,3 +178,23 @@ The video opens with a clip mocking a construction worker earning $800/day doing
 Fuck that. Here's one of the dumbest ways you can earn more than a construction worker from your fucking couch. What we're gonna be doing is called appointment setting. You don't need a post content You don't need to show your face and here's exactly how you start grab your laptop and jump on to seek.com Or indeed if you're anywhere else in the world you want to search up remote appointments So give you a bunch of options, but they're not all good so this is what you want to look at for Commission base that there's no limit on how much you can earn warm leads So you're not pestering paper with cold calls and remote works So you can actually do it from your fucking couch. You likely need a resume So you got a chat chat chat chat and search appointment set a resume copy all that shit uses a template Then chuck in your own details then you're ready to apply these roles allowed men my mates to quit our construction jobs in 2024 and start traveling while earning good money at the same time This is not to flex. It's just to show that there are other options and if you'd like a bit more help starting Just comment the word yes below and I'll send you my completely free guide. Let's go
 
 </details>
+
+## 2026-07-18 05:46 UTC
+Source: https://www.instagram.com/reel/DWgZwaHACxt
+
+A college-aged male creator talks about what he considers 'peak male college life,' referencing a mix of academic success, startup culture, nightlife, fitness, and career ambitions. He promotes a lifestyle that blends partying, working out, internships at top firms like McKinsey, and joining Y Combinator startups. The video has an energetic, aspirational tone targeting ambitious college men.
+
+The creator speaks directly to camera in his dorm/apartment room with a Ukrainian flag visible in the background. He describes what he sees as the ideal college experience for young men, touching on several key lifestyle pillars: using AI tools (specifically referencing 'OpenClaw' instances) to boost GPA, lifting weights with friends, going out to clubs on weeknights, landing prestigious internships at McKinsey, and pursuing startup ambitions through Y Combinator. The video uses on-screen graphics including the YC logo, McKinsey & Company branding, OpenClaw logo, images of nightclubs, and Mac Mini boxes to visually reinforce his points. The overall message is that this current era is uniquely advantageous for ambitious college-aged men who can leverage technology and hustle culture simultaneously.
+
+- AI tools like OpenClaw can help students achieve high GPAs (3.9) with less effort
+- Balancing nightlife and academics is presented as part of 'peak' college life
+- Landing a McKinsey internship is highlighted as a major career win
+- Joining a Y Combinator startup in SF is framed as the ultimate ambition
+- Fitness and lifting with friends is part of the ideal lifestyle
+- The creator argues there has never been a better time to be an ambitious college male
+
+<details><summary>Full transcript</summary>
+
+Hear me out, there has never been a better time to be a dude in college. How is music in your ears, lack coffee and hate, while your 10 local open-clot instances just got you a 3.9 GPA like it's nothing. Listen, heavy ass wait with the guys, you're going on a random money for dollar viewers and still making it to class, your boy just got them to Kinsey off for the summer, and you're about to join that YC startup in San Francisco, and the next billion dollar company. Follow me man, because it cannot get much better than this bro.
+
+</details>
