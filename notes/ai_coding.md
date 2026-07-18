@@ -392,3 +392,23 @@ The video opens with someone sitting on a toilet editing video on a laptop, esta
 I'm gonna sit there and party baby, what we gonna do? I can never love a better me, I'll be there my packer
 
 </details>
+
+## 2026-07-18 04:51 UTC
+Source: https://www.instagram.com/reel/DXlFWL5EkaN/
+
+A video editor who charges $26K/month reveals he uses an AI tool called Autoedit (powered by Claude AI) integrated with Adobe Premiere Pro to edit videos in under 2 minutes. The tool automatically cuts bad takes, removes repeated thoughts, and preserves sequence context. The video ends with a call to action to comment 'claude' to try it for free.
+
+The video opens with a humorous shot of a person sitting on a toilet editing video on a laptop, claiming to charge clients $26K/month for video editing. It then reveals the secret: an Adobe Premiere Pro plugin called Autoedit that uses Claude AI to automatically edit footage in under 2 minutes. The plugin analyzes clips, cuts weak/bad takes, removes repeated thoughts, and preserves sequence context. A review screen shows stats like 22 clips kept, 44 cut, removing 2:32 of footage to produce a 1:31 final video. The creator expresses he may never manually edit again, and closes by inviting viewers to comment 'claude' to try the tool for free.
+
+- Creator charges $26K/month for video editing services
+- Uses Autoedit plugin for Adobe Premiere Pro powered by Claude AI
+- AI edits videos in under 2 minutes by cutting bad takes automatically
+- Plugin removes weak takes, repeated thoughts, and preserves sequence context
+- Dramatically reduces editing time with minimal manual effort
+- Viewer CTA: comment 'claude' to try the tool for free
+
+<details><summary>Full transcript</summary>
+
+I'm gonna sit there and party baby, what we gonna do? I can never love a better me, I'll be there my packer
+
+</details>
