@@ -860,3 +860,24 @@ The presenter, sitting casually in what appears to be a bedroom, holds a microph
 Okay, let's see how much you actually know about AI. LLM, Agent, Ragn, MCP server, Altman, Kapathy, Daria, Prompt Engineering, Context Engineering, Fine Tuning, Embeddings, Skills, Brinola, Whisper Flow, Clouli, Tokens and Vite Coding. If you don't know them just follow me, if you want.
 
 </details>
+
+## 2026-07-18 15:25 UTC
+Source: https://www.instagram.com/reel/DZO9anagj7C/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Aditya Rao
+
+This video showcases a minimal tech stack for running a startup at approximately $20/month. It lists 10 tools covering coding, backend, deployment, domain, payments, version control, email, auth, DNS, and analytics. Most tools are free, with only Claude AI and a domain name having costs.
+
+The video presents a curated list of tools that together form a complete startup infrastructure for roughly $20/month. Claude (AI coding assistant) costs $20/mo, Supabase handles the backend for free, Railway provides free deployment, Namecheap offers domain registration at $12/yr, Stripe processes payments at 2.9% per transaction, GitHub manages version control for free, Resend handles transactional emails for free, Clerk manages authentication for free, Cloudflare handles DNS for free, and PostHog provides analytics for free. The background shows someone coding at a RGB-lit desk setup, reinforcing the indie hacker/solo developer aesthetic.
+
+- Claude AI used for coding assistance at $20/month
+- Supabase, Railway, GitHub, Resend, Clerk, Cloudflare, and PostHog are all free tiers
+- Namecheap domain costs only $12/year
+- Stripe charges 2.9% per transaction with no monthly fee
+- Total monthly cost to run a startup is approximately $20
+- Full-stack infrastructure achievable with minimal upfront investment
+
+<details><summary>Full transcript</summary>
+
+Yes, I don't know what to make you read it
+
+</details>
