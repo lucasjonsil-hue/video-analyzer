@@ -138,3 +138,23 @@ The creator films his desk setup which includes four older Android phones in a m
 - Goal is to outcompete apps with larger marketing budgets through volume of organic social content
 - Uses RevenueCat dashboard to track revenue and subscriptions
 - Mac Studio cluster is part of setup but not yet being used for this strategy
+
+## 2026-07-18 04:47 UTC
+Source: https://www.tiktok.com/t/ZTSKuNdqW
+
+A woman demonstrates a dropshipping method using TikTok Shop and a tool called Page Pilot to quickly create product pages and run ads. She claims this method can make people 'extremely rich' by finding viral TikTok Shop products, cloning their pages, and running Meta ads. The video follows a classic 'secret hack' social media format designed to drive engagement.
+
+The creator opens with a fear-of-missing-out hook, claiming she might delete the video because too many people copying her method would hurt her own profits. She then walks through a dropshipping workflow: (1) Find a product already going viral on TikTok Shop (she shows one with 57K sold), (2) Copy the product link, (3) Paste it into a tool called Page Pilot, which auto-generates a fully customizable Shopify product page with copywriting and reviews already included, (4) Publish the page directly to Shopify, (5) Download the auto-generated ad creatives, and (6) Run those ads on Meta (Facebook/Instagram) to drive traffic and sales. Frame 4 shows a product page for a 'Jusron Silicone Chin Strap' as the example product being used in the demonstration.
+
+- Find viral TikTok Shop products (e.g., 57K sold) to validate demand
+- Use Page Pilot to auto-generate a Shopify product page from a TikTok Shop link
+- Page Pilot produces ready-made copywriting, reviews, and ad creatives
+- Publish the generated page directly to Shopify
+- Run the auto-generated ads on Meta to drive sales
+- Classic 'deleting this later' hook used to manufacture urgency and engagement
+
+<details><summary>Full transcript</summary>
+
+I am scared to show you this because a lot of people could get rich and copy me, which will make it so much harder for me so I might delete this later, but I just have to show you this. I found out the secret where you just go to TikTok shop and find like a product that's already going viral on here like this one has 57K sold and all you do is just like copy this link. Just go to this like page pilot website and you create a product page, paste that link in and then press next. And just a few seconds it made me like a fully customizable website like I think it even has like reviews. Just publish it to Shopify right here. Just like download the ads it makes for you. The copywriting is already done. Just run these on meta and let the money come to you.
+
+</details>
