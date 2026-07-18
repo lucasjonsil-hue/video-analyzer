@@ -714,3 +714,24 @@ The creator, who built a top food discovery app, presents four essential securit
 I built a number one food discovery app in my state. Here's how to not get hacked when vibe coding your app. Number one is to never expose your API keys. This is one of the most common and expensive mistakes you can make. If you're open AI, stripe or cloud code is sitting in the front end of your app, that's pretty much like giving your credit card to complete strangers. So here's the rule, your API key should live in the server only. You're using something like Bolt, Replic, use Environment variables and always use edge functions for every API call. Number two is input validation. Anything users can type into your app, whether it's in a search box or prompt can be dangerous. People can try to paste in code or commands to break into your database and steal other users data. To make sure this never happens, tell your AI tool to sanitize all user inputs. This will pretty much take care of all of that by itself. Number three is building your own authentication. Instead of managing passwords, tokens and sessions yourself, use a well-established authentication platform. You can use clerk, Firebase, SuperBase, Alt0. These are usually free to use and pretty easy to integrate as well. Next, we have rate limiting. People can use this to scrape your data, abuse your AI features or simply just crash your app. If somebody can hit your back and 10,000 times per minute, they will. To make sure this doesn't happen, tell your AI tool to add rate limiting to your API rods. One line of code can save you from nightmares.
 
 </details>
+
+## 2026-07-18 15:20 UTC
+Source: https://www.instagram.com/reel/DW1BfmDkrNZ/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Tony Chen
+
+This short video showcases Blueprint.am, a website that generates complete product/hardware designs from a text prompt. The tool produces parts lists, wiring diagrams, and 3D CAD designs without requiring a login. The video demonstrates it using examples like a tower server and a 7-inch AI drone quadcopter.
+
+The video is part of a recurring 'Powerful Websites You Should Know' series (part 987). The creator introduces blueprint.am, an AI-powered hardware design tool. By typing a prompt, the site generates a full product design including a parts list with cost breakdown, wiring diagrams, and an interactive 3D CAD view with categorized components (electrical, structural, enclosure, mechanism, misc, 3D print). The demo shows a 7-inch AI drone project with a Raspberry Pi 5, OAK-D S2 camera, analog FPV, and autonomous flight capabilities, totaling around $1,171. Another example shows a tower server build. The 3D viewer allows users to explore the mechanical layout interactively. No login is required to use the tool.
+
+- Blueprint.am generates full hardware product designs from a text prompt
+- Outputs include parts list with cost breakdown, wiring diagrams, and 3D CAD models
+- No login required to use the tool
+- Demo shows a 7-inch AI drone with Raspberry Pi 5 and OAK-D S2 camera (~$1,171 total)
+- 3D CAD viewer categorizes components by electrical, structural, enclosure, mechanism, and 3D print
+- Community projects are also visible and shareable on the platform
+
+<details><summary>Full transcript</summary>
+
+Powerful websites you should know, part 987. Did you know if you go to this website, just type in your prompt. It can generate a complete product design with parts list, wiring diagrams, and CAD designs included no log and required. Easy!
+
+</details>
