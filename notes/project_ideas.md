@@ -141,3 +141,24 @@ The creator, wearing orange-tinted glasses and a black hoodie, introduces an aut
 I've built the most ridiculous automation ever. The second the surfing bar you go six foot and offshore, our agent Cooke starts booking flights, villas, taxis and beers. This workflow checks the surfline forecast for all the water every few hours watching swell, period and wind. When it sees six foot and offshore for three days straight, the whole workflow gets triggered. Using our scraper node, it finds the cheapest flights out of Perth and the best villa close to the surf with the in budget. Then it packages the whole thing into one claim proposal and sends it to a boys group chat. The dates the swell, the flight price, the villa all of it. Everyone gets one choice. Lock in or miss out. Whoever taps yes gets pushed into the dangerous part of the workflow. Their flight booked, itinerary in the inbox, work emails get flipped out of office. Then it watches the live flight time, so the second we land, the workflow orders a taxi to the villa. From there it watches our taxis, ETA and right before we arrive, it fires up for Gojack order for a slab of cold bin tanks, time to hit the villa as soon as we walk through the door. This whole water machine can be found on GitHub if you want access to it. Just comment, buy it and I'll send it over.
 
 </details>
+
+## 2026-07-18 15:27 UTC
+Source: https://www.instagram.com/reel/DZpveoMRy0b/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus The (Nontechnical) Tech Bro
+
+A creator explains why vibe-coded apps go unnoticed and outlines a system using AI agents, scraping tools, and analytics to generate high-performing UGC content ideas. The video covers a pipeline using Apify to scrape Instagram posts, transcribe them, and feed structured data to an AI agent that generates optimized video concepts. The creator positions this as the 'actual hard part' of UGC and affiliate marketing.
+
+The video opens with the creator calling out builders who vibe-code apps that nobody sees, then pivots to expose what he calls the untold story of UGC and affiliate marketing. He says you only need about four softwares, most of which are free, and walks through choosing an AI agent (options shown include Claude, OpenAI Codex, Hera Agent, and OpenClaw). The core system involves connecting the agent to tools that scrape and transcribe every post from top creators using Apify, extracting the hook, first three lines, concept, and structure of each video, plus analytics, and storing it all in a database. The agent is then prompted to generate video concepts that will likely outperform what the creator themselves would come up with. He notes the hard part is always getting the creator to actually execute well, suggesting you give less experienced creators concepts based on remixed elements of their own high-performing videos, or spend more on experienced creators.
+
+- Vibe-coded apps fail because distribution and discoverability are ignored
+- UGC/affiliate marketing system uses ~4 tools, mostly free, plus an AI agent
+- Apify scrapes every Instagram reel and post from target creators
+- Transcription pipeline extracts hook, first 3 lines, concept, structure, and analytics into a database
+- AI agent queries the database and generates optimized video concepts
+- The hardest part is getting creators to execute — give them structured concepts or remix their own top performers
+
+<details><summary>Full transcript</summary>
+
+Nobody is gonna find the thing that you vibe coated dude. I guess I just need a rip UGC deals and my app is gonna go so viral These people are not telling you the whole story of how UGC and affiliate marketing work Only need like four softwares and most of these are free here's some options the only one that rips you off is definitely this shoes An agent any agent connect your agent to the software's have it build all of these skills Well, they could seem like that's all you got to do. Oh dude. Welcome to the actual hard part save closed a couple vids each creator Scrape and transcribe every single one of their post first three sentences and the overall concept and structure of the video Make sure you get the analytics to and put that all in a database connect your agent to the database and give your agent some version of this prompt It's gonna give you a concept of a video that will probably work better than anything the creator will come up with worked with a couple brands on a system like this Hard part is always getting the creator to make a good video unless you're working with an experienced creators Give them a concept for a video and be like make something like this. Hey, I can't really come up with any good ideas Just get it to remake a bunch of aspects from all their old high-performing video. That's probably your best bet or you can ball out on a more expensive creator But yeah choices yours buddy
+
+</details>
