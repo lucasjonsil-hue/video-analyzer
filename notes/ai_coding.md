@@ -511,3 +511,17 @@ The video opens with a masked presenter wearing Gucci balaclava sitting in front
 Claude just killed the finance industry and Tropic just handed everyone the exact tools that Wall Street has been gatekeeping for decades. And here is how to install them in under one minute. Step 1, open the Claude account, get a paid plan and download the Claude desktop app. Step 2, go to Co-Work, click Customize and then add marketplace from GitHub and paste in the address that will connect you to an Tropic's financial services plugin. Step 3, install the 4 plugins every day in Westerns needs. So that is financial analysis, equity research, earnings reviewer and market researcher. That's it. Okay, let's do a quick test. Open a co-work session, type forward slash morning node on any stock or crypto and then you've got a complete drive in under 60 seconds. And now follow me for more and come in Claude to get access to my free community.
 
 </details>
+
+## 2026-07-18 06:09 UTC
+Source: https://www.instagram.com/reel/DZzdYr0tg8D
+
+This video showcases a live AI trading system called 'Claude Fable 5' by Mirofish, running on Polymarket for BTC prediction markets through an MCP bridge. The system displays real-time probability lattices, tail probability ridges, and relationship graph simulations. The headline claims Claude AI can now control TradingView charts and run backtesting via a local MCP bridge.
+
+The video consists of 5 sequential frames showing a live dashboard of an AI trading/prediction system called 'Claude Fable 5' built by Mirofish, operating on Polymarket for BTC binary markets. The system tracks 5,944 total trades with a realized P&L of approximately $401,819 and a Sharpe ratio of 4.21. The dashboard has four main panels: a top summary with top wins, a Probability Lattice showing ball-drop simulation across 5,944 trades on one board, a Tail Probability Ridge showing strike landscape across sessions, and a Mirofish Relationship Graph Simulation showing node/edge signal networks. Across frames, the total P&L grows from ~$277K to ~$417K, sessions increase from 1,283 to 1,311, and confidence metrics fluctuate between 92-97%. The system uses Claude AI connected to trading infrastructure via an MCP (Model Context Protocol) bridge to control TradingView charts and run backtesting autonomously.
+
+- Claude AI can now control TradingView charts and run backtesting via a local MCP bridge
+- The 'Claude Fable 5' system by Mirofish trades BTC prediction markets on Polymarket with 5,944 trades and ~$401K realized P&L
+- System achieves a Sharpe ratio of 4.21 with 71% win rate across all trades
+- Live dashboard shows probability lattice, tail probability ridge, and relationship graph simulation in real-time
+- Confidence levels range from 92-97% with P(UP) consistently around 0.68-0.79 across frames
+- MCP bridge enables AI agents to interface directly with trading and charting infrastructure
