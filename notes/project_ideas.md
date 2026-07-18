@@ -162,3 +162,79 @@ The video opens with the creator calling out builders who vibe-code apps that no
 Nobody is gonna find the thing that you vibe coated dude. I guess I just need a rip UGC deals and my app is gonna go so viral These people are not telling you the whole story of how UGC and affiliate marketing work Only need like four softwares and most of these are free here's some options the only one that rips you off is definitely this shoes An agent any agent connect your agent to the software's have it build all of these skills Well, they could seem like that's all you got to do. Oh dude. Welcome to the actual hard part save closed a couple vids each creator Scrape and transcribe every single one of their post first three sentences and the overall concept and structure of the video Make sure you get the analytics to and put that all in a database connect your agent to the database and give your agent some version of this prompt It's gonna give you a concept of a video that will probably work better than anything the creator will come up with worked with a couple brands on a system like this Hard part is always getting the creator to make a good video unless you're working with an experienced creators Give them a concept for a video and be like make something like this. Hey, I can't really come up with any good ideas Just get it to remake a bunch of aspects from all their old high-performing video. That's probably your best bet or you can ball out on a more expensive creator But yeah choices yours buddy
 
 </details>
+
+## 2026-07-18 19:51 UTC
+Source: email from lusilva@chapman.edu, subject "life 3000 update - .md gym"
+
+# Life 3000 — Gym Notepad Feature
+
+## Idea
+Add a notepad to the gym section of Life 3000. Jot rough notes during/after a session (e.g. "tried something different, liked it"). Before the next session, Claude reads the notes and suggests updates to the gym routine/schedule.
+
+## Data Model
+```
+notes: [
+  {
+    id: string,
+    text: string,
+    date: string,
+    exercise?: string,  // optional, if logging a specific lift
+    weight?: number,    // optional, if tracking a weight increase
+    status: "new" | "reviewed" | "applied"
+  }
+]
+```
+
+## Flow
+1. **Notepad UI** in gym section — textarea + "save note" button, timestamped list below.
+2. **Quick-add fields** (optional, next to textarea): exercise dropdown (from current routine) + weight input, for fast structured logging without typing full notes.
+3. **"Review notes" button** — before next session, sends unreviewed notes + current routine to Claude.
+4. Claude compares notes against the routine and suggests specific edits (swap X for Y, add Z, bump weight on exercise A).
+5. **Approve/reject** each suggestion as a card — approved ones update the routine; note status becomes "applied."
+6. **Weight tracking** — structured weight logs build a per-exercise progression log/table over time (chart option discussed but not yet decided).
+
+## Build Order
+1. Notepad textarea + local state/storage (capture notes only, no AI yet)
+2. "Review notes" button — pull routine + notes into one prompt
+3. Parse Claude's response into suggested diffs, show as approve/reject cards
+4. Wire approval to actually edit the routine data
+5. Add weight-tracking log/table per exercise
+
+## Open Questions
+- Chart of weight-over-time per exercise, or just a running log/table?
+- Draft actual component code (React) for notepad + review flow — not yet started
+- Draft the Claude prompt structure for the review step — not yet started
+
+## Side Note — Apple Music
+No MCP connector currently available for Apple Music. Spotify connector is available if useful instead.
+
+## 2026-07-18 19:59 UTC
+Source: email from lusilva@chapman.edu, subject "life 3000 update- .md"
+
+# Life 3000 — Connecting Photos to Claude
+
+## Apple Music
+- No MCP connector exists for Apple Music.
+- Spotify connector is available if useful instead.
+
+## Apple Photos / iCloud Library
+- No MCP connector exists for Apple Photos or Google Photos.
+- Apps like Gemini Photos or Swipewise work because they're native iOS apps — iOS grants them direct on-device access to the photo library via PhotoKit after a permission prompt.
+- Claude only connects to outside services through MCP connectors (a service has to expose a "door"). Apple doesn't offer this for Photos, and photo-cleaning apps don't expose one either.
+- Manual workaround: export/select photos and upload batches directly into a chat with Claude.
+
+## The Real Workaround — Cloud Sync
+Google Drive and Dropbox are both available as MCP connectors (search, read, upload files).
+
+**Setup:**
+1. On your phone, turn on "camera upload" / auto-backup in the Google Drive or Dropbox app.
+2. This creates a synced folder that mirrors your camera roll automatically — no manual step per photo.
+3. New photos upload in the background (WiFi by default, cellular optional) as soon as they're taken.
+4. Your original Photos app is untouched — this is a parallel copy.
+5. Connect that same Google Drive/Dropbox account to Claude.
+6. Claude can then search, read, and pull files from that synced folder whenever asked.
+
+**Net result:** once set up, it's hands-off — take a photo, it shows up in the synced folder automatically, and Claude has a standing door into it.
+
+## Next Step
+Pick Google Drive or Dropbox and connect it via the connector picker to start using this.

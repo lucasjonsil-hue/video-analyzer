@@ -22,8 +22,13 @@ Log: email_agent_runs.log (via the .bat) — one summary line per action.
 import base64
 import os
 import subprocess
+import sys
 import time
 from datetime import datetime, timezone
+
+# Task Scheduler runs this under cp1252; emoji in email subjects crash print().
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 import requests
 

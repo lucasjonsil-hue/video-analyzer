@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym Notepad — Life Hacker 3000</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f13;
+      color: #e8e8f0;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    .container { max-width: 720px; margin: 0 auto; }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle { color: #6b6b8a; font-size: 0.875rem; margin-bottom: 1.5rem; }
+    .subtitle a { color: #a78bfa; text-decoration: none; }
+    .subtitle a:hover { text-decoration: underline; }
+
+    #note-input {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      color: #e8e8f0;
+      border-radius: 10px;
+      padding: 0.75rem 0.9rem;
+      font-size: 0.95rem;
+      width: 100%;
+      min-height: 70px;
+      resize: vertical;
+      outline: none;
+      font-family: inherit;
+      margin-bottom: 0.6rem;
+    }
+    #note-input:focus { border-color: #a78bfa; }
+
+    .quick-row { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap; }
+    .quick-row input {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      color: #e8e8f0;
+      border-radius: 10px;
+      padding: 0.55rem 0.8rem;
+      font-size: 0.9rem;
+      outline: none;
+      font-family: inherit;
+    }
+    .quick-row input:focus { border-color: #a78bfa; }
+    #exercise-input { flex: 2 1 180px; }
+    #weight-input { flex: 1 1 100px; }
+
+    .btn {
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      border: none;
+      color: #0f0f13;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-radius: 10px;
+      padding: 0.6rem 1.4rem;
+      cursor: pointer;
+    }
+    .btn:disabled { opacity: 0.5; cursor: wait; }
+
+    .status { color: #6b6b8a; font-size: 0.85rem; margin: 0.75rem 0; min-height: 1.1em; }
+    .status.error { color: #f87171; }
+    .status.ok { color: #6ee7b7; }
+
+    .notes-header { margin: 1.4rem 0 0.7rem; font-size: 1.05rem; color: #e8e8f0; }
+
+    .note-card {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 10px;
+      padding: 0.7rem 0.9rem;
+      margin-bottom: 0.6rem;
+    }
+    .note-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.35rem;
+      font-size: 0.75rem;
+    }
+    .note-date { color: #6b6b8a; }
+    .chip {
+      background: #24243a;
+      color: #d6c8ff;
+      border-radius: 999px;
+      padding: 0.1rem 0.55rem;
+      font-weight: 600;
+    }
+    .chip.weight { color: #fcd34d; }
+    .badge-new { color: #6ee7b7; font-weight: 600; }
+    .note-text { font-size: 0.92rem; white-space: pre-wrap; }
+    .note-del {
+      margin-left: auto;
+      background: none;
+      border: none;
+      color: #6b6b8a;
+      cursor: pointer;
+      font-size: 0.8rem;
+    }
+    .note-del:hover { color: #f87171; }
+    .empty { color: #6b6b8a; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Gym Notepad</h1>
+    <p class="subtitle">
+      Jot rough notes during or after a session — review comes before your next one.
+      <a href="/">&larr; Analyzer</a> &middot; <a href="/planner">Planner</a> &middot; <a href="/notes">Notes</a>
+    </p>
+
+    <textarea id="note-input" placeholder="tried something different today, liked it…"></textarea>
+    <div class="quick-row">
+      <input id="exercise-input" list="exercise-list" placeholder="exercise (optional)" />
+      <datalist id="exercise-list"></datalist>
+      <input id="weight-input" type="number" step="0.5" min="0" placeholder="weight (lb)" />
+      <button class="btn" id="save-btn">Save note</button>
+    </div>
+    <div class="status" id="status"></div>
+
+    <h2 class="notes-header">Session notes</h2>
+    <div id="notes-list"><p class="empty">Loading…</p></div>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const statusEl = $("status");
+
+    function setStatus(msg, cls) {
+      statusEl.textContent = msg;
+      statusEl.className = "status" + (cls ? " " + cls : "");
+    }
+
+    const esc = (s) => s.replace(/[&<>"']/g, c => `&#${c.charCodeAt(0)};`);
+
+    function render(data) {
+      const list = $("notes-list");
+      const notes = (data.notes || []).slice().reverse();
+      if (!notes.length) {
+        list.innerHTML = '<p class="empty">No notes yet — log your first session thought above.</p>';
+        return;
+      }
+      // seed the exercise autocomplete from exercises already logged
+      const seen = [...new Set(notes.map(n => n.exercise).filter(Boolean))];
+      $("exercise-list").innerHTML = seen.map(e => `<option value="${esc(e)}">`).join("");
+
+      list.innerHTML = notes.map(n => `
+        <div class="note-card">
+          <div class="note-meta">
+            <span class="note-date">${new Date(n.date).toLocaleString([], { dateStyle: "medium", timeStyle: "short" })}</span>
+            ${n.exercise ? `<span class="chip">${esc(n.exercise)}</span>` : ""}
+            ${n.weight != null ? `<span class="chip weight">${n.weight} lb</span>` : ""}
+            <span class="badge-new">${n.status}</span>
+            <button class="note-del" data-id="${n.id}" title="delete">✕</button>
+          </div>
+          ${n.text ? `<div class="note-text"></div>` : ""}
+        </div>`).join("");
+
+      // set note text via textContent so user input is never parsed as HTML
+      const cards = list.querySelectorAll(".note-card");
+      notes.forEach((n, i) => {
+        const el = cards[i].querySelector(".note-text");
+        if (el) el.textContent = n.text;
+      });
+
+      list.querySelectorAll(".note-del").forEach(btn => {
+        btn.onclick = async () => {
+          await fetch(`/api/gym/notes/${btn.dataset.id}`, { method: "DELETE" });
+          load();
+        };
+      });
+    }
+
+    async function load() {
+      const resp = await fetch("/api/gym/notes");
+      render(await resp.json());
+    }
+
+    $("save-btn").onclick = async () => {
+      const payload = {
+        text: $("note-input").value,
+        exercise: $("exercise-input").value,
+        weight: $("weight-input").value,
+      };
+      $("save-btn").disabled = true;
+      setStatus("Saving…");
+      try {
+        const resp = await fetch("/api/gym/notes", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        if (!resp.ok) {
+          const err = await resp.json();
+          setStatus(err.detail || "Save failed", "error");
+        } else {
+          $("note-input").value = "";
+          $("exercise-input").value = "";
+          $("weight-input").value = "";
+          setStatus("Saved.", "ok");
+          load();
+        }
+      } catch (e) {
+        setStatus("Save failed: " + e.message, "error");
+      } finally {
+        $("save-btn").disabled = false;
+      }
+    };
+
+    load();
+  </script>
+</body>
+</html>

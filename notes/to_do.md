@@ -55,3 +55,17 @@ Send the Chapman IT app-approval request. The email is ready and waiting in the 
 
 - Draft location: Outlook Drafts, subject "Student request: app approval..."
 - If approved: rerun py email_intake.py --add-account with the school account
+
+## 2026-07-18 20:40 UTC
+Source: claude session
+
+Done this session: read the two "life 3000 update" .md emails Lucas sent from his phone and filed both into notes/project_ideas.md (gym notepad feature spec; photos-to-Claude via Drive/Dropbox camera-upload sync). Confirmed Lucas sent the Chapman IT app-approval request himself — ticket IST-151079, auto-ack received, human reply pending. Found and fixed a bug: email_agent.py had crashed on every scheduled run since ~13:27 (UnicodeEncodeError on emoji in subjects under cp1252); fixed with utf-8 stdout/stderr reconfigure and verified with a clean full run (25 emails triaged). Created the /jarvis wake-word skill.
+
+Next move: build the gym notepad feature (step 1 of its build order: notepad textarea + local storage in the gym section). Also pending Lucas's call: connect Google Drive vs Dropbox for photo sync; commit the email_agent.py fix + notes changes (uncommitted locally).
+
+## 2026-07-18 20:56 UTC
+Source: claude session
+
+Gym notepad step 1 BUILT and verified: new gym.py router (GET /gym, GET/POST/DELETE /api/gym/notes) + gym.html (dark-theme page: textarea, optional exercise/weight quick-add with autocomplete, timestamped note cards, delete). Data persists in local gym_data.json (gitignored, shape {routine, notes} so the planner can later read the routine to estimate session length). Zero AI tokens at capture; the future "Review notes" step should keyword-match notes/fitness.md summary bullets only (never transcripts) to stay cheap. Linked from the analyzer homepage.
+
+Next move: gym notepad step 2 — "Review notes" button (pull routine + unreviewed notes into one prompt, suggest routine edits as approve/reject cards). Also still pending: Drive vs Dropbox choice for photo sync; Chapman IT ticket IST-151079 human reply (expect Mon/Tue).
