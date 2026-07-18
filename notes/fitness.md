@@ -385,3 +385,24 @@ The video presents '7 Toxic Habits' in a listicle format. The creator, a fit you
 - Escapism means using digital worlds because you're too weak to fix your real life
 - The video uses a direct, confrontational tone to motivate self-improvement
 - Content is targeted at young men interested in fitness and mental discipline
+
+## 2026-07-18 15:26 UTC
+Source: https://www.instagram.com/reel/DZbNYsKOmNi/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Tommy Park
+
+A young creator presents a 'sleepmaxxing knowledge quiz' covering highly technical sleep science concepts. He lists ten niche sleep-related terms to test the viewer's knowledge, framing it as an extremely advanced sleep optimization challenge. The video uses scientific diagrams to illustrate concepts like sleep pressure and the cortisol awakening response.
+
+The creator, sitting at a desk, introduces what he calls a '15/10 niche edition' sleepmaxxing knowledge test. He rattles off ten advanced sleep science terms: circadian rhythm, sleep pressure, adenosine clearance, sleep inertia, cortisol awakening response, somatic system, chronotype misalignment, REM rebound, and sleep phase delay disorder. As he mentions certain terms, he displays scientific diagrams — including a sleep pressure curve graph showing awake vs. sleep phases, a cortisol awakening response (CAR) diagram, and a wave-form graph illustrating sleep phase cycles over a 24-hour period. He concludes by saying that knowing all these concepts means you're 'pretty set' when it comes to sleep optimization knowledge.
+
+- Tests viewer knowledge on 10 niche sleep science concepts
+- Covers sleep pressure and its relationship to bedtime timing
+- Explains the cortisol awakening response (CAR) with a scientific diagram
+- Discusses sleep phase cycles shown through a 24-hour wave graph
+- Topics include chronotype misalignment and sleep phase delay disorder
+- Framed as an advanced 'sleepmaxxing' knowledge challenge
+
+<details><summary>Full transcript</summary>
+
+Let's see if you know how to sleep Max, but it's extremely niche. Circadian rhythm, sleep pressure, a denizen clearance, sleep inertia, what is all awakening response, some phatic system, chronotype misalignment, em rebound, and sleep phase delay disorder. If you know all these, I think you're pretty set.
+
+</details>
