@@ -26,3 +26,22 @@ The creator opens by claiming that knowing how to use a .edu email address is a 
 - Whop.com/edu/students helps students earn money online with a large existing student community
 - Canva Pro is free for students, saving $144/year compared to the standard plan
 
+
+## 2026-07-18 05:46 UTC
+Source: https://www.instagram.com/reel/DWDBV1oNfZk
+
+A TikTok creator shares 'useful websites part 171,' highlighting two tools: one for downloading paid apps for free and another AI-powered study guide generator. The video frames it as advice supposedly endorsed at Harvard, targeting students looking for productivity shortcuts.
+
+The video opens with the creator claiming a Harvard frat member endorsed these tools as the best college advice ever. The first website allows users to download paid apps and services for free, including CapCut Pro, Spotify Premium, paid games, and streaming services. The second website is an AI-powered study tool that generates full study guides from uploaded lectures, YouTube links, textbooks, PDFs, PowerPoints, and websites. The AI tool also creates practice quizzes and mock exams through a chat interface. The creator uses social proof from Harvard to build credibility and ends with a humorous note about trusting a frat boy.
+
+- Website #1 lets you download paid apps like Spotify Premium and CapCut Pro for free
+- Website #2 generates full study guides from lectures, YouTube videos, PDFs, and more
+- The AI study tool can create practice quizzes and mock exams on demand
+- Tool reportedly used by Harvard students
+- Framed as 'useful websites part 171' suggesting an ongoing series
+
+<details><summary>Full transcript</summary>
+
+Why is nobody talking about this? This guy right here is in a frat at Harvard, and he just dropped the best college advice I've ever heard. This can get you a 4.0, just listen. So I said literally everyone should be using right now. Part 171. If you go to this website over here, you can find it down at any paid app for free. That includes capcat pro, Spotify premium, paid games, and a bunch of streaming services so you can watch whatever you want. And these are all free. Next up, if you go to this website, it builds you a full study guide just from uploading lectures. Describe a YouTube link and paste it in. And the result is a full study guide that includes practice quizzes throughout. You can even ask the chat box to make a mock exam. There works with any textbooks, documents, PDFs, PowerPoints, YouTube videos, or even websites. It's the best study method for students right now. They're even using at Harvard. I never thought I'd be trusting a frat boy, but here we are.
+
+</details>
