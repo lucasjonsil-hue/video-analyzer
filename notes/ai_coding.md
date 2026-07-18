@@ -471,3 +471,23 @@ The creator opens by greeting viewers on day 12 of his challenge to drop out of 
 Day 12 of trying to drop out of school by posting AI YouTube shorts. All we need to do is post more AI YouTube shorts. For our channel is going up right now, we're at 33,000 subscribers and are getting millions of views. It looks like posting daily is actually working, so let's make another video so we can drop out of school. I went to Chagee B.T. for more video ideas and don't getting thrown into a gorilla enclosure. Oh, why? These ideas! Anyways, I had Chagee B.T. turned that idea into proms for a 1 minute video and then pasted it into Vue Max Diode. Their Sora video generator made all of the AI clips for me with zero water marks so people cannot tell its fate. Removing that water mark is so important because you'll actually get more views and make more money. I then just used their AI scriptwriter and AI voiceover and uploaded the video. Oh, why would you throw a dog like that? I have a strong feeling this video will blow up and will make thousands of dollars from the jump! Anyways, when should I drop out?
 
 </details>
+
+## 2026-07-18 06:05 UTC
+Source: https://www.instagram.com/reel/DYfFdWst8Cm
+
+A young creator explains how he built an AI-powered trading alert system using Claude (Anthropic's AI) and TradingView. He walks through the process of feeding strategy documents to Claude Code and having it write scripts that send notifications before trading setups appear. The result is an automated system that alerts him minutes before key chart patterns form.
+
+The video opens with two people in a bedroom, with the title 'How I built my AI trading system.' The main presenter then explains his automated trading notification system, which watches charts on his behalf. He claims the video went over 100,000 views and proceeds to explain the build process step by step. First, he instructs viewers to install Claude (referred to as 'Clod') and use Claude Code. Next, he recommends downloading every relevant PDF, YouTube transcript, and online resource related to the trading strategy you use. He then tells Claude Code to read those files and learn the strategy, emphasizing that you should have it ask clarifying questions rather than assume things. He then shows a screen with Claude Code being prompted to write a notification script. He also references connecting TradingView to Claude. The final frame shows the output: Mac notification-style alerts indicating 'heads up — ES long forming' with multi-timeframe confluence (Daily and 4H both bullish) and timing information like '3 min to close,' prompting the user to watch for confirmation at 10:00 AM.
+
+- Use Claude Code to build an automated trading alert system
+- Feed your trading strategy PDFs and transcripts to Claude so it learns the setup mechanics
+- Have Claude ask clarifying questions rather than assume strategy details
+- Connect TradingView to Claude to monitor charts automatically
+- The system sends alerts 3 minutes and 15 seconds before a trading setup appears
+- Alerts include multi-timeframe bias (Daily, 4H) and exact confirmation times
+
+<details><summary>Full transcript</summary>
+
+Oh, more of watching the charts! This little guy does it all for me. These are my results. This video is going over 100,000 views. Here's how I built that system. First install Clod. We're gonna be using Clod Code. Download every PDF, every YouTube transcript, everything online that you can find that talks about how your strategy works and the mechanics behind it. L-Clod Code, you go read this file and learn the strategy. Make sure to have it ask you questions if it needs to clarify certain mechanics. Don't let it just assume things. Install trading view. This is a great tutorial for learning how to connect trading to your Declod. Tell Clod Code to write you a script that's gonna notify you when your set of appears on your platform of choice. I asked you to notify me three minutes before it and 15 seconds before my set of appears. Then wait for text to trade.
+
+</details>
