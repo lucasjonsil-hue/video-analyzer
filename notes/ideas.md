@@ -251,3 +251,23 @@ The video opens with a blonde young man wearing a hoodie and earbuds in what app
 - Organic cotton bedding to avoid synthetic materials and chemicals
 - Non-toxic, homemade or natural multi-purpose cleaner in a reusable spray bottle
 - Health-optimization lifestyle content targeting longevity
+
+## 2026-07-18 06:07 UTC
+Source: https://www.instagram.com/reel/DZpxfcdhO3g
+
+A young entrepreneur in a gray hoodie shares 27 lessons learned from running an AI agency over the past year, condensed into a rapid-fire 45-second video. The lessons cover pricing, networking, client acquisition, content strategy, and mindset for running a successful AI agency. The delivery is fast-paced and direct, aimed at aspiring AI agency owners.
+
+The creator, wearing a gray zip-up hoodie, films a selfie-style vertical video sharing rapid business lessons from his year running an AI agency. Key lessons include: niching down, offering flexible tier retainers, documenting everything, not being overly technical, recognizing that most AI influencers are better at marketing than actual AI knowledge, using organic content to amplify cold outreach, investing in your network, understanding B2B sales cycles, selling outcomes not products, avoiding dependency on any single client's software, not going broke doing just implementations, only integrating AI where necessary, prioritizing long-term relationships, raising prices and rarely lowering them, leveraging referrals, avoiding broke businesses as clients, using enterprise software over custom-coded solutions, hiring fast learners over subject matter experts, researching before sales calls, prioritizing attention over product quality, and above all, building a personal brand. The video ends with a strong emphasis on personal branding as the most important factor.
+
+- Niche down and offer flexible tier retainers to maximize agency revenue
+- Sell the outcome, not the product — and only integrate AI where absolutely necessary
+- Raise your prices and rarely lower them; never work with broke businesses
+- Most AI influencers know little more than you — they're just better at marketing
+- Attention always beats product; building a personal brand is the most important thing
+- Invest money to grow your network and leverage referrals relentlessly
+
+<details><summary>Full transcript</summary>
+
+Ditches are in the niches, offer flexible tier retainers, document everything, don't be a technor. Most AI influencers don't actually know much more about AI than you, they're just better at marketing, organic content, amplifies cold outreach, invest money to grow your network, understand B2B sales cycle, sell the outcome, not the product, do not become an expert in anyone's software, you'll go broke by just doing implementations, only integrate AI where absolutely necessary, long term relationships are everything. Raise your prices, rarely lower your prices, leverage referrals relentlessly, never work at broke businesses, always use enterprise software over your own five-code solution of a good option exists, always hire people who are quick to learn over people who know the most, research before the sales call, attention always be to product, get clients for making large investments, get clients for incorporating, get clients for learning AI, get clients for doing anything, never assume you know everything about AI because you most definitely don't and there's nothing more important than building your personal brand.
+
+</details>
