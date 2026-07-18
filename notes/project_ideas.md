@@ -41,3 +41,23 @@ The video opens with a brooding guy staring out a window, setting up the joke th
 - Monthly progress dashboard with sleep tracking, habit counts, and visual progress bars
 - Weekly planner shows 88-90% daily task completion rates
 - Punchline: Tuesday's task list includes 'Break up with girlfriend'
+
+## 2026-07-18 05:49 UTC
+Source: https://www.instagram.com/reel/DXPDd5cupdU
+
+A high school student at what appears to be a trading conference demonstrates using an AI-powered trading tool called Tradvio to analyze charts and place trades on a TopstepX $100K combine account. The group of teenage traders in suits use a scalp trading AI analyzer to get buy signals and automatically set stop losses and take profit levels on the Micro Nasdaq futures (/MNQ).
+
+The video opens with a young Asian high schooler in a blue suit at what looks like a trading conference or hotel, claiming he'll show how to make money without a 9-5 job using AI. He and a group of other teenage boys in suits huddle around a laptop showing TopstepX trading platform with a $100K combine account. The process demonstrated involves: taking a screenshot of the candlestick chart, uploading it to an AI analyzer on Tradvio's scalp trading dashboard, receiving a BUY signal with risk parameters (0.25% risk, 1:3 risk-reward ratio), and then plugging in the AI-generated stop loss and take profit levels into the TopstepX trading platform. The trade is placed on MNQM25 (Micro Nasdaq futures). The video ends with the group celebrating and saying 'AI trading, let's go.'
+
+- High schoolers using AI trading tools at a trading conference/event
+- Workflow: screenshot chart → upload to Tradvio AI analyzer → get BUY signal → execute on TopstepX
+- Using a $100K TopstepX combine (prop firm) account, not real personal capital
+- Tradvio's scalp trading tool provides entry, stop loss, and two take profit levels automatically
+- Risk set at 0.25% per trade with 1:3 risk-reward ratio on 1-min timeframe
+- The account shows RP&L of ~$91-93 and a small unrealized loss of -$4.50 after entry
+
+<details><summary>Full transcript</summary>
+
+Hey, we're at the job, eventually with some fans. I'm gonna show you this voice out of the way with AI. Let's go. Alright, so first you're gonna take a screenshot of the chart real quick. Okay. And then you're gonna put it into the AI analyzer. Alright, this one right here. Yup, AI's gonna analyze the chart. Analyzing. It's something you're gonna buy. And then it's gonna give you your take profit and your stuff. Alright, yup, yup, yup. So now just plug in what AI's something to plug in. Okay. And you're gonna make some money right now. Come on, come on, come on, come on, come on, come on, come on. Hey, what did you guys learn today? AI training. Let's go. AI training.
+
+</details>
