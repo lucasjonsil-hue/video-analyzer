@@ -1077,3 +1077,18 @@ The video opens with a dramatic camera aperture/shutter visual motif to set a ci
 Claude can't watch video, it only reads the transcript and misses half. So I gave it eyes, one skill that makes Claude see every single frame. YTDLP grabs the video, FOMPEC rips the frames and Claude flips through them while it reads. A 30 minute video decoded frame by frame in 90 seconds, running local, 0 API cost, comment eyes and I send you the skill.
 
 </details>
+
+## 2026-07-18 15:31 UTC
+Source: https://www.instagram.com/reel/DanVne-oHzU/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Dmitriy Inin
+
+A man hiking in a mountainous rocky terrain introduces a humorous POV scenario about paying for a GPT-5.6 sol service and receiving an outdated template website. The video showcases several modern web designs, including a jewelry brand called OYLA and what appears to be an automotive/navigation service called Auren, contrasting with the joke premise. The video ends with scenic mountain footage.
+
+The video opens with a bearded man in a hoodie and cap standing on a rocky mountain trail with the text overlay 'POV: you paid for gpt-5.6 sol and got a template site from 2020.' This sets up a humorous commentary on AI-generated or AI-assisted websites feeling generic and outdated. Subsequent frames reveal what appear to be actually well-designed, modern websites - OYLA (a jewelry brand with clean editorial aesthetics) and Auren (a dark-themed automotive navigation service). The contrast implies the creator is either showcasing good AI-built sites to counter the joke, or demonstrating examples of quality work. The video includes an ALPINE branded site as well. The final frame returns to pure mountain scenery, suggesting this was filmed during a hike.
+
+- Humorous POV premise: paying for GPT-5.6 sol and getting an outdated 2020 template site
+- OYLA jewelry brand website shown with modern editorial design and 'Measured Purity' tagline
+- ALPINE branded site shown with product tagging and e-commerce features
+- Auren dark-themed automotive/navigation web app shown at localhost
+- Multiple polished web designs contrast with the joke about generic AI output
+- Filmed in a dramatic mountain/alpine setting during a hike
