@@ -798,3 +798,23 @@ The presenter introduces 'Dangerous Claude Skills Part 49,' promising to share 4
 Cloudscales will make you dangerous part 49. I'm gonna give you 40,000 Cloudscales you can use today for free in one file. This is everything Cloudcode, battle test at n and Throbic awarded. You're definitely gonna wanna bookmark this. This is called everything Cloudcode. This is an Anthropic Hackathon winner where you get the short hand guide, the long form guide, and even the security guide. This is where you can find it. But I have something way more valuable for you. These are over 40 Cloudscales. I use every day to give you dangerous superpowers. Comment the workload and I'll send it to you for free.
 
 </details>
+
+## 2026-07-18 15:23 UTC
+Source: https://www.instagram.com/reel/DYx4OuVuJuI/?igsh=NTc4MTIwNjQ2YQ==
+Creator: murphmaxxing
+
+A content creator showcases five essential Claude AI skills/plugins that significantly enhance its capabilities. The video covers plugins ranging from UI/UX design assistance to web browsing automation, presented in a fast-paced social media format.
+
+The creator presents five Claude plugins/skills in a countdown format. First is 'UI/UX Pro', an AI-powered design reasoning engine that produces Fortune 500-level designs. Second is 'Stop Slop', which eliminates typical AI writing patterns like em dashes and robotic filler text. Third is 'Superpowers', which transforms Claude into a 30-year veteran developer with built-in checkpoints, requirement brainstorming, and code review capabilities. Fourth is 'The Council', which deploys five AI advisors with different personalities to analyze strategy, find roadblocks, and synthesize the best course of action. Fifth is 'Playwright', which enables Claude to browse the web, interact with page elements, fill forms, generate PDFs, and handle file uploads autonomously.
+
+- UI/UX Pro plugin generates professional Fortune 500-level designs using AI reasoning
+- Stop Slop plugin removes robotic AI writing patterns for more human-sounding output
+- Superpowers plugin turns Claude into an experienced software developer with checkpoints and code review
+- The Council uses 5 AI advisors with different personalities to stress-test strategies
+- Playwright plugin enables Claude to autonomously browse the web and interact with any page element
+
+<details><summary>Full transcript</summary>
+
+Claude is useless without these five skills that you need to install right now. Number one, the UI-UX Pro. It comes with an AI-powered reasoning engine to analyze your project and create a professional design in minutes. There's no more boring AI slop design. This is Fortune 500 level stuff. Number two, stop slop. No more EM dashes. No more, it's not this, it's that. No more robotic AI sounding text and filler words. It just gets straight to the point in a way that a human can actually understand. Number three, superpowers. It turns Claude into a 30-year veteran software developer. It brainstorms the exact requirements before design for faster code. Has built-in checkpoints to ensure your plan works and won't add more bugs. And finally, a code reviewer to ensure industry standard coding procedures and principles are followed. Number four, the council. Five AI advisors with different personalities are going to pick apart your strategy, find all the roadblocks and winning ideas, and then synthesize the best course of action for you and your business. Number five is playwright. It allows Claude to actually browse the web and interact with every element on each page. It fills out forms, generates PDFs, handles file uploads, everything you could possibly want. It can just do on a tone. Follow along for more free Claude and AI tips like this.
+
+</details>
