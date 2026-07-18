@@ -1092,3 +1092,24 @@ The video opens with a bearded man in a hoodie and cap standing on a rocky mount
 - Auren dark-themed automotive/navigation web app shown at localhost
 - Multiple polished web designs contrast with the joke about generic AI output
 - Filmed in a dramatic mountain/alpine setting during a hike
+
+## 2026-07-18 15:32 UTC
+Source: https://www.instagram.com/reel/Daqywx1SqYM/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Brody
+
+A developer showcases Postiz, an open-source social media management tool with ~30,000 GitHub stars that uses an AI agent CLI to automate posting and scheduling. The tool allows users to manage multiple social platforms from a single interface without needing to open dashboards. It's free, self-hosted, and integrates with automation tools like n8n, Make, and Zapier.
+
+The creator introduces a new series called 'SOS' focused on highlighting noteworthy GitHub repositories. The featured repo is Postiz (gitroomhq/postiz-app), a self-hosted social media management platform sitting at around 30,000 GitHub stars. Unlike tools like Buffer, Postiz ships with an agent CLI that lets you point Claude (an AI) to draft and schedule a full week of posts automatically without opening any dashboards. It supports Instagram, TikTok, YouTube, LinkedIn and more from a single calendar view. Features include built-in analytics, AI writing assistance, a public API, and integrations with n8n, Make, and Zapier. The self-hosted version is completely free with no missing features compared to paid tiers, runs on your own hardware, and is fully open source.
+
+- Postiz is an open-source social media manager with ~30,000 GitHub stars
+- Features an AI agent CLI that can draft and schedule posts automatically using Claude
+- Supports Instagram, TikTok, YouTube, LinkedIn and more in one calendar
+- Built-in analytics, AI writing tools, and a public API
+- Integrates with n8n, Make, and Zapier
+- Fully free when self-hosted with no missing features
+
+<details><summary>Full transcript</summary>
+
+Someone just built a GitHub that lets an AI agent manage all of your social media accounts so you can post and schedule content on autopilot for free. Welcome to my new series called SOS, where I put you on repos that are worth your time. This is called Post-Is, sitting around 30,000 GitHub stars. What this does that a tool like Buffer can't is it ships with an agent CLI. This means you can point Claw to edit until Claw to schedule your week of posting. It will draft the posts, queue them, and you don't have to open any dashboards. Everything else works the way you'd expect, so one calendar for Instagram, TikTok, YouTube, LinkedIn, and more. Analytics all built in, AI features for writing posts. There's a public API, so it plugs straight into NADN, Make or Zapier as well, which is great. The reason this matters is because the self-hosted version has no missing features. Plately free, open source, runs on your own hardware. If you want to check it out yourself, just comment repo, and then I'll send you the GitHub.
+
+</details>
