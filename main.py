@@ -13,6 +13,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 import anthropic
 import yt_dlp
+from yt_dlp.networking.impersonate import ImpersonateTarget
 from faster_whisper import WhisperModel
 
 from planner import router as planner_router
@@ -75,6 +76,13 @@ def save_note_to_github(result: dict, source: str) -> bool:
         + "\n".join(f"- {point}" for point in result.get("key_points", []))
         + "\n"
     )
+    transcript = (result.get("transcript") or "").strip()
+    if transcript:
+        entry += (
+            "\n<details><summary>Full transcript</summary>\n\n"
+            f"{transcript}\n\n"
+            "</details>\n"
+        )
     new_content = current_content + entry
 
     payload = {
@@ -127,6 +135,8 @@ def download_video(url: str) -> str:
         "no_warnings": True,
         "noplaylist": True,
         "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
+        # Instagram blocks anonymous requests without TLS fingerprint impersonation (needs curl_cffi)
+        "impersonate": ImpersonateTarget.from_str("chrome"),
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
@@ -280,6 +290,7 @@ async def analyze_video(video: UploadFile = File(...)):
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
         transcript = transcribe_audio(tmp_path)
         result = analyze_frames_with_claude(frames, transcript)
+        result["transcript"] = transcript
         try:
             result["note_saved"] = save_note_to_github(result, source=video.filename or "uploaded file")
         except requests.RequestException:
@@ -301,6 +312,7 @@ async def analyze_video_url(url: str = Form(...)):
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
         transcript = transcribe_audio(tmp_path)
         result = analyze_frames_with_claude(frames, transcript)
+        result["transcript"] = transcript
         try:
             save_note_to_github(result, source=url)
             result["note_saved"] = True
