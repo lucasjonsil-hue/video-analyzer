@@ -372,3 +372,23 @@ The 10 repos: Coolify (self-hosted deploy platform, push-to-git hosting on your 
 - Browser Use: AI agent drives a real browser - automation for sites with no API
 - Crawl4AI: converts any website into clean LLM-ready data
 - Coolify: self-host deployments if Life 3000 ever runs as a persistent service
+
+## 2026-07-18 04:50 UTC
+Source: https://www.instagram.com/reel/DXlFWL5EkaN/
+
+A video editor reveals they charge clients $26K/month for video editing while demonstrating an AI-powered Adobe Premiere Pro plugin called Autoedit. The plugin uses Claude AI to automatically cut bad takes and reduce editing time to under 2 minutes. The video ends with a call-to-action to comment 'claude' to try it for free.
+
+The video opens with someone sitting on a toilet editing video on a laptop, establishing a humorous hook about charging $26K/month for video editing services. The creator then reveals their secret: using an Adobe Premiere Pro plugin called Autoedit that integrates Claude AI to automatically edit footage. The plugin analyzes clips, removes weak takes, cuts stammers and low-confidence lines, removes repeated thoughts, and preserves setup context. A review interface shows the AI made 44 cuts, kept 22 segments, removed 2:32 of footage, and produced a 1:31 final cut. The creator jokes they'll never manually edit again and ends by promoting the tool as free to try by commenting 'claude' on the post.
+
+- Creator charges $26K/month for video editing services
+- Uses an AI plugin called Autoedit integrated with Adobe Premiere Pro and Claude AI
+- The plugin edits full videos in under 2 minutes automatically
+- AI identifies and cuts bad takes, stammers, and repeated thoughts
+- Review Edits interface lets you approve or override AI decisions
+- Promotes trying the tool for free by commenting 'claude'
+
+<details><summary>Full transcript</summary>
+
+I'm gonna sit there and party baby, what we gonna do? I can never love a better me, I'll be there my packer
+
+</details>
