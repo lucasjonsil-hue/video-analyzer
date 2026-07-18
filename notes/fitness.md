@@ -442,3 +442,24 @@ The video presents a long list of self-improvement practices under the title 'Ho
 - Grooming/aesthetics: dyed eyebrows, skincare, dressing well, tanning, cologne
 - Fringe looksmaxxing practices: mewing, chin tucks, pheromonemax (Onion method)
 - Micronutrient and supplement optimization including potassium and electrolytes
+
+## 2026-07-18 15:32 UTC
+Source: https://www.instagram.com/reel/DarPHXxKq5D/?igsh=NTc4MTIwNjQ2YQ==
+Creator: edwin.bigbrain
+
+A creator outlines four 'S-Tier' habits for people who take their goals seriously, covering morning routines, discipline, focused learning, and challenging physical training. The video promotes a structured, intentional approach to daily life. It also promotes a tool called 'B-free' for converting books and articles into personalized audio lessons.
+
+The video presents four high-level habits dubbed 'S-Tier' for goal-oriented individuals. Habit one is creating an untouchable morning block where the first hour of the day is free from phones, notifications, and external agendas, allowing you to set your own tone. Habit two is getting out of bed immediately upon waking, training yourself to feel excited about starting the day with zero hesitation. Habit three involves focusing on one topic per month that moves you closer to your goals, rather than consuming excessive scattered information — the creator promotes a tool called 'B-free' to convert the best books and articles on that topic into personalized audio lessons. Habit four is adopting a training style that actually challenges the body rather than just maintaining it, emphasizing the difference between pushing your limits and merely going through the motions. The video ends with a call to action to comment 'S-tier' for a full list of hobbies.
+
+- Create an untouchable morning block — no phone, no notifications for the first hour
+- Get out of bed immediately after waking to build excitement and discipline
+- Focus on one topic per month to avoid information overload and actually digest knowledge
+- Use tools like 'B-free' to turn books and articles into personalized audio lessons
+- Train in a way that genuinely challenges you, not just maintains your current level
+- S-tier people are intentional and disciplined about how they structure their day
+
+<details><summary>Full transcript</summary>
+
+S-tier habits for people who take their goals seriously. Number one is a non-agushable morning block. The first hour of the day is completely yours. No phone, no notifications, no reacting to other people's agendas that they have for you. Set your own tone for your day. Number two is getting out of bed immediately after you wake up. You need to train yourself to get excited to start the day. There should not be any hesitation in your body. Number three, one topic per month that will move you closer to your goals. Most people consume so much information that they actually never get to digest it. S-tier people, however, will pick one topic that helps them move them closer to their goals and use B-free to turn the best books and articles on that topic into a personalized audio lesson. Number four, a training style that actually challenges you instead of maintaining you. There is a huge difference between actually pushing your body versus just getting it to move and S-tier people know this difference. Comment, S-tier, for the full list of hobbies.
+
+</details>
