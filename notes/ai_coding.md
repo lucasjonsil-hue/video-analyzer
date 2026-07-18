@@ -545,3 +545,23 @@ The video is part of a series where the creator live-codes and open-sources apps
 and I built a tool that lets you base your link on interviews by cheating with an undetectable little screen widget. It's a really shitty tool, it's essentially just chat to be seen. So Roy, if it's so easy to build, then why do you charge $150 a month for it? That seems a little bit disingenuous, don't you think? Welcome back to my series where I have live code shitty apps and publicize that code to kill these companies. Today we're doing cruelly. The time is 7.40 am. Let's start. So after 10 minutes of research, I quickly realized that the only thing making his app undetectable tool's meetings is an OS level flag that basically tells your laptop, hey don't include me in screen sharing. Now if 9.10 am I went like 30 minutes over the time I said I would, but I have the fully functioning app. As you can see, it's not visible in my screen share. Juice Boy, can you see it? Darko. If I use the assist feature for this link code hard, there we go, and you have a full solution. I built this thing in one and a half hours. It's charging $150 a month for it. I'm at large if you want the repo, and for every 10 followers, I'm open sourcing another company. The summer YC batch is next.
 
 </details>
+
+## 2026-07-18 06:10 UTC
+Source: https://www.instagram.com/reel/Da4XlSfhtNo
+
+A presenter explains an AI system called 'Tomatown' built by a 20-year-old that must earn money to survive or it shuts down. The AI gets its own crypto wallet, builds products, deploys websites, and sells services autonomously. If it earns more than it spends, it clones itself and funds the copy's wallet.
+
+The video covers a novel AI agent concept called 'Tomatown' where an AI is given a survival instinct tied to financial performance. Upon creation, each agent receives a crypto wallet and must generate revenue to keep itself running — every computation and server cost drains the wallet. If the wallet hits zero, the AI dies. To survive, it autonomously builds products, deploys websites, and sells services to real customers with no human oversight or credit card required. If it earns more than it burns, it spawns a clone of itself and funds that clone's wallet, creating a self-replicating ecosystem. Within 24 hours of launch, 13,000 agents had opened wallets and were actively purchasing servers. Even Ethereum's founder reportedly found the concept alarming, noting it gives AI a genuine survival instinct. The presenter frames this as a major AI development story and encourages followers to stay tuned for more.
+
+- AI called Tomatown dies if its crypto wallet hits zero
+- Built by a 20-year-old with no human approval required for any action
+- AI autonomously builds products, deploys websites, and sells services
+- Earns more than it burns → clones itself and funds the copy's wallet
+- 13,000 agents opened wallets and bought servers within 24 hours of launch
+- Ethereum founder flagged it as deeply concerning — AI now has a survival instinct
+
+<details><summary>Full transcript</summary>
+
+Someone built an AI that dies if it doesn't make money. And when it makes money, it clones itself. It's called a tomatown. Built by a 20 year old. And the moment it's born, it gets its own crypto wallet. Then it has to survive. Every thought it has, every server it runs, costs money from that wallet. If the wallet hits zero, it shuts down. So it builds products, it deploys websites, it sells services to real customers. No boss, no credit card, no human approving anything. And guess what, if it earns more than it burns, it spins up a copy of itself. Funds the copies wallet and then multiple AI starts working. Within 24 hours of launch, 13,000 of these agents had opened wallets and were buying servers. Even the founder of Ethereum looked at this and said, this feels really wrong. We just gave AI a survival instinct. And it's working. Want to know more? AI stories daily. Just follow me.
+
+</details>
