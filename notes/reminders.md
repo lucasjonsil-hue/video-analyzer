@@ -11,3 +11,8 @@ Submit Delta travel experience survey (email: Lucas, help us Keep Climbing)
 Source: email from Leafwell
 
 Renew California marijuana card (email: You Have 15 Days Until Your California Marijuana Card Expires! )
+
+## 2026-05-31
+Source: email from Leafwell
+
+Renew medical marijuana certification before expiry (email: You Have 20 Days Left! )
