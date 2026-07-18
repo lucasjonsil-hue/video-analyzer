@@ -392,3 +392,24 @@ The speaker outlines a concrete go-to-market strategy for young people graduatin
 What I would do coming out of college, I would go to small medium-sized businesses, having learned how to do agents, cloud bots, and say to them, there is a hundred things that you do in this tiny business that you don't have the time to check the details on. And you don't know if it's worth hiring somebody to do it. I'll charge you 100 bucks an hour, and if it doesn't work, you don't pay. I'll save you time and money. If you're just graduating from college, you've already used AI to cheat for multiple years, right? Yeah. And so for you to walk into a business and just save, show me all the things that are a hassle that you can't get to. And I'm going to see if we can automate them with agents.
 
 </details>
+
+## 2026-07-18 15:29 UTC
+Source: https://www.instagram.com/reel/DaRoh_2NLeb/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Young Jun Na
+
+A young man presents 10 progressively niche uncomfortable habits designed to build extreme confidence. The tips range from social interactions like talking to strangers and giving compliments, to mindfulness practices like going out without headphones and sitting alone in public.
+
+The creator delivers a self-improvement focused video outlining 10 uncomfortable but confidence-building habits, framed as getting 'progressively more niche.' The habits include: starting random conversations with cashiers or strangers, asking what someone ordered if it looks good, giving compliments even when awkward, wearing outfits you keep talking yourself out of, leaving your headphones at home in public spaces like lines and buses, posting videos or content you keep avoiding, joining conversations you're too shy to engage in, asking questions even when nervous, sitting alone outside with nothing to do, and ultimately reaching a point of not caring whether people are watching you. The video uses movie clips and lifestyle imagery to illustrate each point, and the presenter speaks directly to camera in a casual, relatable tone.
+
+- Start random conversations with strangers like cashiers or people in line
+- Give compliments and wear outfits you normally avoid out of self-consciousness
+- Leave headphones at home to practice being present and visible in public
+- Post content or join conversations you've been too shy to engage with
+- Sit alone outside with nothing to do to build comfort with being seen
+- Ask questions even when nervous to normalize vulnerability
+
+<details><summary>Full transcript</summary>
+
+10 out of 10 uncomfortable things that will build extreme confidence but they get progressively more niche. Start random conversations. Talk to the cashier instead of just nodding and ask a stranger what they order when it looks good. Give a random person a compliment even if it feels awkward. Where the outfit you keep talking yourself out of. Leave your headphones at home and walk around without them, stand in line without them and sit in the bus without them. Let yourself be seen. Post a video you keep talking yourself out of and join the conversations you're too shy to join. Ask questions even when you're slightly nervous. Go sit somewhere alone outside with nothing to do and get to the point where you stop caring so much about whether or not people are looking at you.
+
+</details>
