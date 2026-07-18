@@ -61,3 +61,23 @@ The video opens with a young Asian high schooler in a blue suit at what looks li
 Hey, we're at the job, eventually with some fans. I'm gonna show you this voice out of the way with AI. Let's go. Alright, so first you're gonna take a screenshot of the chart real quick. Okay. And then you're gonna put it into the AI analyzer. Alright, this one right here. Yup, AI's gonna analyze the chart. Analyzing. It's something you're gonna buy. And then it's gonna give you your take profit and your stuff. Alright, yup, yup, yup. So now just plug in what AI's something to plug in. Okay. And you're gonna make some money right now. Come on, come on, come on, come on, come on, come on, come on. Hey, what did you guys learn today? AI training. Let's go. AI training.
 
 </details>
+
+## 2026-07-18 06:05 UTC
+Source: https://www.instagram.com/reel/DYxDK5ixq07
+
+A creator explains how to build a one-person AI-automated company using Claude AI by connecting software tools, recording processes via Loom, converting them into Claude 'skills', and scheduling them to run autonomously. The video references the viral concept of a single-person billion-dollar company and provides a step-by-step framework for replicating it. The core idea is zero headcount with strong profit margins through full AI automation.
+
+The video opens with a hook referencing a one-person AI-powered pharmacy making more money than AI startups, tying into the viral 'single-person billion-dollar company' concept. The creator then walks through a repeatable framework: (1) Pick an industry with repetitive tasks. (2) Gather all necessary software and connect it to Claude AI using its Connectors feature (Asana, Google Drive, Gmail, Notion, etc.). (3) Run the business manually first to understand the processes. (4) Record Loom videos of each process, extract transcripts, and feed them to Claude with a prompt to generate 'skills' — automated AI workflows. (5) Test and debug the skills iteratively using a correction prompt when they fail. (6) Use Claude's scheduling feature to set each skill to run on repeat autonomously. (7) Optionally, build meta-skills that detect issues and auto-fix other skills. The end goal is a fully automated business with zero employees.
+
+- Pick an industry with high-volume repetitive daily tasks for best results
+- Connect all relevant software to Claude using its built-in Connectors (Gmail, Notion, Google Drive, etc.)
+- Record Loom videos of manual processes, extract transcripts, and use them to create Claude 'skills'
+- Run skills manually first, debug failures using a correction prompt until reliable
+- Use Claude's scheduling feature to set skills to run automatically on repeat
+- Advanced: create meta-skills that detect and auto-fix issues in other skills
+
+<details><summary>Full transcript</summary>
+
+Well something broke when a one person pharmacy started making more money than every AI startup. Remember this guy from like a month ago? How does one AI automate an entire ass company? Choose an industry where like the same task happens a thousand times a day. Well this one's probably perfect. Now go get all the software that you need. Go connect all of it to cloth. First you gotta run the business a little bit manually. Pretend AI doesn't exist yet. Once you've got the swing of things, start recording loom videos of yourself doing every process. Make each loom video one at a time. Copy the transcript for each. Give the transcript of the loom video to cloth with this prompt. Oh make sure it uses the software that you connect. Cloud is going to create a series of these things called skills. They're like little awesome AI cookbook. Round these skills fully manually for a while. Help all probably fuck up eventually. When they do just give cloud this prompt and just kind of keep doing that until they don't really fuck up anymore. Go find this schedule setting and cloth. Create a series of scheduled tasks for each skill and have like this is the prompt. And then just let all of them rip do you want to get really crazy? You can have it do some shit like this. Like whenever the skill detects an issue it can log it in some sort of software. Then have a skill that then auto fixes all the skills. But that's a story for another time. Congratulations you are now basically this guy.
+
+</details>
