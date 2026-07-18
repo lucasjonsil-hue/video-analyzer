@@ -38,13 +38,14 @@ Location: `F:\Life3000` (project root IS the video analyzer — files live direc
 - Note categories (`VALID_NOTE_CATEGORIES` in `main.py`) match the full planned module suite, not just AI/gym: `fitness`, `productivity`, `investing`, `ai_coding`, `project_ideas` (ideas/upgrades for Life Hacker 3000 itself), `to_do`, `ideas` (general fallback).
 - Known open gaps (low priority right now — Lucas is only feeding ~30-second clips): only 5 frames sampled regardless of video length, so long videos get sparse visual coverage; transcription speed/timeout on long (10+ min) videos is untested.
 
-### 🔨 In progress: Trip & Event Planner (v1 code added 2026-07-11, on the MacBook)
-First real code for the Section 5 spec (the two 2026-07-10 planner.md entries were hand-made prototypes — since deleted as test data along with other junk notes in the 2026-07-11 notes cleanup).
+### Trip & Event Planner (v2 on main as of 2026-07-18)
+Section 5 spec implementation (the two 2026-07-10 planner.md entries were hand-made prototypes — since deleted as test data along with other junk notes in the 2026-07-11 notes cleanup).
 
-- `planner.py` — standalone module: `generate_plan(text)` calls Claude (claude-opus-4-8, adaptive thinking, structured JSON output via `output_config.format` so the response is guaranteed-valid JSON), classifies trip vs event, resolves relative dates, returns Plan A/B/Fancy for trips or a single now/day-before/morning-of checklist for other events. Saves to `notes/planner.md` via the GitHub Contents API (same pattern as the analyzer). Three entry points: FastAPI router (mounted in `main.py`: `GET /planner` page + `POST /api/plan`), CLI (`py planner.py "spearfishing Tuesday"`), or import.
+- `planner.py` — standalone module: `generate_plan(text)` calls Claude (claude-opus-4-8, adaptive thinking, structured JSON output via `output_config.format` so the response is guaranteed-valid JSON), classifies trip vs event, resolves relative dates, returns Plan A/B/Fancy for trips or a single now/day-before/morning-of checklist for other events. Saves to `notes/planner.md` via the GitHub Contents API (same pattern as the analyzer). Three entry points: FastAPI router (mounted in `main.py`: `GET /planner` page + `POST /api/plan` + `POST /api/plan/save`), CLI (`py planner.py "spearfishing Tuesday"`), or import.
 - `planner.html` — input box + rendered plan cards, same dark style as index.html.
-- v1 has no live weather/marine forecast source (spec open question) — plans say what to check and when instead. No gear memory yet (spec Feature B) — that's v2.
-- **Not yet run-tested** — written on the MacBook. Test on the desktop: `git pull` in `F:\Life3000`, start the server, open `/planner`. (Or on the Mac: `.env` has GITHUB_TOKEN as of 2026-07-11 but still needs ANTHROPIC_API_KEY + `pip3 install anthropic fastapi uvicorn requests python-dotenv` — the planner doesn't need the heavy video deps.)
+- v2 features: gear memory (`planner_memory.json`, per-activity item counts; core items seen 2+ times trigger nudge questions) and live Open-Meteo daily + marine forecast for the Santa Barbara area fed into the prompt.
+- **Planner reconciliation resolved 2026-07-18:** the `desktop-wip-planner` branch's embedded planner (older, built into main.py) is fully superseded by `planner.py` v2 on main; `planner.html`/`invest.html` were already identical on both. Branch kept only as history — safe to delete.
+- v2's gear-memory + forecast path not yet run-tested end-to-end on the desktop; verify by opening `/planner` and saving a plan.
 - MacBook setup (2026-07-11): repo cloned at `/Users/Shared/AI/video-analyzer` with git push auth via a fine-grained PAT (`Life3000-macbook`, Contents R/W on this repo only, **expires 2026-08-10** — regenerate before then). Token lives in the Mac's `.env` and in the git remote URL.
 
 ### 🔨 In progress: Email & Calendar Assistant (started 2026-07-10)
@@ -60,6 +61,8 @@ Deliberately sequenced *after* Video Analyzer because it involves OAuth and more
 5. On the **Overview** page, copy the **"Application (client) ID"** and add it to `F:\Life3000\.env` as a new line: `MS_CLIENT_ID=<that id>`
 
 Then run `py email_intake.py` (with the analyzer server up). First run prints a code — sign in at microsoft.com/devicelogin, and the login token is cached to `ms_token_cache.json` (gitignored) so later runs need no sign-in. Auth uses MSAL device-code flow with only the `Mail.ReadWrite` scope (read inbox + mark read; it cannot send mail or touch anything else).
+
+**✅ Stage 2 — Email Assistant (built 2026-07-18):** `email_assistant.py` + `email.html`, mounted in `main.py`. `http://127.0.0.1:8000/email` shows the inbox categorized in one cheap Haiku call (video-links / action-needed / personal / newsletter / notification / junk, each with a one-line gist and a reply-worthwhile flag); a per-message "Draft reply" button (optional guidance text) has Sonnet write a reply and files it via Graph `createReply` into the Outlook **Drafts** folder — Lucas reviews and sends manually. Approval-first by construction: the `Mail.ReadWrite` scope cannot send mail at all. Inbox content is never committed to the GitHub notes repo. CLI digest: `py email_assistant.py [limit]`. Not yet built: junk auto-move to folder, calendar scopes.
 
 **Later (per Section 5 spec):** calendar read/write scopes, trip planner, prep checklists.
 
@@ -228,10 +231,10 @@ In effect: a lightweight, activity-scoped preference-memory system, checked agai
 
 ## 7. Immediate Next Steps
 
-1. **⏰ FIRST THING next desktop session — remind Lucas to test Planner v1** (written 2026-07-11 on the Mac, never run): `git pull` in `F:\Life3000`, start the server, open `/planner`, try a real request (e.g. "spearfishing Saturday"), confirm the plan renders and lands in `notes/planner.md` on GitHub. Then mark this done here.
+1. Test Planner v2's gear-memory + forecast path end-to-end (open `/planner`, save a plan, confirm `planner_memory.json` updates and the plan lands in `notes/planner.md`)
 2. ~~Install Python on Windows to unblock the Video Analyzer server~~ ✅ done
 3. ~~Get Video Analyzer running end-to-end (upload video → frame extraction → Claude API analysis → results in frontend)~~ ✅ done, verified
-4. Move to Email & Calendar Assistant (email intake still blocked on the Azure app registration — Lucas must do it, steps in §2)
+4. Email & Calendar Assistant stage 2 (Graph auth working since 2026-07-18): read/categorize the whole inbox, junk detection, approval-first draft replies
 5. Investment Module: consider prototyping the Calculators feature early since it needs no API integration
 
 ### Backlog / parked ideas (from Lucas's phone-Claude chats & analyzed reels, 2026-07-10)

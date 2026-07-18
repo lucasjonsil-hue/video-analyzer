@@ -8,3 +8,4 @@ server.log
 move-claude-to-F.ps1
 ms_token_cache.json
 planner_memory.json
+inbox_videos/
