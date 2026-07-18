@@ -658,3 +658,18 @@ The creator sits at his desk and later in his room with bookshelves visible, ene
 I don't want to use fable, I'm gonna hit my usage limits. Skill issue. What's your gonna do? You're gonna drop in a list of everything that you need to get done. Just literally a brain dump it in there. Then you're going to tell fable to create a sub-agent that is an opus profile that is going to execute everything. So what we're gonna do now is fable is going to be the orchestrator. Fable's gonna grease the task, grate the specks to hand it off to opus. Opus is way cheaper than gonna go and take off those tasks. Now opus is gonna go run and cook up these tasks and probably have like four or five other team members helping out other tasks and parallel work trees, whatever all that jazz. Then when they're dumped into the task, they're gonna go back to fable and say, hey boss, how does this look? And then fable's gonna go, hmm, I am much smarter than you. So I don't think you did better. Fix X, Y, and Z. And then the workers are gonna go back and fix those things and then come back to fable. It's gonna keep doing that loop a few times until it's good enough. Then fable will come back to you and say, hey, human, this is good. And that exact workflow is how I've been looping fable all day long because it's not actually fable that's running the task. No, fable is setting the spec and then making sure that things are adhered to that level of quality.
 
 </details>
+
+## 2026-07-18 06:25 UTC
+Source: https://www.tiktok.com/t/ZTSKmLE1W/
+Creator: jaredrhod
+
+This video tutorial demonstrates how to combine Claude Code with Obsidian to create an autonomous AI agent. The creator shows his Obsidian vault structure which serves as a knowledge base and operating system for the AI agent. The setup includes business documentation, campaign workflows, and daily notes that Claude Code can read and act upon autonomously.
+
+The video opens with the creator introducing the concept of using Claude Code alongside Obsidian to build an autonomous agent. He then screen-shares his Obsidian vault, revealing a well-organized knowledge management system that includes sections for business operations (Buckaroo Crew), marketing campaigns, daily notes, and various SOPs. The vault appears to serve as the agent's memory and instruction set - containing detailed notes on campaign creation workflows, business context, pricing information, and day-to-day operational logs. The daily notes section (shown dated June 11, 2026) contains dense operational summaries including ad performance data, tech stack updates, and business metrics. The system essentially treats the Obsidian vault as a structured context database that Claude Code can navigate and use to take autonomous actions on behalf of the business.
+
+- Claude Code is used as the autonomous agent engine, with Obsidian serving as its knowledge base
+- The Obsidian vault is highly structured with business docs, SOPs, campaign workflows, and daily logs
+- Campaign creation notes include step-by-step instructions Claude can follow autonomously
+- Daily notes contain rich operational context including ad metrics and business updates
+- The vault acts as persistent memory and instructions for the AI agent
+- This is a real working setup used for an actual business (Buckaroo Crew membership)
