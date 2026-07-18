@@ -177,3 +177,24 @@ The presenter opens by asserting that major tech leaders and companies (NVIDIA, 
 These guys aren't stupid. In the next 12 months, companies like NVIDIA, Tesla, Amazon, Microsoft, guys like Jeff Bezos, Elon Musk, these guys are going to spend hundreds of billions of dollars of their own money into data centers, AI infrastructure, robotics, quantum computing, and you know what most investors are going to do? They're going to put their money in the S&P 500 and invest in 497 other companies that have nothing to do with this, and they're going to miss the biggest opportunity to create wealth in their lifetime. I've invested millions of dollars in four funds over this next wave of technology. And if you want to invest around smart people, follow the smart money. Elon Musk, Jeff Bezos, these guys own and built these companies. They're not stupid. These are trillion dollar companies. This is not just the next revolution like the industrial revolution or the communication revolution. We're talking about discovery. We're talking about intelligence as a utility, and it's being built right now, while the average American is scared to death and is investing in a mutual fund or an ETF, and they're going to miss it all. Let me show you exactly what I'm putting my millions of dollars of my own money. Just comment club and you can follow along.
 
 </details>
+
+## 2026-07-18 15:25 UTC
+Source: https://www.instagram.com/reel/DZTvgdYAI2c/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Chanelle Helle-Nielsen | Futures Trader
+
+A trader explains how she automated her trading system to passively work through a prop firm challenge. She breaks down the technical workflow connecting TradingView alerts through a risk manager to PickMyTrade and ultimately her broker. The system runs on the cloud, requiring no active monitoring from her laptop or internet connection.
+
+The presenter has been running an automated trading system for over a month, targeting a prop firm challenge and payout. She reports the system has made $6,410 passively using a balanced risk setting. She then explains the full automation pipeline: (1) A strategy coded into TradingView fires an alert when a signal triggers. (2) That alert goes to a custom-built Risk Manager software she created, which calculates the correct position size based on a target dollar risk. (3) The Risk Manager sends the order to PickMyTrade, a webhook connector. (4) PickMyTrade routes the order directly to her broker, which is connected to a prop firm account. She highlights that the system runs entirely on the cloud, meaning it operates 24/7 without needing her computer on or an internet connection on her end. She also mentions scalability options like adding more prop accounts or using trade copiers to grow the portfolio.
+
+- System has generated $6,410 passively over one month on a prop firm challenge
+- Workflow: TradingView alert → custom Risk Manager → PickMyTrade webhook → broker/prop account
+- Custom Risk Manager software calculates correct position size for a set dollar risk per trade
+- PickMyTrade is used as the webhook connector to bridge signals to the broker
+- Entire system runs on the cloud — no laptop or internet connection required
+- Scalable by adding more prop accounts or using trade copiers
+
+<details><summary>Full transcript</summary>
+
+For over a month now, I've been documenting my automated trading system triparza prop challenge and get a payout. I put it on a relatively safe, balanced risk and I've just lit it to its thing. So far, it's made $6,410, which is fantastic for a completely passive approach. But I've had a lot of people asking questions about how this actually works, how you can automate a strategy behind the scenes. I'm going to break that down for you right now. My system works on trading view. So I've coded my strategy into a trading view alert. When the trading view alert fires, it sends a signal to my risk manager. This is a software that I built so it can control and calculate a dollar amount I want to risk. It then sends the alert to a web hook connector. I personally use a software called PickMyTrade. And that is once sends the order straight to my broker. In this circumstance, I've connected my broker to a proper account. And from there, you can really do what you want. You can scale up with different proper accounts. You can add other proper accounts. You can use trade copy as to increase your portfolio. It's really up to you. It's a really great system because once all of this is set up properly, it runs on the cloud, which means I don't have to have my laptop open. I don't have to be connected to the internet. I could be in the middle of absolute nowhere. And it would still automate and take my trades for me. If you've got any questions about how this works, drop a comment below and I'll be sure to get back to you.
+
+</details>
