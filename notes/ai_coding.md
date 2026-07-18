@@ -638,3 +638,23 @@ The video opens with the creator expressing excitement about discovering that Cl
 I am not okay. I just found out Claude can run your entire Instagram and nobody told me this was possible. Let's connect Claude to Instagram. Okay, you're in Claude, let's head over to Connectors. Oh wait, it's literally not there. Don't worry, I'm gonna show you. Just head over to Connectors. I use this because there's over a thousand apps you can just connect. And even if there's an app that you don't see, you can still request it right here. Just search Instagram and just click Connect. Now you can run audits on profiles, you can make content calendars, you could automate DMs. Comic Connect and I'll send you the setup link. A lot of people are gay keeping these shortcuts when it comes to side hustle. So like and follow my page because I post AI tips like this every single day.
 
 </details>
+
+## 2026-07-18 06:15 UTC
+Source: https://www.instagram.com/reel/DawVL3Isl4G
+
+A man wearing a green hoodie explains an advanced AI workflow using Claude (referred to as 'fable' in the transcript, likely 'Claude') as an orchestrator paired with Opus as a worker agent. He describes a multi-agent system where Claude sets specs and quality checks, while Opus handles the actual task execution in parallel work trees. The video is framed around the idea that most people only use Claude at 5% of its potential.
+
+The creator sits at his desk and later in his room with bookshelves visible, energetically explaining a sophisticated AI agent workflow. He instructs viewers to dump a brain dump of tasks into Claude, then have Claude create a sub-agent profile using Opus to execute those tasks. Claude acts as the orchestrator/manager — it creates the specifications and quality checks the output — while Opus (being cheaper) acts as the worker agent running the actual tasks, potentially spinning up multiple parallel work trees. The workers report back to Claude, which evaluates quality and sends corrections until the output meets its standards, at which point it reports back to the human. He emphasizes this is how he's been running Claude all day, using it as a smart manager rather than a direct executor.
+
+- Most people use Claude at only 5% of its capability
+- Use Claude as an orchestrator/manager, not as a direct task executor
+- Dump a brain dump of tasks into Claude to get started
+- Claude creates specs and hands off to Opus workers which are cheaper
+- Opus can spin up parallel work trees for multiple tasks simultaneously
+- Claude loops quality checks with workers until output meets standards before returning to the human
+
+<details><summary>Full transcript</summary>
+
+I don't want to use fable, I'm gonna hit my usage limits. Skill issue. What's your gonna do? You're gonna drop in a list of everything that you need to get done. Just literally a brain dump it in there. Then you're going to tell fable to create a sub-agent that is an opus profile that is going to execute everything. So what we're gonna do now is fable is going to be the orchestrator. Fable's gonna grease the task, grate the specks to hand it off to opus. Opus is way cheaper than gonna go and take off those tasks. Now opus is gonna go run and cook up these tasks and probably have like four or five other team members helping out other tasks and parallel work trees, whatever all that jazz. Then when they're dumped into the task, they're gonna go back to fable and say, hey boss, how does this look? And then fable's gonna go, hmm, I am much smarter than you. So I don't think you did better. Fix X, Y, and Z. And then the workers are gonna go back and fix those things and then come back to fable. It's gonna keep doing that loop a few times until it's good enough. Then fable will come back to you and say, hey, human, this is good. And that exact workflow is how I've been looping fable all day long because it's not actually fable that's running the task. No, fable is setting the spec and then making sure that things are adhered to that level of quality.
+
+</details>
