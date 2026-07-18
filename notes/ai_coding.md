@@ -525,3 +525,23 @@ The video consists of 5 sequential frames showing a live dashboard of an AI trad
 - Live dashboard shows probability lattice, tail probability ridge, and relationship graph simulation in real-time
 - Confidence levels range from 92-97% with P(UP) consistently around 0.68-0.79 across frames
 - MCP bridge enables AI agents to interface directly with trading and charting infrastructure
+
+## 2026-07-18 06:09 UTC
+Source: https://www.instagram.com/reel/Da1Mdd-qQW8
+
+A developer builds a clone of 'Cluely,' an AI-powered undetectable screen widget tool used to cheat on coding interviews, in just 1.5 hours. He argues that charging $150/month for such a simple app is disingenuous, then open-sources the code to undercut the company. He teases that he will continue open-sourcing competitor products for every 10 new followers.
+
+The video is part of a series where the creator live-codes and open-sources apps to 'kill' overpriced companies. This episode targets 'Cluely,' a tool that displays an AI assistant widget during screen-sharing interviews without being detected by the screen share. Starting at 7:40 AM, the creator reverse-engineers the core mechanic — an OS-level flag that hides the widget from screen capture — and rebuilds the entire app in roughly 1.5 hours. He demonstrates the working app by solving a LeetCode hard problem (Scramble String) using the AI assist feature, with the widget invisible in a screen share. He criticizes Cluely for charging $150/month for what is essentially a ChatGPT wrapper with a hidden window flag. He shares the repo publicly and promises to open-source another company's product for every 10 new followers, teasing that a Summer YC batch company is next.
+
+- Cluely charges $150/month for an app that is essentially a hidden ChatGPT widget using an OS-level screen-share exclusion flag
+- The creator rebuilt the core functionality in ~1.5 hours
+- The key technical insight is using an OS-level flag to hide the window from screen sharing
+- The app was demonstrated live solving a LeetCode Hard problem invisibly during a screen share
+- The repo is being open-sourced and shared publicly for free
+- The creator teases open-sourcing a Summer YC batch company next
+
+<details><summary>Full transcript</summary>
+
+and I built a tool that lets you base your link on interviews by cheating with an undetectable little screen widget. It's a really shitty tool, it's essentially just chat to be seen. So Roy, if it's so easy to build, then why do you charge $150 a month for it? That seems a little bit disingenuous, don't you think? Welcome back to my series where I have live code shitty apps and publicize that code to kill these companies. Today we're doing cruelly. The time is 7.40 am. Let's start. So after 10 minutes of research, I quickly realized that the only thing making his app undetectable tool's meetings is an OS level flag that basically tells your laptop, hey don't include me in screen sharing. Now if 9.10 am I went like 30 minutes over the time I said I would, but I have the fully functioning app. As you can see, it's not visible in my screen share. Juice Boy, can you see it? Darko. If I use the assist feature for this link code hard, there we go, and you have a full solution. I built this thing in one and a half hours. It's charging $150 a month for it. I'm at large if you want the repo, and for every 10 followers, I'm open sourcing another company. The summer YC batch is next.
+
+</details>
