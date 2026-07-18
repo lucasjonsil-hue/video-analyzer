@@ -64,3 +64,23 @@ The video opens with two people discussing Obsidian as a note-taking tool, ackno
 Sure, I was happy. For a time. But I loyal to Viral. Not this but fairly excuse for a civilization.
 
 </details>
+
+## 2026-07-18 06:11 UTC
+Source: https://www.instagram.com/reel/DaRF2NfOFdB
+
+A young woman shares a job search strategy she learned from a male content creator that helped her land an internship. The method involves finding and directly emailing hiring managers or directors at target companies rather than relying solely on the standard job application process. She demonstrates how to use LinkedIn and a tool called Jobtright to find contact information.
+
+The video features a woman crediting a male creator (shown in frame 2 holding a duck toy) for a job search tip that helped her land a summer internship. The male creator explains that most applicants are lazy, and standing out requires directly emailing hiring managers as soon as you apply. The woman then demonstrates the step-by-step process: (1) Find the job posting and note keywords like the team name, (2) Go to the company's LinkedIn page and click 'People,' then filter by the keyword to narrow down the employee list to directors or hiring managers, (3) Use a tool called Jobtright — paste in the LinkedIn profile URL and it fetches the person's email address, (4) Send a direct email rather than a LinkedIn message, since LinkedIn inboxes are reportedly flooded with up to 100 messages. She emphasizes this works because so few candidates do it, and closes with encouragement for job seekers in a tough market.
+
+- Directly email hiring managers immediately after applying to bypass automated screening
+- Use LinkedIn's People filter with job posting keywords to identify the right contacts
+- Use Jobtright to find email addresses from LinkedIn profiles
+- Email is more effective than LinkedIn DMs because recruiter LinkedIn inboxes are overcrowded
+- Standing out requires extra effort most candidates skip
+- This strategy helped the creator land a summer internship
+
+<details><summary>Full transcript</summary>
+
+If anybody knows who this guy is, please tell him I said thank you because he was the one who helped me land my internship this summer. You guys don't believe me, just listen to him. Like, it's really easy when you realize how lazy most people are. I do this one thing that helps me land jobs no matter how bad the market is. And the only reason it works is because other people aren't doing it. So I was following up on my interview applications. You have to remember that when you apply to a job, you're just one out of thousands of people. When I apply to a job, just as quickly as I hit that apply button, I send an email off to the hiring manager, the manager, or even the director of the team. And sometimes when I do that, I find I even bypass the automated job application processes. Now you might be wondering, what do I follow up with and how do I even find these kind of people? Don't worry, I'm going to show you exactly how. First, pull up the job posting and look for hints and keywords. For example, this has the team's name listed right here. So remember this. This is really helpful. Now go to the company's page and click on people. Put your keyword in here and hopefully that's going to bring it down to a lot less members. Right here, this is really great. There's only 87 people. So down here, I'm going to start looking for the directors or hiring managers. Look like she's a director, so I'll probably go ahead and messager. Now if you want to take it one step further, what's even better than messaging them on LinkedIn is actually getting their email. Go to job right and then pull up the company page, paste in the LinkedIn, and it's going to find you the email information right over here. To be honest, I think email is much more effective than LinkedIn because I've heard recruiters tell me that the LinkedIn boxes are filled up to like 100 messages. But yeah, I'm not going to lie, this job market is super tough. You're going to have to do stuff that sets you apart from other candidates and really go that extra mile. But I know you can do it and you got this. Now follow me for more job search hacks. Guys, the market is so cooked right now, but try this method out and I guarantee you will get it into shit like me.
+
+</details>
