@@ -198,3 +198,24 @@ The presenter has been running an automated trading system for over a month, tar
 For over a month now, I've been documenting my automated trading system triparza prop challenge and get a payout. I put it on a relatively safe, balanced risk and I've just lit it to its thing. So far, it's made $6,410, which is fantastic for a completely passive approach. But I've had a lot of people asking questions about how this actually works, how you can automate a strategy behind the scenes. I'm going to break that down for you right now. My system works on trading view. So I've coded my strategy into a trading view alert. When the trading view alert fires, it sends a signal to my risk manager. This is a software that I built so it can control and calculate a dollar amount I want to risk. It then sends the alert to a web hook connector. I personally use a software called PickMyTrade. And that is once sends the order straight to my broker. In this circumstance, I've connected my broker to a proper account. And from there, you can really do what you want. You can scale up with different proper accounts. You can add other proper accounts. You can use trade copy as to increase your portfolio. It's really up to you. It's a really great system because once all of this is set up properly, it runs on the cloud, which means I don't have to have my laptop open. I don't have to be connected to the internet. I could be in the middle of absolute nowhere. And it would still automate and take my trades for me. If you've got any questions about how this works, drop a comment below and I'll be sure to get back to you.
 
 </details>
+
+## 2026-07-18 15:26 UTC
+Source: https://www.instagram.com/reel/DZXpb_8RM-n/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Isamu Hamai
+
+A young creator on day 22 of a self-documented quantitative finance learning journey explains why quants don't pick individual stocks. Using Coca-Cola and Pepsi as an example, he explains the concept of statistical arbitrage — trading the relationship between correlated stocks rather than betting on one outright. He describes how top hedge funds apply this across thousands of pairs simultaneously.
+
+The creator opens energetically holding cans of Coke and Pepsi to illustrate his point. He explains that because Coke and Pepsi are nearly identical businesses with similar customers and market behavior, their stocks tend to move together. When one stock diverges significantly from the other, quants see this as a mispricing or market mistake. The trade strategy is to short the outperforming stock and go long on the underperforming one, betting they will converge again. He then scales this concept up, explaining that top hedge funds run this same logic across thousands of correlated stock pairs simultaneously — a strategy known as statistical arbitrage. He shows charts of various pair trades to visualize the concept. He concludes by noting that once you see the market as a web of relationships rather than individual stocks, it changes your perspective entirely. This is part of a daily series documenting his quantitative finance learning journey leading up to college.
+
+- Quants trade relationships between stocks, not individual stock picks
+- Coca-Cola and Pepsi serve as a classic example of a correlated stock pair
+- When a gap appears between correlated stocks, it signals a potential mispricing
+- The trade: short the outperformer, buy the underperformer, wait for convergence
+- Scaling this across thousands of pairs simultaneously is called statistical arbitrage
+- The market can be viewed as a giant web of relationships between assets
+
+<details><summary>Full transcript</summary>
+
+This stock made worry about the billions, and this one is basically its twin, but the hedgeons making the most money right now aren't picking one over the other, they're trading the relationship between them. This is day 22 of learning quantity until I got into college. Okay, so Coke and Pepsi are about as similar as two products can get. They're the same product, same customers, basically same everything. So their stocks tend to move together, but sometimes one shoots up and the other barely moves, and that gap, that's a misprison. Essentially the market made a mistake, so the trade is simple, you bet they snapped back together, short the one that shot up and buy the one that got left behind, and then you just wait. Now imagine doing that across thousands of pairs simultaneously. That's statistical arbitrage, and that's what the top hedge funds are actually doing. And it's not just Coke and Pepsi, this is happening across every sector. So the market is basically one giant web of relationships. And once you start seeing it that way, you really can't unsee it. See you on day 23.
+
+</details>
