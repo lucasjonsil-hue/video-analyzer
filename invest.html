@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Investment Calculators — Life Hacker 3000</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f13;
+      color: #e8e8f0;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    .container { max-width: 860px; margin: 0 auto; }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      background: linear-gradient(135deg, #34d399, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle { color: #6b6b8a; font-size: 0.875rem; margin-bottom: 0.5rem; }
+    .subtitle a { color: #a78bfa; text-decoration: none; }
+    .subtitle a:hover { text-decoration: underline; }
+    .disclaimer { color: #6b6b8a; font-size: 0.75rem; margin-bottom: 1.5rem; }
+
+    .calc {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 14px;
+      padding: 1.25rem 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .calc h2 { font-size: 1.05rem; margin-bottom: 0.25rem; color: #6ee7b7; }
+    .calc .desc { color: #6b6b8a; font-size: 0.8rem; margin-bottom: 0.9rem; }
+
+    .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.7rem; margin-bottom: 0.9rem; }
+
+    label { display: block; font-size: 0.72rem; color: #b8b8cc; margin-bottom: 0.25rem; text-transform: uppercase; letter-spacing: 0.03em; }
+
+    input {
+      background: #0f0f13;
+      border: 1px solid #2a2a3a;
+      color: #e8e8f0;
+      border-radius: 8px;
+      padding: 0.5rem 0.7rem;
+      font-size: 0.9rem;
+      width: 100%;
+      outline: none;
+    }
+    input:focus { border-color: #34d399; }
+
+    .result {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #d4d4e4;
+      background: rgba(52, 211, 153, 0.06);
+      border: 1px solid rgba(52, 211, 153, 0.25);
+      border-radius: 10px;
+      padding: 0.8rem 1rem;
+    }
+    .result .big { font-size: 1.25rem; font-weight: 700; color: #6ee7b7; }
+    .result .dim { color: #6b6b8a; font-size: 0.82rem; }
+
+    table { width: 100%; border-collapse: collapse; margin-top: 0.6rem; font-size: 0.82rem; }
+    th, td { text-align: right; padding: 0.3rem 0.5rem; border-bottom: 1px solid #2a2a3a; color: #b8b8cc; }
+    th { color: #6b6b8a; font-weight: 600; text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.03em; }
+    td:first-child, th:first-child { text-align: left; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Investment Calculators</h1>
+    <p class="subtitle">
+      Pure math, runs in your browser, costs nothing.
+      &middot; <a href="/">Analyzer</a> &middot; <a href="/notes">Notes</a> &middot; <a href="/planner">Planner</a>
+    </p>
+    <p class="disclaimer">Educational tool — projections assume steady returns, which real markets never deliver. Not financial advice.</p>
+
+    <div class="calc">
+      <h2>Compound Growth</h2>
+      <p class="desc">What a starting amount plus monthly contributions grows into.</p>
+      <div class="fields">
+        <div><label>Starting amount ($)</label><input type="number" id="cg-principal" value="1000"></div>
+        <div><label>Monthly contribution ($)</label><input type="number" id="cg-monthly" value="200"></div>
+        <div><label>Annual return (%)</label><input type="number" id="cg-rate" value="8" step="0.1"></div>
+        <div><label>Years</label><input type="number" id="cg-years" value="20"></div>
+      </div>
+      <div class="result" id="cg-result"></div>
+    </div>
+
+    <div class="calc">
+      <h2>Savings Goal</h2>
+      <p class="desc">Monthly amount needed to reach a target by a deadline.</p>
+      <div class="fields">
+        <div><label>Target ($)</label><input type="number" id="sg-target" value="50000"></div>
+        <div><label>Already saved ($)</label><input type="number" id="sg-current" value="2000"></div>
+        <div><label>Annual return (%)</label><input type="number" id="sg-rate" value="8" step="0.1"></div>
+        <div><label>Years</label><input type="number" id="sg-years" value="10"></div>
+      </div>
+      <div class="result" id="sg-result"></div>
+    </div>
+
+    <div class="calc">
+      <h2>Dividend Income</h2>
+      <p class="desc">Yearly dividend income now and later, with reinvestment.</p>
+      <div class="fields">
+        <div><label>Portfolio value ($)</label><input type="number" id="di-value" value="10000"></div>
+        <div><label>Dividend yield (%)</label><input type="number" id="di-yield" value="3" step="0.1"></div>
+        <div><label>Dividend growth (%/yr)</label><input type="number" id="di-growth" value="5" step="0.1"></div>
+        <div><label>Years (reinvesting)</label><input type="number" id="di-years" value="15"></div>
+      </div>
+      <div class="result" id="di-result"></div>
+    </div>
+
+    <div class="calc">
+      <h2>Retirement Projection</h2>
+      <p class="desc">Net worth at retirement age, and the yearly income it could support (4% rule).</p>
+      <div class="fields">
+        <div><label>Current age</label><input type="number" id="rp-age" value="22"></div>
+        <div><label>Retire at</label><input type="number" id="rp-retire" value="60"></div>
+        <div><label>Current savings ($)</label><input type="number" id="rp-current" value="1000"></div>
+        <div><label>Monthly contribution ($)</label><input type="number" id="rp-monthly" value="300"></div>
+        <div><label>Annual return (%)</label><input type="number" id="rp-rate" value="8" step="0.1"></div>
+      </div>
+      <div class="result" id="rp-result"></div>
+    </div>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const num = (id) => parseFloat($(id).value) || 0;
+    const fmt = (n) => "$" + Math.round(n).toLocaleString("en-US");
+
+    // Future value with monthly compounding: principal growth + contribution annuity
+    function futureValue(principal, monthly, annualRatePct, years) {
+      const r = annualRatePct / 100 / 12;
+      const n = Math.round(years * 12);
+      if (r === 0) return principal + monthly * n;
+      return principal * Math.pow(1 + r, n) + monthly * ((Math.pow(1 + r, n) - 1) / r);
+    }
+
+    function compoundGrowth() {
+      const p = num("cg-principal"), m = num("cg-monthly"), rate = num("cg-rate"), yrs = num("cg-years");
+      const fv = futureValue(p, m, rate, yrs);
+      const invested = p + m * 12 * yrs;
+      let rows = "";
+      for (const y of [5, 10, 15, 20, 25, 30, 40]) {
+        if (y > yrs) break;
+        const v = futureValue(p, m, rate, y);
+        rows += `<tr><td>Year ${y}</td><td>${fmt(p + m * 12 * y)}</td><td>${fmt(v)}</td></tr>`;
+      }
+      $("cg-result").innerHTML =
+        `<span class="big">${fmt(fv)}</span> after ${yrs} years<br>` +
+        `<span class="dim">${fmt(invested)} invested → ${fmt(fv - invested)} is growth</span>` +
+        (rows ? `<table><tr><th>Milestone</th><th>Invested</th><th>Value</th></tr>${rows}</table>` : "");
+    }
+
+    function savingsGoal() {
+      const target = num("sg-target"), current = num("sg-current"), rate = num("sg-rate"), yrs = num("sg-years");
+      const r = rate / 100 / 12, n = Math.round(yrs * 12);
+      const fvCurrent = current * Math.pow(1 + r, n);
+      const remaining = Math.max(0, target - fvCurrent);
+      const monthly = r === 0 ? remaining / n : remaining / ((Math.pow(1 + r, n) - 1) / r);
+      $("sg-result").innerHTML = remaining === 0
+        ? `<span class="big">Already on track ✓</span><br><span class="dim">Your current ${fmt(current)} grows to ${fmt(fvCurrent)} by itself.</span>`
+        : `<span class="big">${fmt(monthly)}/month</span> to hit ${fmt(target)} in ${yrs} years<br>` +
+          `<span class="dim">Your existing ${fmt(current)} grows to ${fmt(fvCurrent)} on its own; contributions cover the rest.</span>`;
+    }
+
+    function dividendIncome() {
+      const value = num("di-value"), yieldPct = num("di-yield"), growth = num("di-growth"), yrs = num("di-years");
+      const incomeNow = value * yieldPct / 100;
+      // Reinvested dividends compound the share base; yield-on-cost rises with dividend growth
+      let portfolio = value, income = incomeNow;
+      for (let y = 0; y < yrs; y++) {
+        portfolio += income;                 // reinvest this year's dividends
+        income = portfolio * (yieldPct / 100) * Math.pow(1 + growth / 100, y + 1);
+      }
+      $("di-result").innerHTML =
+        `<span class="big">${fmt(incomeNow)}/yr</span> today → <span class="big">${fmt(income)}/yr</span> in ${yrs} years<br>` +
+        `<span class="dim">Assumes dividends reinvested and ${growth}%/yr dividend growth; ignores share-price change.</span>`;
+    }
+
+    function retirement() {
+      const age = num("rp-age"), retire = num("rp-retire"), current = num("rp-current"),
+            monthly = num("rp-monthly"), rate = num("rp-rate");
+      const yrs = Math.max(0, retire - age);
+      const fv = futureValue(current, monthly, rate, yrs);
+      const safeIncome = fv * 0.04;
+      $("rp-result").innerHTML =
+        `<span class="big">${fmt(fv)}</span> at age ${retire} (${yrs} years away)<br>` +
+        `<span class="dim">4% rule: could support roughly ${fmt(safeIncome)}/yr (${fmt(safeIncome / 12)}/mo) in retirement. Not inflation-adjusted.</span>`;
+    }
+
+    function recalcAll() { compoundGrowth(); savingsGoal(); dividendIncome(); retirement(); }
+    document.querySelectorAll("input").forEach((el) => el.addEventListener("input", recalcAll));
+    recalcAll();
+  </script>
+</body>
+</html>

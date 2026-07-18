@@ -12,21 +12,10 @@
       background: #0f0f13;
       color: #e8e8f0;
       min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      padding: 2rem;
+      padding: 2rem 1rem;
     }
 
-    .card {
-      background: #1a1a24;
-      border: 1px solid #2a2a3a;
-      border-radius: 16px;
-      padding: 2.5rem;
-      width: 100%;
-      max-width: 720px;
-      height: fit-content;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-    }
+    .container { max-width: 860px; margin: 0 auto; }
 
     h1 {
       font-size: 1.6rem;
@@ -38,154 +27,227 @@
       background-clip: text;
     }
 
-    .subtitle { color: #6b6b8a; font-size: 0.875rem; margin-bottom: 2rem; }
+    .subtitle { color: #6b6b8a; font-size: 0.875rem; margin-bottom: 1.5rem; }
+    .subtitle a { color: #a78bfa; text-decoration: none; }
+    .subtitle a:hover { text-decoration: underline; }
 
-    .input-row { display: flex; gap: 0.75rem; }
-
-    input[type="text"] {
-      flex: 1;
-      background: #12121a;
+    #event-input {
+      background: #1a1a24;
       border: 1px solid #2a2a3a;
-      border-radius: 10px;
-      padding: 0.85rem 1rem;
       color: #e8e8f0;
+      border-radius: 10px;
+      padding: 0.75rem 0.9rem;
       font-size: 0.95rem;
+      width: 100%;
+      min-height: 70px;
+      resize: vertical;
+      outline: none;
+      font-family: inherit;
+      margin-bottom: 0.75rem;
     }
-    input[type="text"]:focus { outline: none; border-color: #a78bfa; }
+    #event-input:focus { border-color: #a78bfa; }
 
-    button {
+    .btn {
       background: linear-gradient(135deg, #a78bfa, #60a5fa);
       border: none;
-      border-radius: 10px;
-      padding: 0.85rem 1.4rem;
       color: #0f0f13;
       font-weight: 700;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
+      border-radius: 10px;
+      padding: 0.6rem 1.4rem;
       cursor: pointer;
     }
-    button:disabled { opacity: 0.5; cursor: wait; }
+    .btn:disabled { opacity: 0.5; cursor: wait; }
 
-    .status { margin-top: 1rem; color: #6b6b8a; font-size: 0.875rem; min-height: 1.2em; }
-    .status.error { color: #f87171; }
-
-    .result { margin-top: 1.5rem; display: none; }
-    .result.visible { display: block; }
-
-    .event-header {
-      font-size: 1.15rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px solid #2a2a3a;
+    .btn-secondary {
+      background: #1a1a24;
+      border: 1px solid #a78bfa;
+      color: #d6c8ff;
+      font-weight: 600;
+      font-size: 0.85rem;
+      border-radius: 10px;
+      padding: 0.55rem 1.2rem;
+      cursor: pointer;
     }
-    .event-header .date { color: #a78bfa; }
+    .btn-secondary:disabled { opacity: 0.5; cursor: wait; }
 
-    .plan { margin-bottom: 1.5rem; }
-    .plan h2 { font-size: 1rem; color: #a78bfa; margin-bottom: 0.4rem; }
-    .plan .desc { color: #b8b8cc; font-size: 0.9rem; margin-bottom: 0.75rem; }
+    .status { color: #6b6b8a; font-size: 0.85rem; margin: 1rem 0; }
+    .status.error { color: #f87171; }
+    .status.ok { color: #6ee7b7; }
 
-    .phase { margin-bottom: 0.6rem; }
-    .phase .label { font-weight: 700; font-size: 0.85rem; color: #60a5fa; }
-    .phase ul, .packing ul { margin: 0.25rem 0 0 1.25rem; font-size: 0.875rem; color: #d0d0e0; }
-    .phase li, .packing li { margin-bottom: 0.15rem; }
+    .plan-header { margin: 1.5rem 0 0.9rem; }
+    .plan-header h2 { font-size: 1.15rem; color: #e8e8f0; }
+    .plan-header .date { color: #fcd34d; font-size: 0.85rem; margin-top: 0.2rem; }
 
-    .packing .label { font-weight: 700; font-size: 0.85rem; color: #34d399; }
+    .plan-card {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 14px;
+      padding: 1.25rem 1.4rem;
+      margin-bottom: 0.9rem;
+    }
 
-    .saved-badge { font-size: 0.8rem; color: #34d399; margin-top: 0.5rem; }
-    .nav { margin-top: 2rem; font-size: 0.85rem; }
-    .nav a { color: #6b6b8a; text-decoration: none; margin-right: 1rem; }
-    .nav a:hover { color: #a78bfa; }
+    .plan-name {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      padding: 0.2rem 0.65rem;
+      display: inline-block;
+      margin-bottom: 0.6rem;
+      background: rgba(167, 139, 250, 0.14);
+      color: #c4b5fd;
+    }
+    .plan-card.plan-b .plan-name { background: rgba(96, 165, 250, 0.12); color: #93c5fd; }
+    .plan-card.fancy .plan-name { background: rgba(251, 191, 36, 0.12); color: #fcd34d; }
+
+    .plan-summary { font-size: 0.9rem; line-height: 1.55; color: #d4d4e4; margin-bottom: 0.8rem; }
+
+    .timeline-group { margin-bottom: 0.55rem; }
+    .timeline-when { color: #a78bfa; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; }
+    ul.items { padding-left: 1.2rem; margin-top: 0.15rem; }
+    ul.items li { font-size: 0.85rem; line-height: 1.6; color: #b8b8cc; }
+
+    .packing { margin-top: 0.7rem; font-size: 0.85rem; color: #b8b8cc; line-height: 1.6; }
+    .packing strong { color: #6ee7b7; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; }
+
+    #save-row { margin: 0.5rem 0 2rem; }
+
+    .nudges {
+      background: rgba(251, 191, 36, 0.08);
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      border-radius: 10px;
+      padding: 0.7rem 1rem;
+      font-size: 0.85rem;
+      line-height: 1.7;
+      color: #fcd34d;
+      margin-bottom: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <div class="card">
+  <div class="container">
     <h1>Planner</h1>
-    <p class="subtitle">Name an upcoming activity — "spearfishing Tuesday", "chem final next Friday" — and get a prep plan. Trips get Plan A / Plan B / Fancy.</p>
+    <p class="subtitle">
+      Tell it what's coming up — it plans backward from the date.
+      &middot; <a href="/">Analyzer</a> &middot; <a href="/notes">Notes</a> &middot; <a href="/invest">Invest</a>
+    </p>
 
-    <form id="plan-form">
-      <div class="input-row">
-        <input type="text" id="plan-text" placeholder="What's coming up?" required />
-        <button type="submit" id="plan-btn">Plan it</button>
-      </div>
-    </form>
+    <textarea id="event-input" placeholder='e.g. "spearfishing Tuesday" or "visiting a friend in Santa Barbara next weekend" or "chem final on the 24th"'></textarea>
+    <button class="btn" id="generate-btn">Generate plan</button>
+
     <div class="status" id="status"></div>
-
-    <div class="result" id="result">
-      <div class="event-header" id="event-header"></div>
-      <div id="plans"></div>
-      <div class="saved-badge" id="saved-badge"></div>
-    </div>
-
-    <div class="nav">
-      <a href="/">← Analyzer</a>
-      <a href="/notes">Notes</a>
+    <div id="result"></div>
+    <div id="save-row" style="display:none">
+      <button class="btn-secondary" id="save-btn">Save to notes (GitHub)</button>
     </div>
   </div>
 
   <script>
-    const form = document.getElementById('plan-form');
-    const input = document.getElementById('plan-text');
-    const btn = document.getElementById('plan-btn');
-    const status = document.getElementById('status');
-    const result = document.getElementById('result');
+    const input = document.getElementById("event-input");
+    const generateBtn = document.getElementById("generate-btn");
+    const saveBtn = document.getElementById("save-btn");
+    const saveRow = document.getElementById("save-row");
+    const statusEl = document.getElementById("status");
+    const resultEl = document.getElementById("result");
 
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      btn.disabled = true;
-      status.textContent = 'Planning… (this can take a minute)';
-      status.classList.remove('error');
-      result.classList.remove('visible');
+    let currentPlan = null;
 
-      try {
-        const body = new FormData();
-        body.append('text', input.value);
-        const resp = await fetch('/api/plan', { method: 'POST', body });
-        if (!resp.ok) {
-          const err = await resp.json().catch(() => ({}));
-          throw new Error(err.detail || `Request failed (${resp.status})`);
-        }
-        render(await resp.json());
-        status.textContent = '';
-      } catch (err) {
-        status.textContent = err.message;
-        status.classList.add('error');
-      } finally {
-        btn.disabled = false;
-      }
-    });
-
-    function render(plan) {
-      document.getElementById('event-header').innerHTML =
-        `${esc(plan.event_title)} — <span class="date">${esc(plan.event_date)}</span>`;
-
-      const plansEl = document.getElementById('plans');
-      plansEl.innerHTML = '';
-      for (const p of plan.plans) {
-        const div = document.createElement('div');
-        div.className = 'plan';
-        let html = `<h2>${esc(p.name)}</h2><div class="desc">${esc(p.description)}</div>`;
-        for (const phase of p.timeline) {
-          html += `<div class="phase"><span class="label">${esc(phase.phase)}</span><ul>` +
-            phase.items.map(i => `<li>${esc(i)}</li>`).join('') + '</ul></div>';
-        }
-        if (p.packing && p.packing.length) {
-          html += `<div class="packing"><span class="label">Packing</span><ul>` +
-            p.packing.map(i => `<li>${esc(i)}</li>`).join('') + '</ul></div>';
-        }
-        div.innerHTML = html;
-        plansEl.appendChild(div);
-      }
-
-      document.getElementById('saved-badge').textContent =
-        plan.note_saved ? 'Saved to GitHub notes ✓' : 'Not saved to GitHub (check GITHUB_TOKEN)';
-      result.classList.add('visible');
+    function setStatus(msg, cls) {
+      statusEl.textContent = msg;
+      statusEl.className = "status" + (cls ? " " + cls : "");
     }
 
     function esc(s) {
-      const d = document.createElement('div');
-      d.textContent = String(s);
+      const d = document.createElement("div");
+      d.textContent = s == null ? "" : String(s);
       return d.innerHTML;
     }
+
+    function render(plan) {
+      let html = `<div class="plan-header"><h2>${esc(plan.title)}</h2><div class="date">${esc(plan.event_date)}</div></div>`;
+      if (plan.gear_nudges && plan.gear_nudges.length) {
+        html += `<div class="nudges">${plan.gear_nudges.map(n => `⚠️ ${esc(n)}`).join("<br>")}</div>`;
+      }
+      for (const p of plan.plans || []) {
+        const cls = (p.name || "").toLowerCase().includes("fancy") ? "fancy"
+                  : (p.name || "").toLowerCase().includes("b") ? "plan-b" : "";
+        html += `<div class="plan-card ${cls}">`;
+        html += `<span class="plan-name">${esc(p.name)}</span>`;
+        if (p.summary) html += `<div class="plan-summary">${esc(p.summary)}</div>`;
+        for (const g of p.timeline || []) {
+          html += `<div class="timeline-group"><span class="timeline-when">${esc(g.when)}</span><ul class="items">`;
+          for (const item of g.items || []) html += `<li>${esc(item)}</li>`;
+          html += `</ul></div>`;
+        }
+        if (p.packing && p.packing.length) {
+          html += `<div class="packing"><strong>Packing</strong> — ${p.packing.map(esc).join(", ")}</div>`;
+        }
+        html += `</div>`;
+      }
+      resultEl.innerHTML = html;
+    }
+
+    generateBtn.addEventListener("click", async () => {
+      const text = input.value.trim();
+      if (!text) { setStatus("Type something first.", "error"); return; }
+      generateBtn.disabled = true;
+      saveRow.style.display = "none";
+      resultEl.innerHTML = "";
+      setStatus("Planning…");
+      try {
+        const body = new FormData();
+        body.append("text", text);
+        const resp = await fetch("/api/plan", { method: "POST", body });
+        if (!resp.ok) {
+          const err = await resp.json().catch(() => ({}));
+          throw new Error(err.detail || `HTTP ${resp.status}`);
+        }
+        currentPlan = await resp.json();
+        render(currentPlan);
+        setStatus("");
+        saveRow.style.display = "block";
+        saveBtn.disabled = false;
+        saveBtn.textContent = "Save to notes (GitHub)";
+      } catch (e) {
+        setStatus("Failed: " + e.message, "error");
+      } finally {
+        generateBtn.disabled = false;
+      }
+    });
+
+    saveBtn.addEventListener("click", async () => {
+      if (!currentPlan) return;
+      saveBtn.disabled = true;
+      saveBtn.textContent = "Saving…";
+      try {
+        const resp = await fetch("/api/plan/save", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(currentPlan),
+        });
+        if (!resp.ok) {
+          const err = await resp.json().catch(() => ({}));
+          throw new Error(err.detail || `HTTP ${resp.status}`);
+        }
+        const data = await resp.json();
+        if (data.saved) {
+          saveBtn.textContent = "Saved ✓";
+          setStatus("Committed to notes/planner.md on GitHub.", "ok");
+        } else {
+          throw new Error("GITHUB_TOKEN not configured");
+        }
+      } catch (e) {
+        saveBtn.disabled = false;
+        saveBtn.textContent = "Save to notes (GitHub)";
+        setStatus("Save failed: " + e.message, "error");
+      }
+    });
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); generateBtn.click(); }
+    });
   </script>
 </body>
 </html>

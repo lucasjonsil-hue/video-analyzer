@@ -267,6 +267,12 @@ async def notes_page():
         return f.read()
 
 
+@app.get("/invest", response_class=HTMLResponse)
+async def invest_page():
+    with open("invest.html", "r", encoding="utf-8") as f:
+        return f.read()
+
+
 @app.get("/", response_class=HTMLResponse)
 async def root():
     with open("index.html", "r", encoding="utf-8") as f:
