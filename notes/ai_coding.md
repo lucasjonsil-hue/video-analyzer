@@ -902,3 +902,18 @@ The video opens with the hook 'Stop practicing. Start scraping.' The creator exp
 Anybody can clone like 10 years of experience now. This is you. Maybe you're trying to become a LinkedIn influencer. Maybe you're trying to build the number one wellness retreat in Virginia. Either way, you have no idea what you're doing. So you install one of these scraping tools. What is this for? Hold on, they have my free connect. Your AI agent to this scraper. You give your AI a prompt like this. Your AI spawns a bunch of subagents to analyze the living shit out of every LinkedIn post. At least the top posts in your need. Certain subagents will look at the title pattern. Subagents will look at the first Senate or it could be scraping landing pages or like Airbnb listings in your market. Whatever you want to learn about, do your AI is going to output a bunch of different findings. So you take those findings and you put it in notebook. I have no book. I'll make you a bunch of things that you can learn from. I personally love the audio overview. I've built a lot of AI bullshit in my day and the number one way that AI has helped me has been learning shit. And the fuck down. I am continuing to test ways to learn things better, but with AI. So follow along.
 
 </details>
+
+## 2026-07-18 15:28 UTC
+Source: https://www.instagram.com/reel/Da1Vfl5NQBL/?igsh=NTc4MTIwNjQ2YQ==
+Creator: sulan
+
+A creator humorously asks if video editors are 'cooked' as AI takes over editing tasks. The video demonstrates a workflow using Claude AI connected to a video editor called Vyra to automatically edit vlogs through natural language prompts. The tutorial shows how to connect, prompt, and iterate on edits using Claude's MCP integration.
+
+The video opens with a young woman on a bus asking 'editors, are we cooked?' — implying AI may replace human video editors. It then walks through a step-by-step tutorial: (1) connecting the Vyra video editor to Claude via a custom MCP connector, (2) importing footage, (3) prompting Claude to edit the video like a vlog by cutting dead space and ordering clips chronologically, (4) Claude autonomously executes edits on the timeline using tools like Split Item, Add Media, View Timeline, and slipItem, (5) the user can re-prompt to refine cuts (e.g., 'make these cuts snappier'), and (7) the creator offers to share the link to this workflow if viewers comment 'edit'. The final frame shows the finished vlog edit in Vyra's timeline alongside Claude's lengthy reasoning log.
+
+- Uses Claude AI + Vyra video editor via MCP custom connector to automate vlog editing
+- Natural language prompts control the entire edit (cutting dead space, ordering chronologically)
+- Claude uses tools like Split Item, Add Media, View Timeline to manipulate the timeline autonomously
+- Users can iterate by re-prompting Claude to adjust pacing or cuts
+- Creator offers to share the workflow link to followers who comment 'edit'
+- Raises the question of whether human video editors will be displaced by AI
