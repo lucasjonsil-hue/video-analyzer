@@ -412,3 +412,23 @@ The video opens with a humorous shot of a person sitting on a toilet editing vid
 I'm gonna sit there and party baby, what we gonna do? I can never love a better me, I'll be there my packer
 
 </details>
+
+## 2026-07-18 05:47 UTC
+Source: https://www.instagram.com/reel/DX0TYzvPZt-
+
+A man demonstrates how to reverse-engineer ChatGPT's web search queries by inspecting network traffic in browser DevTools. He shows that ChatGPT often searches with different language than the exact prompt given, and explains how to use this insight for SEO optimization. He promotes his course at compactkeywords.com for conversion-based SEO strategies.
+
+The creator starts by asking ChatGPT a question about the Empire State Building's observation deck changes. He then reveals a technique: by copying the ChatGPT conversation URL, opening browser DevTools (Inspect > Network tab), pasting the URL, refreshing, and searching the response for 'queries', you can see the exact search terms ChatGPT uses when browsing the web. In his example, his prompt about 'observation deck experience or ticketing setup' was transformed by ChatGPT into the search query 'Empire State Building observation deck changes 2025 ticketing'. He advises doing multiple prompts about your brand to collect the language ChatGPT uses, then incorporating that exact language into page titles, URL slugs, H2 headings, and opening sentences of your web pages. The goal is to ensure that when ChatGPT searches for information about your brand, it finds your content and quotes it favorably. He ends with a plug for his SEO course at compactkeywords.com.
+
+- Open browser DevTools Network tab to see ChatGPT's actual web search queries
+- ChatGPT often searches with different language than your original prompt
+- Use the discovered search language in page titles, URL slugs, H2s, and opening sentences
+- Run multiple brand-related prompts to build a vocabulary of how ChatGPT searches for you
+- Optimizing for ChatGPT's search queries is a new form of AI-era SEO
+- Promoted resource: compactkeywords.com for conversion-based SEO
+
+<details><summary>Full transcript</summary>
+
+Has the Empire's Safe Building made any changes to its observation deck or ticketing setup? People don't know this, but when you do prompts, Chatchy-P-T searches the web and you can literally see what it's searching with. Oftentimes what it searches with is different from the prompt that you put in. Copy the part of your Chatchy-P-T URL that comes after forward slash C. Right click, inspect, go to network, paste in what you copied, refresh the page, click the orange brackets with what you copied, go to response, search this for queries. Then you can see what Chatchy-P-T searched. My prompt was has the Empire's Safe Building made any changes to its observation deck experience or ticketing setup. Chatchy-P-T searched Empire Safe Building observation deck changes 2025 ticketing. If you do enough prompts around your brand, you can see the language that Chatchy-P-T will search with when gathering information about you. Use this language in your page titles, in your URL slugs, in the H2s on your pages, put it in the first sentence of your pages. Put it high upon your pages. Find all the different language it uses and use that in your marketing. Then when people ask Chatchy-P-T about your brand, it'll do searches, come across what you wrote, and if you put out nice things about your brand, that's what Chatchy-P-T is going to see and quote. And learn SEO that gets paying customers, users, warmly it's calling you up at compactkeywords.com.
+
+</details>
