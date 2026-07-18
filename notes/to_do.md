@@ -47,3 +47,11 @@ The video opens with a relatable hook of someone admitting they have no certific
 Okay
 
 </details>
+
+## 2026-07-18 17:04 UTC
+Source: email assistant setup session
+
+Send the Chapman IT app-approval request. The email is ready and waiting in the Outlook Drafts folder (personal account), addressed to servicedesk@chapman.edu. Best sent from the Chapman address (lusilva@chapman.edu) — copy the text over when sending. It asks IT to approve the Life3000 app so the email assistant can read the school mailbox directly; until then, school mail reaches the assistant via auto-forwarding.
+
+- Draft location: Outlook Drafts, subject "Student request: app approval..."
+- If approved: rerun py email_intake.py --add-account with the school account
