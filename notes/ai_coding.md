@@ -1154,3 +1154,18 @@ The video opens with a dramatic western-style visual metaphor showing a battle b
 A developer just killed the Clawed Code token problem for free. Now, your $20 plan is just as powerful as the $100 plan. Here's how. The problem is this. Every time you start a new Clawed Code session, it re-reads your entire code base. Every file, every function, thousands of tokens gone before you even ask a question. This is why you're burning through tokens and wasting your money. But this tool, graphify, fixes it. First, run this new tool, then watch as it reads your entire code base. What happens is it builds a full knowledge graph of everything inside, every connection, every relationship. Now, during your next session, Clawed won't re-read all those files. It simply navigates the new graph, saving you a ridiculous amount of tokens. Comment, graphify, for my complete setup guide.
 
 </details>
+
+## 2026-07-18 15:33 UTC
+Source: https://www.instagram.com/reel/DaykjtpB_5Y/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Andrew Lo
+
+This video showcases a Roblox AI game builder tool called Rebirth (userebirth.com) that lets users create games through chat prompts. It transitions to show two Roblox users ('jerb' and 'SogeQT') in real life, followed by footage of exotic cars driving at night. The overall message promotes sharing opportunities and stopping gatekeeping.
+
+The video opens with a MacBook showing the Rebirth AI platform at userebirth.com, which allows users to build Roblox games using AI chat prompts — someone types 'make me a billion darras' into the interface. The creator questions whether this is the 'true AI method' for Roblox developers. The second frame zooms into the browser URL to emphasize the website. The third frame shows two phones side-by-side displaying Roblox profiles of 'jerb' (@jerbholdings) and 'SogeQT', suggesting these are real-life Roblox developers/users with cars. Frames four and five shift to nighttime street footage of exotic supercars (including what appears to be a Lamborghini) driving together, with captions 'friends put on?' and 'stop the gatekeeping', implying the creators are successful Roblox developers who own luxury cars and encouraging others to share their success methods.
+
+- Rebirth (userebirth.com) is an AI tool that generates Roblox games via chat prompts
+- The tool positions itself as an AI-powered method for Roblox developers to build games faster
+- Two Roblox users 'jerb' and 'SogeQT' are featured as examples of successful developers
+- The video links Roblox game development success to real-world wealth (exotic supercars)
+- The closing message 'stop the gatekeeping' encourages sharing the AI tool/method
+- The prompt 'make me a billion darras' suggests monetization potential is a key draw
