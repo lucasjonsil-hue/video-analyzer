@@ -839,3 +839,24 @@ The creator explains how he gave Claude (an AI model) $500 and connected it to h
 So I gave Claude $500 and hooked it up to my Robinhood account just to see what it would do. It's a self-running self-grading trading agent. So it wakes itself up five times per day. It assesses the portfolio and it researches the market and everything that's going on around it. There is a daily loop that it does. It follows these nine steps in order to make sure that it's doing what I think I want it to do. We have a few reasons as to why it is rated as a loop, which is basically making sure that it's going to accomplish the goal as opposed to having to get more prompting for me in order to finish it. I have a few guardrails on it, so it's not able to trade more than 50% of the account in a single stock. It's got a few different kind of things that are preventing, you know, me bleeding too much money. One of the main securities is that it's just basically able to set stop losses for itself. And then the honest part is that I started it with $534. Here's the dashboard and I basically also have it scoring itself against the S&P 500. But as you can see, it is underperforming by about 3% on the nice little equity curve that the S&P would have had, but it's still kind of staying within the median line, so it's fine. However, today was probably one of our biggest days. We had a stock jump up about 16.6%, and that was really good for us. And then down here you can see that it has a piece of this as to why it bought all these stocks and why they're valuable. But we'll see how this build goes. I'll follow back up in like a week.
 
 </details>
+
+## 2026-07-18 15:25 UTC
+Source: https://www.instagram.com/reel/DZHT-l8Oqoj/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Cody Adam
+
+A man quizzes viewers on their AI knowledge by rattling off a list of AI-related terms and concepts. The video serves as a quick literacy check on AI terminology, with the presenter suggesting viewers follow him if they don't recognize the terms. It appears to be promotional content for an AI education channel or account.
+
+The presenter, sitting casually in what appears to be a bedroom, holds a microphone-like object and addresses the camera directly. He lists a rapid-fire series of AI and tech terms including LLM, Agent, RAG, MCP server, prominent figures like Altman and Karpathy, and technical concepts like Prompt Engineering, Context Engineering, Fine Tuning, Embeddings, Whisper, Flow, Claude, Tokens, and Vibe Coding. The video uses overlaid graphics including a document icon (for RAG), a keyboard with arrow (for context), and what appears to be a waveform/audio app logo with a crown (for Flow). The call to action at the end is a soft follow suggestion — 'if you want' — aimed at viewers who don't yet know these terms.
+
+- Quick AI literacy quiz using popular industry terms and names
+- Covers concepts: LLM, RAG, MCP server, Agents, Context Engineering, Fine Tuning, Embeddings, Tokens
+- References key AI figures: Sam Altman, Andrej Karpathy, and likely Aria (Daria)
+- Visual overlays reinforce key concepts like RAG (document icon) and context (keyboard)
+- Soft CTA: follow the creator if you don't know these terms
+- Positioned as an AI education/literacy account
+
+<details><summary>Full transcript</summary>
+
+Okay, let's see how much you actually know about AI. LLM, Agent, Ragn, MCP server, Altman, Kapathy, Daria, Prompt Engineering, Context Engineering, Fine Tuning, Embeddings, Skills, Brinola, Whisper Flow, Clouli, Tokens and Vite Coding. If you don't know them just follow me, if you want.
+
+</details>
