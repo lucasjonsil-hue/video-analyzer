@@ -959,3 +959,23 @@ The video opens with a portfolio dashboard showing $52,014 in total value, setti
 Quad can now track stock trades by politicians, insiders and hedge funds. Whoever quantitative just released a connector that plugs right into Quad and lets it pull data on people's portfolios. You can see what stocks are being bought by Donald Trump, Nancy Pelosi, and tens of thousands of other investors. You can have Quad look for trades that look suspicious and do whatever else you want with the data. If you want setup instructions, comment, link and I'll send a guide.
 
 </details>
+
+## 2026-07-18 15:29 UTC
+Source: https://www.instagram.com/reel/DaN7gavx6CO/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angel | Tech + AI
+
+A woman discusses a GitHub repository called 'career-ops' that uses 14 AI agents to automate the job search process. The tool handles everything from evaluating job offers to generating tailored CVs and scanning job portals. She plans to test it out and report back.
+
+The creator introduces a GitHub project called 'career-ops' which she describes as a full job search command center powered by AI. The repo features 14 different agents working simultaneously, handling tasks like auto-pipeline evaluation (paste a URL and get a full evaluation + PDF), 6-block role evaluation, interview story bank generation, negotiation scripts, ATS PDF generation, portal scanning for 45+ pre-configured companies including Anthropic, OpenAI, ElevenLabs, Retool, and n8n, batch processing with parallel Claude workers, a dashboard TUI, and pipeline integrity checks. She notes the original creator apparently found a job using the tool. She shows the GitHub README on her laptop screen, highlighting the feature table and quick start instructions, and says she will try it out and update her audience.
+
+- GitHub repo 'career-ops' automates job searching using 14 simultaneous AI agents
+- Features include auto-pipeline evaluation, tailored CV/PDF generation, and portal scanning for 45+ companies
+- Includes interview story bank, salary negotiation scripts, and batch processing via Claude workers
+- The original creator reportedly found a job using this tool
+- Creator plans to test it and share results with her audience
+
+<details><summary>Full transcript</summary>
+
+Someone just made a GitHub repo to apply to jobs for you and it has 14 different agents working at the same time doing different things And I think he found a job through using this so check it out. It's called career ops and it's supposed to be a full Job search command center. So instead of manually tracking applications, it gets a it's like an AI powered pipeline And it evaluates offers and generates tailored PDFs and CVs and scans portals automatically and processes them in batch Tracks everything in a single source of truth with integrity checks I'm gonna try this out today and let you guys know how it works
+
+</details>
