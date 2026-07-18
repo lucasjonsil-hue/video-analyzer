@@ -349,3 +349,24 @@ The creator films himself shirtless outdoors under a clear blue sky, sweaty and 
 Wake up, sunlight, water, banana, espresso, morning run, ocean swim, shower, and then breakfast. If this is not my life, if this is not my morning routine, I don't want it.
 
 </details>
+
+## 2026-07-18 15:24 UTC
+Source: https://www.instagram.com/reel/DYxE1hfRW18/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Trey Worcester | 𝘏𝘢𝘳𝘥 𝘛𝘰 𝘒𝘪𝘭𝘭
+
+A shirtless young man presents his 'Brainmaxxing Protocol,' an 8-step list of unconventional habits for optimizing cognitive performance. The tips range from avoiding common supplements to limiting rap music and training your neck. The content is presented in a confident, contrarian social media style.
+
+The creator shares an 8-point 'Brainmaxxing Protocol' that he positions as different from mainstream AI-generated health advice. Point 1 warns against fish oil, vitamin D3, and greens powders. Point 2 recommends 10-20g of creatine daily, dismissing hair loss and dehydration concerns. Point 3 controversially suggests limiting rap music, arguing your media consumption shapes who you become. Point 4 advises never drinking coffee on an empty stomach, citing gut-brain connection. Point 5 tells viewers to stop passive consumption and live life instead. Point 6 recommends walking without a phone to practice being alone with your thoughts. Point 7 (partially obscured) emphasizes reading as much as possible to replace doomscrolling. Point 8 recommends training your neck in the gym to prevent concussions and TBIs. The video ends with a call to follow for more non-AI-generated health content.
+
+- Avoid fish oil, vitamin D3, and greens powders as part of an 'anti-supplement stack'
+- Take 10-20g of creatine daily for cognitive and physical benefits
+- Limit rap music because your media exposure shapes your mindset and behavior
+- Never drink coffee on an empty stomach — gut health directly impacts brain health
+- Walk without your phone to build comfort with solitude and independent thought
+- Train your neck in the weight room to protect against concussions and TBIs
+
+<details><summary>Full transcript</summary>
+
+Brain-maxima protocol, except it's not things that Chatcha BT is going to tell you. Number one, the anti-supplement stack, fish oil, vitamin D3, greens, powders, or all-as-ciop, steer clear. Number two, you need to be creatine-maxima 10 to 20 grams minimum on a daily basis. It's not going to make your hair fall out, and it's not going to dehydrate you. This is definitely a hot take, but you need to limit rap music. Whether you like it or not, everything you expose yourself to is what you become, and if you listen to music talking about killing people and slapping hose, how do you think that's going to impact the rest of your life? Number four, never drink coffee on an empty stomach, and I know what you're thinking. I thought it was a brain-maxima protocol. Well, the gut is the second brain of the human body, and if you want optimal cognitive health, you need optimal gut health. Drinking coffee on an empty stomach nukes your gut microbiome, and you should definitely avoid it. Number five, stop consuming, put the phone down and go live your life instead of watching other people live there. Number six, you should already be walk-boxing, but you should never bring your phone on a walk. You need to learn to be alone with your thoughts. You don't need a podcast. You don't need music. You need time with yourself, and you need time with God. Number seven, breathe as much as possible, and I'm not saying this lightly. You need to replace all doom's coin with reading. That will change your life. Trust. Number eight, this is a physical one. Everything else has been habitual or biological, but you need to train neck. If you don't want to concussion, you don't want a TBI while you're out live maxing doing super shit. You need to train your neck in the weight room. If you're tired of AI-generated health slop and you want to learn from someone who actually walks the walk, follow for more.
+
+</details>
