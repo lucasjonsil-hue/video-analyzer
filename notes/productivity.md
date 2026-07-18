@@ -104,3 +104,24 @@ The video by @JustinSung covers a learning and reading retention system called P
 Your girl is ready for your mission
 
 </details>
+
+## 2026-07-18 15:30 UTC
+Source: https://www.instagram.com/reel/DaWEyXHuU8a/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Brian Pruett
+
+A young man sitting in a car records a selfie-style video listing what he considers '10/10 male behaviors' — positive daily habits and mindsets. The video is motivational in tone, covering everything from waking up early to being present with family. It appears to be a short-form social media clip aimed at men seeking self-improvement.
+
+The creator films himself from the passenger or driver seat of a car with a sunroof open, wearing a white hoodie, sunglasses, and a two-tone cap. Throughout the clip, he lists a series of behaviors he frames as ideal masculine traits, including: waking up early without an alarm, avoiding pornography, time blocking and planning your day, breathing slowly and staying present, not being too proud to dance and sing with your kids, not taking yourself too seriously, pursuing excellence in everything from making your bed to your most important work project, and staying consistent. The video is casual and conversational, shot in a vlog-style format likely intended for TikTok or Instagram Reels.
+
+- Wake up early without an alarm clock
+- Avoid porn and practice time blocking/scheduling
+- Breathe slowly and stay present
+- Be willing to dance and sing with your kids — don't take yourself too seriously
+- Pursue excellence in everything, big or small
+- Stay consistent as a foundational habit
+
+<details><summary>Full transcript</summary>
+
+Wagon up early, no alarm clock, no porn, time blocking, scheduling and planning your days, breathing slowly, staying present, not being too proud to dance and sing with your kids. Not taking yourself too seriously, being excellent with everything you do, no matter if it's making your bed or freaking your most important project. Staying consistent.
+
+</details>
