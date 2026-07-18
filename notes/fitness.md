@@ -233,3 +233,23 @@ The creator sits in his room and presents a progressive list of health optimizat
 Let's see if you know how to health max but it gets increasingly more niche. Hydration timing, sleep consistency, Dome 2 cardio, grip strength as a longevity marker, VO2 max, this role versus subcutaneous at heart rate variability, insulin sensitivity, and telemere length. If you know all of these, I think you're pretty set.
 
 </details>
+
+## 2026-07-18 06:06 UTC
+Source: https://www.instagram.com/reel/DZ6xqHkuFAs
+
+This video covers 'Sleep Maxxing' techniques aimed at optimizing sleep quality for better health and natural testosterone production. It presents a series of actionable tips covering light exposure, diet timing, supplementation, and bedroom environment. The content is targeted at health-conscious men looking to improve their hormonal and physical performance.
+
+The video opens with an introduction to Sleep Maxxing as a strategy for natural testosterone production and overall health. It covers morning habits like getting sunlight in your eyes upon waking to set circadian rhythms. It then addresses light management throughout the day, recommending switching to incandescent bulbs or red LEDs, enabling Night Shift mode on phones 24/7, and wearing blue light blockers 4 hours before bed. Dietary timing tips include stopping food intake at least 2 hours before bed and avoiding water to prevent nighttime urination, with a salt-on-tongue hack offered as a remedy. The video recommends no phone use in the final hour before sleep. Environmental tips include keeping the bedroom at 65°F, using blackout curtains, and locking the bedroom door for subconscious security. Supplement recommendations include magnesium glycinate in the evening and 2 grams of taurine for stress or overthinking. The video ends with a call to action for the 'High Tier Human Community,' promoting a paid program to optimize health, hormones, energy, physique, and performance.
+
+- Get morning sunlight immediately upon waking to set circadian and hormonal rhythms
+- Eliminate or reduce blue light exposure by switching bulbs, using Night Shift, and wearing blue light blockers 4 hours before bed
+- Stop eating at least 2 hours before bed and avoid water to prevent waking to urinate; use salt on tongue as a remedy
+- Keep bedroom at 65°F and use blackout curtains for optimal sleep environment
+- Take magnesium glycinate in the evening; use 2g taurine for stress relief before bed
+- Avoid caffeine after the first 4 hours of being awake
+
+<details><summary>Full transcript</summary>
+
+Welcome to Sleep Maxing for Natural Testosterone Production and overall health. Starting with getting sunlight in your eyes as soon as you wake up, this will create a set point for your circadian and hormonal rhythms. Set your phone to Night Shift Mode and leave it on 24-7. Replace all the lights in your home with incandescent bulbs or pure red LEDs. This will make sure that your circadian rhythm stays optimal and you're not frying your mitochondria with blue light. Keep your last meal at least two hours before your bedtime. Buy a pair of blue light blockers and put them on four hours before you go to bed or whenever the sun goes down in your area. This will help your body start to produce natural melatonin. Absolutely no phone in the last hour of the day. Just drinking water at least two hours before your bedtime and if you find yourself waking up to pee in the middle of the night before you go to bed, put some salt on your tongue. Lock the door to your room before you go to sleep. This provides subconscious relief and an extra barrier that home intruders have to get through. Get as much sunlight throughout the day as possible. The more you get, the more aligned your circadian rhythm will become. Do not consume caffeine after four hours of being awake. Make your room temperature as close to 65 degrees Fahrenheit as possible. Before you go to bed, make your room as dark as possible. Use blackout curtains and absolutely no night lights. Take magnesium glycinate in the evening and if you find yourself overthinking or extra stress, find two grams of touring will take the edge off.
+
+</details>
