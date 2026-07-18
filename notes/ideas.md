@@ -351,3 +351,23 @@ The video opens with a clip mocking a construction worker earning $800/day doing
 Fuck that. Here's one of the dumbest ways you can earn more than a construction worker from your fucking couch. What we're gonna be doing is called appointment setting. You don't need a post content You don't need to show your face and here's exactly how you start grab your laptop and jump on to seek.com Or indeed if you're anywhere else in the world you want to search up remote appointments So give you a bunch of options, but they're not all good so this is what you want to look at for Commission base that there's no limit on how much you can earn warm leads So you're not pestering paper with cold calls and remote works So you can actually do it from your fucking couch. You likely need a resume So you got a chat chat chat chat and search appointment set a resume copy all that shit uses a template Then chuck in your own details then you're ready to apply these roles allowed men my mates to quit our construction jobs in 2024 and start traveling while earning good money at the same time This is not to flex. It's just to show that there are other options and if you'd like a bit more help starting Just comment the word yes below and I'll send you my completely free guide. Let's go
 
 </details>
+
+## 2026-07-18 06:20 UTC
+Source: https://www.instagram.com/reel/DUJ04JYCcjN
+
+A young man contrasts physical labor (concrete work paying $800/day) with remote appointment setting jobs found on seek.com.au. He explains how appointment setting allowed him and his friends to quit construction and work remotely while traveling. He offers a free guide to viewers who comment 'yes'.
+
+The video opens with a clip of a concrete worker doing a broom finish, captioned as earning $800/day, framed as a 'dumb' comparison. The creator, sitting casually at home, pitches appointment setting as a smarter alternative that can be done from a couch. He walks through seek.com.au showing real job listings for remote appointment setter roles, including ones paying $60-65k base plus commissions and others ranging $100k-$150k per year. He advises viewers on what to look for: commission-based pay with no earnings cap, warm leads (no cold calling), and fully remote work. He recommends using ChatGPT to generate a resume tailored for appointment setting roles. He shares that this path helped him and friends leave construction jobs in 2024 and start traveling while earning income. He closes with a call-to-action, asking viewers to comment 'yes' for a free guide.
+
+- Appointment setting is presented as a remote, couch-friendly alternative to physical labor jobs
+- Use seek.com.au (or Indeed globally) to find remote appointment setter roles
+- Look for roles with uncapped commissions, warm leads, and remote flexibility
+- Use ChatGPT to quickly generate a tailored appointment setter resume
+- Some roles offer $100k-$150k/year potential
+- Comment 'yes' to receive a free guide on getting started
+
+<details><summary>Full transcript</summary>
+
+Fuck that. Here's one of the dumbest ways you can earn more than a construction worker from your fucking couch. What we're gonna be doing is called appointment setting. You don't need a post content You don't need to show your face and here's exactly how you start grab your laptop and jump on to seek.com Or indeed if you're anywhere else in the world you want to search up remote appointments So give you a bunch of options, but they're not all good so this is what you want to look at for Commission base that there's no limit on how much you can earn warm leads So you're not pestering paper with cold calls and remote works So you can actually do it from your fucking couch. You likely need a resume So you got a chat chat chat chat and search appointment set a resume copy all that shit uses a template Then chuck in your own details then you're ready to apply these roles allowed men my mates to quit our construction jobs in 2024 and start traveling while earning good money at the same time This is not to flex. It's just to show that there are other options and if you'd like a bit more help starting Just comment the word yes below and I'll send you my completely free guide. Let's go
+
+</details>
