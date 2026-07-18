@@ -33,7 +33,15 @@ load_dotenv()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 client = anthropic.Anthropic()
 
-CATEGORIES = ["video-links", "action-needed", "personal", "newsletter", "notification", "junk"]
+CATEGORIES = ["video-links", "action-needed", "personal", "newsletter", "notification", "suspicious", "junk"]
+
+# Senders a human never replies to — hard guard so no drafts get written for
+# them even if the classifier flags the message as reply-worthy.
+NOREPLY_RE = re.compile(
+    r"(no-?reply|do-?not-?reply|notification|mailer|newsletter|updates?|alerts?|info)@"
+    r"|@(facebookmail|linkedin|instagram|mail\.instagram|twitter|x|tiktok|pinterest|snapchat)\.",
+    re.IGNORECASE,
+)
 
 
 def _strip_html(text: str) -> str:
@@ -72,7 +80,8 @@ def classify_messages(messages: list[dict]) -> list[dict]:
     if not messages:
         return messages
     listing = "\n".join(
-        f"{i}. From: {m['from_name']} <{m['from_address']}> | Subject: {m['subject']} | Preview: {m['preview']}"
+        f"{i}. Received: {m.get('received', '?')[:10]} | From: {m['from_name']} <{m['from_address']}> | "
+        f"Subject: {m['subject']} | Preview: {m['preview']}"
         for i, m in enumerate(messages)
     )
     prompt = (
@@ -82,16 +91,29 @@ def classify_messages(messages: list[dict]) -> list[dict]:
         "- action-needed: a real person or service expects a reply or an action from Lucas\n"
         "- personal: from a real person, no action required\n"
         "- newsletter: subscribed content, promos, marketing\n"
-        "- notification: automated service/account notices (sign-ins, receipts, social pings)\n"
-        "- junk: spam, phishing, or worthless unsolicited mail\n\n"
-        "Also write a ONE-line gist (max 15 words) per email, and whether a reply seems worth drafting.\n\n"
+        "- notification: automated service/account notices (sign-ins, receipts, social pings, "
+        "social-media 'you have a message / friend request' emails)\n"
+        "- suspicious: looks like phishing or a scam — mismatched/lookalike sender domain, urgent "
+        "'verify your account / login now / security alert' pressure, unexpected attachments or links. "
+        "When unsure between suspicious and notification/junk, prefer suspicious so a human reviews it.\n"
+        "- junk: spam or worthless unsolicited mail (but clearly harmless)\n\n"
+        "Also write a ONE-line gist (max 15 words) per email, and whether a reply seems worth drafting. "
+        "reply_worthwhile is ONLY true when a real human (or a service with a monitored mailbox) is "
+        "waiting on Lucas's answer — never for automated senders, notifications, newsletters, or "
+        "anything suspicious.\n\n"
+        "Also extract deadline: null UNLESS the email states a concrete time-bound obligation for Lucas — "
+        "a bill or payment due, a card/subscription/document expiring, a check-in or RSVP window, a "
+        "deadline to act. Then: {\"date\": \"YYYY-MM-DD\", \"what\": \"<short imperative, e.g. 'Pay CHAPTER "
+        "billing statement'>\"}. Resolve relative wording (\"expires tomorrow\") against that email's "
+        "Received date. Marketing urgency (\"sale ends Friday\") is NOT an obligation. Skip anything "
+        "categorized suspicious or junk.\n\n"
         f"Emails:\n{listing}\n\n"
         'Respond with ONLY a JSON array, one object per email in the same order: '
-        '[{"index": 0, "category": "...", "gist": "...", "reply_worthwhile": true/false}, ...]'
+        '[{"index": 0, "category": "...", "gist": "...", "reply_worthwhile": true/false, "deadline": null}, ...]'
     )
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=2048,
+        max_tokens=4096,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = response.content[0].text.strip()
@@ -103,6 +125,8 @@ def classify_messages(messages: list[dict]) -> list[dict]:
         m["category"] = label.get("category") if label.get("category") in CATEGORIES else "notification"
         m["gist"] = label.get("gist", "")
         m["reply_worthwhile"] = bool(label.get("reply_worthwhile", False))
+        deadline = label.get("deadline")
+        m["deadline"] = deadline if isinstance(deadline, dict) and deadline.get("date") else None
     return messages
 
 

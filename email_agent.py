@@ -19,18 +19,16 @@ with instructions instead of hanging on a device-code prompt.
 Log: email_agent_runs.log (via the .bat) — one summary line per action.
 """
 
-import json
+import base64
 import os
 import subprocess
-import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 
-import msal
 import requests
 
 import email_intake as ei
-from email_assistant import classify_messages, fetch_message_body, write_reply, create_reply_draft
+from email_assistant import classify_messages, fetch_message_body, write_reply, create_reply_draft, NOREPLY_RE
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SERVER = "http://127.0.0.1:8000"
@@ -41,6 +39,7 @@ FOLDER_BY_CATEGORY = {
     "personal": "Personal",
     "newsletter": "Newsletters",
     "notification": "Notifications",
+    "suspicious": "Suspicious",
     "junk": "Junk Review",
 }
 DRAFT_CATEGORIES = {"action-needed", "personal"}
@@ -50,23 +49,55 @@ def log(msg: str) -> None:
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}", flush=True)
 
 
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+GITHUB_REPO = os.environ.get("GITHUB_REPO", "lucasjonsil-hue/video-analyzer")
+REMINDERS_PATH = "notes/reminders.md"
+
+
+def save_reminder_to_github(m: dict) -> None:
+    """Append a dated reminder from an email's extracted deadline (deduped by subject)."""
+    deadline = m.get("deadline")
+    if not GITHUB_TOKEN or not deadline:
+        return
+    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{REMINDERS_PATH}"
+    headers = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"}
+    resp = requests.get(api_url, headers=headers, timeout=15)
+    if resp.status_code == 200:
+        data = resp.json()
+        content = base64.b64decode(data["content"]).decode("utf-8")
+        sha = data["sha"]
+    elif resp.status_code == 404:
+        content = "# Reminders\n\nDeadlines and bills pulled automatically from email.\n"
+        sha = None
+    else:
+        resp.raise_for_status()
+
+    marker = f"(email: {m['subject']})"
+    if marker in content:
+        return  # this email's obligation already recorded
+    entry = (
+        f"\n## {deadline['date']}\n"
+        f"Source: email from {m.get('from_name') or m.get('from_address', '?')}\n\n"
+        f"{deadline.get('what', 'Deadline')} {marker}\n"
+    )
+    payload = {
+        "message": f"Add reminder: {deadline.get('what', 'deadline')[:60]}",
+        "content": base64.b64encode((content + entry).encode("utf-8")).decode("utf-8"),
+    }
+    if sha:
+        payload["sha"] = sha
+    requests.put(api_url, headers=headers, json=payload, timeout=15).raise_for_status()
+    log(f"  reminder saved: {deadline['date']} — {deadline.get('what', '')}")
+
+
 def get_token_headless() -> str:
-    """Silent-only token refresh — never opens a device-code prompt."""
-    cache = msal.SerializableTokenCache()
-    if os.path.exists(ei.TOKEN_CACHE_PATH):
-        with open(ei.TOKEN_CACHE_PATH, "r", encoding="utf-8") as f:
-            cache.deserialize(f.read())
-    app = msal.PublicClientApplication(ei.CLIENT_ID, authority=ei.AUTHORITY, token_cache=cache)
-    accounts = app.get_accounts()
-    result = app.acquire_token_silent(ei.SCOPES, account=accounts[0]) if accounts else None
-    if not result or "access_token" not in result:
+    """Silent-only token for the first account (backfill scripts import this)."""
+    tokens = ei.get_all_tokens()
+    if not tokens:
         raise SystemExit(
             "Silent token refresh failed — run `py email_intake.py` once interactively to sign in again."
         )
-    if cache.has_state_changed:
-        with open(ei.TOKEN_CACHE_PATH, "w", encoding="utf-8") as f:
-            f.write(cache.serialize())
-    return result["access_token"]
+    return tokens[0][1]
 
 
 def graph_headers(token: str) -> dict:
@@ -190,13 +221,12 @@ def process_draftworthy(token: str, m: dict) -> None:
         log(f"  [{m['subject']}] draft failed: {str(e)[:120]}")
 
 
-def main() -> None:
-    token = get_token_headless()
+def run_for_account(username: str, token: str) -> None:
     messages = fetch_unread(token)
     if not messages:
-        log("no new mail")
+        log(f"[{username}] no new mail")
         return
-    log(f"{len(messages)} unread message(s) — classifying")
+    log(f"[{username}] {len(messages)} unread message(s) — classifying")
     classify_messages(messages)
     folder_ids = get_folder_ids(token)
 
@@ -205,12 +235,30 @@ def main() -> None:
         log(f"[{category}] {m['subject']} — {m.get('gist', '')}")
         if category == "video-links":
             process_video_email(token, m)
-        elif category in DRAFT_CATEGORIES and m.get("reply_worthwhile"):
+        elif (
+            category in DRAFT_CATEGORIES
+            and m.get("reply_worthwhile")
+            and not NOREPLY_RE.search(m.get("from_address", ""))
+        ):
             process_draftworthy(token, m)
+        try:
+            save_reminder_to_github(m)
+        except requests.RequestException as e:
+            log(f"  reminder save failed: {str(e)[:100]}")
         try:
             move_message(token, m["id"], folder_ids[category])
         except requests.RequestException as e:
             log(f"  move failed: {str(e)[:120]}")
+
+
+def main() -> None:
+    tokens = ei.get_all_tokens()
+    if not tokens:
+        raise SystemExit(
+            "No account tokens available — run `py email_intake.py` once interactively to sign in again."
+        )
+    for username, token in tokens:
+        run_for_account(username, token)
     log("run complete")
 
 

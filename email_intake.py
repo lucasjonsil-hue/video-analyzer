@@ -13,6 +13,7 @@ Requires MS_CLIENT_ID in .env (see CLAUDE.md, Email & Calendar section).
 
 import os
 import re
+import sys
 import requests
 import msal
 from dotenv import load_dotenv
@@ -23,8 +24,19 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TOKEN_CACHE_PATH = os.path.join(BASE_DIR, "ms_token_cache.json")
 
 CLIENT_ID = os.environ.get("MS_CLIENT_ID")
-AUTHORITY = "https://login.microsoftonline.com/consumers"
+# New sign-ins go through /common so both personal Microsoft accounts and
+# work/school (university) accounts can join the shared token cache. NOTE:
+# work/school sign-in also requires the Azure app registration's "Supported
+# account types" to allow organizational accounts — personal-only registrations
+# reject /common with AADSTS9002331.
+AUTHORITY = "https://login.microsoftonline.com/common"
 SCOPES = ["Mail.ReadWrite"]
+
+
+def _authority_for(account: dict) -> str:
+    # Silent refresh must hit the account's own realm: "consumers" for personal
+    # accounts, the university's tenant id for school accounts.
+    return f"https://login.microsoftonline.com/{account.get('realm', 'common')}"
 GRAPH = "https://graph.microsoft.com/v1.0"
 ANALYZER_URL = "http://127.0.0.1:8000/analyze-url"
 
@@ -38,7 +50,7 @@ VIDEO_URL_RE = re.compile(
 )
 
 
-def get_token() -> str:
+def _load_app() -> tuple[msal.PublicClientApplication, msal.SerializableTokenCache]:
     if not CLIENT_ID:
         raise SystemExit(
             "MS_CLIENT_ID is missing from .env — do the one-time app registration "
@@ -49,11 +61,29 @@ def get_token() -> str:
         with open(TOKEN_CACHE_PATH, "r", encoding="utf-8") as f:
             cache.deserialize(f.read())
     app = msal.PublicClientApplication(CLIENT_ID, authority=AUTHORITY, token_cache=cache)
+    return app, cache
 
+
+def _save_cache(cache: msal.SerializableTokenCache) -> None:
+    if cache.has_state_changed:
+        with open(TOKEN_CACHE_PATH, "w", encoding="utf-8") as f:
+            f.write(cache.serialize())
+
+
+def _silent_token(cache: msal.SerializableTokenCache, account: dict):
+    app = msal.PublicClientApplication(
+        CLIENT_ID, authority=_authority_for(account), token_cache=cache
+    )
+    return app.acquire_token_silent(SCOPES, account=account)
+
+
+def get_token() -> str:
+    """Token for the first signed-in account (device-flow sign-in if none)."""
+    app, cache = _load_app()
     result = None
     accounts = app.get_accounts()
     if accounts:
-        result = app.acquire_token_silent(SCOPES, account=accounts[0])
+        result = _silent_token(cache, accounts[0])
     if not result:
         flow = app.initiate_device_flow(scopes=SCOPES)
         if "user_code" not in flow:
@@ -62,11 +92,38 @@ def get_token() -> str:
         result = app.acquire_token_by_device_flow(flow)
     if "access_token" not in result:
         raise SystemExit(f"Login failed: {result.get('error_description')}")
-
-    if cache.has_state_changed:
-        with open(TOKEN_CACHE_PATH, "w", encoding="utf-8") as f:
-            f.write(cache.serialize())
+    _save_cache(cache)
     return result["access_token"]
+
+
+def get_all_tokens() -> list[tuple[str, str]]:
+    """Silent-only tokens for EVERY signed-in account: [(username, token), ...]."""
+    app, cache = _load_app()
+    tokens = []
+    for account in app.get_accounts():
+        result = _silent_token(cache, account)
+        if result and "access_token" in result:
+            tokens.append((account.get("username", "?"), result["access_token"]))
+        else:
+            print(f"WARNING: silent refresh failed for {account.get('username', '?')} — "
+                  "run `py email_intake.py --add-account` to sign that account in again.")
+    _save_cache(cache)
+    return tokens
+
+
+def add_account() -> None:
+    """Sign an additional account (e.g. school email) into the shared token cache."""
+    app, cache = _load_app()
+    flow = app.initiate_device_flow(scopes=SCOPES)
+    if "user_code" not in flow:
+        raise SystemExit(f"Could not start device login: {flow}")
+    print(flow["message"], flush=True)
+    result = app.acquire_token_by_device_flow(flow)
+    if "access_token" not in result:
+        raise SystemExit(f"Login failed: {result.get('error_description')}")
+    _save_cache(cache)
+    signed_in = ", ".join(a.get("username", "?") for a in app.get_accounts())
+    print(f"Signed in. Accounts in cache: {signed_in}")
 
 
 def fetch_unread_messages(token: str) -> list[dict]:
@@ -139,4 +196,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    if "--add-account" in sys.argv:
+        add_account()
+    else:
+        main()
