@@ -84,3 +84,23 @@ The video features a woman crediting a male creator (shown in frame 2 holding a 
 If anybody knows who this guy is, please tell him I said thank you because he was the one who helped me land my internship this summer. You guys don't believe me, just listen to him. Like, it's really easy when you realize how lazy most people are. I do this one thing that helps me land jobs no matter how bad the market is. And the only reason it works is because other people aren't doing it. So I was following up on my interview applications. You have to remember that when you apply to a job, you're just one out of thousands of people. When I apply to a job, just as quickly as I hit that apply button, I send an email off to the hiring manager, the manager, or even the director of the team. And sometimes when I do that, I find I even bypass the automated job application processes. Now you might be wondering, what do I follow up with and how do I even find these kind of people? Don't worry, I'm going to show you exactly how. First, pull up the job posting and look for hints and keywords. For example, this has the team's name listed right here. So remember this. This is really helpful. Now go to the company's page and click on people. Put your keyword in here and hopefully that's going to bring it down to a lot less members. Right here, this is really great. There's only 87 people. So down here, I'm going to start looking for the directors or hiring managers. Look like she's a director, so I'll probably go ahead and messager. Now if you want to take it one step further, what's even better than messaging them on LinkedIn is actually getting their email. Go to job right and then pull up the company page, paste in the LinkedIn, and it's going to find you the email information right over here. To be honest, I think email is much more effective than LinkedIn because I've heard recruiters tell me that the LinkedIn boxes are filled up to like 100 messages. But yeah, I'm not going to lie, this job market is super tough. You're going to have to do stuff that sets you apart from other candidates and really go that extra mile. But I know you can do it and you got this. Now follow me for more job search hacks. Guys, the market is so cooked right now, but try this method out and I guarantee you will get it into shit like me.
 
 </details>
+
+## 2026-07-18 06:16 UTC
+Source: https://www.instagram.com/reel/DazkCdJMdMA
+
+This is a screenshot of a YouTube video by Justin Sung titled 'How to Remember Everything You Read' which has garnered 8.4 million views. The video teaches a reading comprehension and retention framework called PACER, which involves a consumption period and a digestion period. A top comment from a 30-year-old surgeon highlights the video's perceived value.
+
+The video by @JustinSung covers a learning and reading retention system called PACER, which stands for multiple components visible on a whiteboard-style diagram. The framework divides the learning process into a 'Consumption Period' and a 'Digestion Period'. The PACER acronym appears to include elements like Preview, Active recall, Connect, Encode, and Review/Retrieve. The subtitle visible mentions 'reference type information', suggesting the video categorizes types of knowledge. The video has 8.4M views, 405K likes, and 7.2K comments, indicating it is highly popular. A top commenter, a 30-year-old surgeon, wishes they had seen the video earlier in life.
+
+- PACER framework for reading retention: a structured acronym-based system
+- Two phases: Consumption Period and Digestion Period
+- Distinguishes between types of information (e.g., reference type)
+- Highly popular video with 8.4M views and 405K likes
+- Praised by professionals like surgeons for its practical value
+- Created by learning coach Justin Sung
+
+<details><summary>Full transcript</summary>
+
+Your girl is ready for your mission
+
+</details>
