@@ -1000,3 +1000,24 @@ The video opens with a stylized 'Fable 5' graphic and the presenter reacting wit
 Log Fable 5 just came back and somebody's already leaked the entire system prompt on the internet. And this isn't some basic prompt. It's 120,000 characters long, over 1,500 lines, and it covers the exact set of instructions and the topic uses to control how their most powerful model thinks, plans, and gets things done. And the best part is you can take these exact instructions and inject them into cheaper open source models, like GLM 5.2 or Kimmy Cave 2.7. So they follow the same playbook that an entropic built for the world's best AI model. This significantly improves results and allows you to get the best of both worlds. One of your selves, just comment Fable and I'll send you guys the link directly.
 
 </details>
+
+## 2026-07-18 15:30 UTC
+Source: https://www.instagram.com/reel/DaeBB88pM8W/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Giga Qian
+
+A tech content creator explains that Tencent's new AI model, Hunyuan 3 (HY3), is available for free on OpenRouter until July 21st. The model is a 295 billion parameter mixture-of-experts model with strong agentic and tool-calling capabilities. The creator covers the model's specs, backstory, and why it matters for developers building AI agents.
+
+The presenter, who goes by 'Gigaechin' and bills himself as a China-focused tech commentator, explains that Tencent has made their flagship AI model Hunyuan 3 (HY3) available at $0 per token on OpenRouter until July 21st. He provides background on Tencent as the company behind WeChat and explains the philosophical meaning of 'Hunyuan' in Taoism. The model is a 295 billion parameter Mixture-of-Experts (MOE) architecture that only activates 21 billion parameters during inference, making it fast. It features a 256,000 token context window and a 3.8 billion parameter multi-token prediction layer that predicts multiple code chunks simultaneously. He explains that Tencent shut down their previous AI division in January after the CEO criticized it, and rebuilt in just 88 days. The model was previously under a restrictive license but is now Apache 2.0, making it usable globally including the EU and South Korea, and even for enterprise applications. The weights are available on Hugging Face.
+
+- Tencent's Hunyuan 3 (HY3) is free on OpenRouter until July 21st at $0 per token
+- 295 billion parameter MOE model that activates only 21B parameters during inference for fast performance
+- 256,000 token context window — suitable for large codebases and documents
+- 3.8B parameter multi-token prediction layer makes it especially fast for code generation
+- Tencent scrapped their old AI division in January and rebuilt in just 88 days
+- Now Apache 2.0 licensed — usable globally and for enterprise apps, weights on Hugging Face
+
+<details><summary>Full transcript</summary>
+
+Today, China made AI free, and I'm not talking about the lightweight open-source stuff you run locally. I mean the premium flagship stuff that won't fit on your machine. It costs exactly $0 per token on OpenRouter until July 21st. I'm Gigaechin, I'm your China guy, and I'm gonna tell you why. And how? This is from Tencent. They're the guys behind the messaging app WeChat. The model is called Hunyuan 3. In Taoist philosophy, Hunyuan refers to the chaotic state of the world before the Earth and the heavens separated. Now that you know that, we'll be calling it HY3. It's a 295 billion parameter monster. It's got a 256,000 token context window, so you can feed it a mountain of documents, even a whole code base. Now why would a trillion dollar company build a massive AI model and give it away for free? Because they torched their entire AI division in January. Their CEO said their old model was like a high school or memorizing, so they just shut the door on it. Later, they emerged with something built to crush agentic workflows and tool calling. 88 days later, if you know you know. It's an MOE model, and if you follow me, you know what that means. During inference, it only activates 21 billion parameters. More interestingly, it has a 3.8 billion parameter, multi-token prediction layer. Basically, it predicts multiple chunks of code simultaneously, so this thing is blazing fast. If you're building agents, this is your guy. The preview used to have a restrictive license, so if you were in the EU or South Korea or a few other places, you were SOL. No more. It's Apache 2.0 now, and you can even use this thing for enterprise apps. And if you've got the machine for it, call me, but the weights are on hugging face. And don't forget, six months ago, 10 cents had a blank repo. This is speed. What do you think's coming next?
+
+</details>
