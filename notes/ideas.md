@@ -371,3 +371,24 @@ The video opens with a clip of a concrete worker doing a broom finish, captioned
 Fuck that. Here's one of the dumbest ways you can earn more than a construction worker from your fucking couch. What we're gonna be doing is called appointment setting. You don't need a post content You don't need to show your face and here's exactly how you start grab your laptop and jump on to seek.com Or indeed if you're anywhere else in the world you want to search up remote appointments So give you a bunch of options, but they're not all good so this is what you want to look at for Commission base that there's no limit on how much you can earn warm leads So you're not pestering paper with cold calls and remote works So you can actually do it from your fucking couch. You likely need a resume So you got a chat chat chat chat and search appointment set a resume copy all that shit uses a template Then chuck in your own details then you're ready to apply these roles allowed men my mates to quit our construction jobs in 2024 and start traveling while earning good money at the same time This is not to flex. It's just to show that there are other options and if you'd like a bit more help starting Just comment the word yes below and I'll send you my completely free guide. Let's go
 
 </details>
+
+## 2026-07-18 15:25 UTC
+Source: https://www.instagram.com/reel/DZ1LQkhAkdE/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Trailblazers Podcast
+
+A business figure, appearing on the Trailblazers podcast, advises new college graduates on how to monetize AI agent skills by offering automation services to small and medium-sized businesses. He suggests charging $100/hour on a results-based model, helping businesses automate repetitive tasks they don't have time to handle. The host reacts enthusiastically to the advice.
+
+The speaker outlines a concrete go-to-market strategy for young people graduating college who have become proficient with AI tools. He recommends approaching small to medium-sized businesses and offering to identify inefficiencies and automate them using AI agents and cloud bots. The pitch is performance-based: charge $100/hour but only collect if results are delivered. He points out that today's graduates have been using AI extensively throughout school, giving them a practical edge. The key move is walking into a business, asking what tasks are a hassle or bottleneck, and then automating those workflows with AI agents. The female host laughs and agrees, validating the approach.
+
+- Target small/medium businesses with an AI automation pitch
+- Charge $100/hour on a no-results, no-pay model to reduce client risk
+- College grads have a natural AI skill advantage from years of use
+- Ask businesses to identify their pain points, then automate with agents
+- AI agents and cloud bots are the core technical skillset to develop
+- Low-risk value proposition makes it easy for businesses to say yes
+
+<details><summary>Full transcript</summary>
+
+What I would do coming out of college, I would go to small medium-sized businesses, having learned how to do agents, cloud bots, and say to them, there is a hundred things that you do in this tiny business that you don't have the time to check the details on. And you don't know if it's worth hiring somebody to do it. I'll charge you 100 bucks an hour, and if it doesn't work, you don't pay. I'll save you time and money. If you're just graduating from college, you've already used AI to cheat for multiple years, right? Yeah. And so for you to walk into a business and just save, show me all the things that are a hassle that you can't get to. And I'm going to see if we can automate them with agents.
+
+</details>
