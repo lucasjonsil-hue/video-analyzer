@@ -756,3 +756,24 @@ The video is a fast-paced reaction/commentary short where the creator expresses 
 Oh my god, what is happening? Literally just now on Thorpeg just killed thousands of startups with this one new update. And Thorpeg just launched managed agents. You can now build into ploy AI agents at scale without writing any infrastructure code. Coding agents at ship pool requests, finance bots that process documents instantly, productivity agents that join your team and work alongside you. Hundreds of startups spent years building this exact same product. And Thorpeg just made it a built-in feature. No extra cost on any plan. Oh and then I mentioned it comes with Stripe, Notion, Figma, Atlassian, Zephyr, already plugged in. The entire agent startup ecosystem just became a checkbox. Common Claude and I'll send you how to set up your first agent.
 
 </details>
+
+## 2026-07-18 15:21 UTC
+Source: https://www.instagram.com/reel/DW_xAR-j-L5/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Zach Chang
+
+A creator demonstrates how to scrape Reddit without using the official Reddit API by exploiting Reddit's unofficial JSON endpoints. He uses Claude Code to build a Python scraper that appends '.json' to Reddit URLs to extract structured data. He shows a practical example of analyzing Claude Code subreddit posts for trending features and sentiment.
+
+The video creator, wearing a hoodie, presents a technique he calls a 'borderline illegal' Reddit scraping hack using Claude Code. He explains that Reddit exposes unofficial JSON endpoints on every page, accessible by simply appending '.json' to any Reddit URL, which returns structured data without requiring authentication or API keys. He used Claude Code to build a Python script (scrape_reddit.py) that leverages the requests library to hit these endpoints with rate limiting and retry logic. The script accepts arguments like subreddit name, search query, and post limit. He demonstrates the output by showing a Claude Code analysis of the r/ClaudeCode subreddit, summarizing five recently discussed features with upvote counts and breaking down what users like and dislike about each. He mentions using this for personal trend-tracking and client competitive research.
+
+- Reddit exposes unofficial JSON endpoints by appending '.json' to any Reddit URL
+- No API keys or authentication required to access these endpoints
+- Claude Code was used to build a Python scraper (scrape_reddit.py) using the requests library
+- The script supports arguments for subreddit, query, limit, and comments
+- Output includes structured post data with sentiment analysis on what users like/dislike
+- Use cases include trend monitoring and competitive research
+
+<details><summary>Full transcript</summary>
+
+But do you guys know that you can use Cloud Code to scrape Reddit without using the Reddit API? Okay, let me show you how to do this. Now the way I do this is take advantage of something known as the Reddit.json endpoint. Basically, Reddit exposes unofficial.json endpoints on every Reddit page, which returns structured data without needing to use any authentication. So you can literally just append.json to the end of any Reddit URL and get the raw contents of it. And you know, therefore, scrape leads, comments, data, all that stuff to your heart's content. So I use Cloud Code to build a scrape Reddit Python function, which takes advantage of these endpoints using a request library, which allows me to bypass any need for any Reddit API keys and just scrape Reddit as much as I want. So you can see here I scraped the Cloud Code subreddit and just asked it to tell me about five new features that people are talking about based on upvotes and then tell me what people like about them and what people dislike about them. Anyways, I've been using this for myself to keep on top of Cloud Code trends and also my clients to help them with competitive research, but I'd share it here as a service to the community, okay? Enjoy.
+
+</details>
