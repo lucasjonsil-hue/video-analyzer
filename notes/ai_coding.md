@@ -881,3 +881,24 @@ The video presents a curated list of tools that together form a complete startup
 Yes, I don't know what to make you read it
 
 </details>
+
+## 2026-07-18 15:27 UTC
+Source: https://www.instagram.com/reel/DZsdJ6oxAQl/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus The (Nontechnical) Tech Bro
+
+A creator explains how to use AI agents combined with web scraping tools to rapidly learn and replicate patterns from top performers in any niche. The workflow involves scraping content, analyzing it with AI subagents, and then using NotebookLM to consume the findings in multiple formats. He frames this as a faster alternative to years of manual practice and observation.
+
+The video opens with the hook 'Stop practicing. Start scraping.' The creator explains that anyone can now clone 10 years of experience using AI tools. He walks through a workflow where you: (1) install a scraping tool like Apify or Firecrawl, (2) connect it to an AI agent, (3) give the AI a prompt to analyze top posts or listings in your niche, (4) the AI spawns subagents that analyze title patterns, first sentences, structure, image style, etc., (5) the AI outputs findings which are then fed into NotebookLM, which generates audio overviews, slide decks, mind maps, quizzes, infographics, and data tables to help you learn. He uses LinkedIn influencing and Airbnb/wellness retreat optimization as example use cases. He emphasizes that using AI to accelerate learning has been the most valuable AI application for him personally.
+
+- Use scraping tools (Apify, Firecrawl) connected to AI agents to analyze top performers in any niche
+- AI spawns subagents to analyze title patterns, first sentences, structure, and image style of top content
+- Feed AI findings into NotebookLM to generate multiple learning formats: audio overviews, quizzes, mind maps, etc.
+- This approach can compress years of experience into a fast learning session
+- Audio overview in NotebookLM is highlighted as the creator's personal favorite output format
+- Works for many use cases: LinkedIn content, Airbnb listings, landing pages, wellness retreats
+
+<details><summary>Full transcript</summary>
+
+Anybody can clone like 10 years of experience now. This is you. Maybe you're trying to become a LinkedIn influencer. Maybe you're trying to build the number one wellness retreat in Virginia. Either way, you have no idea what you're doing. So you install one of these scraping tools. What is this for? Hold on, they have my free connect. Your AI agent to this scraper. You give your AI a prompt like this. Your AI spawns a bunch of subagents to analyze the living shit out of every LinkedIn post. At least the top posts in your need. Certain subagents will look at the title pattern. Subagents will look at the first Senate or it could be scraping landing pages or like Airbnb listings in your market. Whatever you want to learn about, do your AI is going to output a bunch of different findings. So you take those findings and you put it in notebook. I have no book. I'll make you a bunch of things that you can learn from. I personally love the audio overview. I've built a lot of AI bullshit in my day and the number one way that AI has helped me has been learning shit. And the fuck down. I am continuing to test ways to learn things better, but with AI. So follow along.
+
+</details>
