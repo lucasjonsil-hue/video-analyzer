@@ -218,3 +218,23 @@ The speaker opens with a bold claim that selling AI is no longer a viable way to
 Selling AI is not the way to make money anymore. I just made $40,000 brookering rebar from Vietnam to Japan and it was fucking easy Selling enterprises AI convincing them to pay you like $10,000 a month outsourcing your employees and just doing all this shit for a measly 10 Maximum $20,000 a month per client is fucking ridiculous I got a $20,000 check and I'm gonna get another $20,000 check when the second shipment hits and I'm not doing anything It's a hundred times easier to maintain this. I don't have to deal with employees I don't have to deal with clients and the best part is is that the sky is the ceiling when it comes to how much money You can make brokering commodities the amount of money that you make is directly tied to the amount of product that you're moving Like I met a guy in Ukraine who's made over $20 million in the past year Brokering sunflower oil from Ukraine to the rest of Europe and Asia and he's only been in the game for like a couple years Also when the whole economy collapses do you think that people are going to continue to pay you for running their AI systems? Maybe if you have a contract with multi-billion dollar companies, but that's not the case for 99% of us Commodities like grain and fuel and all this shit is the last thing to stop moving around
 
 </details>
+
+## 2026-07-18 05:49 UTC
+Source: https://www.instagram.com/reel/DXU9VGdEVQF
+
+A young content creator explains how body cam compilation YouTube videos generate significant revenue, with RPMs of $6-$7 per thousand views. He reveals that larger channels make over $10,000 per video, while he himself earns enough to replace and double his former 9-to-5 income. He pitches this as a legitimate online business opportunity that requires time and effort.
+
+The creator opens by showing a YouTube channel called 'Live Bodycam' with videos like 'Mom Realizes Grandma Ran Over Her Baby' and 'When a Predator Gets Caught in the Act,' each pulling 1.5-1.7M views. He explains that this niche has a $6-$7 RPM, meaning each video earns over $10,000. He then shows his own YouTube analytics, revealing a video with ~406K total views and a data point of 328,877 views on Dec 26, 2025, earning him $1,300 from one video at a $7 RPM. He admits he gets far fewer views than the big channels but still replaced and doubled his 9-to-5 income. He closes by addressing viewers who are stuck in a job they hate and recommends this as a viable online business, emphasizing it is not a get-rich-quick scheme and requires genuine time and effort.
+
+- Body cam compilation videos earn $6-$7 RPM on YouTube
+- Top channels make over $10,000 per video in ad revenue
+- Creator earns $1,300 from a single video with ~400K views
+- He replaced and doubled his 9-to-5 income with this model
+- Views are sourced mostly from suggested videos (53.7%) and browse features (41.3%)
+- Positioned as a legitimate business requiring time and effort, not a quick scheme
+
+<details><summary>Full transcript</summary>
+
+If you've ever watched one of these body cam videos and you've never tried to make one yourself, then you are missing out. These videos have around a $6 to $7 RPM, so if you do the math on that, each of these videos are making over $10,000 each. And I would know because I make these videos and this video that had a $7 RPM with about 200,000 views made me 1.3 thousand. I'm just a small fry in the ocean. I get a fraction of their views, but I'm still able to replace my 9 to 5 income and even double it. This is not a garbage quick scheme by any means. It's going to take time and it's going to take effort. But if you are someone who's in the position that I was a couple months ago working a 9 to 5 job that they hated and was trying to find some type of online business to start and replace their 9 to 5 income, this is something that you should definitely look into.
+
+</details>
