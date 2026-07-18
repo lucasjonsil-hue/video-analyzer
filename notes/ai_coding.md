@@ -565,3 +565,23 @@ The video covers a novel AI agent concept called 'Tomatown' where an AI is given
 Someone built an AI that dies if it doesn't make money. And when it makes money, it clones itself. It's called a tomatown. Built by a 20 year old. And the moment it's born, it gets its own crypto wallet. Then it has to survive. Every thought it has, every server it runs, costs money from that wallet. If the wallet hits zero, it shuts down. So it builds products, it deploys websites, it sells services to real customers. No boss, no credit card, no human approving anything. And guess what, if it earns more than it burns, it spins up a copy of itself. Funds the copies wallet and then multiple AI starts working. Within 24 hours of launch, 13,000 of these agents had opened wallets and were buying servers. Even the founder of Ethereum looked at this and said, this feels really wrong. We just gave AI a survival instinct. And it's working. Want to know more? AI stories daily. Just follow me.
 
 </details>
+
+## 2026-07-18 06:10 UTC
+Source: https://www.instagram.com/reel/Da57zYLvFYL
+
+A social media creator demonstrates how to use Claude AI to find every photo of yourself that exists online by uploading a selfie and using reverse image search capabilities. The video walks through connecting Google Chrome to Claude and using prompts to locate and then request removal of those photos. It ends with a call-to-action to follow and comment 'Privacy' for the full prompt list.
+
+The creator explains a multi-step process using Claude AI (referred to as 'Quad' in the transcript) to locate all photos of yourself on the internet. First, you upload a selfie to Claude and ask it to analyze your distinguishing facial features. Then, you install the Google Chrome connector via Claude's customization settings. Next, you prompt Claude to use Chrome to run a reverse image search across multiple tools and return links to every place your face appears online. The creator claims the results were 'terrifying,' implying many unknown appearances were found. As a bonus, the creator shows how to prompt Claude to write custom takedown requests for each site. The video ends with a follower/comment engagement hook offering to DM the full prompt list.
+
+- Upload a selfie to Claude and ask it to list your distinguishing facial features
+- Install the Google Chrome connector in Claude's settings to enable browser use
+- Prompt Claude to reverse image search your face across multiple tools and return links
+- Claude can also generate custom photo removal/takedown requests for each site found
+- The creator uses a follow/comment CTA as a lead generation tactic
+- This workflow raises real privacy awareness about how widely your photos may be spread online
+
+<details><summary>Full transcript</summary>
+
+What happens when you ask Quad to find every photo of you that exists on the internet? I tried this and it found me in places I didn't even know I had been photographed. So first come over to Quad, upload a selfie of yourself and then say, analyze this photo and list out every specific feature that makes me recognizable. So you can identify me anywhere online. Quad is then gonna build a full description of exactly what you look like. Now here's the trick. On the left side, click customize, then connectors, hit the plus, choose browse connectors, look up Google Chrome and then install it. Then come back to the same chat and say, using my selfie and everything you know about me, use Chrome to reverse image search my face across the top tools and find every single place I appear on the internet, then give me the link to each one. Quad is then gonna open up its own browser and run your face through every reverse image search tool and come back with a link to every place you show up. The results were honestly terrifying. Now here's the bonus if you value your privacy. Say now write a custom removal request for each of those sites to get my photos taken down. Quad is then gonna write custom take down requests for every single site. So if you want all these prompts and more, make sure you follow me in comment privacy and I'll send them over to you.
+
+</details>
