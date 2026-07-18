@@ -451,3 +451,23 @@ The video opens with a headline about Claude Code removing its usage limit, feat
 Cloud code just removed its usage limit. Yeah, I heard about it. What is actually going on? A group of developers dug into Cloud code and found the limit can be reset manually. Then where is it coming from? Part of it lives locally. Cloud stores your entire session in a log file inside a hidden folder on your device. And that file decides when you hit the limit. So if that file changes, the limit changes? Exactly. Open your terminal, go to cd.cloud, and you will find your session logs sitting there. And the limit just disappears if we touch it? Open that file, delete everything except the first line. That line is just a header, then save it. That is all it takes. Restart Cloud code. It comes back thinking it is a fresh session. No memory of the limit. So the limit was never really global? It was tied to your session the whole time. Not some invisible server wall. Just a file deciding when you stop.
 
 </details>
+
+## 2026-07-18 05:49 UTC
+Source: https://www.instagram.com/reel/DXaFeYqy9vo
+
+A young content creator documents day 12 of his challenge to drop out of school by building an AI-generated YouTube Shorts channel. He uses ChatGPT for video ideas and scripts, then uses an AI video generation tool called Vue Max Diode with Sora to create watermark-free clips. His channel has grown to 33,000 subscribers with millions of views by posting daily AI-generated content.
+
+The creator opens by greeting viewers on day 12 of his challenge to drop out of school through AI YouTube Shorts. He shares that his channel has reached 33,000 subscribers and is getting millions of views, attributing success to consistent daily posting. He shows his workflow: using ChatGPT 5.2 to brainstorm viral video ideas (mentioning a concept about a dog being thrown into a gorilla enclosure), then using ChatGPT to convert ideas into detailed prompts for a 1-minute video structure. He pastes those prompts into a tool called Vue Max Diode which uses Sora to generate AI video clips without watermarks. He emphasizes that removing watermarks is critical for higher views and monetization. The tool also provides AI scriptwriting and AI voiceover features. He uploads the finished video and expresses confidence it will blow up and earn thousands of dollars, ending by playfully asking when he should drop out of school.
+
+- Day 12 of a challenge to drop out of school using AI YouTube Shorts
+- Channel has grown to 33,000 subscribers with millions of views through daily posting
+- Workflow: ChatGPT for ideas and prompts, Vue Max Diode/Sora for watermark-free AI video clips
+- AI scriptwriter and AI voiceover tools used to fully automate video creation
+- Removing watermarks from AI-generated content is emphasized as key to more views and revenue
+- Creator is confident the strategy will generate thousands of dollars
+
+<details><summary>Full transcript</summary>
+
+Day 12 of trying to drop out of school by posting AI YouTube shorts. All we need to do is post more AI YouTube shorts. For our channel is going up right now, we're at 33,000 subscribers and are getting millions of views. It looks like posting daily is actually working, so let's make another video so we can drop out of school. I went to Chagee B.T. for more video ideas and don't getting thrown into a gorilla enclosure. Oh, why? These ideas! Anyways, I had Chagee B.T. turned that idea into proms for a 1 minute video and then pasted it into Vue Max Diode. Their Sora video generator made all of the AI clips for me with zero water marks so people cannot tell its fate. Removing that water mark is so important because you'll actually get more views and make more money. I then just used their AI scriptwriter and AI voiceover and uploaded the video. Oh, why would you throw a dog like that? I have a strong feeling this video will blow up and will make thousands of dollars from the jump! Anyways, when should I drop out?
+
+</details>
