@@ -311,3 +311,23 @@ The creator walks through 10 progressively niche habits designed to make one's p
 10 out of 10 habits to make sure your presence is disgustingly dialed in but they get progressively more niche. Before any high stakes moment, ensure your ex-sales are twice as long as your inhales for a full two minutes. Navy SEALs use this to drop their heart rate on command to ensure that their hands stay still when they're on their pressure. Hold your gaze on one fixed point for 30 seconds before you walk into any important room. Fighter pilots train this to stop the eyes darting because still eyes are the first thing that a room reads as dominance. Speak 50% slower than feels natural for just one conversation every single day. Voice coaches for actors and politicians absolutely drill this into them because rushed speech signals that you were asking for permission where is slow speech signals that you own the room. Sit in complete silence with no stimulation for 10 minutes every day. The Stoics call that the training ground is the very same skill that's going to stop you from crumbling under the quiet of any high stakes moment. Rehearse the worst possible scenario when you're in mind in detail the night before it matters. The Stoics call this pre-meditatio malorum and it's why nothing underday can rattle you because you've already lived. Drop your voice lower and quieter the moment tension rises instead of raising it. Hostage negotiators are trained to do this because the whole room leans in for the calm man but stops listening to the loud one. Keep your hands completely still when you're being watched. Hoker pros and elite interrogators track this above all else because that slight fidget or the face touches your nervous system signaling that you are not fully attentive. And be so composed that no room person or pressure is ever going to crack you.
 
 </details>
+
+## 2026-07-18 06:17 UTC
+Source: https://www.instagram.com/p/DaKnqFiM_1s
+
+This is a sponsored advertisement for the BetterMe app, framed as a personal testimonial about overcoming anxious attachment in a relationship. Using actor portrayals, it dramatizes insecure relationship behaviors before revealing the app as the solution that transformed the narrator's mindset.
+
+The video opens with a man hugging a pillow on the floor, setting up a story about relationship insecurity. Using actor portrayals, it dramatizes common anxious attachment behaviors: constantly needing reassurance, obsessing over reply times, getting upset when another man likes his girlfriend's post, taking her nights out personally, checking her 'last online' status compulsively, and dropping everything to please her. The narrator admits these behaviors pushed his girlfriend away rather than keeping her close. He then mentions a friend who underwent a similar transformation and credits the BetterMe app. After taking a three-minute quiz, the narrator says the app helped him understand his patterns, become more self-sufficient, stop chasing, and ultimately improve the relationship. The video ends with a call-to-action to 'Take Test!'
+
+- Dramatizes anxious attachment behaviors in a relationship using actor portrayals
+- Framed as a personal testimonial but is clearly a paid advertisement for BetterMe app
+- Claims a 3-minute quiz revealed the root cause of the narrator's insecure behavior
+- Core message: neediness and over-pursuit reduce attraction and respect
+- Uses a 'friend who changed' narrative device to introduce the product
+- Ends with a strong CTA: 'Take Test!' to drive app installs
+
+<details><summary>Full transcript</summary>
+
+The day I stopped chasing my girlfriend, she started chasing me. Here's what I did differently. I needed her to tell me we were good, pretty much constantly. And even then I'd still wonder, she'd take an hour to reply, and I'd already built a whole story about how she was over me. Some guy likes her post, and I'm in a mood the rest of the day. She wants a night out with her friends. I take it personal. I check when she was last online way more than I'd admit. I'd drop whatever I was doing the second she needed something, just trying to keep her happy so she wouldn't get bored of me. And the more I did that, the less she respected it. I figured that's just how I was. Then I noticed my buddy, he used to be the exact same way, and out of nowhere he seemed different, solid, really happy with his girl. So I asked him what changed, and he told me it was this app, better me. I tried their three-minute quiz, and it laid out exactly why I kept doing all this stuff. Now I'm good on my own, I'm not chasing her, and we're better than we've ever been.
+
+</details>
