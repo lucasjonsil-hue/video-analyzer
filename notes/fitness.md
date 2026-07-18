@@ -213,3 +213,23 @@ The creator opens with a conspiratorial claim that 'satanic pedophiles' are tryi
 So it's pretty obvious that satanic pedophiles want to lower your testosterone and make you a weak and obedient slave. You are the top three foods you need to be eating as a man to increase your testosterone. Number one is going to be pure pomegranate juice. One study showed that just a cup a day can increase testosterone in men 24 percent. Look for bottled in glass and not from concentrate. Number two we have grass-fed beef with liver and heart. The organs in here are some of the most nutrient dense foods on the planet, incredible for your testosterone. Number three we have white button mushrooms. These can act as an aromitation inhibitor which will increase your free testosterone. Just make sure to cook them thoroughly to get the planet toxins out.
 
 </details>
+
+## 2026-07-18 06:05 UTC
+Source: https://www.instagram.com/reel/DZ-cyE3O9lM
+
+A young man presents a 'Healthmaxxing Knowledge' quiz in a '15/10 niche edition' format, testing viewers on increasingly obscure health and longevity metrics. He lists topics ranging from basic hydration timing to advanced biomarkers like telomere length and heart rate variability. The video is styled as a TikTok-format educational challenge to see how health-savvy viewers are.
+
+The creator sits in his room and presents a progressive list of health optimization topics to test viewer knowledge. He starts with more commonly known concepts like hydration timing and sleep consistency (showing an 84% sleep consistency score from what appears to be a Whoop or similar tracker), then moves into intermediate topics like Zone 2 cardio, grip strength as a longevity marker, and VO2 max (showing a Men's VO2 Max Chart by Age). He then gets into advanced/niche territory covering visceral vs subcutaneous fat, heart rate variability, insulin sensitivity (showing an insulin resistance cycle diagram), and finally telomere length. The premise is that knowing all of these makes you 'pretty set' in terms of health optimization knowledge.
+
+- Tests viewer knowledge on a spectrum from basic to highly niche health metrics
+- Sleep consistency highlighted with an 84% score graphic
+- VO2 max chart by age shown for men across multiple fitness categories
+- Insulin resistance cycle diagram displayed to explain insulin sensitivity
+- Telomere length cited as the most niche longevity marker
+- Grip strength mentioned as an underrated longevity indicator
+
+<details><summary>Full transcript</summary>
+
+Let's see if you know how to health max but it gets increasingly more niche. Hydration timing, sleep consistency, Dome 2 cardio, grip strength as a longevity marker, VO2 max, this role versus subcutaneous at heart rate variability, insulin sensitivity, and telemere length. If you know all of these, I think you're pretty set.
+
+</details>
