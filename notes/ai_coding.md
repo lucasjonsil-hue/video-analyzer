@@ -694,3 +694,23 @@ The creator sits outside and casually shares his unfiltered opinions on AI influ
 Dude's the best way to learn AI is by just ripping a bunch of YouTube vids and just kind of figuring it out as you get. Here's my brutally honest take on every YouTuber and AI influencer that I see regularly. This is the OG. Orba content creator now, then somebody like actually deepen AI. Super smart dude, highly recommend. But like his stuff, if you're into the whole San Francisco YC bro thing, up at 3AM playing with N8N. So many possibilities. I fuck with this dude, he's super smart and kind of autistic, which means you're cool in my book. This is like the older version that's just as equally autistic. Legend though. Yeah, Nick's also legend. I just wish he would stop posting brand deals constantly and make more authentic content. But dude gotta get the bag I guess. This guy gets it. Arke and Dreson has a lot of like super dystopic takes, but it's great source of information down the left. Listen to their podcast too, it freaking rips. This dude is hilarious. He's kind of more on the dev side, but yeah, still wrecked. D.C's how you build anything with AI. As more just like general entertainment and vibes than actually learning, but I fucking love this guy. Kind of like a sales CEO type of bro that just kind of lightly got into AI.
 
 </details>
+
+## 2026-07-18 15:20 UTC
+Source: https://www.instagram.com/reel/DVUFs9ykc8_/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Emmanuel
+
+A developer shares four key security tips for people who are 'vibe coding' (using AI tools to build apps) to avoid getting hacked. The video covers API key protection, input validation, authentication, and rate limiting in a quick, accessible format.
+
+The creator, who built a top food discovery app, presents four essential security practices for non-traditional developers using AI coding tools. First, he warns against exposing API keys in the frontend, advising they be kept server-side using environment variables and edge functions. Second, he emphasizes input validation, instructing viewers to tell their AI tool to 'sanitize all user inputs' to prevent SQL injection and similar attacks. Third, he recommends using established authentication platforms like Clerk, Firebase, Supabase, or Auth0 instead of rolling your own auth. Fourth, he covers rate limiting on API routes to prevent scraping, abuse of AI features, and DDoS-style attacks, noting that a single line of code can handle this.
+
+- Never expose API keys in the frontend — keep them server-side using environment variables and edge functions
+- Always sanitize user inputs to prevent code injection and database breaches
+- Use established auth platforms (Clerk, Firebase, Supabase, Auth0) instead of building your own authentication
+- Add rate limiting to API routes to prevent abuse, scraping, and app crashes
+- These tips are especially critical for vibe coders using AI tools like Bolt or Replit
+
+<details><summary>Full transcript</summary>
+
+I built a number one food discovery app in my state. Here's how to not get hacked when vibe coding your app. Number one is to never expose your API keys. This is one of the most common and expensive mistakes you can make. If you're open AI, stripe or cloud code is sitting in the front end of your app, that's pretty much like giving your credit card to complete strangers. So here's the rule, your API key should live in the server only. You're using something like Bolt, Replic, use Environment variables and always use edge functions for every API call. Number two is input validation. Anything users can type into your app, whether it's in a search box or prompt can be dangerous. People can try to paste in code or commands to break into your database and steal other users data. To make sure this never happens, tell your AI tool to sanitize all user inputs. This will pretty much take care of all of that by itself. Number three is building your own authentication. Instead of managing passwords, tokens and sessions yourself, use a well-established authentication platform. You can use clerk, Firebase, SuperBase, Alt0. These are usually free to use and pretty easy to integrate as well. Next, we have rate limiting. People can use this to scrape your data, abuse your AI features or simply just crash your app. If somebody can hit your back and 10,000 times per minute, they will. To make sure this doesn't happen, tell your AI tool to add rate limiting to your API rods. One line of code can save you from nightmares.
+
+</details>
