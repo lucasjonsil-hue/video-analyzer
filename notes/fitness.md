@@ -427,3 +427,18 @@ The creator presents an 'Energy Maxing' guide with 8 numbered strategies to boos
 Energy Maxing. This is what I did at 10X my energy in literally 30 minutes. Sunlight, get it in your eyes within 10 minutes of waking up. Water, big glass before you do anything else. Move. Two minutes of active movement before a long work session. I like a 45 minute walk though. Phone, do not touch it within the first 20 to 30 minutes of waking up. Caffeine, wait at least 60 to 90 minutes before any caffeine to avoid crashing. Cold. Splash some cold water in your face or take a cold shower. You don't need an entire ice bath. Purpose, give yourself a reason to wake up. Little bonus, stare at the wall for 10 minutes before a deep work session. It will change your life. I promise you tap and fall from one.
 
 </details>
+
+## 2026-07-18 15:32 UTC
+Source: https://www.instagram.com/reel/DaqzXdSyBMf/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Somnr
+
+A young man shares a comprehensive self-improvement checklist titled 'How to actually ascend,' listing numerous health, fitness, and lifestyle optimization tips. The video is a silent TikTok-style post featuring the creator posing shirtless while the list overlays the screen. The tips range from evidence-based health habits to more fringe or pseudoscientific practices popular in online 'looksmaxxing' communities.
+
+The video presents a long list of self-improvement practices under the title 'How to actually ascend.' The creator, a young male, appears shirtless wearing a green cap across multiple frames while posing confidently. The list includes sleep optimization (8 hrs sleep, sleep on back, sleep tracking via Apple Watch or Somnr app), fitness habits (progressive overload, 10k+ steps, cardiomax, low body fat percentage, upper/lower split workout), nutrition advice (0 sugar, 4L+ water, void sodium & fats, 150g protein, organic foods, intra carbs, calorie deficit, potassium max, electrolyte max), grooming and aesthetics (dyed eyebrows, skincaremax, dress well, tan max, cologne max), and more fringe practices common in looksmaxxing culture (mewing, chin tucks, mewing, pheromonemax via 'Onion method'). The video targets young men interested in self-optimization and physical appearance improvement.
+
+- Sleep optimization: 8 hours, sleep on back, track with Apple Watch or Somnr app
+- Fitness: progressive overload, 10k+ steps, cardio, upper/lower split, low body fat
+- Nutrition: calorie deficit, 150g protein, 0 sugar, 4L water, organic foods, creatine
+- Grooming/aesthetics: dyed eyebrows, skincare, dressing well, tanning, cologne
+- Fringe looksmaxxing practices: mewing, chin tucks, pheromonemax (Onion method)
+- Micronutrient and supplement optimization including potassium and electrolytes
