@@ -735,3 +735,24 @@ The video is part of a recurring 'Powerful Websites You Should Know' series (par
 Powerful websites you should know, part 987. Did you know if you go to this website, just type in your prompt. It can generate a complete product design with parts list, wiring diagrams, and CAD designs included no log and required. Easy!
 
 </details>
+
+## 2026-07-18 15:21 UTC
+Source: https://www.instagram.com/reel/DW5LHGjjVt8/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Baroobi
+
+A creator reacts to Anthropic's launch of managed agents, claiming it has disrupted thousands of AI agent startups. The feature allows users to build and deploy AI agents at scale without writing infrastructure code, with integrations already built in for tools like Stripe, Notion, and Figma. He invites viewers to comment 'Claude' to learn how to set up their first agent.
+
+The video is a fast-paced reaction/commentary short where the creator expresses shock at Anthropic's new 'managed agents' feature for Claude. He explains that this update enables developers and businesses to deploy AI agents at scale without any custom infrastructure code. He lists several use cases: coding agents, finance bots that process documents, and productivity agents that work alongside teams. He emphasizes that hundreds of startups spent years building similar infrastructure products, and Anthropic just made it a native, no-extra-cost feature. He also highlights pre-built integrations with Stripe, Notion, Figma, Atlassian, and Zephyr. The video ends with a call-to-action asking viewers to comment 'Claude' to receive instructions on setting up their first agent.
+
+- Anthropic launched 'managed agents' allowing AI agent deployment without infrastructure code
+- The feature is available at no extra cost on any Claude plan
+- Pre-built integrations include Stripe, Notion, Figma, Atlassian, and Zephyr
+- The creator claims this kills thousands of AI agent startups that built similar tooling
+- Use cases include coding agents, finance bots, and productivity agents
+- Engagement CTA: comment 'Claude' to learn how to set up your first agent
+
+<details><summary>Full transcript</summary>
+
+Oh my god, what is happening? Literally just now on Thorpeg just killed thousands of startups with this one new update. And Thorpeg just launched managed agents. You can now build into ploy AI agents at scale without writing any infrastructure code. Coding agents at ship pool requests, finance bots that process documents instantly, productivity agents that join your team and work alongside you. Hundreds of startups spent years building this exact same product. And Thorpeg just made it a built-in feature. No extra cost on any plan. Oh and then I mentioned it comes with Stripe, Notion, Figma, Atlassian, Zephyr, already plugged in. The entire agent startup ecosystem just became a checkbox. Common Claude and I'll send you how to set up your first agent.
+
+</details>
