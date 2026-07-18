@@ -55,3 +55,23 @@ The creator, a 21-year-old college student, shares a detailed income breakdown f
 - Part-time clinic job paid $3,243
 - Car TikTok page is still growing, earned ~$80
 - Motivational close: multiple income streams are more achievable than they appear
+
+## 2026-07-18 05:45 UTC
+Source: https://www.instagram.com/reel/DUyd1BoDpNC
+
+A creator responds to a video by 'Vincent Fischer' who claims to make millions online at age 22, arguing his method isn't replicable for average people. He then presents an alternative method called 'wholesaling vacant land' using tools like BuyerBridge.ai and Zillow to flip land contracts for profit without fronting any money. The video ends with a call-to-action to comment 'land' for a DM.
+
+The video begins by referencing Vincent Fischer, a 22-year-old who claims to make millions through his online brand and sells a high-ticket coaching program. The narrator argues that Fischer's viral content (30M+ views) is not realistically attainable for average people. He then pivots to presenting his own method for making money online: wholesaling vacant land. Step 1 involves going to BuyerBridge.ai to find a land buyer from a pool of 13,000+, calling them to ask how much they'll pay for land. Step 2 involves searching Zillow for properties in the buyer's target area and making low offers (e.g., $15,000 on a property). Step 3 is using an assignable contract to lock up the deal, then selling the contract to the home builder at a higher price (e.g., $20,000), pocketing the $5,000 difference as the middleman. He claims to have done hundreds of these deals with his brother and invites viewers to comment 'land' to receive a DM with more info.
+
+- Critiques Vincent Fischer's viral content as unrealistic for average people to replicate
+- Introduces land wholesaling as an accessible alternative income method
+- BuyerBridge.ai helps find 13,000+ land buyers with contact info
+- Use Zillow to find properties and make low offers using an assignable contract
+- Profit is made as the middleman between seller and buyer without fronting money
+- Call-to-action: comment 'land' to receive a personalized DM
+
+<details><summary>Full transcript</summary>
+
+So this guy says that he's 22 years old and makes millions of dollars per year using his online brand. But just true, you can see how many followers he has right here and he sells a high ticket program teaching people how to do the same thing. But for everybody watching this, look how many views he's getting. 30 million, 30 million, 14 million, 10 million, 10 million. This isn't attainable for the average person. And if somebody who's made over a million dollars a year completely online working for myself without making any of these types of videos, here's how you can do the same exact thing as me. Step one, go to this website buyerbridge.ai. Step two, find a buyer which is really easy. There's over 13,000 of them. Pick one and click the green button and you'll get their phone number. Call them up and say, hey, my name is Carson. Are you buying more land and how much will you pay? For example, this guy is in bella vista art and saw. Now, let's say our builder said, he'll pay $20,000 plus closing costs. This website, zillow.com, bella vista in the search bar. Start calling these properties and making offers on them. For example, this property right here, I would call and offer $15,000 on it. And when they say yes, you send them this exact contract. This is an assignable contract which lets you transfer over the contract to a new buyer so you don't front any money, you just get paid out in the middle. So when you go back to buyerbridge.ai and call up your home builder, he buys it from you at $20,000 and you got it under contract at $15,000. So you make $5,000 in profit in between as the middleman. And yes, it's that simple. There's really nothing else to it. It's called wholesaling vacant land. And my brother and I have done hundreds and hundreds of these deals. And if you want to get started, go ahead and comment the word land down below and I'll shoot you a DM.
+
+</details>
