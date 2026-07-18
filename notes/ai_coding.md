@@ -1134,3 +1134,23 @@ The video opens with Stewie Griffin standing in a Minecraft-style environment, r
 Wait, Anthropic is literally paying people $7,000 a month to learn AI? Yep, it's called Claude Corpse, a fellowship program they just launched. Okay, hold on, $7,000 a month? Since when does learning pay? It's actually $85,000 a year. Anthropic's paying you to learn AI the right way. So what's the catch? There's always a catch. No catch. There a whole thing is using AI for good. And get this one of the requirements is you don't have to be an expert in AI. Wait, so they want people who know nothing? Like you? Ha, funny. You just take two courses. Claude, 101, and AI fluency, and you're good to go. That's it. Two courses for a shot at 85 grand. That's it. But the deadline is July 17th, so apply fast. Where can I get the link to apply? Tell me. Just join my broadcast channel, or check my telegram from link in my bio.
 
 </details>
+
+## 2026-07-18 15:33 UTC
+Source: https://www.instagram.com/reel/DawQ6_7DNRD/?igsh=NTc4MTIwNjQ2YQ==
+Creator: The AI Surfer
+
+A developer presents a tool called Graphify that claims to solve the token consumption problem in Claude Code sessions. By building a knowledge graph of the entire codebase, Graphify allows Claude to navigate relationships between files without re-reading everything from scratch each session. The creator offers a complete setup guide for viewers who comment 'graphify'.
+
+The video opens with a dramatic western-style visual metaphor showing a battle between coding tools (likely Cursor vs Claude Code). The host explains a core inefficiency in Claude Code: every new session forces the AI to re-read the entire codebase, consuming thousands of tokens before any real work begins. This is presented as the reason users burn through tokens quickly even on paid plans. The solution introduced is Graphify, a tool that scans your codebase once and builds a knowledge graph mapping every file, function, and relationship. In subsequent Claude Code sessions, the AI navigates this graph instead of re-reading raw files, dramatically reducing token usage. The host claims this makes the $20 Claude plan as powerful as the $100 plan. The video ends with a call to action asking viewers to comment 'graphify' to receive a complete setup guide.
+
+- Claude Code re-reads the entire codebase at the start of every session, wasting tokens
+- Graphify builds a persistent knowledge graph of your codebase to reduce token consumption
+- The tool claims to make the $20 Claude plan equivalent in power to the $100 plan
+- Graphify maps every file, function, and relationship into a navigable graph
+- Comment 'graphify' to receive a complete setup guide from the creator
+
+<details><summary>Full transcript</summary>
+
+A developer just killed the Clawed Code token problem for free. Now, your $20 plan is just as powerful as the $100 plan. Here's how. The problem is this. Every time you start a new Clawed Code session, it re-reads your entire code base. Every file, every function, thousands of tokens gone before you even ask a question. This is why you're burning through tokens and wasting your money. But this tool, graphify, fixes it. First, run this new tool, then watch as it reads your entire code base. What happens is it builds a full knowledge graph of everything inside, every connection, every relationship. Now, during your next session, Clawed won't re-read all those files. It simply navigates the new graph, saving you a ridiculous amount of tokens. Comment, graphify, for my complete setup guide.
+
+</details>
