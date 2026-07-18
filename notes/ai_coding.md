@@ -1056,3 +1056,24 @@ The video is a rapid-fire tutorial showing how to replicate expensive real estat
 Five coders are looting real estate companies. 100 Billy Vanilley's is what brokers like this take from people like you. Being the humble real estate investor that you are, can we just build this ourself? Episode eight. Sign up for one of these bad boys. We'll need an AI agent, of course. Some place you can store the properties that you want to buy. Choose one of these scraping tools. Go to your AI agents connector section and connect it. If you're AI agent this prompt, you'll go find properties it thinks are a good deal. Save them to whatever the database you chose will. Require one of these four geolocation software and one of these real estate data software. Same as usual hook those puppies up to your agent. Give it this prompt. It will first attempt to find the property address. But it doesn't work very well. Then it will identify the owner of the property, using this prompt, get their contact information, using one of the data tools that you set up. I'll give it this prompt. Your agent will send emails like this to all the owners. Now if you're feeling illegal and spammy, could have an AI agent call the owner. I'd just do it the old-fashioned way. This cold-calling script will probably work. You don't need to pay tens of thousand dollars to a broker. Follow your boy instead. Teach you how to automate stuff like this for free. Close some freaking deals, big dog.
 
 </details>
+
+## 2026-07-18 15:31 UTC
+Source: https://www.instagram.com/reel/DalaUaasv-G/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Conrad · SaaS Operator Setup
+
+This video by @buildwith.conrad demonstrates a technique to give Claude AI the ability to 'see' video content by extracting frames using YTDLP and FFmpeg. The workflow allows Claude to analyze a 30-minute video frame by frame in just 90 seconds, running locally with zero API cost. The creator offers to share the skill/script to followers who comment 'eyes'.
+
+The video opens with a dramatic camera aperture/shutter visual motif to set a cinematic tone. The creator identifies a key limitation of Claude: it can only read transcripts, missing visual context from videos. The solution presented is a one-skill workflow that gives Claude visual awareness. YTDLP is used to download the video, FFmpeg (called FOMPEC in the transcript) extracts individual frames, and then Claude processes both the frames and the transcript simultaneously. The result is that a 30-minute video can be fully decoded — visually and textually — in approximately 90 seconds. The pipeline runs entirely locally with no API costs. The video ends with a call-to-action asking viewers to comment 'eyes' to receive the script/skill.
+
+- Claude cannot natively watch video — it only processes transcripts, missing visual information
+- YTDLP downloads the video and FFmpeg extracts frames to give Claude visual input
+- Claude processes both frames and transcript together for full video comprehension
+- A 30-minute video can be analyzed frame by frame in just 90 seconds
+- The entire pipeline runs locally with zero API cost
+- Viewer CTA: comment 'eyes' to receive the script
+
+<details><summary>Full transcript</summary>
+
+Claude can't watch video, it only reads the transcript and misses half. So I gave it eyes, one skill that makes Claude see every single frame. YTDLP grabs the video, FOMPEC rips the frames and Claude flips through them while it reads. A 30 minute video decoded frame by frame in 90 seconds, running local, 0 API cost, comment eyes and I send you the skill.
+
+</details>
