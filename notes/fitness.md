@@ -406,3 +406,24 @@ The creator, sitting at a desk, introduces what he calls a '15/10 niche edition'
 Let's see if you know how to sleep Max, but it's extremely niche. Circadian rhythm, sleep pressure, a denizen clearance, sleep inertia, what is all awakening response, some phatic system, chronotype misalignment, em rebound, and sleep phase delay disorder. If you know all these, I think you're pretty set.
 
 </details>
+
+## 2026-07-18 15:27 UTC
+Source: https://www.instagram.com/reel/DZlE1gHPi7l/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Charlie Plourde | Fitness coach
+
+A young man shares 8 tips for increasing energy levels, even after poor sleep. The video covers morning routine habits including sunlight exposure, hydration, movement, and avoiding phone use early in the day. It ends with a bonus tip about the '10 minute rule' for deep work sessions.
+
+The creator presents an 'Energy Maxing' guide with 8 numbered strategies to boost energy quickly. He starts with getting sunlight in your eyes within 10 minutes of waking up, followed by drinking a big glass of water before anything else. He recommends 2 minutes of active movement before work sessions, or ideally a 45-minute walk. He advises avoiding phone use for the first 20-30 minutes after waking. Caffeine should be delayed 60-90 minutes to prevent crashes. Cold exposure like splashing cold water on your face is suggested as an easy alternative to ice baths. Finding purpose or a reason to wake up is tip 7. As a bonus (tip 8), he recommends staring at a wall for 10 minutes before a deep work session to improve focus.
+
+- Get sunlight within 10 minutes of waking up
+- Drink water and avoid your phone first thing in the morning
+- Delay caffeine 60-90 minutes to avoid energy crashes
+- Cold water or shower boosts alertness without needing a full ice bath
+- Stare at a wall for 10 minutes before deep work to improve focus
+- Give yourself a clear purpose or reason to wake up each day
+
+<details><summary>Full transcript</summary>
+
+Energy Maxing. This is what I did at 10X my energy in literally 30 minutes. Sunlight, get it in your eyes within 10 minutes of waking up. Water, big glass before you do anything else. Move. Two minutes of active movement before a long work session. I like a 45 minute walk though. Phone, do not touch it within the first 20 to 30 minutes of waking up. Caffeine, wait at least 60 to 90 minutes before any caffeine to avoid crashing. Cold. Splash some cold water in your face or take a cold shower. You don't need an entire ice bath. Purpose, give yourself a reason to wake up. Little bonus, stare at the wall for 10 minutes before a deep work session. It will change your life. I promise you tap and fall from one.
+
+</details>
