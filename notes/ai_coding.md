@@ -777,3 +777,24 @@ The video creator, wearing a hoodie, presents a technique he calls a 'borderline
 But do you guys know that you can use Cloud Code to scrape Reddit without using the Reddit API? Okay, let me show you how to do this. Now the way I do this is take advantage of something known as the Reddit.json endpoint. Basically, Reddit exposes unofficial.json endpoints on every Reddit page, which returns structured data without needing to use any authentication. So you can literally just append.json to the end of any Reddit URL and get the raw contents of it. And you know, therefore, scrape leads, comments, data, all that stuff to your heart's content. So I use Cloud Code to build a scrape Reddit Python function, which takes advantage of these endpoints using a request library, which allows me to bypass any need for any Reddit API keys and just scrape Reddit as much as I want. So you can see here I scraped the Cloud Code subreddit and just asked it to tell me about five new features that people are talking about based on upvotes and then tell me what people like about them and what people dislike about them. Anyways, I've been using this for myself to keep on top of Cloud Code trends and also my clients to help them with competitive research, but I'd share it here as a service to the community, okay? Enjoy.
 
 </details>
+
+## 2026-07-18 15:22 UTC
+Source: https://www.instagram.com/reel/DXMfa-QE474/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Jonathan Acuña - Doctor AI
+
+A content creator promotes a GitHub repository called 'Everything Claude Code' which won an Anthropic Hackathon. The video showcases a collection of Claude AI coding skills, guides, and configurations available for free. He offers to send over 40 Claude skills to viewers who comment the word 'claude'.
+
+The presenter introduces 'Dangerous Claude Skills Part 49,' promising to share 40,000 Claude skills in a single file for free. He showcases a resource called 'Everything Claude Code' (github.com/affaan-m/everything-claude-code), an Anthropic Hackathon winner. The repo contains a shorthand guide covering setup, foundations, and philosophy; a longform guide covering token optimization, memory persistence, and evals; and a security guide. The GitHub repo includes folders for agents, claude-plugin, codebuddy, codex-plugin, codex, cursor, and gemini configurations. Topics covered in the repo include token optimization, memory persistence, continuous learning, verification loops, parallelization, and subagent orchestration. The video ends with a call-to-action asking viewers to comment 'claude' to receive the presenter's personal collection of 40+ Claude skills.
+
+- Promotes 'Everything Claude Code' GitHub repo by affaan-m, an Anthropic Hackathon winner
+- Repo includes shorthand guide, longform guide, and security guide for Claude Code
+- Covers advanced topics: token optimization, memory persistence, subagent orchestration, parallelization
+- Repository works across Claude, Cursor, OpenCode, and other AI coding tools
+- Creator offers 40+ personal Claude skills for free to viewers who comment 'claude'
+- Repo is public at github.com/affaan-m/everything-claude-code
+
+<details><summary>Full transcript</summary>
+
+Cloudscales will make you dangerous part 49. I'm gonna give you 40,000 Cloudscales you can use today for free in one file. This is everything Cloudcode, battle test at n and Throbic awarded. You're definitely gonna wanna bookmark this. This is called everything Cloudcode. This is an Anthropic Hackathon winner where you get the short hand guide, the long form guide, and even the security guide. This is where you can find it. But I have something way more valuable for you. These are over 40 Cloudscales. I use every day to give you dangerous superpowers. Comment the workload and I'll send it to you for free.
+
+</details>
