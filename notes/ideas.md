@@ -413,3 +413,24 @@ The creator delivers a self-improvement focused video outlining 10 uncomfortable
 10 out of 10 uncomfortable things that will build extreme confidence but they get progressively more niche. Start random conversations. Talk to the cashier instead of just nodding and ask a stranger what they order when it looks good. Give a random person a compliment even if it feels awkward. Where the outfit you keep talking yourself out of. Leave your headphones at home and walk around without them, stand in line without them and sit in the bus without them. Let yourself be seen. Post a video you keep talking yourself out of and join the conversations you're too shy to join. Ask questions even when you're slightly nervous. Go sit somewhere alone outside with nothing to do and get to the point where you stop caring so much about whether or not people are looking at you.
 
 </details>
+
+## 2026-07-18 15:34 UTC
+Source: https://www.tiktok.com/t/ZTSKuNdqW/
+Creator: quinnhustles
+
+A woman shares a 'secret' method to make money by finding viral TikTok Shop products, using a tool called Page Pilot to auto-generate a Shopify product page, and running the AI-generated ads on Meta. She frames it as exclusive information she might delete, using classic urgency and scarcity tactics.
+
+The creator opens with a hook claiming she is scared to share this money-making secret because it could get saturated. She explains the process: find a product already going viral on TikTok Shop (example shown has 57K sold), copy its link, paste it into a website called Page Pilot, which auto-generates a fully customizable product landing page complete with reviews and copywriting. She then shows how to publish it directly to Shopify and download the AI-generated ad creatives. The final step is to run those ads on Meta (Facebook/Instagram) and collect profits. The video uses a suspenseful, 'I might delete this' framing to drive engagement and urgency.
+
+- Find a viral TikTok Shop product with high sales volume
+- Use Page Pilot to auto-generate a Shopify product page from the TikTok link
+- Page Pilot creates copywriting, reviews, and ad creatives automatically
+- Publish directly to Shopify and run the generated ads on Meta
+- Classic 'deleting this later' hook used to manufacture urgency and scarcity
+- Drop-shipping / affiliate arbitrage model with AI-assisted store creation
+
+<details><summary>Full transcript</summary>
+
+I am scared to show you this because a lot of people could get rich and copy me, which will make it so much harder for me so I might delete this later, but I just have to show you this. I found out the secret where you just go to TikTok shop and find like a product that's already going viral on here like this one has 57K sold and all you do is just like copy this link. Just go to this like page pilot website and you create a product page, paste that link in and then press next. And just a few seconds it made me like a fully customizable website like I think it even has like reviews. Just publish it to Shopify right here. Just like download the ads it makes for you. The copywriting is already done. Just run these on meta and let the money come to you.
+
+</details>
