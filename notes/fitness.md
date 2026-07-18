@@ -253,3 +253,17 @@ The video opens with an introduction to Sleep Maxxing as a strategy for natural 
 Welcome to Sleep Maxing for Natural Testosterone Production and overall health. Starting with getting sunlight in your eyes as soon as you wake up, this will create a set point for your circadian and hormonal rhythms. Set your phone to Night Shift Mode and leave it on 24-7. Replace all the lights in your home with incandescent bulbs or pure red LEDs. This will make sure that your circadian rhythm stays optimal and you're not frying your mitochondria with blue light. Keep your last meal at least two hours before your bedtime. Buy a pair of blue light blockers and put them on four hours before you go to bed or whenever the sun goes down in your area. This will help your body start to produce natural melatonin. Absolutely no phone in the last hour of the day. Just drinking water at least two hours before your bedtime and if you find yourself waking up to pee in the middle of the night before you go to bed, put some salt on your tongue. Lock the door to your room before you go to sleep. This provides subconscious relief and an extra barrier that home intruders have to get through. Get as much sunlight throughout the day as possible. The more you get, the more aligned your circadian rhythm will become. Do not consume caffeine after four hours of being awake. Make your room temperature as close to 65 degrees Fahrenheit as possible. Before you go to bed, make your room as dark as possible. Use blackout curtains and absolutely no night lights. Take magnesium glycinate in the evening and if you find yourself overthinking or extra stress, find two grams of touring will take the edge off.
 
 </details>
+
+## 2026-07-18 06:07 UTC
+Source: https://www.instagram.com/reel/DZhAqI7KTVV
+
+This video from Pain Relief School promotes 'Colby Fascia Breathwork,' demonstrating a breathwork session that includes exhale, hold-in, and hold-out phases. The creator claims that a single 90-second breath hold boosts growth hormone by 500%, releases stem cells, and activates the body's natural healing system. The content is framed as a free health hack for improving skin, hair, bones, and digestion.
+
+The video shows a shirtless man meditating in a scenic outdoor cliff setting while using an app called 'Colby Fascia Breathwork.' The frames capture different phases of the breathing exercise: exhale (7s), hold in (13s), and hold out (extended, shown at 102s, 62s, and 15s countdowns). Overlaid text claims that a singular 90-second breath hold boosts growth hormone by 500%, releases stem cells into the bloodstream to heal skin, bones, organs, digestive system, and hair, and activates a 'natural master healing system' that has allegedly been hidden from the public because it's free. The post is shared via the Facebook page 'Pain Relief School' and uses sensational health claims to attract viewers seeking free wellness solutions.
+
+- Claims a 90-second breath hold boosts growth hormone by 500%
+- Alleges breathwork releases stem cells that navigate to damaged tissues for healing
+- Promotes 'Colby Fascia Breathwork' app as a free health tool
+- Breathwork sequence includes exhale, hold-in, and extended hold-out phases
+- Uses conspiracy framing ('hidden from you because it's FREE') to attract attention
+- Targets benefits like healthier skin, hair, bones, and digestion
