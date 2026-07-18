@@ -331,3 +331,23 @@ The video opens with a man hugging a pillow on the floor, setting up a story abo
 The day I stopped chasing my girlfriend, she started chasing me. Here's what I did differently. I needed her to tell me we were good, pretty much constantly. And even then I'd still wonder, she'd take an hour to reply, and I'd already built a whole story about how she was over me. Some guy likes her post, and I'm in a mood the rest of the day. She wants a night out with her friends. I take it personal. I check when she was last online way more than I'd admit. I'd drop whatever I was doing the second she needed something, just trying to keep her happy so she wouldn't get bored of me. And the more I did that, the less she respected it. I figured that's just how I was. Then I noticed my buddy, he used to be the exact same way, and out of nowhere he seemed different, solid, really happy with his girl. So I asked him what changed, and he told me it was this app, better me. I tried their three-minute quiz, and it laid out exactly why I kept doing all this stuff. Now I'm good on my own, I'm not chasing her, and we're better than we've ever been.
 
 </details>
+
+## 2026-07-18 06:19 UTC
+Source: https://www.instagram.com/reel/DUJ04JYCcjN
+
+A young man promotes appointment setting as a remote work alternative to physical labor jobs like construction. He demonstrates how to find appointment setter roles on seek.com.au and encourages viewers to apply by building a resume with ChatGPT. He claims this lifestyle allowed him and his friends to quit construction and travel while earning money.
+
+The video opens with a clip mocking a construction worker earning $800/day doing a basic broom finish on concrete. The creator then pitches 'appointment setting' as a smarter way to earn money from home without showing your face or creating content. He screen-records seek.com.au to show remote appointment setter job listings, pointing out what to look for: commission-based pay with no earning cap, warm leads only (no cold calling), and fully remote positions. Salaries shown range from $60-65k base plus commissions up to $100,000-$150,000 per year. He advises using ChatGPT to generate a resume, then applying quickly. He claims he and his friends quit construction jobs in 2024 and now travel while working remotely as appointment setters. The video ends with a call-to-action asking viewers to comment 'yes' for a free guide.
+
+- Appointment setting is presented as a remote, couch-friendly income alternative to trade/construction jobs
+- Use seek.com.au or Indeed to find remote appointment setter roles with commission-based pay
+- Key criteria: no income cap, warm leads only, fully remote work
+- Use ChatGPT to generate an appointment setter resume quickly
+- Job listings show potential earnings of $60k-$150k+ per year
+- Creator offers a free guide via comment CTA
+
+<details><summary>Full transcript</summary>
+
+Fuck that. Here's one of the dumbest ways you can earn more than a construction worker from your fucking couch. What we're gonna be doing is called appointment setting. You don't need a post content You don't need to show your face and here's exactly how you start grab your laptop and jump on to seek.com Or indeed if you're anywhere else in the world you want to search up remote appointments So give you a bunch of options, but they're not all good so this is what you want to look at for Commission base that there's no limit on how much you can earn warm leads So you're not pestering paper with cold calls and remote works So you can actually do it from your fucking couch. You likely need a resume So you got a chat chat chat chat and search appointment set a resume copy all that shit uses a template Then chuck in your own details then you're ready to apply these roles allowed men my mates to quit our construction jobs in 2024 and start traveling while earning good money at the same time This is not to flex. It's just to show that there are other options and if you'd like a bit more help starting Just comment the word yes below and I'll send you my completely free guide. Let's go
+
+</details>
