@@ -68,9 +68,11 @@ def save_note_to_github(result: dict, source: str) -> bool:
         get_resp.raise_for_status()
 
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    creator_line = f"Creator: {result['creator']}\n" if result.get("creator") else ""
     entry = (
         f"\n## {timestamp}\n"
-        f"Source: {source}\n\n"
+        f"Source: {source}\n"
+        f"{creator_line}\n"
         f"{result.get('summary', '')}\n\n"
         f"{result.get('overview', '')}\n\n"
         + "\n".join(f"- {point}" for point in result.get("key_points", []))
@@ -126,7 +128,8 @@ def transcribe_audio(video_path: str) -> str:
     return " ".join(segment.text.strip() for segment in segments).strip()
 
 
-def download_video(url: str) -> str:
+def download_video(url: str) -> tuple[str, str]:
+    """Returns (local file path, creator/uploader name — may be "")."""
     out_path = os.path.join(TEMP_DIR, f"{uuid.uuid4().hex}.mp4")
     ydl_opts = {
         "format": "mp4/best",
@@ -139,10 +142,11 @@ def download_video(url: str) -> str:
         "impersonate": ImpersonateTarget.from_str("chrome"),
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        ydl.download([url])
+        info = ydl.extract_info(url, download=True)
     if not os.path.exists(out_path):
         raise ValueError("Download did not produce a video file")
-    return out_path
+    creator = (info.get("uploader") or info.get("channel") or info.get("uploader_id") or "") if info else ""
+    return out_path, creator
 
 
 def analyze_frames_with_claude(frames_b64: list[str], transcript: str = "") -> dict:
@@ -215,12 +219,24 @@ def parse_note_file(category: str, content: str) -> list[dict]:
         lines = block.strip().split("\n")
         timestamp = lines[0].strip()
         source = ""
+        creator = ""
         paragraphs = []
         key_points = []
+        transcript_lines = []
+        in_transcript = False
         for line in lines[1:]:
             line = line.strip()
-            if line.startswith("Source: "):
+            if line.startswith("<details>"):
+                in_transcript = True
+            elif line.startswith("</details>"):
+                in_transcript = False
+            elif in_transcript:
+                if line:
+                    transcript_lines.append(line)
+            elif line.startswith("Source: "):
                 source = line[len("Source: "):]
+            elif line.startswith("Creator: "):
+                creator = line[len("Creator: "):]
             elif line.startswith("- "):
                 key_points.append(line[2:])
             elif line:
@@ -229,9 +245,11 @@ def parse_note_file(category: str, content: str) -> list[dict]:
             "category": category,
             "timestamp": timestamp,
             "source": source,
+            "creator": creator,
             "summary": paragraphs[0] if paragraphs else "",
             "overview": paragraphs[1] if len(paragraphs) > 1 else "",
             "key_points": key_points,
+            "transcript": " ".join(transcript_lines),
         })
     return notes
 
@@ -312,13 +330,14 @@ async def analyze_video(video: UploadFile = File(...)):
 async def analyze_video_url(url: str = Form(...)):
     tmp_path = None
     try:
-        tmp_path = download_video(url)
+        tmp_path, creator = download_video(url)
         frames = extract_frames(tmp_path, num_frames=5)
         if not frames:
             raise HTTPException(status_code=422, detail="Could not extract frames from video")
         transcript = transcribe_audio(tmp_path)
         result = analyze_frames_with_claude(frames, transcript)
         result["transcript"] = transcript
+        result["creator"] = creator
         try:
             save_note_to_github(result, source=url)
             result["note_saved"] = True
