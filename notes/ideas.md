@@ -271,3 +271,23 @@ The creator, wearing a gray zip-up hoodie, films a selfie-style vertical video s
 Ditches are in the niches, offer flexible tier retainers, document everything, don't be a technor. Most AI influencers don't actually know much more about AI than you, they're just better at marketing, organic content, amplifies cold outreach, invest money to grow your network, understand B2B sales cycle, sell the outcome, not the product, do not become an expert in anyone's software, you'll go broke by just doing implementations, only integrate AI where absolutely necessary, long term relationships are everything. Raise your prices, rarely lower your prices, leverage referrals relentlessly, never work at broke businesses, always use enterprise software over your own five-code solution of a good option exists, always hire people who are quick to learn over people who know the most, research before the sales call, attention always be to product, get clients for making large investments, get clients for incorporating, get clients for learning AI, get clients for doing anything, never assume you know everything about AI because you most definitely don't and there's nothing more important than building your personal brand.
 
 </details>
+
+## 2026-07-18 06:12 UTC
+Source: https://www.instagram.com/reel/DaV4rqzvrU0
+
+Episode 37 of 'Weeknight Staples' demonstrates how to make 'blanket dumplings' using frozen dumpling wrappers over pan-cooked pork filling. The recipe is presented as a quick, easy, and affordable weeknight dinner that steams in just 10 minutes. The finished dish is topped with chili crisp, sesame seeds, and green onions for a flavorful presentation.
+
+The video is part of a recurring cooking series called 'Weeknight Staples' focused on easy, budget-friendly dinners. In this episode (ep. 37), the host makes 'blanket dumplings,' a shortcut dumpling method. The filling is made by mixing ground pork with green onions, ginger, garlic, oyster sauce, pepper, chili crisp, soy sauce, sesame oil, and rice vinegar. A cookie scoop is used to portion the filling directly into a pan, then each portion is covered with a dumpling wrapper and the edges are pinched to seal. The pan is drizzled with avocado oil, chicken broth is added, and the dumplings are covered and steamed for 10 minutes. The final dish shown is glossy, saucy, and garnished with chili crisp, sesame seeds, and sliced green onions. The video closes with a call to follow for more weeknight meal ideas.
+
+- Blanket dumplings are made by placing filling in a pan first, then covering with wrappers — reversing the traditional method
+- Filling includes ground pork, green onions, ginger, garlic, oyster sauce, chili crisp, soy sauce, sesame oil, and rice vinegar
+- A cookie scoop is used to portion filling evenly and efficiently
+- Dumplings are steamed in chicken broth and avocado oil for 10 minutes
+- Final dish is topped with chili crisp, sesame seeds, and green onions
+- Promoted as a faster and easier alternative to traditional dumpling assembly
+
+<details><summary>Full transcript</summary>
+
+This is Episode 37 of Weeknight Staples, easy dinners that save you time and money. Tonight, we're making the famous blanket dumplings. These definitely live up to the hype in our by far the quickest and easiest way to make dumplings. Start by mixing the ground pork, green onions, ginger, garlic, oyster sauce, pepper, chili crisps, soy sauce, sesame oil, and rice vinegar. Then use a cookie scoop to place the filling onto a pan, then cover each one with a dumpling wrapper and pinch the edges to seal. Trissel with avocado oil, pour over the chicken broth, cover, and steam for 10 minutes. If you're always looking for new dinner ideas, that's why I share simple and affordable meals that help you eat better and spend less. Follow for more Weeknight Staples.
+
+</details>
