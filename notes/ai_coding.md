@@ -432,3 +432,22 @@ The creator starts by asking ChatGPT a question about the Empire State Building'
 Has the Empire's Safe Building made any changes to its observation deck or ticketing setup? People don't know this, but when you do prompts, Chatchy-P-T searches the web and you can literally see what it's searching with. Oftentimes what it searches with is different from the prompt that you put in. Copy the part of your Chatchy-P-T URL that comes after forward slash C. Right click, inspect, go to network, paste in what you copied, refresh the page, click the orange brackets with what you copied, go to response, search this for queries. Then you can see what Chatchy-P-T searched. My prompt was has the Empire's Safe Building made any changes to its observation deck experience or ticketing setup. Chatchy-P-T searched Empire Safe Building observation deck changes 2025 ticketing. If you do enough prompts around your brand, you can see the language that Chatchy-P-T will search with when gathering information about you. Use this language in your page titles, in your URL slugs, in the H2s on your pages, put it in the first sentence of your pages. Put it high upon your pages. Find all the different language it uses and use that in your marketing. Then when people ask Chatchy-P-T about your brand, it'll do searches, come across what you wrote, and if you put out nice things about your brand, that's what Chatchy-P-T is going to see and quote. And learn SEO that gets paying customers, users, warmly it's calling you up at compactkeywords.com.
 
 </details>
+
+## 2026-07-18 05:48 UTC
+Source: https://www.instagram.com/reel/DXPBYItAXnL
+
+This video claims that Claude Code's usage limit is stored locally in a session log file, and that deleting the contents of that file (except the header) resets the limit. The tutorial walks through the steps to find and edit the file via terminal to bypass usage restrictions.
+
+The video opens with a headline about Claude Code removing its usage limit, featuring what appears to be Anthropic-related imagery. Over a background of skiing footage and a Peter Griffin cartoon character overlay, the narration explains that developers discovered Claude Code stores session data in a hidden local folder on the user's device. This log file apparently controls when the usage limit is triggered. The tutorial instructs viewers to open a terminal, navigate to the '.claude' directory, find the session log file, delete all contents except the first header line, and save. Upon restarting Claude Code, it supposedly treats the session as fresh with no memory of prior usage limits. The video frames this as a discovery that the limit was never server-side but always tied to a local session file.
+
+- Claude Code stores session logs in a hidden local folder on the user's device
+- The usage limit is tied to this local session file, not a server-side restriction
+- Deleting file contents (except the header line) resets the usage counter
+- After restarting Claude Code, it treats the session as fresh with no usage history
+- The method involves navigating to the '.claude' directory in terminal
+
+<details><summary>Full transcript</summary>
+
+Cloud code just removed its usage limit. Yeah, I heard about it. What is actually going on? A group of developers dug into Cloud code and found the limit can be reset manually. Then where is it coming from? Part of it lives locally. Cloud stores your entire session in a log file inside a hidden folder on your device. And that file decides when you hit the limit. So if that file changes, the limit changes? Exactly. Open your terminal, go to cd.cloud, and you will find your session logs sitting there. And the limit just disappears if we touch it? Open that file, delete everything except the first line. That line is just a header, then save it. That is all it takes. Restart Cloud code. It comes back thinking it is a fresh session. No memory of the limit. So the limit was never really global? It was tied to your session the whole time. Not some invisible server wall. Just a file deciding when you stop.
+
+</details>
