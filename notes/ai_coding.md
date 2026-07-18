@@ -585,3 +585,17 @@ The creator explains a multi-step process using Claude AI (referred to as 'Quad'
 What happens when you ask Quad to find every photo of you that exists on the internet? I tried this and it found me in places I didn't even know I had been photographed. So first come over to Quad, upload a selfie of yourself and then say, analyze this photo and list out every specific feature that makes me recognizable. So you can identify me anywhere online. Quad is then gonna build a full description of exactly what you look like. Now here's the trick. On the left side, click customize, then connectors, hit the plus, choose browse connectors, look up Google Chrome and then install it. Then come back to the same chat and say, using my selfie and everything you know about me, use Chrome to reverse image search my face across the top tools and find every single place I appear on the internet, then give me the link to each one. Quad is then gonna open up its own browser and run your face through every reverse image search tool and come back with a link to every place you show up. The results were honestly terrifying. Now here's the bonus if you value your privacy. Say now write a custom removal request for each of those sites to get my photos taken down. Quad is then gonna write custom take down requests for every single site. So if you want all these prompts and more, make sure you follow me in comment privacy and I'll send them over to you.
 
 </details>
+
+## 2026-07-18 06:13 UTC
+Source: https://www.instagram.com/reel/DaYwoAhvz-F
+
+A shirtless man next to a Lance RV demonstrates how to use an AI tool called Ssemble to clip viral videos into short-form content. He walks through finding a MrBeast video, pasting the URL into Ssemble, and letting AI generate optimized short clips. The video promotes Ssemble as an easy way to repurpose viral content.
+
+The creator opens with a motivational hook — 'POV: you stopped waiting for permission, watch me cook' — positioning himself as someone taking action without hesitation. He then walks through a step-by-step process: Step 2 is finding a viral video (he uses MrBeast's YouTube channel as an example, specifically the '100 People Stranded in the Wilderness' video with 78M views). Step 4 is pasting the YouTube URL into Ssemble, an AI clipping tool. Step 5 is customizing settings and clicking 'Get Shorts,' which generates AI-scored clip suggestions with titles, scores out of 100, and written rationale for why each clip would perform well. The video ends with the creator giving two thumbs up and saying 'easy bag, I'm happy,' implying this is a simple monetization or content strategy.
+
+- Uses Ssemble AI tool to automatically clip long YouTube videos into short-form content
+- Find a viral video (e.g. MrBeast) and paste its URL into Ssemble
+- Ssemble generates clips with scores (e.g. 88/100) and explains viral potential
+- Clip length can be customized (e.g. 30–60 seconds)
+- Positioned as an easy content repurposing / monetization strategy
+- Strong aspirational framing: 'stop waiting for permission'
