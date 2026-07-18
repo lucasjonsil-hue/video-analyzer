@@ -1113,3 +1113,24 @@ The creator introduces a new series called 'SOS' focused on highlighting notewor
 Someone just built a GitHub that lets an AI agent manage all of your social media accounts so you can post and schedule content on autopilot for free. Welcome to my new series called SOS, where I put you on repos that are worth your time. This is called Post-Is, sitting around 30,000 GitHub stars. What this does that a tool like Buffer can't is it ships with an agent CLI. This means you can point Claw to edit until Claw to schedule your week of posting. It will draft the posts, queue them, and you don't have to open any dashboards. Everything else works the way you'd expect, so one calendar for Instagram, TikTok, YouTube, LinkedIn, and more. Analytics all built in, AI features for writing posts. There's a public API, so it plugs straight into NADN, Make or Zapier as well, which is great. The reason this matters is because the self-hosted version has no missing features. Plately free, open source, runs on your own hardware. If you want to check it out yourself, just comment repo, and then I'll send you the GitHub.
 
 </details>
+
+## 2026-07-18 15:33 UTC
+Source: https://www.instagram.com/reel/DasiRCjNFY9/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Peter Griffin AI
+
+A short-form video using Family Guy characters (Stewie and Peter Griffin) in a Minecraft Nether setting to promote Anthropic's Claude Corps fellowship program. The video highlights that Anthropic pays $85,000/year for people to learn AI, with minimal prerequisites. It ends with a call to action directing viewers to a broadcast channel or Telegram link.
+
+The video opens with Stewie Griffin standing in a Minecraft-style environment, reacting with surprise to the claim that Anthropic is paying people $7,000/month to learn AI. A dialogue-style narration explains the Claude Corps fellowship program, which offers $85,000/year. Stewie questions the catch, and the narrator explains there is none — the program is focused on using AI for good. Peter Griffin then appears to emphasize that applicants don't need to be AI experts, only needing to complete two courses: 'Claude 101' and 'AI Fluency.' The video stresses urgency with a July 17th application deadline and directs viewers to a broadcast channel or Telegram link in the creator's bio for the application link.
+
+- Anthropic's Claude Corps fellowship pays $85,000/year to learn AI
+- No AI expertise required — just two beginner courses: Claude 101 and AI Fluency
+- The program focuses on using AI for social good
+- Application deadline is July 17th
+- Call to action: join creator's broadcast channel or Telegram for the application link
+- Uses Family Guy characters and Minecraft visuals to hook younger viewers
+
+<details><summary>Full transcript</summary>
+
+Wait, Anthropic is literally paying people $7,000 a month to learn AI? Yep, it's called Claude Corpse, a fellowship program they just launched. Okay, hold on, $7,000 a month? Since when does learning pay? It's actually $85,000 a year. Anthropic's paying you to learn AI the right way. So what's the catch? There's always a catch. No catch. There a whole thing is using AI for good. And get this one of the requirements is you don't have to be an expert in AI. Wait, so they want people who know nothing? Like you? Ha, funny. You just take two courses. Claude, 101, and AI fluency, and you're good to go. That's it. Two courses for a shot at 85 grand. That's it. But the deadline is July 17th, so apply fast. Where can I get the link to apply? Tell me. Just join my broadcast channel, or check my telegram from link in my bio.
+
+</details>
