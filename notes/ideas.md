@@ -238,3 +238,16 @@ The creator opens by showing a YouTube channel called 'Live Bodycam' with videos
 If you've ever watched one of these body cam videos and you've never tried to make one yourself, then you are missing out. These videos have around a $6 to $7 RPM, so if you do the math on that, each of these videos are making over $10,000 each. And I would know because I make these videos and this video that had a $7 RPM with about 200,000 views made me 1.3 thousand. I'm just a small fry in the ocean. I get a fraction of their views, but I'm still able to replace my 9 to 5 income and even double it. This is not a garbage quick scheme by any means. It's going to take time and it's going to take effort. But if you are someone who's in the position that I was a couple months ago working a 9 to 5 job that they hated and was trying to find some type of online business to start and replace their 9 to 5 income, this is something that you should definitely look into.
 
 </details>
+
+## 2026-07-18 06:02 UTC
+Source: https://www.instagram.com/reel/DYQtVirOJXW
+
+A young man presents a list of health-conscious items he keeps in his house claiming they help him live longer. The video showcases four specific products: an air purifier, stainless steel razors, organic cotton bedding, and a non-toxic cleaner.
+
+The video opens with a blonde young man wearing a hoodie and earbuds in what appears to be a parking structure, introducing the concept of 'things I have in my house to live longer than you.' He then transitions to show four items: First, an air purifier (appears to be an Airsight Plus model) sitting on carpet next to a black cat. Second, two stainless steel razors displayed on a bathroom counter — one appears to be a Leaf brand razor on a stand. Third, organic cotton bedding shown in close-up detail, appearing white and quilted. Fourth, a Zep professional spray bottle labeled 'multi purpose' being held up, repurposed as a non-toxic cleaner. The video follows a popular social media format of lifestyle health optimization content.
+
+- Air purifier for cleaner indoor air quality
+- Stainless steel razors as a healthier/sustainable alternative to plastic disposables
+- Organic cotton bedding to avoid synthetic materials and chemicals
+- Non-toxic, homemade or natural multi-purpose cleaner in a reusable spray bottle
+- Health-optimization lifestyle content targeting longevity
