@@ -158,3 +158,23 @@ The creator opens with a fear-of-missing-out hook, claiming she might delete the
 I am scared to show you this because a lot of people could get rich and copy me, which will make it so much harder for me so I might delete this later, but I just have to show you this. I found out the secret where you just go to TikTok shop and find like a product that's already going viral on here like this one has 57K sold and all you do is just like copy this link. Just go to this like page pilot website and you create a product page, paste that link in and then press next. And just a few seconds it made me like a fully customizable website like I think it even has like reviews. Just publish it to Shopify right here. Just like download the ads it makes for you. The copywriting is already done. Just run these on meta and let the money come to you.
 
 </details>
+
+## 2026-07-18 05:45 UTC
+Source: https://www.instagram.com/reel/DUJ04JYCcjN
+
+A young man promotes appointment setting as a remote work alternative to physical labor jobs like construction. He demonstrates how to find appointment setter roles on job sites like seek.com.au and briefly explains the benefits, including commission-based pay with no earning cap and the ability to work from home.
+
+The video opens with a clip mocking a construction worker earning $800/day doing a basic broom finish on concrete, implying physical labor is not the smartest way to earn money. The creator, wearing a Volcom cap and sitting on a couch with a laptop, then pitches 'appointment setting' as a remote income alternative. He shows the seek.com.au job site and scrolls through real appointment setter job listings, highlighting roles paying $60-65k base plus commissions, and another listing $100,000-$150,000 per year. He advises viewers to look for roles with commission-based pay (no earning cap), warm leads (no cold calling), and remote work options. He recommends using ChatGPT to generate a resume from a template, then applying to these roles. He claims this path allowed him and his mates to quit construction jobs in 2024 and travel while earning money. He ends with a call-to-action asking viewers to comment 'yes' for a free guide.
+
+- Appointment setting is presented as a remote, couch-friendly alternative to physical labor jobs
+- Use seek.com.au or Indeed to search for remote appointment setter roles
+- Look for roles with commission-based pay (no income cap), warm leads, and remote flexibility
+- Use ChatGPT to quickly generate a resume tailored for appointment setter positions
+- Job listings shown offer $60k-$150k per year with commissions
+- Creator claims he and friends quit construction using this method and now travel while working
+
+<details><summary>Full transcript</summary>
+
+Fuck that. Here's one of the dumbest ways you can earn more than a construction worker from your fucking couch. What we're gonna be doing is called appointment setting. You don't need a post content You don't need to show your face and here's exactly how you start grab your laptop and jump on to seek.com Or indeed if you're anywhere else in the world you want to search up remote appointments So give you a bunch of options, but they're not all good so this is what you want to look at for Commission base that there's no limit on how much you can earn warm leads So you're not pestering paper with cold calls and remote works So you can actually do it from your fucking couch. You likely need a resume So you got a chat chat chat chat and search appointment set a resume copy all that shit uses a template Then chuck in your own details then you're ready to apply these roles allowed men my mates to quit our construction jobs in 2024 and start traveling while earning good money at the same time This is not to flex. It's just to show that there are other options and if you'd like a bit more help starting Just comment the word yes below and I'll send you my completely free guide. Let's go
+
+</details>
