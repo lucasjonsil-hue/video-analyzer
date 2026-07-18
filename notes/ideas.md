@@ -198,3 +198,23 @@ The creator speaks directly to camera in his dorm/apartment room with a Ukrainia
 Hear me out, there has never been a better time to be a dude in college. How is music in your ears, lack coffee and hate, while your 10 local open-clot instances just got you a 3.9 GPA like it's nothing. Listen, heavy ass wait with the guys, you're going on a random money for dollar viewers and still making it to class, your boy just got them to Kinsey off for the summer, and you're about to join that YC startup in San Francisco, and the next billion dollar company. Follow me man, because it cannot get much better than this bro.
 
 </details>
+
+## 2026-07-18 05:46 UTC
+Source: https://www.instagram.com/reel/DWws8ZWk67K
+
+A young man argues that the AI agency business model is no longer worth pursuing, claiming he made $40,000 brokering rebar from Vietnam to Japan with minimal effort. He advocates for commodity brokering as a superior alternative to selling AI services, citing higher earning potential and lower overhead.
+
+The speaker opens with a bold claim that selling AI is no longer a viable way to make money. He shares a personal anecdote about making $40,000 brokering rebar between Vietnam and Japan, framing it as surprisingly easy. He criticizes the AI agency model for its relatively low ceiling — typically $10,000-$20,000 per client per month — while requiring significant employee management and client maintenance. He contrasts this with commodity brokering, where earnings scale directly with volume moved, requiring no employees or ongoing client relationships. He references meeting someone in Ukraine who made over $20 million in a single year brokering sunflower oil across Europe and Asia. He concludes with an economic resilience argument: commodities like grain and fuel will continue to move even during economic collapse, unlike AI service contracts which may not survive a downturn for most small operators.
+
+- Speaker claims to have made $40,000 brokering rebar from Vietnam to Japan with minimal effort
+- AI agency model criticized for low earning ceiling of $10,000–$20,000/month per client
+- Commodity brokering scales earnings directly with volume, no employee or client management needed
+- Met a Ukrainian broker who made $20M+ in a year brokering sunflower oil
+- Commodities are more recession-proof than AI services for most small operators
+- Positions commodity brokering as a superior business model to AI agencies
+
+<details><summary>Full transcript</summary>
+
+Selling AI is not the way to make money anymore. I just made $40,000 brookering rebar from Vietnam to Japan and it was fucking easy Selling enterprises AI convincing them to pay you like $10,000 a month outsourcing your employees and just doing all this shit for a measly 10 Maximum $20,000 a month per client is fucking ridiculous I got a $20,000 check and I'm gonna get another $20,000 check when the second shipment hits and I'm not doing anything It's a hundred times easier to maintain this. I don't have to deal with employees I don't have to deal with clients and the best part is is that the sky is the ceiling when it comes to how much money You can make brokering commodities the amount of money that you make is directly tied to the amount of product that you're moving Like I met a guy in Ukraine who's made over $20 million in the past year Brokering sunflower oil from Ukraine to the rest of Europe and Asia and he's only been in the game for like a couple years Also when the whole economy collapses do you think that people are going to continue to pay you for running their AI systems? Maybe if you have a contract with multi-billion dollar companies, but that's not the case for 99% of us Commodities like grain and fuel and all this shit is the last thing to stop moving around
+
+</details>
