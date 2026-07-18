@@ -194,3 +194,22 @@ The video opens with a young athlete in a field demonstrating movement drills ne
 - Daily practice of Goata Movement can fix improper gait patterns
 - Real-world application shown with football players receiving Goata-based coaching
 - Personal transformation used as testimony to validate the program
+
+## 2026-07-18 05:47 UTC
+Source: https://www.instagram.com/reel/DX7mfKARPR6
+
+A young man in a grocery store (likely Whole Foods) wearing an 'Anti Goyslop Club' shirt presents three foods he claims boost testosterone in men. He recommends pure pomegranate juice, grass-fed beef with organs, and white button mushrooms, citing various health claims.
+
+The creator opens with a conspiratorial claim that 'satanic pedophiles' are trying to lower men's testosterone. He then walks through three foods in what appears to be a Whole Foods store. First, he holds up a Lakewood brand bottled pomegranate juice, claiming a study shows it can increase testosterone by 24% with just one cup a day, recommending glass bottles and not-from-concentrate varieties. Second, he holds up a Force of Nature grass-fed beef product containing liver and heart, calling organ meats 'incredibly nutrient dense' for testosterone, with an on-screen text overlay citing zinc, cholesterol, and B vitamins as the mechanism. Third, he holds up white button mushrooms in the produce section, claiming they act as an 'aromatase inhibitor' to increase free testosterone, advising thorough cooking to remove 'plant toxins.'
+
+- Pure pomegranate juice (glass-bottled, not from concentrate) allegedly boosts testosterone by 24% per day
+- Grass-fed beef with organ meats (liver and heart) promoted as nutrient-dense testosterone support
+- White button mushrooms claimed to act as aromatase inhibitors to raise free testosterone
+- Video opens with unfounded conspiracy framing about deliberate testosterone suppression
+- On-screen AI-sourced text overlay partially supports organ meat claims via Verywell Health citation
+
+<details><summary>Full transcript</summary>
+
+So it's pretty obvious that satanic pedophiles want to lower your testosterone and make you a weak and obedient slave. You are the top three foods you need to be eating as a man to increase your testosterone. Number one is going to be pure pomegranate juice. One study showed that just a cup a day can increase testosterone in men 24 percent. Look for bottled in glass and not from concentrate. Number two we have grass-fed beef with liver and heart. The organs in here are some of the most nutrient dense foods on the planet, incredible for your testosterone. Number three we have white button mushrooms. These can act as an aromitation inhibitor which will increase your free testosterone. Just make sure to cook them thoroughly to get the planet toxins out.
+
+</details>
