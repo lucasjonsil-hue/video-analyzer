@@ -1021,3 +1021,17 @@ The presenter, who goes by 'Gigaechin' and bills himself as a China-focused tech
 Today, China made AI free, and I'm not talking about the lightweight open-source stuff you run locally. I mean the premium flagship stuff that won't fit on your machine. It costs exactly $0 per token on OpenRouter until July 21st. I'm Gigaechin, I'm your China guy, and I'm gonna tell you why. And how? This is from Tencent. They're the guys behind the messaging app WeChat. The model is called Hunyuan 3. In Taoist philosophy, Hunyuan refers to the chaotic state of the world before the Earth and the heavens separated. Now that you know that, we'll be calling it HY3. It's a 295 billion parameter monster. It's got a 256,000 token context window, so you can feed it a mountain of documents, even a whole code base. Now why would a trillion dollar company build a massive AI model and give it away for free? Because they torched their entire AI division in January. Their CEO said their old model was like a high school or memorizing, so they just shut the door on it. Later, they emerged with something built to crush agentic workflows and tool calling. 88 days later, if you know you know. It's an MOE model, and if you follow me, you know what that means. During inference, it only activates 21 billion parameters. More interestingly, it has a 3.8 billion parameter, multi-token prediction layer. Basically, it predicts multiple chunks of code simultaneously, so this thing is blazing fast. If you're building agents, this is your guy. The preview used to have a restrictive license, so if you were in the EU or South Korea or a few other places, you were SOL. No more. It's Apache 2.0 now, and you can even use this thing for enterprise apps. And if you've got the machine for it, call me, but the weights are on hugging face. And don't forget, six months ago, 10 cents had a blank repo. This is speed. What do you think's coming next?
 
 </details>
+
+## 2026-07-18 15:30 UTC
+Source: https://www.instagram.com/reel/DafoIitSbr9/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Avi Vashishta
+
+This is part 6 of a 'Cool Devs Don't Gatekeep' series focused on UI Animation tools. The creator shares three key JavaScript animation libraries for web developers. The video covers GSAP for scroll-based animations, Anime.js for vector animations, and React-Spring for physics-based animations.
+
+The video opens with a developer putting on headphones at his desk, introducing 'Cool Devs Don't Gatekeep Pt. 06 - UI Animation Edition.' He then walks through three animation libraries by screen-sharing their websites. First, GSAP (gsap.com) is recommended for scroll-based animations, showing its interactive homepage with easing demos. Second, Anime.js (animejs.com) is shown for vector animations, displaying a dramatic 3D mechanical gear/lens animation on its homepage. Third, React-Spring (react-spring.dev) is highlighted for real-life physics-based animations, explaining that springs don't have a defined curve or set duration, making animations feel more natural. The video ends on the Anime.js 'Advanced Staggering' demo page and a call to follow for more content.
+
+- GSAP is recommended for scroll-based UI animations
+- Anime.js is the go-to library for vector animations
+- React-Spring enables physics-based, natural-feeling animations
+- Springs differ from traditional animations by lacking fixed duration or curves
+- Part of a series sharing dev resources without gatekeeping
