@@ -285,6 +285,7 @@
     <div class="tabs">
       <div class="tab active" id="tabUpload">Upload File</div>
       <div class="tab" id="tabUrl">Paste URL</div>
+      <div class="tab" id="tabFollowup">DM Follow-up</div>
     </div>
 
     <div class="panel active" id="panelUpload">
@@ -300,6 +301,18 @@
     <div class="panel" id="panelUrl">
       <input type="text" class="url-input" id="urlInput" placeholder="Paste a YouTube, TikTok, or Instagram link…" />
       <div class="file-hint" style="margin-top: 0.5rem;">YouTube links sometimes get blocked by anti-bot checks — if that happens, use "Upload File" instead.</div>
+    </div>
+
+    <div class="panel" id="panelFollowup">
+      <input type="text" class="url-input" id="fuSource" placeholder="Original video link (from pending DM follow-ups)…" />
+      <div class="drop-zone" id="fuDropZone" style="margin-top: 0.75rem; padding: 1.5rem;">
+        <input type="file" id="fuFile" accept="image/*" />
+        <div class="drop-icon">💬</div>
+        <div class="drop-label"><strong>Choose the DM screenshot</strong> or drag it here</div>
+      </div>
+      <div class="selected-file" id="fuSelectedFile"></div>
+      <div class="file-hint" style="margin-top: 0.5rem;">Extracts the links/payload from the screenshot and attaches it to the original video's entry.</div>
+      <div class="overview-box" id="fuResult" style="display:none; margin-top: 1rem; white-space: pre-wrap;"></div>
     </div>
 
     <button class="btn" id="analyzeBtn" disabled>Analyze Video</button>
@@ -344,15 +357,24 @@
     const urlInput    = document.getElementById("urlInput");
     const tabUpload   = document.getElementById("tabUpload");
     const tabUrl      = document.getElementById("tabUrl");
+    const tabFollowup = document.getElementById("tabFollowup");
     const panelUpload = document.getElementById("panelUpload");
     const panelUrl    = document.getElementById("panelUrl");
+    const panelFollowup = document.getElementById("panelFollowup");
+    const fuSource    = document.getElementById("fuSource");
+    const fuFile      = document.getElementById("fuFile");
+    const fuDropZone  = document.getElementById("fuDropZone");
+    const fuSelectedFile = document.getElementById("fuSelectedFile");
+    const fuResult    = document.getElementById("fuResult");
 
     let chosenFile = null;
+    let chosenScreenshot = null;
     let mode = "upload";
 
     function resetForNewInput() {
       analyzeBtn.disabled = true;
       results.style.display = "none";
+      fuResult.style.display = "none";
       status.textContent = "";
       status.className = "status";
     }
@@ -361,13 +383,40 @@
       mode = newMode;
       tabUpload.classList.toggle("active", mode === "upload");
       tabUrl.classList.toggle("active", mode === "url");
+      tabFollowup.classList.toggle("active", mode === "followup");
       panelUpload.classList.toggle("active", mode === "upload");
       panelUrl.classList.toggle("active", mode === "url");
+      panelFollowup.classList.toggle("active", mode === "followup");
+      analyzeBtn.textContent = mode === "followup" ? "Save DM Follow-up" : "Analyze Video";
       resetForNewInput();
+      if (mode === "followup") updateFollowupReady();
     }
 
     tabUpload.addEventListener("click", () => switchMode("upload"));
     tabUrl.addEventListener("click", () => switchMode("url"));
+    tabFollowup.addEventListener("click", () => switchMode("followup"));
+
+    function updateFollowupReady() {
+      analyzeBtn.disabled = !(chosenScreenshot && fuSource.value.trim());
+    }
+
+    function setScreenshot(file) {
+      if (!file) return;
+      chosenScreenshot = file;
+      fuSelectedFile.textContent = `Selected: ${file.name} (${(file.size / 1024 / 1024).toFixed(1)} MB)`;
+      fuSelectedFile.style.display = "block";
+      updateFollowupReady();
+    }
+
+    fuFile.addEventListener("change", () => setScreenshot(fuFile.files[0]));
+    fuSource.addEventListener("input", updateFollowupReady);
+    fuDropZone.addEventListener("dragover", (e) => { e.preventDefault(); fuDropZone.classList.add("dragover"); });
+    fuDropZone.addEventListener("dragleave", () => fuDropZone.classList.remove("dragover"));
+    fuDropZone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      fuDropZone.classList.remove("dragover");
+      setScreenshot(e.dataTransfer.files[0]);
+    });
 
     function setFile(file) {
       if (!file) return;
@@ -431,12 +480,16 @@
     analyzeBtn.addEventListener("click", async () => {
       if (mode === "upload" && !chosenFile) return;
       if (mode === "url" && !urlInput.value.trim()) return;
+      if (mode === "followup" && !(chosenScreenshot && fuSource.value.trim())) return;
 
       analyzeBtn.disabled = true;
       results.style.display = "none";
-      status.innerHTML = mode === "url"
-        ? '<span class="spinner"></span>Downloading video, extracting frames, and analyzing…'
-        : '<span class="spinner"></span>Extracting frames and analyzing…';
+      fuResult.style.display = "none";
+      status.innerHTML = mode === "followup"
+        ? '<span class="spinner"></span>Reading screenshot and updating notes…'
+        : mode === "url"
+          ? '<span class="spinner"></span>Downloading video, extracting frames, and analyzing…'
+          : '<span class="spinner"></span>Extracting frames and analyzing…';
       status.className = "status loading";
 
       try {
@@ -445,17 +498,31 @@
           const formData = new FormData();
           formData.append("video", chosenFile);
           res = await fetch("/analyze", { method: "POST", body: formData });
-        } else {
+        } else if (mode === "url") {
           const formData = new FormData();
           formData.append("url", urlInput.value.trim());
           res = await fetch("/analyze-url", { method: "POST", body: formData });
+        } else {
+          const formData = new FormData();
+          formData.append("screenshot", chosenScreenshot);
+          formData.append("source", fuSource.value.trim());
+          res = await fetch("/followup", { method: "POST", body: formData });
         }
 
         const data = await res.json();
         if (!res.ok) {
           throw new Error(data.detail || "Server error");
         }
-        renderResults(data);
+        if (mode === "followup") {
+          fuResult.textContent = data.followup || "(nothing extracted)";
+          fuResult.style.display = "block";
+          status.textContent = data.resolved_existing_entry
+            ? "Follow-up attached to the pending entry."
+            : "Saved — but no pending entry matched that link, so it was filed as a new entry.";
+          status.className = "status";
+        } else {
+          renderResults(data);
+        }
       } catch (err) {
         status.textContent = "Error: " + err.message;
         status.className = "status error";
