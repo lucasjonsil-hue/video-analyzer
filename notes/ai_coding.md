@@ -673,3 +673,24 @@ The video opens with the creator introducing the concept of using Claude Code al
 - Daily notes contain rich operational context including ad metrics and business updates
 - The vault acts as persistent memory and instructions for the AI agent
 - This is a real working setup used for an actual business (Buckaroo Crew membership)
+
+## 2026-07-18 15:19 UTC
+Source: https://www.instagram.com/reel/DUWoNrtEpEu/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus The (Nontechnical) Tech Bro
+
+A young man gives his brutally honest opinions on various AI YouTubers and influencers he follows regularly. He scrolls through profiles of creators like Sorhan, Nick Saraev, ThePrimeTime, and Dan Martell while sharing casual, humorous takes on each. The video is styled as an informal, off-the-cuff review of AI content creators.
+
+The creator sits outside and casually shares his unfiltered opinions on AI influencers and YouTubers he watches. He starts by saying the best way to learn AI is just watching YouTube videos and figuring it out. He reviews Sorhan (sorhan.plays on Instagram) as a San Francisco YC-type bro who is super smart. He then shows Nick Saraev (436K followers), praising him as a legend but criticizing his frequent brand deals. He shows ThePrimeTime YouTube channel (1.05M subscribers) calling him hilarious and more dev-focused. He then shows Dan Martell (2.35M subscribers) describing him as a sales/CEO type who lightly got into AI. Throughout, he uses casual, slightly irreverent language and seems genuinely enthusiastic about the AI learning space.
+
+- Best way to learn AI according to creator: just watch YouTube and figure it out
+- Sorhan praised as super smart, appeals to SF/YC startup crowd
+- Nick Saraev called a legend but criticized for too many brand deals
+- ThePrimeTime described as hilarious and dev-focused
+- Dan Martell characterized as a sales/CEO type who recently got into AI
+- Overall tone is humorous and brutally honest about each creator's niche and style
+
+<details><summary>Full transcript</summary>
+
+Dude's the best way to learn AI is by just ripping a bunch of YouTube vids and just kind of figuring it out as you get. Here's my brutally honest take on every YouTuber and AI influencer that I see regularly. This is the OG. Orba content creator now, then somebody like actually deepen AI. Super smart dude, highly recommend. But like his stuff, if you're into the whole San Francisco YC bro thing, up at 3AM playing with N8N. So many possibilities. I fuck with this dude, he's super smart and kind of autistic, which means you're cool in my book. This is like the older version that's just as equally autistic. Legend though. Yeah, Nick's also legend. I just wish he would stop posting brand deals constantly and make more authentic content. But dude gotta get the bag I guess. This guy gets it. Arke and Dreson has a lot of like super dystopic takes, but it's great source of information down the left. Listen to their podcast too, it freaking rips. This dude is hilarious. He's kind of more on the dev side, but yeah, still wrecked. D.C's how you build anything with AI. As more just like general entertainment and vibes than actually learning, but I fucking love this guy. Kind of like a sales CEO type of bro that just kind of lightly got into AI.
+
+</details>
