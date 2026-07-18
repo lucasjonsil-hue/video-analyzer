@@ -917,3 +917,24 @@ The video opens with a young woman on a bus asking 'editors, are we cooked?' —
 - Users can iterate by re-prompting Claude to adjust pacing or cuts
 - Creator offers to share the workflow link to followers who comment 'edit'
 - Raises the question of whether human video editors will be displaced by AI
+
+## 2026-07-18 15:28 UTC
+Source: https://www.instagram.com/reel/Da3O00jpo3R/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Fiona • Tech & AI
+
+A content creator presents episode 2 of her series on using GitHub as a design asset library, showcasing four powerful open-source libraries for web development. She covers Lenis (smooth scroll), GSAP (animations), Vanta.js (3D backgrounds), and React Bits (copy-paste React animations). The video targets designers and developers who want to elevate their websites with minimal effort.
+
+The creator introduces the concept that GitHub can serve as a free design asset library for building impressive visual effects. She demos and explains four repositories: 1) Lenis - a smooth velocity scroll library used by ~90% of award-winning websites, which she uses on every project; 2) GSAP - a professional-grade animation library supporting scroll, text, image, and UI animations, with all premium plugins now free and without licensing; 3) Vanta.js - a Three.js-wrapped WebGL library for animated 3D backgrounds (clouds, birds, waves) implementable in ~5 lines of code; 4) React Bits - a trending library of copy-paste animations for React projects. The video is part of a mini-series and she teases future tutorials or more episodes based on audience interest.
+
+- Lenis provides smooth velocity scrolling used by ~90% of award-winning websites
+- GSAP is a pro-level animation library with all premium plugins now free and license-free
+- Vanta.js delivers WebGL 3D animated backgrounds (clouds, waves, birds) in ~5 lines of code
+- React Bits is a trending copy-paste animation library for React developers
+- GitHub repos are framed as a free, accessible design asset library for developers
+- Series continues with more repos and potential tutorials based on viewer interest
+
+<details><summary>Full transcript</summary>
+
+If you've ever seen one of these insane visual effects online, you're like, I could never build that. Yes you can because GitHub is your new design asset library and I promise you it's not intimidating. Since you like this one, this is a new mini series where I find and test all the repos I can. So this one is a classic called Lennis. It gives you that smooth velocity scroll that probably 90% of awards websites are using. You just drop it in and instantly upgrade your upside. I honestly use it for every single project I do. The second one's called G-SAP and this is the animation library that pros have been using for years. You can do every scroll, text, image, UI animation you could possibly think of. Even some of these web websites are using G-SAP. The third one's called Vanta and this is your fancy 3D animated backgrounds. WebGL that you can paste in in about five lines of code and you get these beautiful clouds, birds, waves for your hero sections. The last one is blowing up right now for a reason. React bits. A huge library of copy-paste animations for React. Let me know if you want to see more or get a tutorial.
+
+</details>
