@@ -308,3 +308,24 @@ The video opens with the creator in a gym setting, then transitions to a talking
 What are the top 5 most micronutrient dense foods on the planet? First up is polar bear liver. Now I know you might be thinking where can I get my hands on this but do not eat polar bear liver. One single serving can have over a million IUs of vitamin A and the human daily serving is 100,000. You will literally die from brain swelling and go into a seizure if you eat this. Number two is fish eggs or caviar. They are packed with so many micronutrients. They could literally boost out the production of an entire organism. Yes, an entire organism. Number three is oysters and these are some efficient for reproduction and hormones. They literally have entire servings of daily RDAs for your micronutrients and a single serving. Number four is beef heart. Now not only does this have an insane micronutrient profile, it actually contains something called co-inzomb Q10. Co-inzomb Q10 is what helps your cells actually produce energy. And without it, your body cannot effectively turn food into ATP or energy. And number five is spirulina. It's basically compressed sunlight and minerals. It's actually a microscopic algae. This is what it looks like under a microscope and contains iron, magnesium, B vitamins, basically everything you can ask for and gram for gram. It is one of the most micronutrient dense foods on the entire planet. Now I know that none of these foods were really practical. How are you going to get your hands on polar bear liver? So what I'm going to do is make a part two of the top five most micronutrient dense foods that you can actually get your hands on. Check my page. It should be uploaded now.
 
 </details>
+
+## 2026-07-18 15:22 UTC
+Source: https://www.instagram.com/reel/DXEpbcHALo2/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Gianni Gitto | Testosterone Coach
+
+A person in medical scrubs explains different forms of magnesium supplements and their specific benefits, framing it as information that is being 'gatekept.' The video covers four types of magnesium: malate, taurate, L-threonate, and glycinate, each targeting different health goals. It ends with a call-to-action to comment 'mag' to receive a free magnesium blueprint.
+
+The presenter, dressed in medical scrubs, opens with a conspiratorial hook claiming magnesium is being gatekept and can boost testosterone. He then breaks down four specific forms of magnesium: (1) Magnesium Malate - recommended for muscle pain, weakness, and low energy, tied to the Krebs cycle and cellular energy; (2) Magnesium Taurate - targeted at cardiovascular health, blood pressure, heart rhythm, and blood sugar control; (3) Magnesium L-Threonate - highlighted as the only form that crosses the blood-brain barrier, useful for memory, concentration, and brain fog; (4) Magnesium Glycinate - presented as his top recommendation for most people, praised for high absorption, sleep quality, stress relief, recovery, and testosterone support. The video uses text overlays with sourced definitions for each form. It closes with a lead generation CTA asking viewers to comment 'mag' for a free blueprint.
+
+- Magnesium malate targets muscle pain, weakness, and low energy via the Krebs cycle
+- Magnesium taurate supports cardiovascular health, blood pressure, and blood sugar
+- Magnesium L-threonate is the only form that crosses the blood-brain barrier, aiding cognition and memory
+- Magnesium glycinate is the top recommendation for sleep, stress, recovery, and testosterone
+- The video uses a 'gatekeeping' hook to create urgency and intrigue
+- Ends with a lead-gen CTA: comment 'mag' for a free magnesium blueprint
+
+<details><summary>Full transcript</summary>
+
+They are gatekeeping magnesium. Magnesium will turn you into a testosterone monster, but only if you're taking the right kind. Magnesium mallet and think muscle, muscle pain, weakness, low energy, this is your go-to. Magnesium tarot, think cardio vascular, or blood pressure, controlled heart rhythm, lowers blood sugar. Magnesium 3 and a thick brain. Emory, concentration, brain fogs, the only form that crosses the blood brain barrier. And my number one recommended for magnesium glycinate. Most absorbable, best for sleep, stress, recovery, and testosterone. Unless you have a specific condition, this is your go-to. Comment, mag, and I'll send you my magnesium blueprint, absolutely free.
+
+</details>
