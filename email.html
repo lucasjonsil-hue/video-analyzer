@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Assistant</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f13; color: #e8e8f0; min-height: 100vh; padding: 2rem;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; }
+    h1 {
+      font-size: 1.6rem; font-weight: 700; margin-bottom: 0.3rem;
+      background: linear-gradient(135deg, #a78bfa, #60a5fa);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .subtitle { color: #6b6b8a; font-size: 0.875rem; margin-bottom: 1.5rem; }
+    .subtitle a { color: #a78bfa; text-decoration: none; }
+    .toolbar { display: flex; gap: 0.6rem; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .chip {
+      padding: 0.35rem 0.8rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
+      background: #1a1a24; border: 1px solid #2a2a3a; color: #9090b0; cursor: pointer;
+    }
+    .chip.active { background: linear-gradient(135deg, #7c3aed, #2563eb); color: #fff; border-color: transparent; }
+    .btn-refresh {
+      margin-left: auto; padding: 0.45rem 1rem; border: none; border-radius: 8px; cursor: pointer;
+      background: linear-gradient(135deg, #7c3aed, #2563eb); color: #fff; font-weight: 600; font-size: 0.85rem;
+    }
+    .status { color: #a78bfa; font-size: 0.85rem; margin-bottom: 1rem; min-height: 1.1rem; }
+    .status.error { color: #f87171; }
+    .card {
+      background: #1a1a24; border: 1px solid #2a2a3a; border-radius: 12px;
+      padding: 1rem 1.2rem; margin-bottom: 0.8rem;
+    }
+    .card.unread { border-left: 3px solid #60a5fa; }
+    .row1 { display: flex; gap: 0.6rem; align-items: baseline; flex-wrap: wrap; }
+    .subject { font-weight: 600; font-size: 0.95rem; }
+    .cat {
+      font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em;
+      padding: 0.15rem 0.55rem; border-radius: 999px; font-weight: 700;
+    }
+    .cat.video-links   { background: rgba(96,165,250,0.15);  color: #60a5fa; }
+    .cat.action-needed { background: rgba(248,113,113,0.15); color: #f87171; }
+    .cat.personal      { background: rgba(74,222,128,0.15);  color: #4ade80; }
+    .cat.newsletter    { background: rgba(250,204,21,0.12);  color: #facc15; }
+    .cat.notification  { background: rgba(148,163,184,0.15); color: #94a3b8; }
+    .cat.junk          { background: rgba(244,114,182,0.12); color: #f472b6; }
+    .meta { color: #6b6b8a; font-size: 0.78rem; margin-top: 0.2rem; }
+    .gist { color: #b8b8d0; font-size: 0.85rem; margin-top: 0.45rem; }
+    .actions { margin-top: 0.6rem; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    .btn-draft {
+      padding: 0.35rem 0.9rem; border: 1px solid #2a2a3a; border-radius: 8px; cursor: pointer;
+      background: #12121a; color: #a78bfa; font-weight: 600; font-size: 0.8rem;
+    }
+    .btn-draft:hover { border-color: #a78bfa; }
+    .btn-draft:disabled { opacity: 0.5; cursor: wait; }
+    .guidance {
+      flex: 1; min-width: 200px; padding: 0.35rem 0.7rem; font-size: 0.8rem;
+      background: #12121a; border: 1px solid #2a2a3a; border-radius: 8px; color: #e8e8f0;
+    }
+    .guidance:focus { outline: none; border-color: #a78bfa; }
+    .draft-box {
+      display: none; margin-top: 0.7rem; background: #12121a; border-radius: 8px;
+      padding: 0.8rem 1rem; font-size: 0.85rem; line-height: 1.55; color: #cccce0; white-space: pre-wrap;
+    }
+    .draft-note { color: #4ade80; font-size: 0.78rem; margin-top: 0.4rem; display: none; }
+    .empty { color: #5a5a7a; text-align: center; padding: 3rem 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Email Assistant</h1>
+    <p class="subtitle">Categorized inbox triage. Reply drafts land in your Outlook Drafts folder — nothing is ever sent for you. <a href="/">&larr; Analyzer</a></p>
+
+    <div class="toolbar" id="toolbar">
+      <span class="chip active" data-cat="all">All</span>
+      <button class="btn-refresh" id="refreshBtn">Refresh</button>
+    </div>
+    <div class="status" id="status"></div>
+    <div id="list"><div class="empty">Loading inbox…</div></div>
+  </div>
+
+  <script>
+    const listEl = document.getElementById("list");
+    const statusEl = document.getElementById("status");
+    const toolbar = document.getElementById("toolbar");
+    const refreshBtn = document.getElementById("refreshBtn");
+    let messages = [];
+    let activeCat = "all";
+
+    function fmtDate(iso) {
+      if (!iso) return "";
+      const d = new Date(iso);
+      return d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    }
+
+    function renderChips() {
+      toolbar.querySelectorAll(".chip:not([data-cat=all])").forEach((c) => c.remove());
+      const counts = {};
+      messages.forEach((m) => { counts[m.category] = (counts[m.category] || 0) + 1; });
+      Object.entries(counts).forEach(([cat, n]) => {
+        const chip = document.createElement("span");
+        chip.className = "chip" + (cat === activeCat ? " active" : "");
+        chip.dataset.cat = cat;
+        chip.textContent = `${cat} (${n})`;
+        toolbar.insertBefore(chip, refreshBtn);
+      });
+      toolbar.querySelector('[data-cat="all"]').classList.toggle("active", activeCat === "all");
+    }
+
+    function render() {
+      renderChips();
+      listEl.innerHTML = "";
+      const shown = messages.filter((m) => activeCat === "all" || m.category === activeCat);
+      if (!shown.length) {
+        listEl.innerHTML = '<div class="empty">Nothing here.</div>';
+        return;
+      }
+      shown.forEach((m) => {
+        const card = document.createElement("div");
+        card.className = "card" + (m.is_read ? "" : " unread");
+        card.innerHTML = `
+          <div class="row1">
+            <span class="subject"></span>
+            <span class="cat ${m.category}">${m.category}</span>
+          </div>
+          <div class="meta"></div>
+          <div class="gist"></div>
+          <div class="actions">
+            <button class="btn-draft">Draft reply</button>
+            <input class="guidance" placeholder="Optional: what should the reply say?" />
+          </div>
+          <div class="draft-box"></div>
+          <div class="draft-note">Draft saved to your Outlook Drafts — review &amp; send it there.</div>`;
+        card.querySelector(".subject").textContent = m.subject;
+        card.querySelector(".meta").textContent =
+          `${m.from_name || m.from_address} · ${fmtDate(m.received)}${m.is_read ? "" : " · unread"}`;
+        card.querySelector(".gist").textContent = m.gist + (m.reply_worthwhile ? "  ✍️ reply suggested" : "");
+
+        const btn = card.querySelector(".btn-draft");
+        btn.addEventListener("click", async () => {
+          btn.disabled = true;
+          btn.textContent = "Drafting…";
+          try {
+            const res = await fetch("/api/email/draft", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ message_id: m.id, guidance: card.querySelector(".guidance").value.trim() }),
+            });
+            const data = await res.json();
+            if (!res.ok) throw new Error(data.detail || "Server error");
+            const box = card.querySelector(".draft-box");
+            box.textContent = data.draft;
+            box.style.display = "block";
+            card.querySelector(".draft-note").style.display = "block";
+            btn.textContent = "Redraft";
+          } catch (err) {
+            statusEl.textContent = "Draft failed: " + err.message;
+            statusEl.className = "status error";
+            btn.textContent = "Draft reply";
+          } finally {
+            btn.disabled = false;
+          }
+        });
+        listEl.appendChild(card);
+      });
+    }
+
+    toolbar.addEventListener("click", (e) => {
+      const chip = e.target.closest(".chip");
+      if (!chip) return;
+      activeCat = chip.dataset.cat;
+      render();
+    });
+
+    async function load() {
+      statusEl.textContent = "Fetching and categorizing inbox…";
+      statusEl.className = "status";
+      try {
+        const res = await fetch("/api/email/inbox?limit=25");
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || "Server error");
+        messages = data.messages;
+        statusEl.textContent = "";
+        render();
+      } catch (err) {
+        statusEl.textContent = "Error: " + err.message;
+        statusEl.className = "status error";
+        listEl.innerHTML = "";
+      }
+    }
+
+    refreshBtn.addEventListener("click", load);
+    load();
+  </script>
+</body>
+</html>
