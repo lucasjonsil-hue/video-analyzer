@@ -1035,3 +1035,24 @@ The video opens with a developer putting on headphones at his desk, introducing 
 - React-Spring enables physics-based, natural-feeling animations
 - Springs differ from traditional animations by lacking fixed duration or curves
 - Part of a series sharing dev resources without gatekeeping
+
+## 2026-07-18 15:31 UTC
+Source: https://www.instagram.com/reel/DaghV0fNoBD/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus The (Nontechnical) Tech Bro
+
+A creator demonstrates how to build an AI-powered real estate automation system without paying broker fees. The tutorial walks through setting up AI agents, databases, scraping tools, geolocation software, and real estate data tools to find deals, identify property owners, and reach out to them automatically.
+
+The video is a rapid-fire tutorial showing how to replicate expensive real estate broker services using AI agents and no-code/low-code tools. The creator starts by framing real estate brokers as taking massive commissions that can be automated away. He walks through: (1) choosing an AI agent platform, (2) selecting a database like Airtable, Notion, PostgreSQL, Supabase, or Google Sheets to store properties, (3) using scraping tools connected to the AI agent to find good deals based on custom prompts, (4) integrating geolocation and real estate data software, (5) automating owner identification and contact info retrieval, (6) sending automated emails to property owners, and (7) optionally using AI voice calling tools like Bland AI, Vapi, Retell AI, Synthflow, Air AI, or Play AI for cold calls (with a legal gray area warning about TCPA compliance). He concludes by offering a cold-calling script and encouraging followers to learn automation for free.
+
+- Use AI agents + database tools to find and store real estate deals without a broker
+- Connect scraping, geolocation, and real estate data APIs to automate property research
+- Automate owner identification and contact info lookup using data tools
+- Send automated outreach emails to property owners via AI agent
+- AI voice cold-calling is possible but legally risky under FCC/TCPA rules
+- Tools shown: Airtable, Notion, Supabase, PostgreSQL, Bland AI, Vapi, Retell AI, Synthflow, Air AI
+
+<details><summary>Full transcript</summary>
+
+Five coders are looting real estate companies. 100 Billy Vanilley's is what brokers like this take from people like you. Being the humble real estate investor that you are, can we just build this ourself? Episode eight. Sign up for one of these bad boys. We'll need an AI agent, of course. Some place you can store the properties that you want to buy. Choose one of these scraping tools. Go to your AI agents connector section and connect it. If you're AI agent this prompt, you'll go find properties it thinks are a good deal. Save them to whatever the database you chose will. Require one of these four geolocation software and one of these real estate data software. Same as usual hook those puppies up to your agent. Give it this prompt. It will first attempt to find the property address. But it doesn't work very well. Then it will identify the owner of the property, using this prompt, get their contact information, using one of the data tools that you set up. I'll give it this prompt. Your agent will send emails like this to all the owners. Now if you're feeling illegal and spammy, could have an AI agent call the owner. I'd just do it the old-fashioned way. This cold-calling script will probably work. You don't need to pay tens of thousand dollars to a broker. Follow your boy instead. Teach you how to automate stuff like this for free. Close some freaking deals, big dog.
+
+</details>
