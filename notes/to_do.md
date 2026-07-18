@@ -27,3 +27,23 @@ The creator introduces a 'niche edition' list of 10 free AI certifications recom
 - Google Cloud's Intro to Responsible AI takes only 15 minutes
 - All certifications are free and resume-worthy
 - Comment 'resume' to receive links to 10 certs plus 20 more
+
+## 2026-07-18 15:23 UTC
+Source: https://www.instagram.com/reel/DYLhCUeoH8o/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Arya Patel
+
+This video highlights free certifications that can boost a resume, targeting people who currently have no certifications. It showcases four specific free certification opportunities from Anthropic (Claude), HubSpot, and IBM SkillsBuild, ending with a call to action to follow and comment for links.
+
+The video opens with a relatable hook of someone admitting they have no certifications on their resume. It then walks through four free certification options: #1 is the Claude Certified Architect certification from Anthropic, noted as something Deloitte pays significant money to obtain. #2 is not fully visible but is implied. #3 is HubSpot Academy's Digital Marketing Certification Course, a free 5-hour course requiring no student email. #4 is IBM SkillsBuild's 'Getting Started with Generative AI' course, which offers 12 college credits plus 8 more for free. The video ends by asking viewers to follow and comment 'RESUME' to receive the links to these courses.
+
+- Anthropic Claude Certified Architect certification is valued by companies like Deloitte
+- HubSpot Digital Marketing Certification is free, takes 5 hours, and needs no student email
+- IBM SkillsBuild offers Generative AI certification with 12+ college credits for free
+- All certifications listed are 100% free with no credit card required
+- Aimed at job seekers with no current certifications on their resume
+
+<details><summary>Full transcript</summary>
+
+Okay
+
+</details>
