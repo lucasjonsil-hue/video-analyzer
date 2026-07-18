@@ -27,3 +27,17 @@ The creator begins in a tanning bed setting, introducing how Claude AI can help 
 - The system is paired with a fitness/wearable band for tracking
 - The creator is actively running a business built with his brother using Claude
 - The video promotes using Claude creatively for self-improvement and entrepreneurship
+
+## 2026-07-18 05:45 UTC
+Source: https://www.instagram.com/reel/DU_BMdDk3Ur
+
+This meme video humorously contrasts a guy who claimed he'd marry a girl with his actual behavior 6 months later: building elaborate habit tracking spreadsheets and productivity systems. The video showcases a detailed Google Sheets habit tracker called 'Habit Game' with daily routines, progress charts, and weekly planners.
+
+The video opens with a brooding guy staring out a window, setting up the joke that this is someone who said 'I'm going to marry her.' It then cuts to a series of screens showing an increasingly detailed productivity and habit tracking system. The tracker, called 'Habit Game,' is built in Google Sheets and tracks habits like waking up at 5am, gym, reading, day planning, no gooning, project work, no alcohol, social media detox, goal journaling, and cold showers. The system tracks daily completions across the entire month of February, shows hours of sleep, habit counts, daily progress bars, and a sleep tracker graph. A final frame shows a weekly planner with daily task completion rates around 88-90%, with Tuesday's task list notably including 'Break up with girlfriend' — the punchline of the meme.
+
+- Meme format: guy who said he'd marry her ends up fully focused on self-improvement instead
+- Elaborate habit tracker built in Google Sheets called 'Habit Game'
+- Tracks 9+ habits daily including gym, cold shower, no alcohol, social media detox
+- Monthly progress dashboard with sleep tracking, habit counts, and visual progress bars
+- Weekly planner shows 88-90% daily task completion rates
+- Punchline: Tuesday's task list includes 'Break up with girlfriend'
