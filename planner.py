@@ -13,10 +13,16 @@ notes/planner.md on GitHub only when Lucas approves.
   a nudge question on future plans.
 - Live Open-Meteo forecast (daily + marine) for the Santa Barbara area is fed
   into the prompt so plans use real conditions instead of guessing.
+- Wave alert (wave_alert.json): when enabled, forecast days meeting Lucas's
+  height/period threshold get a dated entry appended to notes/reminders.md
+  on GitHub (deduped per day). The scheduled email agent calls
+  run_wave_alert_check() each run; the function self-throttles to one real
+  check per 6 hours. Deliberately alert-only — no auto-booking of anything.
 
 Usable three ways:
 - FastAPI routes (mounted into main.py): GET /planner, POST /api/plan,
-  POST /api/plan/save
+  POST /api/plan/save, GET /api/waves, POST /api/waves/config,
+  POST /api/waves/check
 - CLI: py planner.py "spearfishing Tuesday, bringing my speargun"
 - import: generate_plan(text) -> dict
 """
@@ -193,6 +199,112 @@ def fetch_forecast_context() -> str:
     return "\n".join(lines)
 
 
+WAVE_ALERT_PATH = os.path.join(BASE_DIR, "wave_alert.json")
+REMINDERS_NOTE_PATH = "notes/reminders.md"
+M_TO_FT = 3.28084
+WAVE_CHECK_INTERVAL_S = 6 * 3600
+
+WAVE_DEFAULTS = {
+    "enabled": False,
+    "min_height_ft": 4.0,
+    "min_period_s": 12.0,
+    "alerted_dates": [],
+    "last_checked": None,
+}
+
+
+def load_wave_config() -> dict:
+    cfg = dict(WAVE_DEFAULTS)
+    try:
+        with open(WAVE_ALERT_PATH, "r", encoding="utf-8") as f:
+            cfg.update(json.load(f))
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    return cfg
+
+
+def save_wave_config(cfg: dict) -> None:
+    with open(WAVE_ALERT_PATH, "w", encoding="utf-8") as f:
+        json.dump(cfg, f, indent=2)
+
+
+def fetch_wave_days() -> list[dict]:
+    """7-day marine forecast for the default spot, in feet/seconds."""
+    marine = requests.get(
+        "https://marine-api.open-meteo.com/v1/marine",
+        params={
+            "latitude": SB_LAT, "longitude": SB_LON,
+            "daily": "wave_height_max,wave_period_max",
+            "forecast_days": 7, "timezone": "America/Los_Angeles",
+        },
+        timeout=8,
+    ).json()["daily"]
+    return [
+        {
+            "date": marine["time"][i],
+            "height_ft": round(marine["wave_height_max"][i] * M_TO_FT, 1),
+            "period_s": round(marine["wave_period_max"][i], 1),
+        }
+        for i in range(len(marine["time"]))
+    ]
+
+
+def evaluate_wave_alert() -> dict:
+    cfg = load_wave_config()
+    days = fetch_wave_days()
+    for d in days:
+        d["meets"] = (
+            d["height_ft"] >= cfg["min_height_ft"]
+            and d["period_s"] >= cfg["min_period_s"]
+        )
+    return {
+        "config": {k: cfg[k] for k in ("enabled", "min_height_ft", "min_period_s")},
+        "days": days,
+        "matches": [d for d in days if d["meets"]],
+    }
+
+
+def run_wave_alert_check(force: bool = False) -> dict:
+    """Check the forecast and file reminders for newly matching days.
+
+    Called by the scheduled email agent every run — self-throttles to one
+    real check per 6h unless force=True (the UI button forces).
+    """
+    cfg = load_wave_config()
+    if not cfg["enabled"]:
+        return {"skipped": "disabled"}
+    now = datetime.now(timezone.utc)
+    if not force and cfg["last_checked"]:
+        try:
+            last = datetime.fromisoformat(cfg["last_checked"])
+            if (now - last).total_seconds() < WAVE_CHECK_INTERVAL_S:
+                return {"skipped": "recently checked"}
+        except ValueError:
+            pass
+
+    result = evaluate_wave_alert()
+    today = now.strftime("%Y-%m-%d")
+    new_days = [d for d in result["matches"] if d["date"] not in cfg["alerted_dates"]]
+
+    if new_days and GITHUB_TOKEN:
+        lines = "; ".join(f"{d['date']}: {d['height_ft']} ft @ {d['period_s']}s" for d in new_days)
+        entry = (
+            f"\n## {new_days[0]['date']}\n"
+            f"Source: planner wave alert\n\n"
+            f"Swell alert (Santa Barbara) — days hitting your ≥{cfg['min_height_ft']} ft / "
+            f"≥{cfg['min_period_s']}s threshold: {lines}. Worth planning a session.\n"
+        )
+        append_to_github_note(REMINDERS_NOTE_PATH, entry, "# Reminders\n",
+                              f"Swell alert: {new_days[0]['date']}")
+
+    cfg["alerted_dates"] = sorted(
+        {d for d in cfg["alerted_dates"] if d >= today} | {d["date"] for d in new_days}
+    )
+    cfg["last_checked"] = now.isoformat(timespec="seconds")
+    save_wave_config(cfg)
+    return {"new_alerts": new_days, "matches": result["matches"]}
+
+
 def generate_plan(text: str) -> dict:
     today = datetime.now().strftime("%A, %Y-%m-%d")
 
@@ -253,10 +365,10 @@ def format_plan_markdown(plan: dict, source_text: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def save_plan_to_github(entry_md: str, title: str = "untitled") -> bool:
+def append_to_github_note(path: str, entry_md: str, empty_header: str, commit_msg: str) -> bool:
     if not GITHUB_TOKEN:
         return False
-    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{PLANNER_NOTE_PATH}"
+    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
@@ -267,13 +379,13 @@ def save_plan_to_github(entry_md: str, title: str = "untitled") -> bool:
         current_content = base64.b64decode(existing["content"]).decode("utf-8")
         sha = existing["sha"]
     elif get_resp.status_code == 404:
-        current_content = "# Planner Notes\n"
+        current_content = empty_header
         sha = None
     else:
         get_resp.raise_for_status()
 
     payload = {
-        "message": f"Add plan: {title}",
+        "message": commit_msg,
         "content": base64.b64encode((current_content + entry_md).encode("utf-8")).decode("utf-8"),
     }
     if sha:
@@ -281,6 +393,10 @@ def save_plan_to_github(entry_md: str, title: str = "untitled") -> bool:
     put_resp = requests.put(api_url, headers=headers, json=payload, timeout=15)
     put_resp.raise_for_status()
     return True
+
+
+def save_plan_to_github(entry_md: str, title: str = "untitled") -> bool:
+    return append_to_github_note(PLANNER_NOTE_PATH, entry_md, "# Planner Notes\n", f"Add plan: {title}")
 
 
 router = APIRouter()
@@ -312,6 +428,40 @@ async def save_plan(payload: dict = Body(...)):
     except requests.RequestException as e:
         raise HTTPException(status_code=502, detail=f"GitHub save failed: {e}")
     return JSONResponse(content={"saved": saved})
+
+
+@router.get("/api/waves")
+def get_waves():
+    try:
+        return JSONResponse(content=evaluate_wave_alert())
+    except (requests.RequestException, KeyError) as e:
+        raise HTTPException(status_code=502, detail=f"marine forecast unavailable: {e}")
+
+
+@router.post("/api/waves/config")
+def set_wave_config(payload: dict = Body(...)):
+    cfg = load_wave_config()
+    cfg["enabled"] = bool(payload.get("enabled", cfg["enabled"]))
+    try:
+        cfg["min_height_ft"] = float(payload.get("min_height_ft", cfg["min_height_ft"]))
+        cfg["min_period_s"] = float(payload.get("min_period_s", cfg["min_period_s"]))
+    except (TypeError, ValueError):
+        raise HTTPException(status_code=422, detail="thresholds must be numbers")
+    if cfg["min_height_ft"] < 0 or cfg["min_period_s"] < 0:
+        raise HTTPException(status_code=422, detail="thresholds must be non-negative")
+    save_wave_config(cfg)
+    try:
+        return JSONResponse(content=evaluate_wave_alert())
+    except (requests.RequestException, KeyError) as e:
+        raise HTTPException(status_code=502, detail=f"saved, but forecast unavailable: {e}")
+
+
+@router.post("/api/waves/check")
+def check_waves_now():
+    try:
+        return JSONResponse(content=run_wave_alert_check(force=True))
+    except (requests.RequestException, KeyError) as e:
+        raise HTTPException(status_code=502, detail=f"wave check failed: {e}")
 
 
 if __name__ == "__main__":

@@ -256,6 +256,18 @@ def run_for_account(username: str, token: str) -> None:
             log(f"  move failed: {str(e)[:120]}")
 
 
+def check_wave_alerts() -> None:
+    """Piggyback the planner's wave alert on this scheduled run (self-throttled to ~6h)."""
+    try:
+        from planner import run_wave_alert_check
+        result = run_wave_alert_check()
+        if result.get("new_alerts"):
+            days = ", ".join(d["date"] for d in result["new_alerts"])
+            log(f"wave alert: swell threshold hit on {days} — reminder filed")
+    except Exception as e:
+        log(f"wave alert check failed: {str(e)[:120]}")
+
+
 def main() -> None:
     tokens = ei.get_all_tokens()
     if not tokens:
@@ -264,6 +276,7 @@ def main() -> None:
         )
     for username, token in tokens:
         run_for_account(username, token)
+    check_wave_alerts()
     log("run complete")
 
 

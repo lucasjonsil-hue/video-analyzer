@@ -124,6 +124,46 @@
       color: #fcd34d;
       margin-bottom: 0.9rem;
     }
+
+    .wave-card {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 14px;
+      padding: 1.1rem 1.4rem;
+      margin: 2rem 0 1rem;
+    }
+    .wave-card h2 { font-size: 1.05rem; color: #60a5fa; margin-bottom: 0.2rem; }
+    .wave-card .desc { color: #6b6b8a; font-size: 0.8rem; margin-bottom: 0.8rem; }
+    .wave-controls { display: flex; gap: 0.7rem; flex-wrap: wrap; align-items: flex-end; margin-bottom: 0.8rem; }
+    .wave-controls label { display: block; font-size: 0.72rem; color: #b8b8cc; margin-bottom: 0.25rem; text-transform: uppercase; letter-spacing: 0.03em; }
+    .wave-controls input[type="number"] {
+      background: #0f0f13;
+      border: 1px solid #2a2a3a;
+      color: #e8e8f0;
+      border-radius: 8px;
+      padding: 0.5rem 0.7rem;
+      font-size: 0.9rem;
+      width: 110px;
+      outline: none;
+    }
+    .wave-controls input[type="number"]:focus { border-color: #60a5fa; }
+    .wave-toggle { display: flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; color: #d4d4e4; padding-bottom: 0.5rem; }
+    .wave-days { display: flex; gap: 0.45rem; flex-wrap: wrap; }
+    .wave-day {
+      background: #0f0f13;
+      border: 1px solid #2a2a3a;
+      border-radius: 10px;
+      padding: 0.45rem 0.65rem;
+      font-size: 0.78rem;
+      color: #b8b8cc;
+      text-align: center;
+      min-width: 86px;
+    }
+    .wave-day.hit { border-color: #34d399; color: #6ee7b7; background: rgba(52, 211, 153, 0.08); }
+    .wave-day .d { font-weight: 700; display: block; margin-bottom: 0.1rem; }
+    .wave-status { color: #6b6b8a; font-size: 0.8rem; margin-top: 0.6rem; min-height: 1.1em; }
+    .wave-status.ok { color: #6ee7b7; }
+    .wave-status.error { color: #f87171; }
   </style>
 </head>
 <body>
@@ -141,6 +181,20 @@
     <div id="result"></div>
     <div id="save-row" style="display:none">
       <button class="btn-secondary" id="save-btn">Save to notes (GitHub)</button>
+    </div>
+
+    <div class="wave-card">
+      <h2>Wave alert</h2>
+      <p class="desc">When the 7-day Santa Barbara swell forecast hits your threshold, a reminder is filed to notes/reminders.md automatically (checked every ~6h by the email agent). Alerts only — nothing gets booked.</p>
+      <div class="wave-controls">
+        <div><label>Min wave height (ft)</label><input type="number" id="wave-height" step="0.5" min="0"></div>
+        <div><label>Min period (s)</label><input type="number" id="wave-period" step="1" min="0"></div>
+        <label class="wave-toggle"><input type="checkbox" id="wave-enabled"> Alerts on</label>
+        <button class="btn-secondary" id="wave-save">Save</button>
+        <button class="btn-secondary" id="wave-check">Check now</button>
+      </div>
+      <div class="wave-days" id="wave-days"></div>
+      <div class="wave-status" id="wave-status"></div>
     </div>
   </div>
 
@@ -248,6 +302,63 @@
     input.addEventListener("keydown", (e) => {
       if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); generateBtn.click(); }
     });
+
+    // ---- Wave alert ----
+    const waveStatus = (msg, cls) => {
+      const el = document.getElementById("wave-status");
+      el.textContent = msg;
+      el.className = "wave-status" + (cls ? " " + cls : "");
+    };
+
+    function renderWaves(data) {
+      document.getElementById("wave-height").value = data.config.min_height_ft;
+      document.getElementById("wave-period").value = data.config.min_period_s;
+      document.getElementById("wave-enabled").checked = data.config.enabled;
+      document.getElementById("wave-days").innerHTML = (data.days || []).map(d => {
+        const day = new Date(d.date + "T12:00:00").toLocaleDateString([], { weekday: "short", month: "numeric", day: "numeric" });
+        return `<div class="wave-day${d.meets ? " hit" : ""}"><span class="d">${esc(day)}</span>${d.height_ft} ft @ ${d.period_s}s</div>`;
+      }).join("");
+      const n = (data.matches || []).length;
+      waveStatus(
+        !data.config.enabled ? "Alerts are off — set your threshold and check “Alerts on.”"
+        : n ? `${n} day${n === 1 ? "" : "s"} in the next week hit your threshold (green).` : "No days hit your threshold this week.",
+        n && data.config.enabled ? "ok" : ""
+      );
+    }
+
+    async function waveApi(url, payload) {
+      const resp = await fetch(url, payload ? {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
+      } : undefined);
+      const data = await resp.json();
+      if (!resp.ok) throw new Error(data.detail || `HTTP ${resp.status}`);
+      return data;
+    }
+
+    document.getElementById("wave-save").addEventListener("click", async () => {
+      try {
+        renderWaves(await waveApi("/api/waves/config", {
+          enabled: document.getElementById("wave-enabled").checked,
+          min_height_ft: document.getElementById("wave-height").value,
+          min_period_s: document.getElementById("wave-period").value,
+        }));
+      } catch (e) { waveStatus("Save failed: " + e.message, "error"); }
+    });
+
+    document.getElementById("wave-check").addEventListener("click", async () => {
+      waveStatus("Checking forecast…");
+      try {
+        const result = await waveApi("/api/waves/check", {});
+        if (result.skipped) { waveStatus("Alerts are off — nothing checked.", "error"); return; }
+        const fresh = (result.new_alerts || []).length;
+        waveStatus(fresh
+          ? `Reminder filed for: ${result.new_alerts.map(d => d.date).join(", ")}.`
+          : (result.matches || []).length ? "Threshold days found, but already alerted — no duplicate reminder." : "No days hit your threshold this week.",
+          fresh ? "ok" : "");
+      } catch (e) { waveStatus("Check failed: " + e.message, "error"); }
+    });
+
+    waveApi("/api/waves").then(renderWaves).catch(e => waveStatus("Forecast unavailable: " + e.message, "error"));
   </script>
 </body>
 </html>
