@@ -41,3 +41,8 @@ Renew medical marijuana card (email: Your Medical Marijuana Card Expires Next Mo
 Source: email from www.paracordgalaxy.com
 
 Redeem Paracord Galaxy 10% coupon (Lovecord) (email: Metal Buckle Specials, Paracord. "Lovecord" 10% Sitewide coupon.)
+
+## 2026-07-20
+Source: planner wave alert
+
+Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold: 2026-07-20: 3.1 ft @ 10.3s; 2026-07-21: 3.8 ft @ 10.2s; 2026-07-25: 3.4 ft @ 9.1s. Worth planning a session.
