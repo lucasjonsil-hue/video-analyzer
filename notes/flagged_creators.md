@@ -10,3 +10,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## Nick Saraev
 - 2026-07-19 — Prompt compression reduces token usage by up to 90% with identical output — https://www.instagram.com/reel/Da8ZthUPK98/?igsh=NTc4MTIwNjQ2YQ==
+
+## phillie_cheez
+- 2026-07-19 — Snapchat is deleting all user memories in October — https://www.tiktok.com/t/ZTSoH1vEp/
