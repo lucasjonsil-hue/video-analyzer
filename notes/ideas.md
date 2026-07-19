@@ -454,3 +454,23 @@ The video begins with the young man (akylpeople) spotting Doctor J in a Costco w
 All right Yes Are you two and your pockets and stuff? Yeah, yeah, watch it. You talk baseball pop culture. Yeah Yeah! Hey, man, you're kidding me. You're gonna be dumb now, man. I'm not surprised. Yeah, it's these famous, bro. Is that right? Yeah. How'd you discover me? I was loading on shorts, and I saw your short cut, and I was like, bro, no one's like saying takes like you, bro. Like, people are like, bro, like too many grasses, green takes, but you actually say what you think. I appreciate that, man. Oh, so you gotta get a picture. Oh, 100%. Get a picture. Yeah, I'm gonna put this on, man. All right. Yo. What's your Instagram? Hey, man. A great meet-a-you, man. Hey, you have a great one. Thank you, man. Thank you.
 
 </details>
+
+## 2026-07-19 04:27 UTC
+Source: https://www.instagram.com/reel/Da3OKGjohuh/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Jigga
+
+A young fan spots a content creator known as 'Doctor J' at Costco and approaches him to express admiration for his podcast and takes on baseball and pop culture. The two take a selfie together and the creator posts it to his Instagram story expressing gratitude. The encounter is wholesome and spontaneous.
+
+The video captures a fan encounter at a Costco warehouse store. In the first frame, a young Latino man is seen walking through the store with the text 'Target acquired' overlaid, suggesting he has spotted someone he recognizes. He approaches Doctor J, a content creator who discusses baseball and pop culture on his podcast/YouTube channel. The fan tells Doctor J he discovered him through YouTube Shorts and praises him for giving authentic, unfiltered takes rather than playing it safe. Doctor J is clearly delighted by the interaction, laughing and smiling warmly. They exchange Instagram handles and take a photo together. Doctor J later posts the selfie to his Instagram story (@strictlydoctorj) tagging the fan (@akylpeople) and captioning it with excitement that a young man recognized him in Costco and declared himself a fan, ending with 'GOD BLESS HIM!!!'
+
+- Fan recognizes Doctor J at Costco and approaches him
+- Fan discovered Doctor J through YouTube Shorts
+- Fan praises Doctor J for giving genuine, bold takes on baseball and pop culture
+- They exchange Instagram handles and take a selfie
+- Doctor J posts the fan encounter to his Instagram story with gratitude
+
+<details><summary>Full transcript</summary>
+
+All right Excuse me, are you Doctor Jake? No, I'm a fan are you two and now your podcast and stuff? No you know yeah, watch it. You talk baseball and pop culture Yeah, yeah Yeah, it's these famous, right? Yeah, how'd you discover me? I was loading on shorts and I saw your short film I was like, bro no one's like saying takes like you bro like people are like bro like too many too many grasses green Tigs, but you actually say what you think and 100% good a picture Yo, what's your Instagram hey there a great media you man. Hey, you have a great one. Thank you
+
+</details>
