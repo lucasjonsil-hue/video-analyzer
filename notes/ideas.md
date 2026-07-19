@@ -434,3 +434,23 @@ The creator opens with a hook claiming she is scared to share this money-making 
 I am scared to show you this because a lot of people could get rich and copy me, which will make it so much harder for me so I might delete this later, but I just have to show you this. I found out the secret where you just go to TikTok shop and find like a product that's already going viral on here like this one has 57K sold and all you do is just like copy this link. Just go to this like page pilot website and you create a product page, paste that link in and then press next. And just a few seconds it made me like a fully customizable website like I think it even has like reviews. Just publish it to Shopify right here. Just like download the ads it makes for you. The copywriting is already done. Just run these on meta and let the money come to you.
 
 </details>
+
+## 2026-07-19 04:27 UTC
+Source: https://www.instagram.com/reel/Da3OKGjohuh/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Jigga
+
+A young man named @akylpeople spots a content creator known as 'Doctor J' (@strictlydoctorj) at Costco and approaches him as a fan. They have a brief, warm interaction where the fan explains how he discovered Doctor J's content, and they take a photo together. Doctor J later posts about the fan encounter on Instagram.
+
+The video begins with the young man (akylpeople) spotting Doctor J in a Costco warehouse store, with text overlay reading 'Target acquired.' The fan approaches Doctor J and they chat briefly — the fan explains he discovered Doctor J through YouTube Shorts and appreciates that he gives honest, unfiltered takes on baseball and pop culture rather than playing it safe. Doctor J is visibly flattered and excited. They take a selfie together, exchange Instagram handles, and part warmly. The final frame shows Doctor J's Instagram Story featuring their photo with the caption praising the fan encounter: 'This young man, @akylpeople walked up on me in Costco and said he's a fan!! GOD BLESS HIM!!!'
+
+- Fan (@akylpeople) recognized content creator Doctor J (@strictlydoctorj) in a Costco
+- Fan discovered Doctor J through YouTube Shorts
+- Fan praised Doctor J for giving honest, unfiltered takes on baseball and pop culture
+- The two took a selfie together and exchanged Instagram handles
+- Doctor J posted about the fan meet on his Instagram Story with enthusiasm
+
+<details><summary>Full transcript</summary>
+
+All right Yes Are you two and your pockets and stuff? Yeah, yeah, watch it. You talk baseball pop culture. Yeah Yeah! Hey, man, you're kidding me. You're gonna be dumb now, man. I'm not surprised. Yeah, it's these famous, bro. Is that right? Yeah. How'd you discover me? I was loading on shorts, and I saw your short cut, and I was like, bro, no one's like saying takes like you, bro. Like, people are like, bro, like too many grasses, green takes, but you actually say what you think. I appreciate that, man. Oh, so you gotta get a picture. Oh, 100%. Get a picture. Yeah, I'm gonna put this on, man. All right. Yo. What's your Instagram? Hey, man. A great meet-a-you, man. Hey, you have a great one. Thank you, man. Thank you.
+
+</details>
