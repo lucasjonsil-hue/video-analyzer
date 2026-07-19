@@ -78,7 +78,86 @@
     .status.error { color: #f87171; }
     .status.ok { color: #6ee7b7; }
 
-    .notes-header { margin: 1.4rem 0 0.7rem; font-size: 1.05rem; color: #e8e8f0; }
+    .notes-header {
+      margin: 1.4rem 0 0.7rem;
+      font-size: 1.05rem;
+      color: #e8e8f0;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .btn-secondary {
+      background: #24243a;
+      color: #d6c8ff;
+      border: 1px solid #3a3a55;
+      font-weight: 600;
+      font-size: 0.8rem;
+      border-radius: 8px;
+      padding: 0.35rem 0.9rem;
+      cursor: pointer;
+    }
+    .btn-secondary:hover { border-color: #a78bfa; }
+    .btn-secondary:disabled { opacity: 0.5; cursor: wait; }
+
+    .suggestion-card {
+      background: #1a1a24;
+      border: 1px solid #3a3a55;
+      border-left: 3px solid #a78bfa;
+      border-radius: 10px;
+      padding: 0.8rem 0.9rem;
+      margin-bottom: 0.6rem;
+    }
+    .suggestion-card.video { border-left-color: #60a5fa; }
+    .kind-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #a78bfa;
+    }
+    .suggestion-card.video .kind-badge { color: #60a5fa; }
+    .suggestion-title { font-weight: 700; font-size: 0.95rem; margin: 0.2rem 0 0.3rem; }
+    .suggestion-why { color: #9a9ab5; font-size: 0.85rem; margin-bottom: 0.4rem; }
+    .suggestion-how { font-size: 0.88rem; white-space: pre-wrap; margin-bottom: 0.5rem; }
+    .suggestion-actions { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    .btn-approve {
+      background: #16321f;
+      color: #6ee7b7;
+      border: 1px solid #1f5c38;
+      border-radius: 8px;
+      padding: 0.3rem 0.9rem;
+      font-weight: 600;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+    .btn-reject {
+      background: #321616;
+      color: #f87171;
+      border: 1px solid #5c1f1f;
+      border-radius: 8px;
+      padding: 0.3rem 0.9rem;
+      font-weight: 600;
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+    .suggestion-source { font-size: 0.8rem; }
+    .suggestion-source a { color: #60a5fa; text-decoration: none; }
+    .suggestion-source a:hover { text-decoration: underline; }
+
+    .routine-card {
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 10px;
+      padding: 0.6rem 0.9rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .routine-name { font-weight: 700; font-size: 0.9rem; color: #d6c8ff; }
+    .routine-detail { font-size: 0.85rem; color: #9a9ab5; flex: 1; }
+    .routine-card a { color: #60a5fa; font-size: 0.8rem; text-decoration: none; }
 
     .note-card {
       background: #1a1a24;
@@ -135,7 +214,20 @@
     </div>
     <div class="status" id="status"></div>
 
-    <h2 class="notes-header">Session notes</h2>
+    <div id="suggestions-block" style="display:none">
+      <h2 class="notes-header">Suggestions</h2>
+      <div id="suggestions-list"></div>
+    </div>
+
+    <div id="routine-block" style="display:none">
+      <h2 class="notes-header">Routine</h2>
+      <div id="routine-list"></div>
+    </div>
+
+    <h2 class="notes-header">
+      Session notes
+      <button class="btn-secondary" id="review-btn">Review notes</button>
+    </h2>
     <div id="notes-list"><p class="empty">Loading…</p></div>
   </div>
 
@@ -150,16 +242,65 @@
 
     const esc = (s) => s.replace(/[&<>"']/g, c => `&#${c.charCodeAt(0)};`);
 
+    function renderRoutine(data) {
+      const block = $("routine-block");
+      const routine = data.routine || [];
+      block.style.display = routine.length ? "" : "none";
+      $("routine-list").innerHTML = routine.map(r => `
+        <div class="routine-card">
+          <span class="routine-name">${esc(r.exercise)}</span>
+          <span class="routine-detail">${esc(r.detail || "")}</span>
+          ${r.source ? `<a href="${esc(r.source)}" target="_blank" rel="noopener">video</a>` : ""}
+          <button class="note-del" data-exercise="${esc(r.exercise)}" title="remove">✕</button>
+        </div>`).join("");
+      $("routine-list").querySelectorAll(".note-del").forEach(btn => {
+        btn.onclick = async () => {
+          const resp = await fetch(`/api/gym/routine/${encodeURIComponent(btn.dataset.exercise)}`, { method: "DELETE" });
+          render(await resp.json());
+        };
+      });
+    }
+
+    function renderSuggestions(data) {
+      const block = $("suggestions-block");
+      const pending = ((data.review || {}).suggestions || []).filter(s => s.status === "pending");
+      block.style.display = pending.length ? "" : "none";
+      $("suggestions-list").innerHTML = pending.map(s => `
+        <div class="suggestion-card ${s.kind}">
+          <span class="kind-badge">${s.kind === "video" ? "from a video" : "from your notes"}</span>
+          <div class="suggestion-title">${esc(s.title)}</div>
+          ${s.why ? `<div class="suggestion-why">${esc(s.why)}</div>` : ""}
+          ${s.how ? `<div class="suggestion-how">${esc(s.how)}</div>` : ""}
+          <div class="suggestion-actions">
+            <button class="btn-approve" data-id="${s.id}" data-decision="approve">${s.routine_entry ? "Add to routine" : "Got it"}</button>
+            <button class="btn-reject" data-id="${s.id}" data-decision="reject">Skip</button>
+            ${s.source ? `<span class="suggestion-source"><a href="${esc(s.source)}" target="_blank" rel="noopener">watch the video</a></span>` : ""}
+          </div>
+        </div>`).join("");
+      $("suggestions-list").querySelectorAll("button[data-id]").forEach(btn => {
+        btn.onclick = async () => {
+          btn.disabled = true;
+          const resp = await fetch(`/api/gym/review/${btn.dataset.id}/${btn.dataset.decision}`, { method: "POST" });
+          render(await resp.json());
+        };
+      });
+    }
+
     function render(data) {
+      renderRoutine(data);
+      renderSuggestions(data);
       const list = $("notes-list");
       const notes = (data.notes || []).slice().reverse();
+      // seed the exercise autocomplete from the routine + exercises already logged
+      const seen = [...new Set([
+        ...(data.routine || []).map(r => r.exercise),
+        ...notes.map(n => n.exercise),
+      ].filter(Boolean))];
+      $("exercise-list").innerHTML = seen.map(e => `<option value="${esc(e)}">`).join("");
       if (!notes.length) {
         list.innerHTML = '<p class="empty">No notes yet — log your first session thought above.</p>';
         return;
       }
-      // seed the exercise autocomplete from exercises already logged
-      const seen = [...new Set(notes.map(n => n.exercise).filter(Boolean))];
-      $("exercise-list").innerHTML = seen.map(e => `<option value="${esc(e)}">`).join("");
 
       list.innerHTML = notes.map(n => `
         <div class="note-card">
@@ -221,6 +362,27 @@
         setStatus("Save failed: " + e.message, "error");
       } finally {
         $("save-btn").disabled = false;
+      }
+    };
+
+    $("review-btn").onclick = async () => {
+      const btn = $("review-btn");
+      btn.disabled = true;
+      setStatus("Reviewing notes against your routine and saved videos…");
+      try {
+        const resp = await fetch("/api/gym/review", { method: "POST" });
+        const data = await resp.json();
+        if (!resp.ok) {
+          setStatus(data.detail || "Review failed", "error");
+        } else {
+          const n = ((data.review || {}).suggestions || []).filter(s => s.status === "pending").length;
+          setStatus(n ? `${n} suggestion${n === 1 ? "" : "s"} ready below.` : "Reviewed — no suggestions this time.", "ok");
+          render(data);
+        }
+      } catch (e) {
+        setStatus("Review failed: " + e.message, "error");
+      } finally {
+        btn.disabled = false;
       }
     };
 

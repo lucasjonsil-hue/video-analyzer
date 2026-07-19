@@ -467,19 +467,19 @@ async def get_all_notes():
 
 @app.get("/notes", response_class=HTMLResponse)
 async def notes_page():
-    with open("notes.html", "r", encoding="utf-8") as f:
+    with open(os.path.join(BASE_DIR, "notes.html"), "r", encoding="utf-8") as f:
         return f.read()
 
 
 @app.get("/invest", response_class=HTMLResponse)
 async def invest_page():
-    with open("invest.html", "r", encoding="utf-8") as f:
+    with open(os.path.join(BASE_DIR, "invest.html"), "r", encoding="utf-8") as f:
         return f.read()
 
 
 @app.get("/", response_class=HTMLResponse)
 async def root():
-    with open("index.html", "r", encoding="utf-8") as f:
+    with open(os.path.join(BASE_DIR, "index.html"), "r", encoding="utf-8") as f:
         return f.read()
 
 
