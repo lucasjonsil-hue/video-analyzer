@@ -21,3 +21,8 @@ Renew medical marijuana certification before expiry (email: You Have 20 Days Lef
 Source: email from www.paracordgalaxy.com
 
 Use Paracord Galaxy 10% coupon (email: Reminder: "Buckles" 10% Off Sitewide coupon. New Lobster Claws. Paracord.)
+
+## 2026-05-10
+Source: email from www.paracordgalaxy.com
+
+Use Paracord Galaxy 10% coupon (email: New Book. "Buckles" 10% Off Sitewide coupon. Lobster Claws. Paracord.)
