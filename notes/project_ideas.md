@@ -238,3 +238,27 @@ Google Drive and Dropbox are both available as MCP connectors (search, read, upl
 
 ## Next Step
 Pick Google Drive or Dropbox and connect it via the connector picker to start using this.
+
+## 2026-07-19 04:29 UTC
+Source: https://www.tiktok.com/t/ZTSoH1vEp/
+Creator: phillie_cheez
+
+A man warns Snapchat users that their memories will be deleted in October and explains how to export them via Settings > My Data. He then promotes a service called 'Snap Easy' that consolidates the exported files for a one-time $10 fee.
+
+The creator opens by alerting viewers that Snapchat is deleting all memories in October, urging immediate action. He walks through the steps: go to Snapchat Settings, tap 'My Data', select 'Export My Memories', choose 'All Time', enter your email, and submit. He notes it takes a few hours to a couple of days to receive the export email. He then explains a pain point: Snapchat sends the data in ~30 separate, disorganized files with captions, filters, and locations all separated. He pitches his own tool called 'Snap Easy' as the solution — users upload all files and it reassembles memories with all metadata intact. He promotes it as a one-time $10 lifetime access fee versus $24/year, and closes by urging viewers to save everything to their camera roll so they never need Snapchat memories again.
+
+- Snapchat is allegedly deleting all user memories in October
+- Export memories via Settings > My Data > Export Memories > All Time
+- Snapchat sends exports in ~30 disorganized files
+- Snap Easy tool consolidates files and restores metadata for $10 lifetime access
+- Urgency framing: act now or lose memories forever
+
+⚠️ Reliability (hype: heavy):
+- [dubious] Snapchat is deleting all user memories in October — There is no widely verified announcement from Snapchat about mass deletion of all user memories; this appears to be fear-based marketing.
+- [unverifiable] Snap Easy converts 30 disorganized Snapchat export files into organized memories with metadata — The tool's actual capabilities and existence cannot be independently confirmed from the video alone.
+
+<details><summary>Full transcript</summary>
+
+For those of you that didn't get this message, it only means that Snapchat is deleting your memories in October of this year. That means parties, vacations, kids, wives, husbands, memories all gonna be gone. For you not to lose those memories, you have to go to settings and Snapchat, go to my data, then you go export your memories, only my memories. Then you put all time to make sure you get all of them. Your email, click submit. That's it. You just wait anywhere from a couple hours to a couple days for that email to come in. The only problem is that Snapchat sends it to you in like 30 different files and they're all jumbled up and all mixed up your captions. So if your filter is your location, everything is gonna be separate. That's when you go to snap easy. You just input all of those files into our converter and it spits out all your memories attached with everything. Just the way you save them, just the way you took them. And it's only 10 bucks for lifetime access instead of $24 a year and then multiply that by five by 10 by 20. Because if you don't do this, you're gonna lose your memories forever. Then you just hit save to camera roll after every memory. That way you don't have to use Snapchat memories ever again.
+
+</details>
