@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Investment Calculators — Life Hacker 3000</title>
+  <title>Investing — Life Hacker 3000</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -75,16 +75,51 @@
     th, td { text-align: right; padding: 0.3rem 0.5rem; border-bottom: 1px solid #2a2a3a; color: #b8b8cc; }
     th { color: #6b6b8a; font-weight: 600; text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.03em; }
     td:first-child, th:first-child { text-align: left; }
+
+    .pf-fields { display: flex; gap: 0.7rem; flex-wrap: wrap; align-items: flex-end; margin-bottom: 0.9rem; }
+    .pf-fields > div { flex: 1 1 120px; }
+    .pf-btn {
+      background: linear-gradient(135deg, #34d399, #60a5fa);
+      border: none;
+      color: #0f0f13;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      padding: 0.55rem 1.2rem;
+      cursor: pointer;
+      flex: 0 0 auto;
+    }
+    .pf-btn:disabled { opacity: 0.5; cursor: wait; }
+    .pf-status { color: #6b6b8a; font-size: 0.8rem; min-height: 1.1em; margin-bottom: 0.4rem; }
+    .pf-status.error { color: #f87171; }
+    .gain-pos { color: #6ee7b7; }
+    .gain-neg { color: #f87171; }
+    .pf-del { background: none; border: none; color: #6b6b8a; cursor: pointer; font-size: 0.8rem; }
+    .pf-del:hover { color: #f87171; }
+    .pf-totals td { font-weight: 700; color: #e8e8f0; border-top: 2px solid #3a3a55; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Investment Calculators</h1>
+    <h1>Investing</h1>
     <p class="subtitle">
-      Pure math, runs in your browser, costs nothing.
-      &middot; <a href="/">Analyzer</a> &middot; <a href="/notes">Notes</a> &middot; <a href="/planner">Planner</a>
+      Portfolio tracker + calculators.
+      &middot; <a href="/">Analyzer</a> &middot; <a href="/notes">Notes</a> &middot; <a href="/planner">Planner</a> &middot; <a href="/gym">Gym</a>
     </p>
-    <p class="disclaimer">Educational tool — projections assume steady returns, which real markets never deliver. Not financial advice.</p>
+    <p class="disclaimer">Educational tool — quotes are delayed Yahoo data, projections assume steady returns. Not financial advice.</p>
+
+    <div class="calc">
+      <h2>Portfolio</h2>
+      <p class="desc">Your holdings, stored only on this machine. Live prices from Yahoo Finance (free, ~15 min delayed).</p>
+      <div class="pf-fields">
+        <div><label>Ticker</label><input id="pf-ticker" placeholder="VOO, AAPL…" style="text-transform:uppercase"></div>
+        <div><label>Shares</label><input type="number" id="pf-shares" step="any" min="0" placeholder="2.5"></div>
+        <div><label>Avg cost / share ($)</label><input type="number" id="pf-cost" step="any" min="0" placeholder="410.00"></div>
+        <button class="pf-btn" id="pf-add">Add / update</button>
+      </div>
+      <div class="pf-status" id="pf-status"></div>
+      <div id="pf-table"></div>
+    </div>
 
     <div class="calc">
       <h2>Compound Growth</h2>
@@ -203,8 +238,90 @@
     }
 
     function recalcAll() { compoundGrowth(); savingsGoal(); dividendIncome(); retirement(); }
-    document.querySelectorAll("input").forEach((el) => el.addEventListener("input", recalcAll));
+    document.querySelectorAll(".calc input[id^='cg-'], .calc input[id^='sg-'], .calc input[id^='di-'], .calc input[id^='rp-']")
+      .forEach((el) => el.addEventListener("input", recalcAll));
     recalcAll();
+
+    // ---- Portfolio tracker ----
+    const fmt2 = (n) => "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const pfStatus = (msg, err) => {
+      $("pf-status").textContent = msg;
+      $("pf-status").className = "pf-status" + (err ? " error" : "");
+    };
+
+    function gainCell(g, cost) {
+      if (g == null) return "<td>—</td>";
+      const pct = cost ? ` (${(g / cost * 100).toFixed(1)}%)` : "";
+      return `<td class="${g >= 0 ? "gain-pos" : "gain-neg"}">${g >= 0 ? "+" : "−"}${fmt2(Math.abs(g))}${pct}</td>`;
+    }
+
+    function renderPortfolio(data) {
+      const el = $("pf-table");
+      if (!data.holdings.length) {
+        el.innerHTML = '<p class="desc">No holdings yet — add your first one above (works with stocks and ETFs).</p>';
+        return;
+      }
+      const rows = data.holdings.map(h => `
+        <tr>
+          <td>${h.ticker}</td>
+          <td>${h.shares.toLocaleString("en-US", { maximumFractionDigits: 4 })}</td>
+          <td>${fmt2(h.avg_cost)}</td>
+          <td>${h.price != null ? fmt2(h.price) : "quote failed"}</td>
+          <td>${h.value != null ? fmt2(h.value) : "—"}</td>
+          ${gainCell(h.gain, h.cost)}
+          <td>${h.allocation != null ? h.allocation.toFixed(1) + "%" : "—"}</td>
+          <td><button class="pf-del" data-ticker="${h.ticker}" title="remove">✕</button></td>
+        </tr>`).join("");
+      el.innerHTML = `<table>
+        <tr><th>Ticker</th><th>Shares</th><th>Avg cost</th><th>Price</th><th>Value</th><th>Gain</th><th>Alloc</th><th></th></tr>
+        ${rows}
+        <tr class="pf-totals"><td>Total</td><td></td><td></td><td></td><td>${fmt2(data.total_value)}</td>${gainCell(data.total_gain, data.total_cost)}<td></td><td></td></tr>
+      </table>`;
+      el.querySelectorAll(".pf-del").forEach(btn => {
+        btn.onclick = async () => {
+          const resp = await fetch(`/api/portfolio/holdings/${btn.dataset.ticker}`, { method: "DELETE" });
+          renderPortfolio(await resp.json());
+        };
+      });
+    }
+
+    async function loadPortfolio() {
+      pfStatus("Loading quotes…");
+      try {
+        const resp = await fetch("/api/portfolio");
+        renderPortfolio(await resp.json());
+        pfStatus("");
+      } catch (e) {
+        pfStatus("Could not load portfolio: " + e.message, true);
+      }
+    }
+
+    $("pf-add").onclick = async () => {
+      const payload = { ticker: $("pf-ticker").value, shares: $("pf-shares").value, avg_cost: $("pf-cost").value };
+      $("pf-add").disabled = true;
+      pfStatus("Checking ticker and fetching quote…");
+      try {
+        const resp = await fetch("/api/portfolio/holdings", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        const data = await resp.json();
+        if (!resp.ok) {
+          pfStatus(data.detail || "Failed to add holding", true);
+        } else {
+          $("pf-ticker").value = ""; $("pf-shares").value = ""; $("pf-cost").value = "";
+          renderPortfolio(data);
+          pfStatus("");
+        }
+      } catch (e) {
+        pfStatus("Failed: " + e.message, true);
+      } finally {
+        $("pf-add").disabled = false;
+      }
+    };
+
+    loadPortfolio();
   </script>
 </body>
 </html>
