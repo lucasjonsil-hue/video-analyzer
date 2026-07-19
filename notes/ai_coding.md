@@ -1247,3 +1247,30 @@ The video opens with a hook positioning the viewer as someone who runs out of Cl
 You can now run Cloud Code for completely free with almost unlimited usage. So somebody on GitHub just built a free tool called OmniRoute that links your Cloud Code to over 200 other free AI providers, giving up to 1.6 billion free tokens every single month. So the moment your Cloudlinet runs out, then automatically switch you to the next best model so your session can keep going, and it doesn't get interrupted. Plus, it even compresses your prompts before they reach the model, cutting your token usage by up to 90% while giving you the exact same output. If you want to try this for yourselves, just comment and cloud down below, and I'll send you the link directly.
 
 </details>
+
+## 2026-07-19 04:28 UTC
+Source: https://www.instagram.com/reel/Da8ZthUPK98/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Nick Saraev
+DM-Followup: pending — comment 'Claude' to get: Direct link to the OmniRoute tool on GitHub
+
+A creator promotes a free open-source tool called OmniRoute that allows users to run Claude Code for free by routing requests through 200+ free AI providers. The tool offers token compression and automatic model switching when limits are reached. Viewers are encouraged to comment 'Claude' to receive the link.
+
+The video opens with a pixel-art pig graphic labeled 'YOU', setting a relatable tone about hitting Claude's usage limits. The creator explains that a GitHub user built OmniRoute, a free tool that connects Claude Code to over 200 free AI providers, offering up to 1.6 billion free tokens per month. Frame 2 shows Claude Code running multiple parallel tasks simultaneously. Frame 3 dramatizes the frustration of hitting token limits with an 'OUT OF TOKENS - UPGRADE TO CONTINUE' screen. Frame 4 shows OmniRoute's comparison table highlighting features like 251 providers, 90+ free providers, 18 routing strategies, and RTK + Caveman token compression (15-95% reduction). The creator explains automatic model switching keeps sessions uninterrupted and prompt compression can cut token usage by up to 90% with identical output quality. The video ends with a call to action to comment 'Claude' for the link.
+
+- OmniRoute connects Claude Code to 200+ free AI providers for up to 1.6 billion free tokens/month
+- Automatically switches to next best model when Claude token limit is reached
+- Token compression (RTK + Caveman stacked) can reduce token usage by 15-95%
+- Tool has 94 built-in MCP tools, A2A agent protocol, memory, and guardrails
+- Available on Web, Desktop, Termux, and PWA platforms
+- Comment 'Claude' to get the direct link to OmniRoute
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] OmniRoute provides up to 1.6 billion free tokens per month — This figure depends on aggregating many free-tier providers and is not independently confirmed; actual usable free tokens likely vary significantly.
+- [dubious] Token compression reduces usage by up to 90% with identical output — Aggressive lossy prompt compression at 90% reduction is unlikely to preserve identical output quality in complex coding tasks.
+- [unverifiable] OmniRoute supports 251 providers with 90+ free (11 free forever) — The comparison table shown appears to be created by the tool's own developers and hasn't been independently verified.
+
+<details><summary>Full transcript</summary>
+
+You can now run Cloud Code for completely free with almost unlimited usage. So somebody on GitHub just built a free tool called OmniRoute that links your Cloud Code to over 200 other free AI providers, giving up to 1.6 billion free tokens every single month. So the moment your Cloudlinet runs out, then automatically switch you to the next best model so your session can keep going, and it doesn't get interrupted. Plus, it even compresses your prompts before they reach the model, cutting your token usage by up to 90% while giving you the exact same output. If you want to try this for yourselves, just comment and cloud down below, and I'll send you the link directly.
+
+</details>
