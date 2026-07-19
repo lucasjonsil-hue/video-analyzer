@@ -37,6 +37,11 @@ app.include_router(gym_router)
 client = anthropic.Anthropic()
 whisper_model = WhisperModel("base", device="cpu", compute_type="int8", download_root=MODEL_DIR)
 
+# Model for video analysis (frames + transcript). Set ANALYZER_MODEL in .env to
+# e.g. claude-haiku-4-5-20251001 to cut per-video cost roughly 3x (slightly less
+# thorough claims-checking); leave unset for the default.
+ANALYZER_MODEL = os.environ.get("ANALYZER_MODEL", "claude-sonnet-4-6")
+
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "lucasjonsil-hue/video-analyzer")
 VALID_NOTE_CATEGORIES = {
@@ -354,7 +359,7 @@ def analyze_frames_with_claude(frames_b64: list[str], transcript: str = "") -> d
     })
 
     message = client.messages.create(
-        model="claude-sonnet-4-6",
+        model=ANALYZER_MODEL,
         max_tokens=1024,
         messages=[{"role": "user", "content": content}],
     )
@@ -379,7 +384,7 @@ def analyze_followup_image(image_b64: str, media_type: str, keyword: str = "", o
             "This screenshot is the DM he received in return.\n"
         )
     message = client.messages.create(
-        model="claude-sonnet-4-6",
+        model=ANALYZER_MODEL,
         max_tokens=1024,
         messages=[{
             "role": "user",
