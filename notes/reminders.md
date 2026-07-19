@@ -36,3 +36,8 @@ Pay CHAPTER billing statement (email: CHAPTER Billing Statement)
 Source: email from Leafwell
 
 Renew medical marijuana card (email: Your Medical Marijuana Card Expires Next Month)
+
+## 2026-07-18
+Source: planner wave alert
+
+Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold: 2026-07-18: 3.0 ft @ 9.2s; 2026-07-21: 3.6 ft @ 10.3s. Worth planning a session.
