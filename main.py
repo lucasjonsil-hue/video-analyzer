@@ -20,6 +20,7 @@ from planner import router as planner_router
 from email_assistant import router as email_router
 from gym import router as gym_router
 from portfolio import router as portfolio_router
+from calendar_module import router as calendar_router
 
 load_dotenv()
 
@@ -36,6 +37,7 @@ app.include_router(planner_router)
 app.include_router(email_router)
 app.include_router(gym_router)
 app.include_router(portfolio_router)
+app.include_router(calendar_router)
 client = anthropic.Anthropic()
 whisper_model = WhisperModel("base", device="cpu", compute_type="int8", download_root=MODEL_DIR)
 

@@ -195,6 +195,25 @@
     }
     .note-del:hover { color: #f87171; }
     .empty { color: #6b6b8a; font-size: 0.9rem; }
+
+    .progress-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .progress-table th {
+      text-align: left;
+      color: #6b6b8a;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      padding: 0.35rem 0.6rem;
+      border-bottom: 1px solid #2a2a3a;
+    }
+    .progress-table td { padding: 0.45rem 0.6rem; border-bottom: 1px solid #22222e; color: #b8b8cc; }
+    .progress-table td.ex { color: #d6c8ff; font-weight: 700; }
+    .progress-table td.num { color: #e8e8f0; }
+    .delta-up { color: #6ee7b7; font-weight: 700; }
+    .delta-down { color: #f87171; font-weight: 700; }
+    .delta-flat { color: #6b6b8a; }
+    .history { color: #9a9ab5; font-size: 0.8rem; white-space: nowrap; }
+    .progress-wrap { overflow-x: auto; }
   </style>
 </head>
 <body>
@@ -202,7 +221,7 @@
     <h1>Gym Notepad</h1>
     <p class="subtitle">
       Jot rough notes during or after a session — review comes before your next one.
-      <a href="/">&larr; Analyzer</a> &middot; <a href="/planner">Planner</a> &middot; <a href="/notes">Notes</a>
+      <a href="/">🏠 Home</a> &middot; <a href="/planner">Planner</a> &middot; <a href="/calendar">Calendar</a> &middot; <a href="/notes">Notes</a>
     </p>
 
     <textarea id="note-input" placeholder="tried something different today, liked it…"></textarea>
@@ -222,6 +241,14 @@
     <div id="routine-block" style="display:none">
       <h2 class="notes-header">Routine</h2>
       <div id="routine-list"></div>
+    </div>
+
+    <div id="progress-block" style="display:none">
+      <h2 class="notes-header">Progress</h2>
+      <div class="progress-wrap"><table class="progress-table">
+        <thead><tr><th>Exercise</th><th>First</th><th>Latest</th><th>Change</th><th>History</th></tr></thead>
+        <tbody id="progress-body"></tbody>
+      </table></div>
     </div>
 
     <h2 class="notes-header">
@@ -286,9 +313,44 @@
       });
     }
 
+    function renderProgress(data) {
+      // Weight progression per exercise, from notes logged with the quick-add fields
+      const block = $("progress-block");
+      const groups = {};
+      for (const n of data.notes || []) {
+        if (!n.exercise || n.weight == null) continue;
+        const key = n.exercise.trim().toLowerCase();
+        (groups[key] = groups[key] || { name: n.exercise.trim(), points: [] }).points.push(n);
+      }
+      const rows = Object.values(groups);
+      block.style.display = rows.length ? "" : "none";
+      if (!rows.length) return;
+
+      const fmt = (w) => `${w} lb`;
+      $("progress-body").innerHTML = rows
+        .map(g => {
+          g.points.sort((a, b) => a.date.localeCompare(b.date));
+          g.name = g.points[g.points.length - 1].exercise.trim();  // latest casing wins
+          return g;
+        })
+        .sort((a, b) => b.points[b.points.length - 1].date.localeCompare(a.points[a.points.length - 1].date))
+        .map(g => {
+          const first = g.points[0].weight, latest = g.points[g.points.length - 1].weight;
+          const delta = Math.round((latest - first) * 10) / 10;
+          const deltaCls = delta > 0 ? "delta-up" : delta < 0 ? "delta-down" : "delta-flat";
+          const deltaTxt = g.points.length < 2 ? "—" : (delta > 0 ? "+" : "") + delta + " lb";
+          const history = g.points.slice(-6).map(p => p.weight).join(" → ")
+            + (g.points.length > 6 ? " (last 6)" : "");
+          return `<tr><td class="ex">${esc(g.name)}</td><td class="num">${fmt(first)}</td>` +
+                 `<td class="num">${fmt(latest)}</td><td class="${deltaCls}">${deltaTxt}</td>` +
+                 `<td class="history">${history}</td></tr>`;
+        }).join("");
+    }
+
     function render(data) {
       renderRoutine(data);
       renderSuggestions(data);
+      renderProgress(data);
       const list = $("notes-list");
       const notes = (data.notes || []).slice().reverse();
       // seed the exercise autocomplete from the routine + exercises already logged

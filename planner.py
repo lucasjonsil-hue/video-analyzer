@@ -116,7 +116,7 @@ Given his message naming an upcoming activity, produce a prep plan:
 - mentioned_gear: items Lucas explicitly said he IS bringing ([] if none). If he says he's NOT bringing something, treat it as a one-time exclusion: drop it from packing, don't nudge, don't list it in mentioned_gear.
 - For ocean activities near Santa Barbara: note which conditions to check (swell, wind, visibility, tides) and when, and flag legal constraints like no-take SMCAs (Coal Oil Point, Naples, Campus Point).
 - Keep every item short and actionable — this is scanned on a phone.
-{gear_block}{forecast_block}"""
+{gear_block}{forecast_block}{calendar_block}"""
 
 
 def load_gear_memory() -> dict:
@@ -330,12 +330,31 @@ def generate_plan(text: str) -> dict:
             "clothing/packing choices instead of guessing.\n"
         )
 
+    calendar_block = ""
+    try:
+        from calendar_module import upcoming_events
+        events = upcoming_events(14)
+    except Exception:
+        events = []
+    if events:
+        listing = "\n".join(
+            f"- {e['date']}{' ' + e['time'] if e.get('time') else ''}: {e['title']}"
+            for e in events
+        )
+        calendar_block = (
+            "\nLucas's calendar for the next two weeks:\n"
+            f"{listing}\n"
+            "Schedule prep/timeline items around these commitments (don't put prep tasks on top of them), "
+            "and flag it in the plan summary if the event itself collides with something already scheduled.\n"
+        )
+
     response = client.messages.create(
         model="claude-opus-4-8",
         max_tokens=16000,
         thinking={"type": "adaptive"},
         system=PLANNER_INSTRUCTIONS.format(
-            today=today, gear_block=gear_block, forecast_block=forecast_block
+            today=today, gear_block=gear_block, forecast_block=forecast_block,
+            calendar_block=calendar_block,
         ),
         output_config={"format": {"type": "json_schema", "schema": PLAN_SCHEMA}},
         messages=[{"role": "user", "content": text}],
