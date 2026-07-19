@@ -69,3 +69,27 @@ Source: claude session
 Gym notepad step 1 BUILT and verified: new gym.py router (GET /gym, GET/POST/DELETE /api/gym/notes) + gym.html (dark-theme page: textarea, optional exercise/weight quick-add with autocomplete, timestamped note cards, delete). Data persists in local gym_data.json (gitignored, shape {routine, notes} so the planner can later read the routine to estimate session length). Zero AI tokens at capture; the future "Review notes" step should keyword-match notes/fitness.md summary bullets only (never transcripts) to stay cheap. Linked from the analyzer homepage.
 
 Next move: gym notepad step 2 — "Review notes" button (pull routine + unreviewed notes into one prompt, suggest routine edits as approve/reject cards). Also still pending: Drive vs Dropbox choice for photo sync; Chapman IT ticket IST-151079 human reply (expect Mon/Tue).
+
+## 2026-07-19 04:23 UTC
+Source: https://www.tiktok.com/t/ZTSoH1vEp/
+Creator: phillie_cheez
+
+A man warns Snapchat users that their memories will be deleted in October and advises them to export their data via Snapchat settings. He then promotes a service called 'Snap Easy' that helps organize the exported files for $10 lifetime access.
+
+The creator alerts viewers about a Snapchat policy change that will delete saved memories in October. He walks through the steps to export memories: go to Settings > My Data > Export Memories > select All Time > enter email > submit. He warns that Snapchat sends the exported data in around 30 disorganized files with captions and filters separated. He then promotes his own tool called 'Snap Easy' which consolidates all exported files back into organized memories for a one-time $10 lifetime fee, compared to an alternative $24/year option. The video ends urging users to save memories to camera roll so they won't need Snapchat memories again.
+
+- Snapchat is reportedly deleting all user memories in October
+- Users can export memories via Settings > My Data > Export Memories
+- Exported files arrive in ~30 disorganized chunks via email
+- Snap Easy tool consolidates the files for $10 lifetime access
+- Users should save memories to camera roll after export
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Snapchat is deleting all user memories in October — No widely confirmed Snapchat policy announcement supports this specific claim of mass memory deletion.
+- [unverifiable] Snap Easy costs $10 for lifetime access vs $24/year for an alternative — The pricing and the competing product cannot be independently verified from the video alone.
+
+<details><summary>Full transcript</summary>
+
+For those of you that didn't get this message, it only means that Snapchat is deleting your memories in October of this year. That means parties, vacations, kids, wives, husbands, memories all gonna be gone. For you not to lose those memories, you have to go to settings and Snapchat, go to my data, then you go export your memories, only my memories. Then you put all time to make sure you get all of them. Your email, click submit. That's it. You just wait anywhere from a couple hours to a couple days for that email to come in. The only problem is that Snapchat sends it to you in like 30 different files and they're all jumbled up and all mixed up your captions. So if your filter is your location, everything is gonna be separate. That's when you go to snap easy. You just input all of those files into our converter and it spits out all your memories attached with everything. Just the way you save them, just the way you took them. And it's only 10 bucks for lifetime access instead of $24 a year and then multiply that by five by 10 by 20. Because if you don't do this, you're gonna lose your memories forever. Then you just hit save to camera roll after every memory. That way you don't have to use Snapchat memories ever again.
+
+</details>
