@@ -36,3 +36,8 @@ Pay CHAPTER billing statement (email: CHAPTER Billing Statement)
 Source: email from Leafwell
 
 Renew medical marijuana card (email: Your Medical Marijuana Card Expires Next Month)
+
+## 2026-05-03
+Source: email from www.paracordgalaxy.com
+
+Redeem Paracord Galaxy 10% coupon (Lovecord) (email: Metal Buckle Specials, Paracord. "Lovecord" 10% Sitewide coupon.)
