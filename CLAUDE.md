@@ -12,6 +12,8 @@
 - Automate and improve parts of his own life (fitness, productivity, investing, etc.)
 - End up with a portfolio of shippable projects for GitHub/LinkedIn
 
+**Main goal (Lucas, 2026-07-19): make money.** This is one of the core objectives behind everything Lucas is doing — Life 3000 included. Keep it in mind when weighing any idea, feature, or piece of advice: how does this help Lucas earn, either directly (income streams — e.g. he wants to explore UGC content work) or indirectly (skills and portfolio that lead to income)? It doesn't override the learn-by-doing philosophy, but it is a standing tiebreaker and lens for prioritization.
+
 **Development philosophy:** build tools he'll actually use, learn by doing, start simple and grow in complexity. Projects are sequenced by complexity/learning value, not just by interest — simpler, faster-feedback projects come first so there are clear wins before tackling harder problems (like OAuth/security-heavy integrations).
 
 **Environment:** Windows, Node.js, Python, Claude Code (primary dev tool), Claude desktop app, Anthropic API key already configured as an environment variable.

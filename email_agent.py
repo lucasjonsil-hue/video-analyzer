@@ -192,14 +192,35 @@ def ensure_server() -> bool:
     return False
 
 
+BACKLOG_FILE = os.path.join(BASE_DIR, "video_backlog.txt")
+
+
+def queue_backlog(urls: list[str]) -> None:
+    """Queue links that couldn't be analyzed; /jarvis retries them next session."""
+    try:
+        existing = set()
+        if os.path.exists(BACKLOG_FILE):
+            with open(BACKLOG_FILE, encoding="utf-8") as f:
+                existing = {line.strip() for line in f if line.strip()}
+        new = [u for u in urls if u not in existing]
+        if new:
+            with open(BACKLOG_FILE, "a", encoding="utf-8") as f:
+                f.writelines(u + "\n" for u in new)
+            log(f"  backlog: {len(new)} link(s) queued for retry")
+    except OSError as e:
+        log(f"  backlog write failed: {str(e)[:100]}")
+
+
 def process_video_email(token: str, m: dict) -> None:
     urls = sorted(set(ei.VIDEO_URL_RE.findall(m["body"])))
     if not urls:
         log(f"  [{m['subject']}] classified video-links but no links found")
         return
     if not ensure_server():
+        queue_backlog(urls)
         return
     ok = fail = 0
+    failed_urls = []
     for url in urls:
         try:
             resp = requests.post(SERVER + "/analyze-url", data={"url": url}, timeout=300)
@@ -207,12 +228,16 @@ def process_video_email(token: str, m: dict) -> None:
                 ok += 1
             else:
                 fail += 1
+                failed_urls.append(url)
                 detail = resp.json().get("detail", resp.status_code) if resp.text else resp.status_code
                 log(f"    FAIL {url} — {str(detail)[:100]}")
         except requests.RequestException as e:
             fail += 1
+            failed_urls.append(url)
             log(f"    FAIL {url} — {str(e)[:100]}")
     log(f"  [{m['subject']}] videos analyzed: {ok} ok, {fail} failed")
+    if failed_urls:
+        queue_backlog(failed_urls)
     ei.mark_read(token, m["id"])
 
 
