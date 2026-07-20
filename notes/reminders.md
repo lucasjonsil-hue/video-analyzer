@@ -56,3 +56,8 @@ Redeem Paracord Galaxy 10% coupon before expiry (email: Reminder: Metal Buckle S
 Source: email from www.paracordgalaxy.com
 
 Redeem Paracord Galaxy 10% coupon before expiry (email: Metal Buckle Specials, Paracord. "Deal" 10% Sitewide coupon.)
+
+## 2026-07-19
+Source: planner wave alert
+
+Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold: 2026-07-19: 3.0 ft @ 10.2s. Worth planning a session.
