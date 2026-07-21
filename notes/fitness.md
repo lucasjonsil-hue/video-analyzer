@@ -463,3 +463,24 @@ The video presents four high-level habits dubbed 'S-Tier' for goal-oriented indi
 S-tier habits for people who take their goals seriously. Number one is a non-agushable morning block. The first hour of the day is completely yours. No phone, no notifications, no reacting to other people's agendas that they have for you. Set your own tone for your day. Number two is getting out of bed immediately after you wake up. You need to train yourself to get excited to start the day. There should not be any hesitation in your body. Number three, one topic per month that will move you closer to your goals. Most people consume so much information that they actually never get to digest it. S-tier people, however, will pick one topic that helps them move them closer to their goals and use B-free to turn the best books and articles on that topic into a personalized audio lesson. Number four, a training style that actually challenges you instead of maintaining you. There is a huge difference between actually pushing your body versus just getting it to move and S-tier people know this difference. Comment, S-tier, for the full list of hobbies.
 
 </details>
+
+## 2026-07-21 01:57 UTC
+Source: https://www.instagram.com/reel/DXcApWixgqR/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Jason Bjarnson
+
+A fitness creator demonstrates three weighted ab exercises to promote muscle growth through progressive overload. The video covers weighted decline sit-ups, cable crunches, and lying cable leg raises, emphasizing proper form and full range of motion. The creator argues that bodyweight exercises like planks are inferior for building visible, impressive abs.
+
+The creator opens by challenging the conventional approach to ab training, arguing that bodyweight exercises like planks and mountain climbers are insufficient for real ab development. He advocates for weighted exercises with progressive overload as the key to ab growth. Exercise 1: Weighted decline sit-ups performed without back support to allow a full stretch at the bottom. Exercise 2: Cable crunches with knees pulled back to maximize range of motion, letting the abs un-flex at the top and rounding the spine on the way down for maximum contraction. Exercise 3: Lying cable leg raises where the lower back lifts off the bench at the top for full contraction. Throughout, he demonstrates each movement with highly visible, shredded abs and emphasizes the importance of increasing weight over time for continued progression.
+
+- Replace bodyweight ab exercises with weighted movements for better growth
+- Progressive overload is essential for ab development
+- Weighted decline sit-ups should allow full stretch without back support
+- Cable crunches require knees pulled back and spine rounding for max contraction
+- Lying cable leg raises should include lower back lifting off bench at top
+- Full range of motion and allowing abs to un-flex are key for each exercise
+
+<details><summary>Full transcript</summary>
+
+If you want to see progress in your ab growth, then I recommend that you stop doing bodyweight exercises like planks and mountain climbers and start using weight and progressive overload. First exercise I recommend is a way to declines sit up and I'm preferably without any support on your back so you can go all the way down and have a full stretch. Next exercise I recommend is a cable crunch. Make sure your knees are all the way back to maximize the stretch and range of motion. At the top, I let my abs un-flex and then run my spine on the way down to get maximum contraction. My third favorite weighted ab exercise is a lying cable leg raise. Make sure that you go all the way down, let your abs un-flex just like the cable crunch and then at the top, make sure your lower back is lift off the bench for maximum contraction. Exercise is like this allow for progressive overload so you can increase the weight and get stronger and more to build a balance and they'll be more impressive as you
+
+</details>
