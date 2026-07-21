@@ -1420,3 +1420,25 @@ The video opens with the creator announcing that Claude Commerce, powered by Fab
 They finally released an e-com platform to compete with Shopify and people on Twitter have been going insane. They've been saying they've been making over 10k on their first day. I'm going to give you guys my honest overview so make sure you stay to the end because there's one thing you're not going to want to miss out on. Okay apparently the store creation is insane so I'm just going to upload this picture of my product and ask you to make a simple store. Okay it's loading, let's see what it makes. Okay this honestly is not that bad but I'm going to ask you to make it more branded and high converting. Okay this might actually be pretty good. It generated subscriptions, bundles, product imagery all just with that one prompt. Apparently this isn't just AI Slop and they actually train the AI on e-com data so it knows exactly what converts. They even have an entire back end with orders, products and so many integrations. And the AI actually helps manage your store and improve your business rather than just being some random add-on. Alright so I don't know if these people on Twitter are just larping about what they've made but it generally does seem like a pretty good platform. So if you comment store I'll send you a link to try it out.
 
 </details>
+
+## 2026-07-21 02:00 UTC
+Source: https://www.instagram.com/reel/DaInyAeJjZy/?igsh=NTc4MTIwNjQ2YQ==
+Creator: beth
+DM-Followup: pending — comment 'site' to get: 1000 free credits for manus.im
+
+A content creator shares 5 websites that vibe coders should know, covering design resources, AI tools, and UI component libraries. The video is part 15 of an ongoing series and showcases tools like styles.refero.design, manus.im, magicpattern.design, and uiverse.io.
+
+The video opens with a blonde woman wearing headphones introducing part 15 of her '5 websites every vibecoder should know' series. She then presents four visible websites: (1) styles.refero.design - a resource that extracts colors, typography, spacing, and components from top websites to give AI agents better design taste; (2) manus.im - an AI tool that builds full websites with zero coding required, just by describing what you want; (3) magicpattern.design - a generator for SVG backgrounds, gradients, noise textures, and mesh blobs that are one-click downloadable; (4) uiverse.io - an open-source library of 3000+ UI elements including buttons, loaders, cards, and forms built in pure CSS and Tailwind. A fifth website is implied by the series title but not shown in the frames.
+
+- styles.refero.design extracts design systems from top websites for AI context
+- manus.im builds full websites with AI, no coding needed
+- magicpattern.design provides SVG backgrounds, gradients, and mesh blobs in one click
+- uiverse.io offers 3000+ free open-source UI components in CSS and Tailwind
+- Series targets 'vibe coders' — people building with AI tools without traditional coding skills
+- Comment 'site' on manus.im frame for 1000 free credits
+
+<details><summary>Full transcript</summary>
+
+So
+
+</details>
