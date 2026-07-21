@@ -39,3 +39,11 @@ Status: pending
 Comment keyword: store
 Promised: link to try Claude Commerce
 Filed under: ai_coding
+
+## 2026-07-21 02:00 UTC
+Source: https://www.instagram.com/reel/DaInyAeJjZy/?igsh=NTc4MTIwNjQ2YQ==
+Creator: beth
+Status: pending
+Comment keyword: site
+Promised: 1000 free credits for manus.im
+Filed under: ai_coding
