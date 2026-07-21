@@ -16,3 +16,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## Angus the Nontechnical
 - 2026-07-21 — This entire setup takes only 12 minutes — https://www.instagram.com/reel/Da0p7NNxifz/?igsh=NTc4MTIwNjQ2YQ==
+
+## Christopher Perkins
+- 2026-07-21 — A six-pack is achievable in just 30 days following this protocol — https://www.instagram.com/reel/DaMJ7rFN2bn/?igsh=NTc4MTIwNjQ2YQ==
