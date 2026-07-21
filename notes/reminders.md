@@ -71,3 +71,8 @@ Submit health insurance proof eForm (email: Student Business Office Reminder - M
 Source: email from www.paracordgalaxy.com
 
 Use Paracord Galaxy coupon Lovecord (email: Reminder: Paracord Specials. Gold Beads/Charms. 10% Sitewide coupon "Lovecord".)
+
+## 2026-03-29
+Source: email from www.paracordgalaxy.com
+
+Use Paracord Galaxy coupon Lovecord (email: Reminder: New Specials. "Lovecord" 10% Sitewide coupon.)
