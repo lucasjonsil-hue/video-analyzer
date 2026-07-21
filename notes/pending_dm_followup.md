@@ -7,3 +7,11 @@ Status: pending
 Comment keyword: Claude
 Promised: Direct link to OmniRoute tool on GitHub
 Filed under: ai_coding
+
+## 2026-07-21 01:57 UTC
+Source: https://www.instagram.com/reel/DXqzDc6j-H_/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Nick Saraev
+Status: pending
+Comment keyword: coding
+Promised: Full guide and prompts to set up the Stitch + Claude Code workflow
+Filed under: ai_coding
