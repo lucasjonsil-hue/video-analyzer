@@ -66,3 +66,8 @@ Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold:
 Source: email from ocbusn@chapman.edu
 
 Submit health insurance proof eForm (email: Student Business Office Reminder - Missing Proof of Health Insurance)
+
+## 2026-07-26
+Source: email from www.paracordgalaxy.com
+
+Use Paracord Galaxy coupon Lovecord (email: Reminder: Paracord Specials. Gold Beads/Charms. 10% Sitewide coupon "Lovecord".)
