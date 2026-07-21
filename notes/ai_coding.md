@@ -1457,3 +1457,28 @@ The video shows a developer working on a luxury architecture website called 'Lit
 - Terminal notes mention video preloading strategy, caption choreography, and re-encoding fixes
 - Closing CTA: 'Build where the land ends. Write to the atelier' — offices in Naxos and Milan
 - Referred to as 'Fable 5' — likely the 5th in a series of AI-built web design demos
+
+## 2026-07-21 02:03 UTC
+Source: https://www.instagram.com/reel/DawbV_MzMsn/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Evan Rafa
+
+A person reacts with surprise to an Instagram feature called 'Roll' that automatically matches your camera roll clips to a viral video template, copying its music, pacing, and captions. The video demonstrates the full workflow from finding a viral Reel to exporting a replicated version, claiming it saved 51 minutes of editing.
+
+The creator opens by expressing shock at discovering an Instagram update/feature. They demonstrate finding a viral video on Instagram and sending it to an app called 'Roll.' The app analyzes the viral video and automatically matches clips from the user's camera roll to fit the template, replicating the caption, music, and pacing. The user previews the matched clips in a video editor view, then exports the final video. A progress screen shows processing at 82%. The final screen shows 'Roll saved you 51m of editing' with options to Download or Share. The creator emphasizes how easy and fast the process is.
+
+- Instagram/Roll feature lets you replicate viral video templates automatically
+- The app matches your own camera roll clips to the viral video's pacing and structure
+- It copies captions, music, and timing from the source video
+- Processing happens in-app with a progress indicator
+- The tool claimed to save 51 minutes of editing time
+- Final output can be downloaded or shared directly
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Roll saved 51 minutes of editing time — The time saved is app-generated and may not reflect actual editing complexity for all users.
+- [unverifiable] Roll is an Instagram feature/update — Roll appears to be a third-party app rather than a native Instagram feature, despite the creator's framing.
+
+<details><summary>Full transcript</summary>
+
+Okay, I'm gonna be coming in here because what do you mean? I'm scrolling on Instagram and I find a viral video and I can just send it to this app called roll and What it's gonna do is it's gonna create a template just like that I Click use template and it's gonna match my clips from my camera roll to the viral video And it copies the caption the music the pacing everything and I just need to like I like I like how it looks And I just need to click export and that's it Just like that Replicated the same video Save me 51 minutes of editing and now I can just download it or post it. That's crazy
+
+</details>
