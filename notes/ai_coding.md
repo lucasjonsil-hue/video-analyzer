@@ -1394,3 +1394,29 @@ The creator opens with a hook claiming marketing gurus are becoming obsolete bec
 Dude, marketing gurus are disappearing from the internet. Cause vibe coders have figured out how to steal their years of experience. Whenever this whole quiz funnel's thing, it was blowing up end of last year. Apparently shit crushes, but you gotta pay like $300 a month for software. Welcome back to Can We Just Vib Code Some Shit? That's better enough for this platform. Give post hog this prompt right here, and it will fully build you a quiz funnel, which is exactly what it sounds like. Sales funnel that asks your prospects, fun questions. Good morning, I want to make this way more cool. Give post hog this next prompt. You want it to A-B test every version of each question. See if certain questions engage the prospects better, and keep them filling out your form. Give it the final prompt. We want it to autonomously look at the A-B test. You're out which question, engage the viewer more. rewrite the question that didn't work as well, and then just do that again. Then your quiz funnel will literally self-improve. But that take 12 minutes to set up. You don't need to pay $300 a month for that. Just build it yourself. It's so easy. Follow your boy while you're at it. I'll show you how to do stuff like that for free.
 
 </details>
+
+## 2026-07-21 02:00 UTC
+Source: https://www.instagram.com/reel/Da7HMHHhSq2/?igsh=NTc4MTIwNjQ2YQ==
+Creator: John
+DM-Followup: pending — comment 'store' to get: link to try Claude Commerce
+
+A young creator reviews 'Claude Commerce,' a new AI-powered e-commerce platform built by Fable 5, claiming it competes with Shopify. He demonstrates its store-building capabilities using AI prompts and highlights features like subscriptions, bundles, and integrations. He ends with a call-to-action asking viewers to comment 'store' for a link.
+
+The video opens with the creator announcing that Claude Commerce, powered by Fable 5, has been released as an e-commerce competitor to Shopify. He mentions people on Twitter claiming to make over $10k on their first day. He then demonstrates the platform live, uploading a product image and prompting the AI to generate a store. After the initial generation, he asks for a more branded and high-converting version. The result reportedly includes subscriptions, bundles, and product imagery — all from a single prompt. He notes the AI is trained on e-commerce data rather than being generic AI. He also shows the backend dashboard featuring orders, products, and integrations like Mailchimp, ActiveCampaign, HubSpot, and others. He concludes with mild skepticism about Twitter earnings claims but says the platform seems solid, then prompts viewers to comment 'store' to receive a link.
+
+- Claude Commerce is a new AI e-commerce platform by Fable 5, positioning itself as a Shopify competitor
+- AI generates full storefronts including subscriptions and bundles from a single text prompt
+- Platform claims to use e-commerce-specific AI training data for better conversion optimization
+- Backend includes order management, product listings, and many third-party integrations
+- Twitter users claiming $10k+ on first day — creator is skeptical but intrigued
+- Comment 'store' to receive a link to try the platform
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] People on Twitter made over $10k on their first day using Claude Commerce — No evidence is shown and the creator himself admits these could be exaggerated or fabricated claims.
+- [unverifiable] Claude Commerce AI is specifically trained on e-commerce data for better conversions — This is a marketing claim with no third-party verification or technical documentation shown.
+
+<details><summary>Full transcript</summary>
+
+They finally released an e-com platform to compete with Shopify and people on Twitter have been going insane. They've been saying they've been making over 10k on their first day. I'm going to give you guys my honest overview so make sure you stay to the end because there's one thing you're not going to want to miss out on. Okay apparently the store creation is insane so I'm just going to upload this picture of my product and ask you to make a simple store. Okay it's loading, let's see what it makes. Okay this honestly is not that bad but I'm going to ask you to make it more branded and high converting. Okay this might actually be pretty good. It generated subscriptions, bundles, product imagery all just with that one prompt. Apparently this isn't just AI Slop and they actually train the AI on e-com data so it knows exactly what converts. They even have an entire back end with orders, products and so many integrations. And the AI actually helps manage your store and improve your business rather than just being some random add-on. Alright so I don't know if these people on Twitter are just larping about what they've made but it generally does seem like a pretty good platform. So if you comment store I'll send you a link to try it out.
+
+</details>
