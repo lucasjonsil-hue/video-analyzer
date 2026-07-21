@@ -1274,3 +1274,28 @@ The video opens with a pixel-art pig graphic labeled 'YOU', setting a relatable 
 You can now run Cloud Code for completely free with almost unlimited usage. So somebody on GitHub just built a free tool called OmniRoute that links your Cloud Code to over 200 other free AI providers, giving up to 1.6 billion free tokens every single month. So the moment your Cloudlinet runs out, then automatically switch you to the next best model so your session can keep going, and it doesn't get interrupted. Plus, it even compresses your prompts before they reach the model, cutting your token usage by up to 90% while giving you the exact same output. If you want to try this for yourselves, just comment and cloud down below, and I'll send you the link directly.
 
 </details>
+
+## 2026-07-21 01:57 UTC
+Source: https://www.instagram.com/reel/DXqzDc6j-H_/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Nick Saraev
+DM-Followup: pending — comment 'coding' to get: Full guide and prompts to set up the Stitch + Claude Code workflow
+
+This video tutorial explains how to combine Claude Code with Google Stitch to create production-ready apps with beautiful UI designs. The presenter walks through a workflow where Stitch generates UI designs, which are then exported via MCP to Claude Code for implementation.
+
+The presenter identifies a key weakness of Claude Code — it struggles with front-end design — and proposes a solution using Google Stitch, described as a free AI tool for generating UI designs. The workflow starts in Stitch, where users describe their app in plain English and optionally upload reference images from Pinterest or Dribbble. Stitch generates a complete UI with all screens and a design system. The user then exports the design using the MCP format, selects Claude Code as the AI, and copies the MCP configuration into the Claude Code terminal. This gives Claude Code direct access to the Stitch designs. A specific prompt is then used to convert the designs into production-ready code with connected screens, animations, and launch-ready output. The presenter offers a full guide and prompts to viewers who comment a keyword.
+
+- Claude Code is strong at coding but weak at front-end design
+- Google Stitch is a free AI tool that generates full UI designs and design systems
+- Export from Stitch via MCP format to connect directly with Claude Code
+- Claude Code gains full access to Stitch designs through MCP integration
+- A specific prompt transforms Stitch designs into production-ready, animated code
+- Comment 'coding' to receive the full guide and prompts
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Google Stitch is completely free — Google Stitch is a relatively new tool and its full pricing/free tier details are not widely confirmed.
+
+<details><summary>Full transcript</summary>
+
+Cloud code is great at coding, but it usually struggles with front end design. So here's how you can fix that by combining it with Google Stitch, a new AI tool that generates beautiful UI designs for your apps and websites completely free. First, go to Stitch and describe your app idea in plain English. Just drop in some reference images from Pinterest or Dribble, and it'll generate a cleaned UI with all the screens and a complete design system for you. Once you're happy with the design, hit Export, select MCP and then set up MCP. Choose Cloud Code as your AI, and then just copy and paste it into your Cloud Code terminal. Just like that, Cloud Code now has full access to all of your stitch designs. Finally, use this prompt and it'll magically turn them into production-ready code. Connect all the screens, add smooth animations, and get your app fully ready to launch. So if you want the full guide and the prompts to set it up, just comment coding and I'll send the link to you directly.
+
+</details>
