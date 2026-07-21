@@ -125,3 +125,24 @@ The creator films himself from the passenger or driver seat of a car with a sunr
 Wagon up early, no alarm clock, no porn, time blocking, scheduling and planning your days, breathing slowly, staying present, not being too proud to dance and sing with your kids. Not taking yourself too seriously, being excellent with everything you do, no matter if it's making your bed or freaking your most important project. Staying consistent.
 
 </details>
+
+## 2026-07-21 02:01 UTC
+Source: https://www.instagram.com/reel/Da_Lx1LPAat/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Jakobi Davis | Student-Athletes
+
+A student athlete shares a 3-step study system for getting good grades on autopilot, drawing from his own experience of starting with a 2.7 GPA at Cornell. The system covers pre-class preparation, in-class engagement, and post-class review techniques. He presents structured methods like SQ3R and the Feynman technique as core components.
+
+The creator opens by admitting he had a 2.7 GPA his first semester at Cornell and wants to help others avoid the same mistake. He outlines a 3-part system: (1) The pre-class/weekend system — every weekend, review upcoming lecture notes using the SQ3R method to identify knowledge gaps, write them in subject-specific notebooks, and use group study sessions with the Feynman technique for homework or exam prep. (2) The during-class system — sit in the front row, bring your prepared questions, write down answers as the professor covers them, and raise your hand if questions go unanswered. (3) The post-class system — at the end of each class, close your notes and spend two minutes writing down everything you remember about the answers to your knowledge gaps, which he says transfers information to long-term memory. He frames this as a duty for student athletes to stay academically eligible and successful.
+
+- Use the SQ3R method on weekends to identify knowledge gaps before the week's lectures
+- Group study sessions using the Feynman technique help solidify understanding for exams
+- Sit front row and ask professors questions you prepared in advance
+- Post-class 2-minute brain dump transfers information to long-term memory
+- System is designed specifically for student athletes managing demanding schedules
+- Creator went from a 2.7 GPA at Cornell to using this system for straight A's
+
+<details><summary>Full transcript</summary>
+
+Alright, P.E.G.A. when I was at Cornell, I had a 2.7 GPA my first semester. I embarrass that kind of myself and I want to save you from doing the same. Here's the exact studying system that you'll be able to use in high school and in college to make sure that you are getting straight A's. So lock in. Every weekend you're going to pull up the lecture notes for the following week. You're going to use the SQ3R method in order to identify the knowledge gaps that you currently have in each of your core subjects. You will write those down in the notebooks for each of those classes. Save those for during the week. Also on your weekends if you have homework assignments or a few exams coming up that's when you get in group study sessions. You use the Feynman technique. That's where you're explaining to the rest of the group a particular problem set or particular exam question. Then during the week you're going to go to each of your classes you're going to sit front row. Those questions that you prepared over the weekend you're going to open those up. As the professor goes through the lecture if they answer the questions then you just write down the answer in your notebook. If they do not answer the question you raise your hand you ask in front of the entire class. Yes I know. Then at the end of each class session you're going to close down all of your notes and just for two minutes before you go to your next class you're going to write down everything that you can remember about the answers that you just got for each of your knowledge gaps. That's going to transfer that into long-term memory storage. As a student athlete it is your duty to make sure that you stay on top of your grades. You now have all the information it's on your reply. Back in, so on.
+
+</details>
