@@ -13,3 +13,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## phillie_cheez
 - 2026-07-19 — Snapchat is deleting all user memories in October — https://www.tiktok.com/t/ZTSoH1vEp/
+
+## Angus the Nontechnical
+- 2026-07-21 — This entire setup takes only 12 minutes — https://www.instagram.com/reel/Da0p7NNxifz/?igsh=NTc4MTIwNjQ2YQ==
