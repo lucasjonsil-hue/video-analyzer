@@ -1347,3 +1347,25 @@ The video opens by calling out a common mistake: developers using AI agents to b
 Five coders aren't building internal tools anymore. Dude, they're not. They're building masks. This is you. You open up CloudCo. You start ripping a couple parallel agents. Oh, pops a cool looking internal tool. And then you go and use it and it doesn't really work how you were hoping it was. Here's what you got to understand, dude. The front end software layer of your app doesn't matter. It's fully ephemeral. Actual valuable part is all the data that sits under. So you're like, fuck it. Let's flip the whole, or you create a new Cloud project. Or a GPT or whatever. Give the agent this prompt. It'll give you some ideas for what the database should look like. And connect this to Cloud for any postgres database. And have CloudCREATE those tables and whatever the database you chose. Same chat, bro. Give it this prompt. And it will give you a prompt brief like this. Pull up CloudDesign. Paste in that prompt. And boom, it'll make you a mockup of what you're trying to make. Unload that mockup. Give it to CloudCode. Prompt number three. Now you got an app that actually works well. Software is highly replaceable. Data and the structure of that data is not as much. Start with the data. Once you're happy with the data, then build the software front end, brother.
 
 </details>
+
+## 2026-07-21 01:59 UTC
+Source: https://www.instagram.com/reel/Da-_we9I3q4/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Mike Mintz
+DM-Followup: pending — comment 'link' to get: Link to Harvard's free AI with Python certification course
+
+A man on an outdoor patio explains that Harvard offers a free AI course with Python that provides a real Harvard certificate upon completion. He describes the course content, requirements, and who it is best suited for. He encourages viewers to pursue the course despite its difficulty.
+
+The presenter, filming from an outdoor patio, announces that Harvard offers a free Introduction to AI with Python course that grants a real Harvard certificate. The course spans seven weeks and covers search algorithms, neural networks, and machine learning built from scratch. To earn the certificate, students must score at least 70% on assignments with no fees or hidden catches. He clarifies the course requires prior Python knowledge, making it unsuitable for complete beginners. He identifies the ideal audience: business owners wanting to understand AI fundamentals, professionals tired of faking understanding in AI meetings, people who want Harvard on their LinkedIn, and those who have completed beginner AI courses and want to go deeper. He warns it is genuinely difficult but says that is the point, and promises it will be worthwhile. He mentions the sign-up link is in his bio and will reply to comments requesting it.
+
+- Harvard offers a free AI with Python course that grants a real Harvard certificate
+- The course is 7 weeks covering search algorithms, neural networks, and machine learning
+- Students must score 70% on assignments to earn the certificate
+- Prior Python knowledge is required — not for complete beginners
+- Ideal for professionals, business owners, and those who've hit a ceiling on beginner AI content
+- Sign-up link is available in the creator's bio
+
+<details><summary>Full transcript</summary>
+
+Harvard has a full AI course that gives you a real Harvard certificate and it costs nothing. Nothing. Their introduction to AI with Python, the actual course. And for those of you that think Python is a snake, we're talking to coding language. So if that's what you think, this one's probably not for you. Seven weeks. Search algorithms, neural networks, machine learning, you build them from scratch. Score 70% on the assignments and the certificate is yours. No fee, no catch, even better than high school. Fair warning though, this is the serious one. You need some Python. If you run a business and want to actually understand what's under the hood, if you're tired of just nodding along in AI meetings, if you want Harvard on your LinkedIn instead of AI Academy. Whatever. If you finished the beginner courses and hit a ceiling, Harvard is holding the door open. There's a link in my bio and I'm sure in tons of your comments that ask for it, I'll try to reply with the link. Look, it's hard. That's the point. But earn it. It'll do you wonders. The sign up link, like I said, in the description.
+
+</details>
