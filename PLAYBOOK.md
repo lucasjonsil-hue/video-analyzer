@@ -62,18 +62,26 @@ Score each idea 1–5 on each axis. Total out of 30. Anything under 18 gets disc
 
 *This replaces re-running "Interview Me" from scratch. Only ask questions that fill genuine gaps below.*
 
-- Solo developer, based in San Anselmo, CA. Works across claude.ai and Claude Code (desktop app, not CLI) on a Windows PC — project at `F:\Life3000`.
-- **Existing built asset:** Video Analyzer pipeline — pulls video URLs/uploads, extracts frames (OpenCV), sends to Claude Vision, auto-files structured notes to GitHub. Gaps: no speech-to-text yet, no folder-watching automation, GITHUB_TOKEN not fully configured.
+- Solo developer, based in Orange, CA — business undergrad at Chapman University. Fall 2026 term starts **Aug 24**, which is a real constraint on available hours from that date. Works across claude.ai and Claude Code (desktop app, not CLI) on a Windows PC — project at `F:\Life3000`.
+- **Existing built asset #1:** Video Analyzer pipeline — pulls video URLs/uploads, extracts frames (OpenCV), transcribes audio locally via `faster-whisper` (no API cost), sends both to Claude Vision, auto-files structured notes to GitHub. Working end-to-end since 2026-07-09; `GITHUB_TOKEN` is configured and notes commit reliably. Remaining gap: no folder-watching automation (email-agent intake + `video_backlog.txt` queue covers most of it).
+- **Existing built asset #2 (§9 step 1 — DONE 2026-07-20):** Clip-and-caption pipeline at `F:\Life3000\clipper\`. `py pipeline.py <url>` → yt-dlp ingest, local Whisper word-level transcript, one Claude call picks 5 viral moments, ffmpeg cuts vertical 1080x1920 and burns bold word-timed captions. Tested end-to-end: 5 usable clips in ~85s. Only paid step is a single Sonnet call (~cents/video). **This is built — the open problem is distribution and getting paid for it, not code.**
+- Other built modules (see `CLAUDE.md` for detail): gym notepad + progress table, local calendar, planner with wave alerts, portfolio tracker, scheduled email agent.
 - **Stated #1 revenue priority: clipping/UGC** — cutting clips (including AI-assisted) from longer videos and posting via clipping programs to earn per-view revenue.
+- **Faceless-first (decided 2026-07-21).** Lucas is not putting his face on camera for now. This is a *decided* constraint, not an open question — do not re-litigate it or quietly propose plans that assume on-camera work.
+  - Clipping needs no face at all (it's someone else's footage) — this is the primary path and it is unaffected.
+  - Faceless UGC formats that still pay: voiceover + product b-roll, hands-only demos/unboxing, screen recordings for app/software brands. Fewer listings and lower rates than on-camera UGC, but real.
+  - On-camera brand UGC ($50–150/video on JoinBrands/Billo) is deliberately **deferred**, not rejected. Revisit only if Lucas raises it.
 - **Real-world niche knowledge:** intermediate freediver/spearfisherman on the California coast (targets: sheephead, calico bass, yellowtail, abalone), has already built a detailed ranked dive-spot decision framework (visibility, swell, wind, temp, kelp, tide) — this is genuine expert content most creators don't have.
 - Other interests: outdoor/wellness activities, red light therapy, PC gaming (Valheim), DIY home gym (rice-sandbag weights), geographic/location-reasoning puzzles (GeoGuessr-style).
 - Someday-list (blocked on API access, not a near-term build): LinkedIn and Depop automation.
 
 **Still genuinely unknown (fair game for Claude Code to ask, one at a time, not a full re-interview):**
 - Budget for tools/APIs per month
-- Hours per week available outside day-to-day life
+- Hours per week available outside day-to-day life (note: Chapman Fall term starts Aug 24 — assume a drop from then)
 - Any existing audience/followers to launch to, or starting from zero
-- Appetite for being on camera vs. staying purely behind-the-scenes
+
+**Answered — do not ask again:**
+- ~~Appetite for being on camera~~ → **faceless-first, decided 2026-07-21.** See the bullet above.
 
 ---
 
@@ -116,7 +124,7 @@ Rather than 100 generic ideas, here are the ones that actually clear the bar in 
 | **DIY home-gym content** (sandbag/rice-weight builds) as short-form clips, monetized via clipping-program payouts | Clipping platforms pay per view | Batch-produce 10 short clips using your existing gym-notes feature as source material | 20 |
 | **GeoGuessr-style location content** — short clips solving/explaining location puzzles, leaning on your stated interest in geographic reasoning | Clipping platforms / puzzle audience | 5 test clips, see what a clipping program pays out | 18 |
 
-Recommendation: start with the **clip-and-caption pipeline**, because it's a direct extension of code you've already built (Video Analyzer), it's your stated #1 priority (clipping/UGC revenue), and it can bootstrap the spearfishing and DIY-gym content ideas as its first customers (you).
+~~Recommendation: start with the **clip-and-caption pipeline**~~ — **done 2026-07-20, see §5.** The build was the easy half. Per the Stage 5 gate, nothing else gets built until this pipeline produces **one real payout or one real click-through**. That means picking ONE actual clipping campaign (Whop/Vyro) with written permission + payout terms and running its content through the clipper. The remaining rows in the table above are content *sources* to feed it, not new builds.
 
 ---
 
@@ -124,11 +132,13 @@ Recommendation: start with the **clip-and-caption pipeline**, because it's a dir
 
 Sequence modules so each funds or feeds the next — don't build them in parallel:
 
-1. **Clip-and-caption pipeline** (extends Video Analyzer) — revenue engine #1
-2. **Spearfishing conditions report** — validates "niche expert content as a product" pattern, reusable for other hobbies later
+1. ~~**Clip-and-caption pipeline**~~ — ✅ **BUILT 2026-07-20** (`clipper/`). Revenue engine #1. **Not yet monetized** — blocked at Stage 5 (sell), not Stage 4 (build). Next step is a real campaign, not more code.
+2. **Spearfishing conditions report** — validates "niche expert content as a product" pattern, reusable for other hobbies later. *Do not start until step 1 earns a dollar.*
 3. **Fact-check/flagged-creator feed** — builds on Video Analyzer's filing system, adds an audience/newsletter asset
 4. **Saved-content organizer + inventory UI** (already planned) — becomes the personal dashboard that ties modules together
-5. **Full hands-off phone-to-filed-note pipeline** (auto-transcription, folder-watching) — the backbone once revenue justifies the engineering time
+5. **Full hands-off phone-to-filed-note pipeline** (auto-transcription, folder-watching) — mostly covered already by local Whisper + the email-agent intake queue; remaining piece is folder-watching
+
+> **Standing risk (2026-07-21):** the failure mode here is building module 2 because it's fun while module 1 sits unmonetized. Every module in this list is a build; none of them is a sale. Revenue comes from step 1's *distribution*, which is the one thing Claude Code can't do for you.
 
 ---
 
