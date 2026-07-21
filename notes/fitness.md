@@ -484,3 +484,27 @@ The creator opens by challenging the conventional approach to ab training, argui
 If you want to see progress in your ab growth, then I recommend that you stop doing bodyweight exercises like planks and mountain climbers and start using weight and progressive overload. First exercise I recommend is a way to declines sit up and I'm preferably without any support on your back so you can go all the way down and have a full stretch. Next exercise I recommend is a cable crunch. Make sure your knees are all the way back to maximize the stretch and range of motion. At the top, I let my abs un-flex and then run my spine on the way down to get maximum contraction. My third favorite weighted ab exercise is a lying cable leg raise. Make sure that you go all the way down, let your abs un-flex just like the cable crunch and then at the top, make sure your lower back is lift off the bench for maximum contraction. Exercise is like this allow for progressive overload so you can increase the weight and get stronger and more to build a balance and they'll be more impressive as you
 
 </details>
+
+## 2026-07-21 02:00 UTC
+Source: https://www.instagram.com/reel/DaMJ7rFN2bn/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Christopher Perkins
+
+A fitness creator outlines an extreme 7-step protocol to achieve a six-pack in 30 days. The plan involves aggressive calorie restriction, high protein intake, fat minimums, 15,000 steps daily, gym workouts, and 8 hours of sleep. The creator openly acknowledges it is unsustainable but claims it will work.
+
+The video opens with a shirtless physique shot to establish credibility, then transitions to a talking-head format where the creator walks through a 7-step extreme fat loss plan. Step 1: Calculate daily calories by multiplying goal body weight in pounds by 10. Step 2: Eat body weight in pounds multiplied by 1.0–1.2 in grams of protein daily to prevent muscle loss. Step 3: Multiply total calories by 0.039 to get minimum daily fat grams to protect hormone health. Step 4: Fill remaining calories with carbs (possibly zero for some). Step 5: Hit 15,000 steps every single day. Step 6: Train in the gym at least 3 times per week. Step 7: Get 8 hours of sleep nightly, described as non-negotiable. The creator ends with a CTA to follow for more content.
+
+- Calories = goal body weight (lbs) × 10 per day
+- Protein = body weight (lbs) × 1.0–1.2 grams per day to mitigate muscle loss
+- Fat minimum = total calories × 0.039 grams to protect testosterone
+- 15,000 steps every single day (up from typical 8–10K)
+- At least 3 gym workouts per week
+- 8 hours of sleep nightly is non-negotiable
+
+⚠️ Reliability (hype: mild):
+- [dubious] A six-pack is achievable in just 30 days following this protocol — Visible abs in 30 days is highly individual and depends on starting body fat; most people cannot reduce body fat sufficiently in this timeframe regardless of protocol.
+
+<details><summary>Full transcript</summary>
+
+This is everything I would do if I had just 30 days to get a six pack. Warning, this is not for the faint of heart. This is not your cute little how to get a six pack in 12 weeks. This is the non-sustainable, extreme version that will work but with great power it comes great responsibility, so just don't abuse this. Step one, your calories. Now we don't have time to be pussy-footing here so you're going to take your goal body weight in pounds and multiply it by 10. That product is how many calories you'll eat every single day for the next month and yes, it's going to be low. Step two, your protein. This is very, very important. You're going to take your body weight in pounds and multiply it by between one and one point two. That is how many grams of protein you're going to eat every single day. Now could you get away with less? Yes, but this is more of an insurance policy. We're going aggressive with our calories so we also want to go aggressive with our protein to mitigate muscle loss. Step three, if you skip this step you'll ruin your health and your testosterone levels. Take your total calories and multiply it by 0.039. That product is how many grams of fat you'll eat every single day. Step four filled the remaining calories after protein and fat with carbs. And for some of you guys that might be zero in which case tough shit. Step five, steps. You no longer have the luxury of doing your little 8 to 10 K steps per day. Now you're doing 15 K steps every single day. Step six, the gym you're going to do at least three workouts every single week. If you're not sure what to do to check out my Instagram page, I have plenty of options that you can choose from. Step seven, sleep. Eight hours of sleep every single night, non-negotiable. If you cannot do that, close this video right now for Get You Ever Watched it, you can do this. So there you go, brutal. Yeah, but will it work? Also, yeah. Best of luck, fall for more.
+
+</details>
