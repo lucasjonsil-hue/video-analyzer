@@ -1299,3 +1299,27 @@ The presenter identifies a key weakness of Claude Code — it struggles with fro
 Cloud code is great at coding, but it usually struggles with front end design. So here's how you can fix that by combining it with Google Stitch, a new AI tool that generates beautiful UI designs for your apps and websites completely free. First, go to Stitch and describe your app idea in plain English. Just drop in some reference images from Pinterest or Dribble, and it'll generate a cleaned UI with all the screens and a complete design system for you. Once you're happy with the design, hit Export, select MCP and then set up MCP. Choose Cloud Code as your AI, and then just copy and paste it into your Cloud Code terminal. Just like that, Cloud Code now has full access to all of your stitch designs. Finally, use this prompt and it'll magically turn them into production-ready code. Connect all the screens, add smooth animations, and get your app fully ready to launch. So if you want the full guide and the prompts to set it up, just comment coding and I'll send the link to you directly.
 
 </details>
+
+## 2026-07-21 01:58 UTC
+Source: https://www.instagram.com/reel/DYa9zdrvu9M/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Zach Chang
+DM-Followup: pending — comment 'checklist' to get: The Anthropic Founder's Playbook guide for building an AI-native startup with Claude
+
+A creator discusses Anthropic's newly released 'Founder's Playbook' guide for building AI-native startups using Claude. He reframes it as a practical resource for AI agency owners to use as a checklist when helping business clients. He offers to send the free resource to anyone who comments 'checklist'.
+
+The video opens with the creator praising Anthropic for releasing something actually useful — the Founder's Playbook, a guide for building AI-native startups with Claude. He pivots the framing away from startup founders and toward AI agency owners, suggesting they use it as a checklist to identify what AI services they can offer clients. He highlights specific use cases covered in the guide: prompting Claude for market research, using Claude Cowork for outreach, running security reviews for client software, and GTM strategy. He acknowledges that many viewers may already know or implement these things, but positions the guide as a useful sanity check. He closes with a call to action, asking viewers to comment 'checklist' to receive the resource.
+
+- Anthropic released a free 'Founder's Playbook' guide for building AI-native startups with Claude
+- AI agency owners can use it as a checklist for client services rather than just startup building
+- Guide covers Claude use cases: market research, outreach, security reviews, and GTM
+- Creator frames it as a sanity check to ensure all AI leverage points are covered for clients
+- The guide is free; creator offers to DM it to anyone who comments 'checklist'
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] The guide includes how to use Claude Cowork for outreach — 'Claude Cowork' is not a widely documented Anthropic product name and may be a misstatement or rebranding not yet publicly confirmed.
+
+<details><summary>Full transcript</summary>
+
+Alright, and Theropic has finally released a resource that will actually help AI agency owners. Instead of just mowing them down with all these new updates, they've actually finally released something that'll help us. So, and Theropic just released the Founders Playbook, which is a guide for how to use Clod to build an AI native startup. Now, the reason I bring this up is instead of just building a startup with this, you can just use this to know what to help business owners with right now, right? Including how to prompt Clod to do market research, how to use Clod co-work for outreach, how to run security reviews for client software, how to run GTM. Right, it's basically just a checklist for how your AI agency can improve a business's leverage using Clod. Anyways, a lot of the stuff you may already know, you may already be implementing it for your clients, but it's just a good sanity check to make sure you've checked off all the bases of what Clod and really any agentic AI can handle within a business. It's free, go ahead and use it, comment checklist if you want me to send it over to you.
+
+</details>
