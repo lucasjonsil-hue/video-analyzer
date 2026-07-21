@@ -31,3 +31,11 @@ Status: pending
 Comment keyword: link
 Promised: Link to Harvard's free AI with Python certification course
 Filed under: ai_coding
+
+## 2026-07-21 02:00 UTC
+Source: https://www.instagram.com/reel/Da7HMHHhSq2/?igsh=NTc4MTIwNjQ2YQ==
+Creator: John
+Status: pending
+Comment keyword: store
+Promised: link to try Claude Commerce
+Filed under: ai_coding
