@@ -61,3 +61,8 @@ Redeem Paracord Galaxy 10% coupon before expiry (email: Metal Buckle Specials, P
 Source: planner wave alert
 
 Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold: 2026-07-19: 3.0 ft @ 10.2s. Worth planning a session.
+
+## 2026-07-20
+Source: email from ocbusn@chapman.edu
+
+Submit health insurance proof eForm (email: Student Business Office Reminder - Missing Proof of Health Insurance)
