@@ -262,3 +262,28 @@ The creator opens by alerting viewers that Snapchat is deleting all memories in 
 For those of you that didn't get this message, it only means that Snapchat is deleting your memories in October of this year. That means parties, vacations, kids, wives, husbands, memories all gonna be gone. For you not to lose those memories, you have to go to settings and Snapchat, go to my data, then you go export your memories, only my memories. Then you put all time to make sure you get all of them. Your email, click submit. That's it. You just wait anywhere from a couple hours to a couple days for that email to come in. The only problem is that Snapchat sends it to you in like 30 different files and they're all jumbled up and all mixed up your captions. So if your filter is your location, everything is gonna be separate. That's when you go to snap easy. You just input all of those files into our converter and it spits out all your memories attached with everything. Just the way you save them, just the way you took them. And it's only 10 bucks for lifetime access instead of $24 a year and then multiply that by five by 10 by 20. Because if you don't do this, you're gonna lose your memories forever. Then you just hit save to camera roll after every memory. That way you don't have to use Snapchat memories ever again.
 
 </details>
+
+## 2026-07-21 02:03 UTC
+Source: https://www.instagram.com/reel/DaifmHNuSBS/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus the Nontechnical
+
+A young creator shows how to build an AI agent that sends personalized quasi-handwritten direct mail to prospects, bypassing expensive sales gurus and email outreach. The system uses AI agents connected to handwritten mail APIs (Handwrytten/LettrLabs) and PostHog for tracking. He claims this can be set up for free and outperforms typical cold email campaigns.
+
+The video opens with a hook mocking overpriced sales guru email templates, then pivots to proposing a better alternative: AI-powered direct mail. The creator explains that most people never think about direct mail as a channel, and that AI agents can actually send physical mail via APIs. He walks through the workflow: connect an AI agent to a handwritten mail service (Handwrytten or LettrLabs), feed it a prompt that instructs it to research a business, write a personalized letter, and send it via the mailer API. He shows an example prompt labeled 'Prompt 02' which acts as an outbound letter agent. For advanced users, he suggests connecting PostHog analytics to the workflow — the agent creates a unique landing page per business, embeds a tracking URL in the letter, and logs when prospects visit, enabling smart follow-up. The video ends encouraging viewers to follow him to learn these techniques for free instead of paying sales gurus.
+
+- AI agents can send physical quasi-handwritten mail via APIs like Handwrytten and LettrLabs
+- The agent researches each business, writes a personalized letter, and sends it automatically
+- A custom tracking URL per business lets you monitor who engages via PostHog
+- Direct mail is an overlooked, low-competition outreach channel vs. cold email
+- The entire system can be built without paying expensive sales consultants
+- PostHog integration enables automated follow-up triggered by link clicks
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Sales gurus charge ~$7,000 to write cold email templates — Some sales consultants do charge premium rates, but the specific $7,000 figure is asserted without evidence.
+- [dubious] This entire outreach system can be built for free — Handwritten mail APIs and AI agent usage both incur per-unit or subscription costs, making a fully free setup unlikely.
+
+<details><summary>Full transcript</summary>
+
+All these sales gurus are losing to mail man. Pull up your email. Hide the cheesiest sales email. Some poor soul pay. Some sales guru. Like $7,000 to write that. Why does nobody respond? Can we just build this ourselves but better? Episode 9. Think of the place that nobody ever contacts you at. I'm thinking direct mail. But Angus AI agents can't send direct mail. Wrong once again. Take your AI agent of choice. Connect it to one of these tools. Then give it this prompt. We'll find a list of people to reach out to. Now connect it to one of these tools. These are mailing companies that offer an API. Now give your agent this prompt. And it will take that contact information. Research and write them a personalized letter. Send it to the mailer which will send quasi-handwritten notes to your prospect. I assume they're using one of these handwriting machines. If you're feeling extra, you could connect post-talk to your AI agent if you copy this. And tell it to do some shit like this. Never it's sending a piece of man. It creates a landing page for that business. It tracks that landing page with post-talk. Then it sends the URL in the letter. So if people click around on the landing page, you know. It's time to send Joe's plumbing more letters. Or you could call them or something. You don't need to pay that sales guru $7,000. Follow your boy instead. I'll teach you how to do shit like this for free.
+
+</details>
