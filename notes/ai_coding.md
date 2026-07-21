@@ -1369,3 +1369,28 @@ The presenter, filming from an outdoor patio, announces that Harvard offers a fr
 Harvard has a full AI course that gives you a real Harvard certificate and it costs nothing. Nothing. Their introduction to AI with Python, the actual course. And for those of you that think Python is a snake, we're talking to coding language. So if that's what you think, this one's probably not for you. Seven weeks. Search algorithms, neural networks, machine learning, you build them from scratch. Score 70% on the assignments and the certificate is yours. No fee, no catch, even better than high school. Fair warning though, this is the serious one. You need some Python. If you run a business and want to actually understand what's under the hood, if you're tired of just nodding along in AI meetings, if you want Harvard on your LinkedIn instead of AI Academy. Whatever. If you finished the beginner courses and hit a ceiling, Harvard is holding the door open. There's a link in my bio and I'm sure in tons of your comments that ask for it, I'll try to reply with the link. Look, it's hard. That's the point. But earn it. It'll do you wonders. The sign up link, like I said, in the description.
 
 </details>
+
+## 2026-07-21 01:59 UTC
+Source: https://www.instagram.com/reel/Da0p7NNxifz/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus the Nontechnical
+
+A young man sitting in a car explains how to build a self-optimizing quiz funnel using PostHog and vibe coding instead of paying $300/month for dedicated software. He walks through three prompts: building the quiz funnel, setting up A/B testing on each question, and automating continuous self-improvement based on test results. He claims this takes only 12 minutes to set up for free.
+
+The creator opens with a hook claiming marketing gurus are becoming obsolete because vibe coders can replicate their expensive strategies cheaply. He introduces the concept of quiz funnels, noting they were trending in late 2023 but typically require expensive software (~$300/month). He then presents a three-prompt workflow using PostHog: Prompt 1 builds a basic quiz funnel that tracks completion rates at each step. Prompt 2 sets up A/B testing on each quiz question, comparing multiple-choice vs open-ended formats, splitting traffic 50/50 with feature flags, waiting for statistical significance, and reporting weekly winners. Prompt 3 creates an autonomous optimization loop where the system identifies the weakest question, rewrites the losing variant, and repeats indefinitely. He frames this as a 12-minute free alternative to paid funnel software and invites viewers to follow for more free tutorials.
+
+- Quiz funnels can be built for free using PostHog instead of paying ~$300/month for dedicated software
+- Three-prompt workflow: build funnel, add A/B testing, then add autonomous self-optimization
+- PostHog cron jobs automatically find the worst-performing funnel step daily
+- A/B testing compares question formats (multiple-choice vs open-ended) with 50/50 traffic splits
+- The system continuously rewrites losing questions, creating a self-improving funnel
+- Creator claims this entire setup takes only 12 minutes
+
+⚠️ Reliability (hype: mild):
+- [dubious] This entire setup takes only 12 minutes — Setting up PostHog funnels, cron jobs, feature flags, and A/B testing pipelines from scratch realistically takes significantly longer than 12 minutes.
+- [unverifiable] PostHog can autonomously rewrite quiz questions based on A/B test results — PostHog handles analytics and feature flags but autonomous question rewriting would require additional AI integration not native to PostHog.
+
+<details><summary>Full transcript</summary>
+
+Dude, marketing gurus are disappearing from the internet. Cause vibe coders have figured out how to steal their years of experience. Whenever this whole quiz funnel's thing, it was blowing up end of last year. Apparently shit crushes, but you gotta pay like $300 a month for software. Welcome back to Can We Just Vib Code Some Shit? That's better enough for this platform. Give post hog this prompt right here, and it will fully build you a quiz funnel, which is exactly what it sounds like. Sales funnel that asks your prospects, fun questions. Good morning, I want to make this way more cool. Give post hog this next prompt. You want it to A-B test every version of each question. See if certain questions engage the prospects better, and keep them filling out your form. Give it the final prompt. We want it to autonomously look at the A-B test. You're out which question, engage the viewer more. rewrite the question that didn't work as well, and then just do that again. Then your quiz funnel will literally self-improve. But that take 12 minutes to set up. You don't need to pay $300 a month for that. Just build it yourself. It's so easy. Follow your boy while you're at it. I'll show you how to do stuff like that for free.
+
+</details>
