@@ -1323,3 +1323,27 @@ The video opens with the creator praising Anthropic for releasing something actu
 Alright, and Theropic has finally released a resource that will actually help AI agency owners. Instead of just mowing them down with all these new updates, they've actually finally released something that'll help us. So, and Theropic just released the Founders Playbook, which is a guide for how to use Clod to build an AI native startup. Now, the reason I bring this up is instead of just building a startup with this, you can just use this to know what to help business owners with right now, right? Including how to prompt Clod to do market research, how to use Clod co-work for outreach, how to run security reviews for client software, how to run GTM. Right, it's basically just a checklist for how your AI agency can improve a business's leverage using Clod. Anyways, a lot of the stuff you may already know, you may already be implementing it for your clients, but it's just a good sanity check to make sure you've checked off all the bases of what Clod and really any agentic AI can handle within a business. It's free, go ahead and use it, comment checklist if you want me to send it over to you.
 
 </details>
+
+## 2026-07-21 01:58 UTC
+Source: https://www.instagram.com/reel/DZVO42xRBJs/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus the Nontechnical
+
+A creator explains a 'data-first' approach to building internal tools using AI coding assistants like Claude. He argues that most developers are building flashy front-ends without solid underlying data structures, and walks through a 4-step process: brainstorm the schema, build the database, connect Claude via MCP, then build the front-end last.
+
+The video opens by calling out a common mistake: developers using AI agents to build internal tools that look good but don't work well because they prioritize the front-end UI over the data layer. The creator argues the front-end is 'fully ephemeral' and the real value lies in the data structure underneath. He then presents a 4-step 'data-first build order': (1) Brainstorm the database schema using a Claude project with a schema prompt, (2) Build the actual database using Postgres on Railway, Supabase, or Neon, (3) Connect Claude to the database via Postgres MCP so it can read and write data, and (4) Only then build the front-end — described as 'last, throwaway, rebuild in an hour.' He demonstrates using Claude to generate a schema, create a mockup via Claude Design, then hand that mockup to Claude Code with a specific prompt to build a functional app. A content pipeline kanban-style tool is shown as a real-world example.
+
+- Most AI-built internal tools fail because developers start with the UI instead of the data model
+- The front-end is ephemeral and replaceable; the data schema is what has lasting value
+- 4-step data-first build order: schema → database → connect Claude → front-end last
+- Use Claude project + schema prompt to brainstorm your database structure
+- Connect Claude to Postgres via MCP so it can directly read/write your database
+- Build the UI last using Claude Design mockup fed into Claude Code
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Five coders aren't building internal tools anymore — they're just building masks — This is a broad generalization about developer behavior with no cited data or study to support it.
+
+<details><summary>Full transcript</summary>
+
+Five coders aren't building internal tools anymore. Dude, they're not. They're building masks. This is you. You open up CloudCo. You start ripping a couple parallel agents. Oh, pops a cool looking internal tool. And then you go and use it and it doesn't really work how you were hoping it was. Here's what you got to understand, dude. The front end software layer of your app doesn't matter. It's fully ephemeral. Actual valuable part is all the data that sits under. So you're like, fuck it. Let's flip the whole, or you create a new Cloud project. Or a GPT or whatever. Give the agent this prompt. It'll give you some ideas for what the database should look like. And connect this to Cloud for any postgres database. And have CloudCREATE those tables and whatever the database you chose. Same chat, bro. Give it this prompt. And it will give you a prompt brief like this. Pull up CloudDesign. Paste in that prompt. And boom, it'll make you a mockup of what you're trying to make. Unload that mockup. Give it to CloudCode. Prompt number three. Now you got an app that actually works well. Software is highly replaceable. Data and the structure of that data is not as much. Start with the data. Once you're happy with the data, then build the software front end, brother.
+
+</details>
