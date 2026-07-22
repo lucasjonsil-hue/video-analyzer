@@ -139,3 +139,12 @@ Done this session: (1) CAMPAIGN FOUND — surveyed the live clipping boards. Who
 NOT done: nothing pushed to GitHub — Clipfarm has no remote and Life3000's commit is local. Lucas's call.
 
 Next move: Lucas signs up at app.vyro.com, joins the MrBeast x Joe Rogan campaign, and pastes the source video URL — everything downstream is blocked on that. Then run it through F:\Clipfarm\pipeline.py and check the 5 output clips against the campaign rule list before posting. Note: campaign is already ~5 days old and budget drains (payouts split evenly across clips near the end), so speed matters. Still open from before: 3 PLAYBOOK Section 5 gaps (monthly API budget, hours/week before Aug 24, existing audience); the email agent's reminder path still needs the junk filter (Paracord coupon filed twice). Waiting: Chapman IT ticket IST-151079.
+
+## 2026-07-22 04:30 UTC
+Source: claude session
+
+Wrap-up addendum to the 04:22 entry. Pushed Life3000 to GitHub (commit 4b0195a) — the push initially rejected because the scheduled email agent had committed two more "paracord galaxy 10% coupon" reminders remotely; rebased cleanly (no file overlap) and pushed. That promo has now been filed FOUR times into notes/reminders.md — the email agent's reminder path still has no junk filter and the file is degrading with each run. Fix that early next session.
+
+Clipfarm is committed locally (2 commits, clean tree) but NOT on GitHub yet: Lucas chose a PRIVATE repo, and it can't be created from here (gh CLI not installed; GITHUB_TOKEN is a fine-grained PAT scoped to video-analyzer only). Lucas needs to create github.com/lucasjonsil-hue/clipfarm as private with NO README/gitignore/license initialization, then run: git -C F:/Clipfarm remote add origin https://github.com/lucasjonsil-hue/clipfarm.git && git -C F:/Clipfarm branch -M main && git -C F:/Clipfarm push -u origin main
+
+Next move unchanged and still the real blocker: sign up at app.vyro.com, join the MrBeast x Joe Rogan campaign ($1.50 CPM, ~5 days old, budget drains and splits evenly near the end so speed matters), paste the source video URL, then run it through F:\Clipfarm\pipeline.py and check the 5 clips against the campaign rules before posting.
