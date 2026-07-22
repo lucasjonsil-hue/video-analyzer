@@ -76,3 +76,8 @@ Use Paracord Galaxy coupon Lovecord (email: Reminder: Paracord Specials. Gold Be
 Source: email from www.paracordgalaxy.com
 
 Use Paracord Galaxy coupon Lovecord (email: Reminder: New Specials. "Lovecord" 10% Sitewide coupon.)
+
+## 2026-03-22
+Source: email from www.paracordgalaxy.com
+
+Use paracord galaxy 10% coupon before expiry (email: Save$ New Specials, Beads/Charms)
