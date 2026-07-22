@@ -86,3 +86,8 @@ Use paracord galaxy 10% coupon before expiry (email: Save$ New Specials, Beads/C
 Source: email from www.paracordgalaxy.com
 
 Use paracord galaxy 10% coupon before expiry (email: Reminder: Sale. Paracord from $4.98. 10% Sitewide coupon Save$. New Beads/Charms.)
+
+## 2026-07-26
+Source: planner wave alert
+
+Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold: 2026-07-26: 3.3 ft @ 9.1s. Worth planning a session.
