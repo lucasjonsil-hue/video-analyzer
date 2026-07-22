@@ -1482,3 +1482,27 @@ The creator opens by expressing shock at discovering an Instagram update/feature
 Okay, I'm gonna be coming in here because what do you mean? I'm scrolling on Instagram and I find a viral video and I can just send it to this app called roll and What it's gonna do is it's gonna create a template just like that I Click use template and it's gonna match my clips from my camera roll to the viral video And it copies the caption the music the pacing everything and I just need to like I like I like how it looks And I just need to click export and that's it Just like that Replicated the same video Save me 51 minutes of editing and now I can just download it or post it. That's crazy
 
 </details>
+
+## 2026-07-22 04:27 UTC
+Source: https://www.instagram.com/reel/DUBBVaCDGwq/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Thomas | sourcetms
+
+A young man addresses viewers who are familiar with a list of AI coding tools and platforms, reassuring them that they are ahead of the curve. He lists roughly 15 AI-related tools and agents, suggesting that knowing them means you're well-positioned for the coming AI revolution. The tone is calm and encouraging, ending on a positive note.
+
+The creator opens with a title card reading 'To those who know... pt II', signaling this is a follow-up video. He holds a small lavalier microphone and speaks directly to camera from what appears to be a home or apartment setting with a bright window behind him. He rattles off a list of AI tools and platforms — including Quinn, Cursor, Kiro, Kilo, Kimmy, Amp, Augment, Anti-Gravity, Open Code, Claudebott, Emergent, Resonant, Warp, and Trey — and tells anyone who recognizes any of them that they are on the forefront of the emerging AI landscape. He acknowledges the anxiety and noise around constant AI releases, but reassures his audience not to stress. He closes with a smile and a lighthearted 'enjoy your Tuesday,' keeping the overall message positive and community-focused.
+
+- Lists ~15 AI tools/agents as a signal of being ahead in the AI space
+- Tools mentioned include Cursor, Warp, Augment, Claudebott, and others
+- Reassures viewers that knowing these tools means they're well-positioned
+- Acknowledges the anxiety around constant AI releases
+- Encourages followers not to stress and to stay calm
+- This appears to be a follow-up ('pt II') to a previous similar video
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] All listed names (Quinn, Kiro, Kilo, Kimmy, Anti-Gravity, Open Code, Emergent, Resonant, Trey) are real AI tools — Several of these names do not correspond to widely known or publicly documented AI tools as of mid-2025.
+
+<details><summary>Full transcript</summary>
+
+If you're a part of the group of people who knows what any of these are, Quinn, Cursor, Kiro, Kilo, Kimmy, Amp, Augment, Anti-Gravity, Open Code, Claudebott, Emergent, Resonant, Warp, and Trey. If you know what any of those are, I think you're gonna be all right. It's so easy to get caught up in this anxiety and do-sing AI releases kind of world. But if you know what those are, you are on the forefront of what's coming in terms of a new AI world. Don't stress all as well and enjoy your Tuesday.
+
+</details>
