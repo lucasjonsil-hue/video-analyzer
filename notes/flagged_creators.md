@@ -20,3 +20,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## Christopher Perkins
 - 2026-07-21 — A six-pack is achievable in just 30 days following this protocol — https://www.instagram.com/reel/DaMJ7rFN2bn/?igsh=NTc4MTIwNjQ2YQ==
+
+## Trevor Shan
+- 2026-07-22 — Following these five rules for 90 days makes it 'impossible' not to see amazing results — https://www.instagram.com/reel/DbEK8hHJ9vX/?igsh=NTc4MTIwNjQ2YQ==
