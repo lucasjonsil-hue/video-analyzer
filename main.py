@@ -50,36 +50,16 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 GITHUB_REPO = os.environ.get("GITHUB_REPO", "lucasjonsil-hue/video-analyzer")
 VALID_NOTE_CATEGORIES = {
     "fitness", "productivity", "investing", "ai_coding",
-    "project_ideas", "to_do", "ideas",
+    "project_ideas", "to_do", "ideas", "clipping",
 }
 
+# Clipping intel is Clipfarm's raw material, not personal notes — it gets written
+# to that project instead of this repo. Override the location with CLIPFARM_NOTES_DIR.
+CLIPFARM_NOTES_DIR = os.environ.get("CLIPFARM_NOTES_DIR", r"F:\Clipfarm\notes")
 
-def save_note_to_github(result: dict, source: str) -> bool:
-    if not GITHUB_TOKEN:
-        return False
 
-    category = result.get("note_category")
-    if category not in VALID_NOTE_CATEGORIES:
-        category = "ideas"
-
-    path = f"notes/{category}.md"
-    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github+json",
-    }
-
-    get_resp = requests.get(api_url, headers=headers, timeout=15)
-    if get_resp.status_code == 200:
-        existing = get_resp.json()
-        current_content = base64.b64decode(existing["content"]).decode("utf-8")
-        sha = existing["sha"]
-    elif get_resp.status_code == 404:
-        current_content = f"# {category.replace('_', ' ').title()} Notes\n"
-        sha = None
-    else:
-        get_resp.raise_for_status()
-
+def _build_note_entry(result: dict, source: str) -> str:
+    """The "## <timestamp>" markdown block appended for one analyzed video."""
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     creator_line = f"Creator: {result['creator']}\n" if result.get("creator") else ""
     dm_cta = result.get("dm_cta")
@@ -112,11 +92,64 @@ def save_note_to_github(result: dict, source: str) -> bool:
             f"{transcript}\n\n"
             "</details>\n"
         )
-    new_content = current_content + entry
+    return entry
+
+
+def _save_clipping_note(entry: str) -> bool:
+    """Append clipping intel to the Clipfarm project's notes instead of this repo."""
+    path = os.path.join(CLIPFARM_NOTES_DIR, "clipping.md")
+    try:
+        os.makedirs(CLIPFARM_NOTES_DIR, exist_ok=True)
+        if not os.path.exists(path):
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(
+                    "# Clipping Notes\n\n"
+                    "Everything the Life3000 video analyzer has learned about clipping — payout\n"
+                    "rates, platform mechanics, campaign tactics, scam warnings. Auto-filed.\n"
+                )
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(entry)
+        return True
+    except OSError as exc:
+        # Clipfarm may be on a drive that isn't mounted (e.g. running in Docker).
+        print(f"Could not write clipping note to {path}: {exc}")
+        return False
+
+
+def save_note_to_github(result: dict, source: str) -> bool:
+    category = result.get("note_category")
+    if category not in VALID_NOTE_CATEGORIES:
+        category = "ideas"
+
+    entry = _build_note_entry(result, source)
+
+    if category == "clipping":
+        return _save_clipping_note(entry)
+
+    if not GITHUB_TOKEN:
+        return False
+
+    path = f"notes/{category}.md"
+    api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+    }
+
+    get_resp = requests.get(api_url, headers=headers, timeout=15)
+    if get_resp.status_code == 200:
+        existing = get_resp.json()
+        current_content = base64.b64decode(existing["content"]).decode("utf-8")
+        sha = existing["sha"]
+    elif get_resp.status_code == 404:
+        current_content = f"# {category.replace('_', ' ').title()} Notes\n"
+        sha = None
+    else:
+        get_resp.raise_for_status()
 
     payload = {
         "message": f"Add {category} note from video analysis",
-        "content": base64.b64encode(new_content.encode("utf-8")).decode("utf-8"),
+        "content": base64.b64encode((current_content + entry).encode("utf-8")).decode("utf-8"),
     }
     if sha:
         payload["sha"] = sha
@@ -337,7 +370,13 @@ def analyze_frames_with_claude(frames_b64: list[str], transcript: str = "") -> d
             "- energy: one of [low, medium, high]\n"
             "- pacing: one of [slow, moderate, fast]\n"
             "- hook_strength: one of [weak, moderate, strong] (how engaging the opening is)\n"
-            "- note_category: one of [fitness, productivity, investing, ai_coding, project_ideas, to_do, ideas]. Pick based on content:\n"
+            "- note_category: one of [clipping, fitness, productivity, investing, ai_coding, project_ideas, to_do, ideas]. Pick based on content:\n"
+            "  - clipping: anything about clipping as a way to make money — paid clipping campaigns and the platforms "
+            "that host them (Whop/Content Rewards, Vyro, ClipAffiliates, Clipping.net, clipping agencies), payout "
+            "rates or CPM/per-view figures, campaign rules and requirements, how clippers find or get accepted to "
+            "campaigns, editing/captioning tactics specifically for clip payouts, faceless short-form content "
+            "strategy, or warnings/scams about clipping programs. Prefer this over ideas or investing whenever the "
+            "video is about earning from clipping.\n"
             "  - fitness: workouts, training, nutrition, sleep/recovery, exercise form\n"
             "  - productivity: calendar/scheduling, trip planning, email, general productivity or life-admin content\n"
             "  - investing: investing, markets, personal finance, portfolio/money topics\n"

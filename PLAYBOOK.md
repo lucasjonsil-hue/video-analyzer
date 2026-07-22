@@ -64,7 +64,7 @@ Score each idea 1–5 on each axis. Total out of 30. Anything under 18 gets disc
 
 - Solo developer, based in Orange, CA — business undergrad at Chapman University. Fall 2026 term starts **Aug 24**, which is a real constraint on available hours from that date. Works across claude.ai and Claude Code (desktop app, not CLI) on a Windows PC — project at `F:\Life3000`.
 - **Existing built asset #1:** Video Analyzer pipeline — pulls video URLs/uploads, extracts frames (OpenCV), transcribes audio locally via `faster-whisper` (no API cost), sends both to Claude Vision, auto-files structured notes to GitHub. Working end-to-end since 2026-07-09; `GITHUB_TOKEN` is configured and notes commit reliably. Remaining gap: no folder-watching automation (email-agent intake + `video_backlog.txt` queue covers most of it).
-- **Existing built asset #2 (§9 step 1 — DONE 2026-07-20):** Clip-and-caption pipeline at `F:\Life3000\clipper\`. `py pipeline.py <url>` → yt-dlp ingest, local Whisper word-level transcript, one Claude call picks 5 viral moments, ffmpeg cuts vertical 1080x1920 and burns bold word-timed captions. Tested end-to-end: 5 usable clips in ~85s. Only paid step is a single Sonnet call (~cents/video). **This is built — the open problem is distribution and getting paid for it, not code.**
+- **Existing built asset #2 (§9 step 1 — DONE 2026-07-20):** Clip-and-caption pipeline — **spun out of Life3000 on 2026-07-21 into its own project, `F:\Clipfarm` (repo `clipfarm`)**. `py pipeline.py <url>` → yt-dlp ingest, local Whisper word-level transcript, one Claude call picks 5 viral moments, ffmpeg cuts vertical 1080x1920 and burns bold word-timed captions. Tested end-to-end: 5 usable clips in ~85s. Only paid step is a single Sonnet call (~cents/video). **This is built — the open problem is distribution and getting paid for it, not code.** Clipfarm is a revenue project with its own deps and credentials; Life3000 stays personal tooling. The video analyzer routes anything it learns about clipping into `F:\Clipfarm\notes\clipping.md`.
 - Other built modules (see `CLAUDE.md` for detail): gym notepad + progress table, local calendar, planner with wave alerts, portfolio tracker, scheduled email agent.
 - **Stated #1 revenue priority: clipping/UGC** — cutting clips (including AI-assisted) from longer videos and posting via clipping programs to earn per-view revenue.
 - **Faceless-first (decided 2026-07-21).** Lucas is not putting his face on camera for now. This is a *decided* constraint, not an open question — do not re-litigate it or quietly propose plans that assume on-camera work.
@@ -124,7 +124,7 @@ Rather than 100 generic ideas, here are the ones that actually clear the bar in 
 | **DIY home-gym content** (sandbag/rice-weight builds) as short-form clips, monetized via clipping-program payouts | Clipping platforms pay per view | Batch-produce 10 short clips using your existing gym-notes feature as source material | 20 |
 | **GeoGuessr-style location content** — short clips solving/explaining location puzzles, leaning on your stated interest in geographic reasoning | Clipping platforms / puzzle audience | 5 test clips, see what a clipping program pays out | 18 |
 
-~~Recommendation: start with the **clip-and-caption pipeline**~~ — **done 2026-07-20, see §5.** The build was the easy half. Per the Stage 5 gate, nothing else gets built until this pipeline produces **one real payout or one real click-through**. That means picking ONE actual clipping campaign (Whop/Vyro) with written permission + payout terms and running its content through the clipper. The remaining rows in the table above are content *sources* to feed it, not new builds.
+~~Recommendation: start with the **clip-and-caption pipeline**~~ — **done 2026-07-20, see §5.** The build was the easy half. Per the Stage 5 gate, nothing else gets built until this pipeline produces **one real payout or one real click-through**. That means picking ONE actual clipping campaign (Whop/Vyro) with written permission + payout terms and running its content through Clipfarm (`F:\Clipfarm`). The remaining rows in the table above are content *sources* to feed it, not new builds.
 
 ---
 
@@ -132,7 +132,7 @@ Rather than 100 generic ideas, here are the ones that actually clear the bar in 
 
 Sequence modules so each funds or feeds the next — don't build them in parallel:
 
-1. ~~**Clip-and-caption pipeline**~~ — ✅ **BUILT 2026-07-20** (`clipper/`). Revenue engine #1. **Not yet monetized** — blocked at Stage 5 (sell), not Stage 4 (build). Next step is a real campaign, not more code.
+1. ~~**Clip-and-caption pipeline**~~ — ✅ **BUILT 2026-07-20**, spun out 2026-07-21 to its own project at `F:\Clipfarm`. Revenue engine #1, tracked in that repo now. **Not yet monetized** — blocked at Stage 5 (sell), not Stage 4 (build). Next step is a real campaign, not more code.
 2. **Spearfishing conditions report** — validates "niche expert content as a product" pattern, reusable for other hobbies later. *Do not start until step 1 earns a dollar.*
 3. **Fact-check/flagged-creator feed** — builds on Video Analyzer's filing system, adds an audience/newsletter asset
 4. **Saved-content organizer + inventory UI** (already planned) — becomes the personal dashboard that ties modules together
