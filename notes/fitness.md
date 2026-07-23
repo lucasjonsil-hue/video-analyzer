@@ -557,3 +557,27 @@ The creator films himself in a car and outlines a 'brainmaxxing' supplement prot
 These are the supplements I used to pass on my exams as a third year engineering student. First thing in the morning, get rid of the hardest material first. You want them knocked that out because your brain is plastic in the morning. It's getting more and more of everything. You put into it like a sponge. Pass forward into kind of the afternoon, middle of the day. You want stamina. Your brain's a little tired from the morning. So in order to keep going and reviewing and doing practice problems, you want these. Evening, you don't want stimulation. You got to go to bed. You want focus and memory. These are going to be your best bet in order to come your mind down and review everything that you did during the day. But don't think by just taking these and playing video games, you're going to pass your finals. These are meant to make studying enjoyable and enhance what's already there. This is what I use and I've gotten pretty far. So, there you go.
 
 </details>
+
+## 2026-07-23 03:28 UTC
+Source: https://www.instagram.com/reel/DX7tqMxuY8f/?igsh=NTc4MTIwNjQ2YQ==
+Creator: alan perez
+
+A third-year engineering student shares his supplement protocol for passing finals, broken into morning, afternoon, and evening blocks. He recommends specific supplements like L-Theanine (300mg) for calm focus and BDNF support. He emphasizes that supplements enhance studying but don't replace it.
+
+The creator, a third-year engineering student, films himself in his car explaining a 'brainmaxxing' supplement protocol designed to help pass finals. He breaks the day into three study blocks: morning (when the brain is most plastic and receptive), afternoon (when stamina is needed to continue reviewing and doing practice problems), and evening (6-8pm, no stimulation, focus on memory consolidation and winding down). One specific supplement mentioned is L-Theanine at 300mg for calm focus and attention span support, categorized under 'Alertness + BDNF Support.' He closes with a disclaimer that the supplements are meant to make studying more enjoyable and enhance existing effort, not replace actual studying.
+
+- Morning block: tackle hardest material when brain plasticity is highest
+- Afternoon block: use stamina-supporting supplements to maintain study momentum
+- Evening block (6-8pm): no stimulation, focus on memory consolidation
+- L-Theanine 300mg recommended for calm focus and attention span
+- Supplements enhance studying but you still have to actually study
+- Protocol shared from personal experience as a third-year engineering student
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] This supplement protocol helped him pass exams as a third-year engineering student — Personal anecdote with no way to isolate the supplements' contribution from studying habits and other factors.
+
+<details><summary>Full transcript</summary>
+
+These are the supplements I used to pass on my exams as a third year engineering student. First thing in the morning, get rid of the hardest material first. You want them knocked that out because your brain is plastic in the morning. It's getting more and more of everything. You put into it like a sponge. Pass forward into kind of the afternoon, middle of the day. You want stamina. Your brain's a little tired from the morning. So in order to keep going and reviewing and doing practice problems, you want these. Evening, you don't want stimulation. You got to go to bed. You want focus and memory. These are going to be your best bet in order to come your mind down and review everything that you did during the day. But don't think by just taking these and playing video games, you're going to pass your finals. These are meant to make studying enjoyable and enhance what's already there. This is what I use and I've gotten pretty far. So, there you go.
+
+</details>
