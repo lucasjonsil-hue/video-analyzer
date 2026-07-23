@@ -63,3 +63,11 @@ Status: pending
 Comment keyword: files
 Promised: Custom Claude Project instruction files for the job search system
 Filed under: ai_coding
+
+## 2026-07-23 03:23 UTC
+Source: https://www.instagram.com/reel/DbCpyDytCjz/
+Creator: Haotian building apps
+Status: pending
+Comment keyword: CTO
+Promised: A more detailed guide on the money-making method shown in the video
+Filed under: ideas
