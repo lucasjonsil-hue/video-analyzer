@@ -270,3 +270,20 @@ The creator introduces a three-prompt system using Claude AI to evaluate stock p
 Have you ever bought a stock because you saw a reel on Instagram and lost money? Now this is how I use Claw to filter out the bad picks and it helped me make a $129,000 swing trading last year with a full time job. Now first I paste the pick into Claw with my Bearcase prompt. It surfaces every red flag from insider selling eroding moats and business deterioration like this. Now after that, if the Bearcase isn't fatal, I run my scoring prompt and it checks if the business is actually healthy and if the valuation actually makes sense. Now most picks fail right here. Then I use one more prompt to pressure test the catalyst. The story behind the pick. Claw tells me if it's real or already priced in. Now if a pick fails any one of these three, I skip it. I did this for Nike back in August 2025 when it was around $80. Clawed flagged the market share lost to Hoka and on plus declining revenue and I skipped it and it saved me from a 45% drawdown. Now if you want all three prompts, comment prompts and I'll send them to you.
 
 </details>
+
+## 2026-07-23 03:28 UTC
+Source: https://www.tiktok.com/t/ZTANVLfY6/
+Creator: darrenfrancisfinance
+
+A young man wearing a headband records a talking-head style video about hedge funds and insiders allegedly selling stocks at a record pace. The video uses a bold 'BREAKING' headline overlay throughout all frames. No audio speech was detected in the transcript.
+
+This appears to be a short-form social media video (likely TikTok or Instagram Reels) featuring a young man speaking to camera about a financial news topic. The persistent text overlay reads 'BREAKING: Hedge Funds & Insiders Selling Stocks at the Fastest Pace in History.' The creator is wearing a light green t-shirt and a patterned headband. Across the five frames, he appears to be speaking and gesturing, though no audio transcript was captured. The video is styled as an urgent financial news alert or commentary, likely aimed at retail investors or finance-interested audiences.
+
+- Headline claims hedge funds and insiders are selling stocks at the fastest pace in history
+- Styled as a 'BREAKING' news alert to create urgency
+- Talking-head format typical of finance commentary on short-form platforms
+- No supporting data or charts shown in visible frames
+- Designed to alarm or engage retail investors
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Hedge funds and insiders are selling stocks at the fastest pace in history — While insider selling data is tracked publicly, the claim of 'fastest pace in history' requires specific sourcing and timeframe context not provided in the video.
