@@ -1678,3 +1678,24 @@ The video begins with a translated tweet from @wanerru promoting OpenClaw (which
 The fastest web crawler, but yet it runs in stealth mode. So zero bot detection on cloudflare and much faster than all of them out there, which is very interesting. Essentially, while running this, you don't need to worry about, you know, the websites pushing you back, blocking your agent or anything really. You get scrape individuals, you get scrape websites effortlessly. So if you guys do want this comment down below, scrape and I'll send this over. This is huge because I just implemented it as well. And once again, everything I put in, I hope you guys up. So that's the go out here. If you guys do like this follow as well, because it means the FN world.
 
 </details>
+
+## 2026-07-23 03:30 UTC
+Source: https://www.instagram.com/reel/DZnh4BFNK9r/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Angus the Nontechnical
+
+A creator discusses how Claude's head of development advocates for building AI systems that prompt themselves rather than manual prompting. The video covers a self-improving agentic loop using databases, skills, and automated workflows. The creator ultimately concludes that human creativity and judgment remain essential bottlenecks.
+
+The creator opens by referencing a clip from Boris, described as the head of Claude Code, who argues that users should not be manually prompting AI but instead building systems that prompt AI for them. The creator explains the concept: connect AI to a database with tables tracking issues and workflows, create skills and cronjobs that detect what needs changing, then run through a loop of scoping, planning, building, and testing until a human goal is reached. Visuals show diagrams of this self-improving loop with stages like Strategize, Build, Test, and Resolve — all centered around human oversight. The creator shows a custom front-end built from this system and notes he prefers a cleaner design. He pushes back on the idea that humans are no longer needed, arguing that the bottleneck is still human creativity and judgment — especially for go-to-market and creative work. He acknowledges Boris has deeper technical expertise but emphasizes his own use case differs significantly.
+
+- Boris (head of Claude Code) says you should build systems that prompt AI, not prompt it manually yourself
+- The system connects Claude to a database with tables for issues, workflows, and skills
+- Automated cronjobs detect needed changes and run a loop: scope → plan → build → test
+- The creator built a working front-end from this agentic loop concept
+- Creator argues humans are still the bottleneck, especially for creative and go-to-market tasks
+- Human creativity and oversight remain necessary regardless of how advanced the AI system is
+
+<details><summary>Full transcript</summary>
+
+It turns out Claude just killed all of Prompting. Look, this clip up, dude. This is Boris the head of Claude code, by the way. Boris says that you should not be Prompting your AI. You should be building systems that prompt your AI for you. Most people shouldn't be doing that, dude. Sorry to break it to you. Try it for yourself, dude, NPC. Next, your AI to some sort of database. Create these tables in the database. Tables for the things that you want AI to autonomously work on. Then, an issues table to track the things you want to change. And you can create these skills. You can have a series of cronjobs detective there's anything needed to be changed. You say I want to create or update a workflow. And then run to each skill. Scoping and planning the change. Making the change. Testing. And doing that again until it reaches the human goal. It even built a cool front end like this. But I realize that I don't want my system to look like this. I want it looking like this. bottleneck is not compute, bro. The bottleneck is very much still humans. We're still valuable, dude. This dream is awesome. There are so many fucking things that I need to be in the loop for. Yeah, I can't fucking read your mind, bro. Especially if you're doing something go-to-market related, bro. That requires so much human creativity. Yes, Boris definitely has things figured out that I don't even remotely. And I'm not a software developer. My use case is literally different. I don't see a world anytime soon where human creativity won't be absolutely necessary to have constantly in the loop.
+
+</details>
