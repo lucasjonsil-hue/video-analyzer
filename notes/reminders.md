@@ -121,3 +121,8 @@ Attend Spring 2027 pre-departure orientation (email: Spring 2027 Semester Abroad
 Source: email from www.paracordgalaxy.com
 
 Use Lovecord coupon for paracord 10% discount (email: Paracord Specials, Beads/Charms. 10% Off Site Wide "Lovecord" Coupon to use at checkout.)
+
+## 2026-02-28
+Source: email from www.paracordgalaxy.com
+
+Use Save$ coupon for paracord site-wide savings (email: Paracord sale and specials. Use "Save$" coupon for site wide savings. 100 ft lengths starting at $4.98.)
