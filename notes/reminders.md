@@ -91,3 +91,8 @@ Use paracord galaxy 10% coupon before expiry (email: Reminder: Sale. Paracord fr
 Source: planner wave alert
 
 Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold: 2026-07-26: 3.3 ft @ 9.1s. Worth planning a session.
+
+## 2026-08-30
+Source: email from ocbusn@chapman.edu
+
+Submit Tuition and Fee Master Payment Contract to Chapman (email: Student Business Office Reminder - Missing Tuition and Fee Master Payment Contract)
