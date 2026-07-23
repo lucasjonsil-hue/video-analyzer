@@ -96,3 +96,8 @@ Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold:
 Source: email from ocbusn@chapman.edu
 
 Submit Tuition and Fee Master Payment Contract to Chapman (email: Student Business Office Reminder - Missing Tuition and Fee Master Payment Contract)
+
+## 2026-03-11
+Source: email from www.paracordgalaxy.com
+
+Coupon expires (email: Sale. Paracord from $4.98. New 10% Sitewide coupon. New Beads/Charms.)
