@@ -1531,3 +1531,24 @@ The video is part of a series about the creator's job search strategy. He starts
 So I lost my job in April and then I had two job offers by the end of May. Here's everything I did to land my new job, part one, setting up the cloud project. After you get your master resume written, which I talked about in part zero, you need to create a cloud project. This will be your system and foundation for your job search. The problem is most job seekers are using the cloud chat feature, which at some point gets overloaded with context, which degrades the performance of it. The solution is to create a cloud project, which allows you to create fresh chats, but it still knows everything. So what you want to do is go to cloud and then click on projects, then drop these files into the file section, comment files, and I'll send them to you. And then also drop your master resume into the file section. Once you do that, you can open up a chat within the project and all you need to do is drop a job description and it already has your resume and all the instructions. And it will give you a tailored resume that's optimized for the ATS systems. And that is the foundation of your job search. And if you want the files for the cloud project, just comment files and I'll send it right to you.
 
 </details>
+
+## 2026-07-23 03:24 UTC
+Source: https://www.instagram.com/reel/DZnh4BFNK9r/
+Creator: Angus the Nontechnical
+
+A creator reacts to a clip of Boris (head of Claude Code) arguing that users shouldn't manually prompt AI but instead build automated systems that do the prompting. The creator shares his own implementation of an AI-powered self-improving system using databases, skills, and cronjobs, while ultimately arguing that human creativity and oversight remain essential bottlenecks.
+
+The video opens with the creator holding earbuds near his mouth, stating 'AI has zero taste' as a hook. He then reacts to a clip from Boris, described as the head of Claude Code, who argues that most people should not be manually prompting AI — instead they should build systems that prompt AI automatically. The creator explains the architecture: connect your AI to a database with tables for tasks, issues, and workflows; set up cronjobs to detect needed changes; create 'skills' that scope, plan, build, and test changes in a loop until a human goal is reached. He shows a diagram of this self-improving loop (Scope → Plan → Build → Test → repeat). He demos a front-end he built for this system but notes he prefers a different visual style. He concludes by pushing back on full automation, arguing the real bottleneck is human judgment and creativity — especially for go-to-market work — and that humans need to remain in the loop.
+
+- Boris (head of Claude Code) says you should build systems that prompt AI, not prompt it manually
+- Architecture: connect AI to a database with tables for issues, workflows, and skills
+- Cronjobs detect what needs to change and trigger a Scope → Plan → Build → Test loop
+- The system is designed to self-improve with minimal human input
+- Creator argues humans are still the bottleneck, especially for creative/go-to-market tasks
+- Human oversight and creativity remain essential — full autonomy isn't the goal yet
+
+<details><summary>Full transcript</summary>
+
+It turns out Claude just killed all of Prompting. Look, this clip up, dude. This is Boris the head of Claude code, by the way. Boris says that you should not be Prompting your AI. You should be building systems that prompt your AI for you. Most people shouldn't be doing that, dude. Sorry to break it to you. Try it for yourself, dude, NPC. Next, your AI to some sort of database. Create these tables in the database. Tables for the things that you want AI to autonomously work on. Then, an issues table to track the things you want to change. And you can create these skills. You can have a series of cronjobs detective there's anything needed to be changed. You say I want to create or update a workflow. And then run to each skill. Scoping and planning the change. Making the change. Testing. And doing that again until it reaches the human goal. It even built a cool front end like this. But I realize that I don't want my system to look like this. I want it looking like this. bottleneck is not compute, bro. The bottleneck is very much still humans. We're still valuable, dude. This dream is awesome. There are so many fucking things that I need to be in the loop for. Yeah, I can't fucking read your mind, bro. Especially if you're doing something go-to-market related, bro. That requires so much human creativity. Yes, Boris definitely has things figured out that I don't even remotely. And I'm not a software developer. My use case is literally different. I don't see a world anytime soon where human creativity won't be absolutely necessary to have constantly in the loop.
+
+</details>
