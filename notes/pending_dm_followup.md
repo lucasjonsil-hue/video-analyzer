@@ -95,3 +95,11 @@ Status: pending
 Comment keyword: scrape
 Promised: Link to the Scrapling GitHub repository
 Filed under: ai_coding
+
+## 2026-07-23 03:28 UTC
+Source: https://www.instagram.com/reel/DbCCRPvtHtw/
+Creator: erenlovesecom
+Status: pending
+Comment keyword: store
+Promised: Link to try the Amboras platform
+Filed under: ideas
