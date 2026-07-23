@@ -1506,3 +1506,28 @@ The creator opens with a title card reading 'To those who know... pt II', signal
 If you're a part of the group of people who knows what any of these are, Quinn, Cursor, Kiro, Kilo, Kimmy, Amp, Augment, Anti-Gravity, Open Code, Claudebott, Emergent, Resonant, Warp, and Trey. If you know what any of those are, I think you're gonna be all right. It's so easy to get caught up in this anxiety and do-sing AI releases kind of world. But if you know what those are, you are on the forefront of what's coming in terms of a new AI world. Don't stress all as well and enjoy your Tuesday.
 
 </details>
+
+## 2026-07-23 03:23 UTC
+Source: https://www.instagram.com/reel/DbD2qJCgJme/
+Creator: Michael | Career Advice
+DM-Followup: pending — comment 'files' to get: Custom Claude Project instruction files for the job search system
+
+A creator explains how he went from losing his job in April to receiving two job offers by end of May using Claude AI Projects. He walks through setting up a Claude Project as a foundation for job searching, including uploading a master resume and custom instruction files. The system allows fresh chats while retaining full context, enabling ATS-optimized tailored resumes from job descriptions.
+
+The video is part of a series about the creator's job search strategy. He starts by mentioning he lost his job in April and had two offers by late May. In 'part one,' he focuses on setting up a Claude Project as a centralized job search system. He explains the problem with using Claude's regular chat feature — context overload degrades performance over time. The solution is Claude Projects, which maintains persistent knowledge (resume, instruction files) while allowing fresh individual chats. He instructs viewers to upload a master resume and custom 'comment files' into the project's file section. Once set up, users can paste any job description into a new chat and instantly receive a tailored, ATS-optimized resume without re-explaining their background each time. He offers to send the custom instruction files to anyone who comments 'files.'
+
+- Lost job in April, landed two offers by end of May using this AI-assisted system
+- Regular Claude chats degrade with too much context — Claude Projects solves this
+- Upload master resume and custom instruction files into the Claude Project file section
+- Drop any job description into a project chat to get a tailored, ATS-optimized resume instantly
+- This setup serves as the full foundation of the job search workflow
+- Comment 'files' to receive the custom Claude Project instruction files
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Got two job offers within ~6 weeks of losing his job using this system — Personal anecdote with no supporting evidence shown; could be true but cannot be independently verified.
+
+<details><summary>Full transcript</summary>
+
+So I lost my job in April and then I had two job offers by the end of May. Here's everything I did to land my new job, part one, setting up the cloud project. After you get your master resume written, which I talked about in part zero, you need to create a cloud project. This will be your system and foundation for your job search. The problem is most job seekers are using the cloud chat feature, which at some point gets overloaded with context, which degrades the performance of it. The solution is to create a cloud project, which allows you to create fresh chats, but it still knows everything. So what you want to do is go to cloud and then click on projects, then drop these files into the file section, comment files, and I'll send them to you. And then also drop your master resume into the file section. Once you do that, you can open up a chat within the project and all you need to do is drop a job description and it already has your resume and all the instructions. And it will give you a tailored resume that's optimized for the ATS systems. And that is the foundation of your job search. And if you want the files for the cloud project, just comment files and I'll send it right to you.
+
+</details>
