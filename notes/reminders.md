@@ -111,3 +111,8 @@ Coupon expires (email: Reminder: Use "Save$$$" coupon for 10% off site wide. 100
 Source: email from www.paracordgalaxy.com
 
 Coupon expires (email: Use "Save$$$" coupon for 10% off site wide. 100 ft Paracord starting at $4.98. New beads and charms.)
+
+## 2026-10-09
+Source: email from globaled@chapman.edu
+
+Attend Spring 2027 pre-departure orientation (email: Spring 2027 Semester Abroad Pre-Departure Orientation - Fri, Oct 9)
