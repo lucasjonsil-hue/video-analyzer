@@ -1724,3 +1724,26 @@ The video is part of a series about the creator's job search strategy. In this s
 So I lost my job in April and then I had two job offers by the end of May. Here's everything I did to land my new job, part one, setting up the cloud project. After you get your master resume written, which I talked about in part zero, you need to create a cloud project. This will be your system and foundation for your job search. The problem is most job seekers are using the cloud chat feature, which at some point gets overloaded with context, which degrades the performance of it. The solution is to create a cloud project, which allows you to create fresh chats, but it still knows everything. So what you want to do is go to cloud and then click on projects, then drop these files into the file section, comment files, and I'll send them to you. And then also drop your master resume into the file section. Once you do that, you can open up a chat within the project and all you need to do is drop a job description and it already has your resume and all the instructions. And it will give you a tailored resume that's optimized for the ATS systems. And that is the foundation of your job search. And if you want the files for the cloud project, just comment files and I'll send it right to you.
 
 </details>
+
+## 2026-07-23 03:33 UTC
+Source: https://www.tiktok.com/t/ZTANtdAe5/
+Creator: k.buildsapps
+
+A student content creator shows how to set up Claude AI to be more productive, including copying a humanizer prompt, enabling memory features, and using a 'learn about me' prompt. The video is targeted at students wanting to make better use of their summer. The creator directs viewers to a website for free prompts used in their videos.
+
+The creator opens by addressing students who want to avoid wasting their summer, promising to share how to use Claude AI for maximum productivity. They walk through a step-by-step setup: first copying a 'humanizer prompt' and pasting it into Claude's settings under the instructions box, then enabling memory capabilities so Claude can remember past conversations. Next, they show how to copy a 'learn about me' prompt and paste it into Claude so the AI can understand the user's personal goals and situation. The video concludes by noting that Claude can now help the user plan goals for the rest of summer and prepare for the start of school, with all prompts available for free on a linked website.
+
+- Copy a humanizer prompt and paste it into Claude's instructions settings box
+- Enable memory features in Claude's capabilities settings so it remembers your conversations
+- Use a 'learn about me' prompt to help Claude understand your goals and situation
+- Claude can then help plan summer goals and school preparation
+- All prompts from the creator's videos are available for free on their website
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Using Claude this way will make you 'dangerously productive' as a student — This is a subjective marketing claim with no measurable evidence provided.
+
+<details><summary>Full transcript</summary>
+
+If you're a student and you don't want to repeat all your last wasted summers I'm sure exactly what you need to know about cloud to be dangerously productive Okay, the first thing you have to do is set up cloud. You're gonna want to copy this humanizer prompt You want to go to cloud settings and under this box right here that says instructions for cloud paste that right here And go into capabilities and under memory turn both of these on So now can access to remember all the things you talk about now You want to go here and copy this learn about me prompt and then you're gonna paste it into cloud It's gonna help cloud understand who you are what you have going on so it can help you Yeah, so now you have all your goals set out for the rest of the summer and be where you want to be at the start of school If you want all the prompts from my videos for free is on this site here Yeah, comment if you have any questions and follow me to be a better student
+
+</details>
