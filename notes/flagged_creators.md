@@ -35,3 +35,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## Wassim Younes
 - 2026-07-23 — 774x faster than BeautifulSoup — https://www.instagram.com/reel/DX2orbYgPVI/?igsh=NTc4MTIwNjQ2YQ==
+
+## erenlovesecom
+- 2026-07-23 — 'Claude Fable 5' builds full e-commerce stores from a single prompt — https://www.instagram.com/reel/DbCCRPvtHtw/
