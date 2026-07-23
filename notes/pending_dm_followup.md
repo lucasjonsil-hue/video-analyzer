@@ -87,3 +87,11 @@ Status: pending
 Comment keyword: prompts
 Promised: All three Claude AI prompts for stock analysis (Bear Case, Conviction Score, Catalyst test)
 Filed under: investing
+
+## 2026-07-23 03:27 UTC
+Source: https://www.instagram.com/reel/DX2orbYgPVI/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Wassim Younes
+Status: pending
+Comment keyword: scrape
+Promised: Link to the Scrapling GitHub repository
+Filed under: ai_coding
