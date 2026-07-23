@@ -1652,3 +1652,29 @@ The video opens with the creator claiming he will share what students need to kn
 If you're a student and you don't want to repeat all your last wasted summers I'm sure exactly what you need to know about cloud to be dangerously productive Okay, the first thing you have to do is set up cloud. You're gonna want to copy this humanizer prompt You want to go to cloud settings and under this box right here that says instructions for cloud paste that right here And go into capabilities and under memory turn both of these on So now can access to remember all the things you talk about now You want to go here and copy this learn about me prompt and then you're gonna paste it into cloud It's gonna help cloud understand who you are what you have going on so it can help you Yeah, so now you have all your goals set out for the rest of the summer and be where you want to be at the start of school If you want all the prompts from my videos for free is on this site here Yeah, comment if you have any questions and follow me to be a better student
 
 </details>
+
+## 2026-07-23 03:30 UTC
+Source: https://www.instagram.com/reel/DX2orbYgPVI/
+Creator: Wassim Younes
+DM-Followup: pending — comment 'scrape' to get: Link to the Scrapling open-source web scraper GitHub repository
+
+A creator promotes Scrapling, an open-source Python web scraping library that claims to bypass bot detection and Cloudflare while being significantly faster than BeautifulSoup. The video shows the GitHub README for Scrapling and encourages viewers to comment 'scrape' to receive more information. It was originally posted by a Chinese user (@wanerru) and translated by Grok.
+
+The video begins with a translated tweet from @wanerru promoting OpenClaw (which appears to actually be Scrapling based on the GitHub page shown) as a web scraper capable of bypassing Cloudflare bot detection and running 774x faster than BeautifulSoup. The creator overlays himself on the Scrapling GitHub README page, which describes it as an adaptive web scraping framework with an AI-powered parser that learns from website changes, anti-bot bypass capabilities, and concurrent multi-session crawling. The creator emphasizes the stealth capabilities — zero bot detection, no selector maintenance needed — and calls it an 'unfair advantage.' He asks viewers to comment 'scrape' in the comments and promises to send the link or more details. He also mentions he has personally implemented it.
+
+- Scrapling claims 774x speed improvement over BeautifulSoup
+- Advertised as having native Cloudflare bypass and zero bot detection
+- Open-source Python web scraping framework on GitHub
+- Parser learns from website changes automatically — no selector maintenance
+- Creator says he personally implemented and uses it
+- Engagement-bait CTA: comment 'scrape' to receive the link
+
+⚠️ Reliability (hype: heavy):
+- [dubious] Scrapling is 774x faster than BeautifulSoup — This benchmark likely compares only HTML parsing speed under specific conditions and is not a fair general-purpose comparison; BeautifulSoup is a parser, not a full crawling framework.
+- [unverifiable] Scrapling provides native Cloudflare bypass with zero bot detection — While Scrapling does use stealth fetchers, 'zero bot detection' is an absolute claim that cannot be guaranteed as Cloudflare continuously updates its detection methods.
+
+<details><summary>Full transcript</summary>
+
+The fastest web crawler, but yet it runs in stealth mode. So zero bot detection on cloudflare and much faster than all of them out there, which is very interesting. Essentially, while running this, you don't need to worry about, you know, the websites pushing you back, blocking your agent or anything really. You get scrape individuals, you get scrape websites effortlessly. So if you guys do want this comment down below, scrape and I'll send this over. This is huge because I just implemented it as well. And once again, everything I put in, I hope you guys up. So that's the go out here. If you guys do like this follow as well, because it means the FN world.
+
+</details>
