@@ -31,6 +31,7 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 - 2026-07-23 — TikTok Shop affiliates cannot truly scale and mainly earn from old videos — https://www.instagram.com/reel/Da9gI01OYmq/
 
 ## Bert | No-Chase Swing Trading for 9-5s
+- 2026-07-23 — Nike dropped 45% after August 2025 when it was around $80; Claude can run a 'V2 Outlier Scan' and 'V1 Core Scorer' as named proprietary frameworks — https://www.instagram.com/reel/DYpdESHDWAy/?igsh=NTc4MTIwNjQ2YQ==
 - 2026-07-23 — Claude flagged Nike's market share loss to Hoka and On Running before a 45% drawdown — https://www.instagram.com/reel/DYpdESHDWAy/
 
 ## Wassim Younes
