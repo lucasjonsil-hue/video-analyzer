@@ -1578,3 +1578,29 @@ The creator introduces part 3 of her series on things you didn't know you could 
 things you didn't know you could do using cloud. Open the cloud desktop app, switch to co-work, download the cloud for Chrome extension. This is what allows cloud to browse internet in the background and even scroll different social media platforms to see what's trending in your niche. Then you're going to go back into cloud co-work into the scheduled section, then click new task, and then we're going to make this a weekly task so it runs every Monday at 9am. And then this is where you're going to paste the prompt telling cloud what you want it to do. So we want it to browse tick-tock Instagram, study the patterns of top performing content, cross reference the findings with my own account, and then from that build me a personalized content calendar. The result is a document saved to my computer with exactly what to post each day, including the type of content, the title, the hook, the outline, the caption. In other words, you're having cloud co-work analyze your Instagram account once a week, identifying your weak spots and content gaps, as well as browse tick-tock and Instagram to search for viral content and what's blowing up in your niche right now, to build you a personalized content calendar of what to post every single day of the week, aimed at helping you specifically go viral. If you want step-by-step instructions of how to set this up, including screenshots and the exact prompts that I used, just comment content calendar below and I will send it to your DMs.
 
 </details>
+
+## 2026-07-23 03:27 UTC
+Source: https://www.instagram.com/reel/DX2orbYgPVI/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Wassim Younes
+DM-Followup: pending — comment 'scrape' to get: Link to the Scrapling GitHub repository
+
+A creator promotes Scrapling, an open-source Python web scraping library that claims to bypass bot detection systems like Cloudflare. The video highlights its stealth capabilities and claimed 774x speed advantage over BeautifulSoup. Viewers are encouraged to comment 'scrape' to receive more information.
+
+The video opens with a tweet (translated from Chinese by Grok) about 'OpenClaw' being able to scrape any website without being blocked, claiming zero bot detection, native Cloudflare bypass, and 774x faster performance than BeautifulSoup. The presenter then discusses the GitHub repository for 'Scrapling,' an adaptive web scraping framework that learns from website changes, bypasses anti-bot systems, and supports concurrent multi-session crawls. The presenter says he personally implemented it and found it impressive. He encourages viewers to comment 'scrape' to get the link, and to follow his account.
+
+- Scrapling claims 774x faster web scraping than BeautifulSoup
+- Claims zero bot detection and native Cloudflare bypass
+- Open-source Python library available on GitHub
+- Adaptive parser learns from website changes automatically
+- No need to maintain CSS selectors or workarounds
+- Presenter personally tested and implemented it
+
+⚠️ Reliability (hype: mild):
+- [dubious] 774x faster than BeautifulSoup — This benchmark figure is extremely high and likely cherry-picked or measured under very specific conditions not representative of general use.
+- [unverifiable] Zero bot detection and native Cloudflare bypass — Cloudflare continuously updates its detection methods, so a permanent, complete bypass claim cannot be reliably verified.
+
+<details><summary>Full transcript</summary>
+
+The fastest web crawler, but yet it runs in stealth mode. So zero bot detection on cloudflare and much faster than all of them out there, which is very interesting. Essentially, while running this, you don't need to worry about, you know, the websites pushing you back, blocking your agent or anything really. You get scrape individuals, you get scrape websites effortlessly. So if you guys do want this comment down below, scrape and I'll send this over. This is huge because I just implemented it as well. And once again, everything I put in, I hope you guys up. So that's the go out here. If you guys do like this follow as well, because it means the FN world.
+
+</details>
