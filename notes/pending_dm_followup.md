@@ -135,3 +135,11 @@ Status: pending
 Comment keyword: store
 Promised: Link to the Amboras e-commerce platform
 Filed under: ideas
+
+## 2026-07-23 03:32 UTC
+Source: https://www.instagram.com/reel/DbCpyDytCjz/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Haotian building apps
+Status: pending
+Comment keyword: CTO
+Promised: a more detailed guide on the money-making method
+Filed under: ideas
