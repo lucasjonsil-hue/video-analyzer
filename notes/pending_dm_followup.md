@@ -55,3 +55,11 @@ Status: pending
 Comment keyword: primal
 Promised: One-on-one nutrition coaching details and accountability program
 Filed under: fitness
+
+## 2026-07-23 03:23 UTC
+Source: https://www.instagram.com/reel/DbD2qJCgJme/
+Creator: Michael | Career Advice
+Status: pending
+Comment keyword: files
+Promised: Custom Claude Project instruction files for the job search system
+Filed under: ai_coding
