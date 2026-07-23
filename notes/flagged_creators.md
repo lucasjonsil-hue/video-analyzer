@@ -23,3 +23,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## Trevor Shan
 - 2026-07-22 — Following these five rules for 90 days makes it 'impossible' not to see amazing results — https://www.instagram.com/reel/DbEK8hHJ9vX/?igsh=NTc4MTIwNjQ2YQ==
+
+## Haotian building apps
+- 2026-07-23 — This method earns $1,000 per day; Republished AI-recreated articles can be published back on Google News for ad revenue — https://www.instagram.com/reel/DbCpyDytCjz/
