@@ -26,3 +26,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## Haotian building apps
 - 2026-07-23 — This method earns $1,000 per day; Republished AI-recreated articles can be published back on Google News for ad revenue — https://www.instagram.com/reel/DbCpyDytCjz/
+
+## Tristan Natale
+- 2026-07-23 — TikTok Shop affiliates cannot truly scale and mainly earn from old videos — https://www.instagram.com/reel/Da9gI01OYmq/
