@@ -28,6 +28,7 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 - 2026-07-23 — This method earns $1,000 per day; Republished AI-recreated articles can be published back on Google News for ad revenue — https://www.instagram.com/reel/DbCpyDytCjz/
 
 ## Tristan Natale
+- 2026-07-23 — A mom made $80,000 and a beginner made $4,000 in their first week using his Amazon AI avatar affiliate method; Amazon brand affiliates get 100% commission when working directly with brands — https://www.instagram.com/reel/Da9gI01OYmq/?igsh=NTc4MTIwNjQ2YQ==
 - 2026-07-23 — TikTok Shop affiliates cannot truly scale and mainly earn from old videos — https://www.instagram.com/reel/Da9gI01OYmq/
 
 ## Bert | No-Chase Swing Trading for 9-5s
