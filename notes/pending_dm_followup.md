@@ -143,3 +143,11 @@ Status: pending
 Comment keyword: CTO
 Promised: a more detailed guide on the money-making method
 Filed under: ideas
+
+## 2026-07-23 03:32 UTC
+Source: https://www.instagram.com/reel/DbD2qJCgJme/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Michael | Career Advice
+Status: pending
+Comment keyword: files
+Promised: Custom Claude Project instruction/prompt files for the job search system
+Filed under: ai_coding
