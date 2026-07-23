@@ -1629,3 +1629,26 @@ The creator walks through a step-by-step tutorial on using Claude's desktop app 
 things you didn't know you could do using cloud. Open the cloud desktop app, switch to co-work, download the cloud for Chrome extension. This is what allows cloud to browse internet in the background and even scroll different social media platforms to see what's trending in your niche. Then you're going to go back into cloud co-work into the scheduled section, then click new task, and then we're going to make this a weekly task so it runs every Monday at 9am. And then this is where you're going to paste the prompt telling cloud what you want it to do. So we want it to browse tick-tock Instagram, study the patterns of top performing content, cross reference the findings with my own account, and then from that build me a personalized content calendar. The result is a document saved to my computer with exactly what to post each day, including the type of content, the title, the hook, the outline, the caption. In other words, you're having cloud co-work analyze your Instagram account once a week, identifying your weak spots and content gaps, as well as browse tick-tock and Instagram to search for viral content and what's blowing up in your niche right now, to build you a personalized content calendar of what to post every single day of the week, aimed at helping you specifically go viral. If you want step-by-step instructions of how to set this up, including screenshots and the exact prompts that I used, just comment content calendar below and I will send it to your DMs.
 
 </details>
+
+## 2026-07-23 03:29 UTC
+Source: https://www.tiktok.com/t/ZTANtdAe5/
+Creator: k.buildsapps
+
+A student creator shares a tutorial on setting up Claude AI to maximize productivity for students. He walks through configuring Claude with a humanizer prompt, enabling memory features, and using a 'learn about me' prompt to personalize the AI assistant for academic goals.
+
+The video opens with the creator claiming he will share what students need to know about Claude to be 'dangerously productive.' He instructs viewers to copy a 'humanizer prompt' and paste it into Claude's settings under the instructions box. He then demonstrates how to enable memory capabilities in Claude so it can remember past conversations. Next, he shows how to paste a 'learn about me' prompt into Claude so the AI understands the user's personal goals and schedule. The creator frames this setup as a way for students to stay productive over summer and be prepared for the start of school. He mentions all prompts from his videos are available for free on a linked site and invites viewers to comment questions and follow him.
+
+- Copy and paste a 'humanizer prompt' into Claude's custom instructions settings
+- Enable memory features in Claude's capabilities so it remembers your conversations
+- Use a 'learn about me' prompt to personalize Claude to your goals and schedule
+- This setup is designed to help students be more productive over summer break
+- All prompts mentioned are available for free on the creator's website
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Setting up Claude with these prompts will make students 'dangerously productive' — This is a subjective effectiveness claim with no measurable evidence provided.
+
+<details><summary>Full transcript</summary>
+
+If you're a student and you don't want to repeat all your last wasted summers I'm sure exactly what you need to know about cloud to be dangerously productive Okay, the first thing you have to do is set up cloud. You're gonna want to copy this humanizer prompt You want to go to cloud settings and under this box right here that says instructions for cloud paste that right here And go into capabilities and under memory turn both of these on So now can access to remember all the things you talk about now You want to go here and copy this learn about me prompt and then you're gonna paste it into cloud It's gonna help cloud understand who you are what you have going on so it can help you Yeah, so now you have all your goals set out for the rest of the summer and be where you want to be at the start of school If you want all the prompts from my videos for free is on this site here Yeah, comment if you have any questions and follow me to be a better student
+
+</details>
