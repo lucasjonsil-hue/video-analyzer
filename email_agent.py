@@ -21,6 +21,7 @@ Log: email_agent_runs.log (via the .bat) — one summary line per action.
 
 import base64
 import os
+import re
 import subprocess
 import sys
 import time
@@ -211,7 +212,67 @@ def queue_backlog(urls: list[str]) -> None:
         log(f"  backlog write failed: {str(e)[:100]}")
 
 
+LINK_NOTES_PATH = os.path.join(BASE_DIR, "notes", "link_notes.md")
+_URL_LINE_RE = re.compile(r"https?://\S+")
+
+
+def capture_link_notes(m: dict) -> None:
+    """Lucas writes notes UNDER the links in the emails he sends himself. Keep
+    them: extract each link + the note text beneath it and append to
+    link_notes.md so the ideas/questions aren't lost (the links themselves still
+    go through the analyzer separately). Links with no note are skipped. Deduped
+    by a hidden per-(url, note) marker so re-runs don't pile up duplicates."""
+    body = m.get("body", "") or ""
+    lines = [ln.strip() for ln in body.splitlines()]
+    pairs = []
+    for i, ln in enumerate(lines):
+        mo = _URL_LINE_RE.search(ln)
+        if not mo:
+            continue
+        url = mo.group(0).split("?")[0].rstrip(".,")
+        note_parts = []
+        for nxt in lines[i + 1:i + 4]:
+            if not nxt:
+                continue
+            if _URL_LINE_RE.search(nxt):
+                break
+            if "get outlook" in nxt.lower():
+                continue
+            note_parts.append(nxt)
+        note = " ".join(note_parts).strip()
+        if note:
+            pairs.append((url, note))
+    if not pairs:
+        return
+    try:
+        os.makedirs(os.path.dirname(LINK_NOTES_PATH), exist_ok=True)
+        existing = ""
+        if os.path.exists(LINK_NOTES_PATH):
+            with open(LINK_NOTES_PATH, encoding="utf-8") as f:
+                existing = f.read()
+        stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        subject = m.get("subject", "")
+        new_blocks = []
+        for url, note in pairs:
+            marker = f"{url} :: {note}"
+            if marker in existing:
+                continue
+            new_blocks.append(
+                f"- [{stamp}] {url}\n"
+                f"    NOTE: {note}\n"
+                f"    (email: {subject}) — video analysis pending cross-check\n"
+                f"    <!--mark:{marker}-->\n"
+            )
+        if new_blocks:
+            with open(LINK_NOTES_PATH, "a", encoding="utf-8") as f:
+                f.write("\n" + "\n".join(new_blocks))
+            log(f"  [{subject}] captured {len(new_blocks)} link-note(s) to link_notes.md")
+    except OSError as e:
+        log(f"  link-note capture failed: {str(e)[:100]}")
+
+
 def process_video_email(token: str, m: dict) -> None:
+    capture_link_notes(m)
     urls = sorted(set(ei.VIDEO_URL_RE.findall(m["body"])))
     if not urls:
         log(f"  [{m['subject']}] classified video-links but no links found")
