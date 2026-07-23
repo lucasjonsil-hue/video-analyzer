@@ -1604,3 +1604,28 @@ The video opens with a tweet (translated from Chinese by Grok) about 'OpenClaw' 
 The fastest web crawler, but yet it runs in stealth mode. So zero bot detection on cloudflare and much faster than all of them out there, which is very interesting. Essentially, while running this, you don't need to worry about, you know, the websites pushing you back, blocking your agent or anything really. You get scrape individuals, you get scrape websites effortlessly. So if you guys do want this comment down below, scrape and I'll send this over. This is huge because I just implemented it as well. And once again, everything I put in, I hope you guys up. So that's the go out here. If you guys do like this follow as well, because it means the FN world.
 
 </details>
+
+## 2026-07-23 03:29 UTC
+Source: https://www.instagram.com/reel/DYQEVXoyz9M/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Amie Tollefsrud
+DM-Followup: pending — comment 'content calendar' to get: Step-by-step instructions on how to set up the Claude Cowork content calendar automation, including screenshots and exact prompts
+
+A woman demonstrates how to use Claude's desktop app Cowork feature to set up automated weekly tasks that analyze trending content on TikTok and Instagram and generate a personalized content calendar. The tutorial shows how to combine Claude's scheduled tasks with the Chrome extension to browse social media and identify viral content patterns. The result is an automated document with daily posting recommendations including content type, title, hook, outline, and caption.
+
+The creator walks through a step-by-step tutorial on using Claude's desktop app in 'Cowork' mode combined with the Claude for Chrome extension. She explains that the Chrome extension enables Claude to browse the internet and scroll social media platforms in the background. The workflow involves going into Claude Cowork's Scheduled section, creating a new weekly task set to run every Monday at 9am, and pasting a detailed prompt. The prompt instructs Claude to browse TikTok and Instagram, study top-performing content patterns, cross-reference findings with the user's own account to identify weak spots and content gaps, then build a personalized 7-day content calendar. The output is a saved document containing daily post recommendations with content type, title, hook, outline, and caption. She ends with a DM call-to-action offering step-by-step instructions including screenshots and exact prompts.
+
+- Use Claude desktop app's Cowork mode with the Chrome extension to browse social media automatically
+- Set up a scheduled weekly task in Claude Cowork to run every Monday at 9am
+- Prompt Claude to analyze trending TikTok/Instagram content and cross-reference with your own account
+- Output is a full 7-day content calendar with type, title, hook, outline, and caption per post
+- Comment 'content calendar' to receive step-by-step setup instructions via DM
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Claude with the Chrome extension can autonomously scroll TikTok and Instagram to analyze trending content — Claude's Cowork/agent features are real but the extent of autonomous social media scrolling and analysis capability shown is not fully verified by official documentation.
+- [unverifiable] The setup can identify your account's weak spots and content gaps by browsing your own Instagram — Claude agents can browse web content, but accessing private account analytics or identifying specific content gaps automatically is not a confirmed out-of-the-box capability.
+
+<details><summary>Full transcript</summary>
+
+things you didn't know you could do using cloud. Open the cloud desktop app, switch to co-work, download the cloud for Chrome extension. This is what allows cloud to browse internet in the background and even scroll different social media platforms to see what's trending in your niche. Then you're going to go back into cloud co-work into the scheduled section, then click new task, and then we're going to make this a weekly task so it runs every Monday at 9am. And then this is where you're going to paste the prompt telling cloud what you want it to do. So we want it to browse tick-tock Instagram, study the patterns of top performing content, cross reference the findings with my own account, and then from that build me a personalized content calendar. The result is a document saved to my computer with exactly what to post each day, including the type of content, the title, the hook, the outline, the caption. In other words, you're having cloud co-work analyze your Instagram account once a week, identifying your weak spots and content gaps, as well as browse tick-tock and Instagram to search for viral content and what's blowing up in your niche right now, to build you a personalized content calendar of what to post every single day of the week, aimed at helping you specifically go viral. If you want step-by-step instructions of how to set this up, including screenshots and the exact prompts that I used, just comment content calendar below and I will send it to your DMs.
+
+</details>
