@@ -1552,3 +1552,29 @@ The video opens with the creator holding earbuds near his mouth, stating 'AI has
 It turns out Claude just killed all of Prompting. Look, this clip up, dude. This is Boris the head of Claude code, by the way. Boris says that you should not be Prompting your AI. You should be building systems that prompt your AI for you. Most people shouldn't be doing that, dude. Sorry to break it to you. Try it for yourself, dude, NPC. Next, your AI to some sort of database. Create these tables in the database. Tables for the things that you want AI to autonomously work on. Then, an issues table to track the things you want to change. And you can create these skills. You can have a series of cronjobs detective there's anything needed to be changed. You say I want to create or update a workflow. And then run to each skill. Scoping and planning the change. Making the change. Testing. And doing that again until it reaches the human goal. It even built a cool front end like this. But I realize that I don't want my system to look like this. I want it looking like this. bottleneck is not compute, bro. The bottleneck is very much still humans. We're still valuable, dude. This dream is awesome. There are so many fucking things that I need to be in the loop for. Yeah, I can't fucking read your mind, bro. Especially if you're doing something go-to-market related, bro. That requires so much human creativity. Yes, Boris definitely has things figured out that I don't even remotely. And I'm not a software developer. My use case is literally different. I don't see a world anytime soon where human creativity won't be absolutely necessary to have constantly in the loop.
 
 </details>
+
+## 2026-07-23 03:25 UTC
+Source: https://www.instagram.com/reel/DYQEVXoyz9M/
+Creator: Amie Tollefsrud
+DM-Followup: pending — comment 'content calendar' to get: Step-by-step instructions including screenshots and exact prompts for setting up the automated content calendar task in Claude Cowork
+
+A woman demonstrates how to use Claude's desktop app Cowork feature to automate weekly content calendar creation. She shows how to set up a scheduled task that browses TikTok and Instagram to analyze viral trends and cross-reference with your own account to generate a personalized posting plan.
+
+The creator introduces part 3 of her series on things you didn't know you could do with Claude. She walks through the process of opening the Claude desktop app, switching to the Cowork tab, and downloading the Claude for Chrome extension which enables Claude to browse the internet and social media platforms. She then navigates to the Scheduled section in Cowork, creates a new task set to run every Monday at 9am, and pastes a detailed prompt instructing Claude to browse TikTok and Instagram, study top-performing content patterns, cross-reference findings with her own account, and build a personalized weekly content calendar. The output is described as a saved document containing daily post recommendations including content type, title, hook, outline, and caption. She ends with a CTA asking viewers to comment 'content calendar' to receive step-by-step setup instructions including screenshots and exact prompts via DM.
+
+- Use Claude's Cowork 'Scheduled' feature to automate weekly tasks
+- Claude for Chrome extension enables background internet and social media browsing
+- Set a recurring Monday 9am task with a detailed prompt for content research
+- Claude analyzes your account's weak spots and researches viral trends in your niche
+- Output includes daily content plan with type, title, hook, outline, and caption
+- Comment 'content calendar' to receive exact prompts and setup guide via DM
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] The scheduled task produces a full weekly content calendar saved to your computer with hooks, outlines, and captions — While Claude can generate content calendars, the quality and automation reliability of this specific workflow cannot be confirmed without testing.
+- [unverifiable] Claude can identify your account's weak spots and content gaps by analyzing your Instagram — Claude's ability to deeply analyze a personal Instagram account's performance metrics depends on access permissions and platform API limitations.
+
+<details><summary>Full transcript</summary>
+
+things you didn't know you could do using cloud. Open the cloud desktop app, switch to co-work, download the cloud for Chrome extension. This is what allows cloud to browse internet in the background and even scroll different social media platforms to see what's trending in your niche. Then you're going to go back into cloud co-work into the scheduled section, then click new task, and then we're going to make this a weekly task so it runs every Monday at 9am. And then this is where you're going to paste the prompt telling cloud what you want it to do. So we want it to browse tick-tock Instagram, study the patterns of top performing content, cross reference the findings with my own account, and then from that build me a personalized content calendar. The result is a document saved to my computer with exactly what to post each day, including the type of content, the title, the hook, the outline, the caption. In other words, you're having cloud co-work analyze your Instagram account once a week, identifying your weak spots and content gaps, as well as browse tick-tock and Instagram to search for viral content and what's blowing up in your niche right now, to build you a personalized content calendar of what to post every single day of the week, aimed at helping you specifically go viral. If you want step-by-step instructions of how to set this up, including screenshots and the exact prompts that I used, just comment content calendar below and I will send it to your DMs.
+
+</details>
