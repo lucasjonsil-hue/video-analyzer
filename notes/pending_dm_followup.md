@@ -111,3 +111,11 @@ Status: pending
 Comment keyword: content calendar
 Promised: Step-by-step instructions on how to set up the Claude Cowork content calendar automation, including screenshots and exact prompts
 Filed under: ai_coding
+
+## 2026-07-23 03:30 UTC
+Source: https://www.instagram.com/reel/DYpdESHDWAy/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Bert | No-Chase Swing Trading for 9-5s
+Status: pending
+Comment keyword: prompts
+Promised: All three Claude AI stock analysis prompts (Bear Case, Conviction Score, Catalyst Test)
+Filed under: investing
