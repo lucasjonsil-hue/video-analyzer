@@ -39,4 +39,5 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 - 2026-07-23 — 774x faster than BeautifulSoup — https://www.instagram.com/reel/DX2orbYgPVI/?igsh=NTc4MTIwNjQ2YQ==
 
 ## erenlovesecom
+- 2026-07-23 — Claude Fable 5 built his entire store from a single prompt including bundles, subscriptions, and upsells — https://www.instagram.com/reel/DbCCRPvtHtw/?igsh=NTc4MTIwNjQ2YQ==
 - 2026-07-23 — 'Claude Fable 5' builds full e-commerce stores from a single prompt — https://www.instagram.com/reel/DbCCRPvtHtw/
