@@ -1699,3 +1699,28 @@ The creator opens by referencing a clip from Boris, described as the head of Cla
 It turns out Claude just killed all of Prompting. Look, this clip up, dude. This is Boris the head of Claude code, by the way. Boris says that you should not be Prompting your AI. You should be building systems that prompt your AI for you. Most people shouldn't be doing that, dude. Sorry to break it to you. Try it for yourself, dude, NPC. Next, your AI to some sort of database. Create these tables in the database. Tables for the things that you want AI to autonomously work on. Then, an issues table to track the things you want to change. And you can create these skills. You can have a series of cronjobs detective there's anything needed to be changed. You say I want to create or update a workflow. And then run to each skill. Scoping and planning the change. Making the change. Testing. And doing that again until it reaches the human goal. It even built a cool front end like this. But I realize that I don't want my system to look like this. I want it looking like this. bottleneck is not compute, bro. The bottleneck is very much still humans. We're still valuable, dude. This dream is awesome. There are so many fucking things that I need to be in the loop for. Yeah, I can't fucking read your mind, bro. Especially if you're doing something go-to-market related, bro. That requires so much human creativity. Yes, Boris definitely has things figured out that I don't even remotely. And I'm not a software developer. My use case is literally different. I don't see a world anytime soon where human creativity won't be absolutely necessary to have constantly in the loop.
 
 </details>
+
+## 2026-07-23 03:32 UTC
+Source: https://www.instagram.com/reel/DbD2qJCgJme/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Michael | Career Advice
+DM-Followup: pending — comment 'files' to get: Custom Claude Project instruction/prompt files for the job search system
+
+A creator shares how he used Claude AI Projects to streamline his job search after losing his job in April, landing two job offers by end of May. He explains setting up a Claude Project with a master resume and custom instruction files to generate ATS-optimized tailored resumes for each job application.
+
+The video is part of a series about the creator's job search strategy. In this segment (part one), he focuses on setting up a Claude AI Project as the foundation for job searching. He explains that he lost his job in April and had two offers by end of May. He contrasts using regular Claude chats (which degrade with too much context) versus Claude Projects, which allow fresh chats while retaining all uploaded knowledge. The workflow involves uploading a master resume and custom instruction/prompt files into the Claude Project's file section, then dropping job descriptions into new chats to instantly receive ATS-optimized tailored resumes. He references a 'part zero' video about writing the master resume. He offers to send the project instruction files to anyone who comments 'files'.
+
+- Lost job in April, got two offers by end of May using this system
+- Claude Projects retain context across fresh chats, unlike regular Claude chats
+- Upload master resume + instruction files to Claude Project file section
+- Drop any job description into a project chat to get an ATS-optimized tailored resume
+- Regular Claude chat degrades in performance as context grows
+- Part of a multi-part series on AI-assisted job searching
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] Lost job in April, had two job offers by end of May — Personal anecdote with no supporting evidence shown, though plausible in principle.
+
+<details><summary>Full transcript</summary>
+
+So I lost my job in April and then I had two job offers by the end of May. Here's everything I did to land my new job, part one, setting up the cloud project. After you get your master resume written, which I talked about in part zero, you need to create a cloud project. This will be your system and foundation for your job search. The problem is most job seekers are using the cloud chat feature, which at some point gets overloaded with context, which degrades the performance of it. The solution is to create a cloud project, which allows you to create fresh chats, but it still knows everything. So what you want to do is go to cloud and then click on projects, then drop these files into the file section, comment files, and I'll send them to you. And then also drop your master resume into the file section. Once you do that, you can open up a chat within the project and all you need to do is drop a job description and it already has your resume and all the instructions. And it will give you a tailored resume that's optimized for the ATS systems. And that is the foundation of your job search. And if you want the files for the cloud project, just comment files and I'll send it right to you.
+
+</details>
