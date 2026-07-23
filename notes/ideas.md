@@ -605,3 +605,30 @@ The creator opens with hype-bait framing, claiming he's scared to share his secr
 Okay, I just found a way to make a lot of money with Claude, but I'm low-key scared to show you because if I do a lot of people are gonna copy me and get it rich which might make it harder for me. So I'm taking this down if it's too much attention, but you have to see what it's figured out. Okay, so I'm 17 and I do e-com, but not in the way you think because Claude Fable 5 does most of the work. Once I find a winning product, I can just drop it in. Let the AI build the store for me and I don't really have any competition in my niche because my store is literally better than all of this. From one prompt, we have bundles, subscriptions, upsells and all this product imagery. And then I can do this. A.B. Test 100 variants in my store until you find the highest converting one. Of course, generating 100 versions of your website. Boom. And that just up in my conversion by 3.2% nice. The platform is called Embores. It's a full shop system with your orders, products, and all the integrations, but I only use a few of them because whatever I want to add, it'll just build it for me. Just like that, it built me a whole reviews page. I could go on and on about what it can do, but you get the deal now. If you want the link to try it out, just comment, store, and I'll send it over to you.
 
 </details>
+
+## 2026-07-23 03:32 UTC
+Source: https://www.instagram.com/reel/DbCpyDytCjz/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Haotian building apps
+DM-Followup: pending — comment 'CTO' to get: a more detailed guide on the money-making method
+
+A person claims to have discovered a 'money glitch' that makes $1,000/day by using AI to recreate news articles from Google News with a new logo and republishing them on Google News to earn ad revenue. The method involves copying article links, using an AI tool to rebuild the site, and publishing it. The video ends with a CTA to comment 'CTO' for a more detailed guide.
+
+The creator, filming late at night around 4 AM, excitedly shares what they describe as an easy money-making method requiring only a laptop and AI. They demonstrate going to Google News, navigating to the Entertainment section, and finding articles they think older audiences would enjoy. They then copy the article link and paste it into an unspecified website that uses AI to recreate the entire site with a new logo in about 10 minutes. After the AI rebuilds the site, they claim to publish it back on Google News and get paid through ad revenue. The video is fast-paced and hype-driven, with the creator showing their laptop screen briefly during the process. A comment keyword CTA ('CTO') is offered at the end for a more detailed guide.
+
+- Claims to make $1,000/day by copying and republishing news articles using AI
+- Method involves Google News Entertainment section, copying article links into an AI tool
+- AI recreates the full site with a new logo in ~10 minutes
+- Republishes content on Google News to earn ad revenue
+- Comment 'CTO' for a more detailed guide
+- This method likely involves copyright infringement and policy violations
+
+⚠️ Reliability (hype: heavy):
+- [dubious] This method can make $1,000 per day — No evidence is shown, and Google News ad revenue for a newly created site would be negligible at best.
+- [dubious] Republishing copied news content on Google News earns ad revenue — Google News has strict publisher policies and copying/scraping others' articles violates copyright law and Google's terms of service.
+- [unverifiable] AI can recreate an entire news site with a new logo in about 10 minutes — The specific tool is never named or clearly shown, making this claim impossible to verify.
+
+<details><summary>Full transcript</summary>
+
+It's almost 4 a.m. and I think I just discovered the easiest way to make a thousand dollars a day I can't even sleep tonight. I just keep doing this method back to back Very all you need is a laptop two brain cells and some balls We're using AI. I don't want to talk too much. Let me just show you. I do is go to Google news and go to entertainment Look for anything that you think an old person would like copy the link to the blog come over to this website right here Just paste it in. I just tell it to make it with a new logo and launch it and boom in about 10 minutes I'll recreate the whole site with a new logo and launch it then I'll publish it back on Google news And I'll get paid for it. If you want a more in that guide just comment the word CTO and I got you
+
+</details>
