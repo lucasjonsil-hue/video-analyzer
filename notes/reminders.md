@@ -126,3 +126,8 @@ Use Lovecord coupon for paracord 10% discount (email: Paracord Specials, Beads/C
 Source: email from www.paracordgalaxy.com
 
 Use Save$ coupon for paracord site-wide savings (email: Paracord sale and specials. Use "Save$" coupon for site wide savings. 100 ft lengths starting at $4.98.)
+
+## 2026-07-28
+Source: planner wave alert
+
+Swell alert (Santa Barbara) — days hitting your ≥3.0 ft / ≥9.0s threshold: 2026-07-28: 3.0 ft @ 9.2s; 2026-07-29: 3.2 ft @ 10.8s. Worth planning a session.
