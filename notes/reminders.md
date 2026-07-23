@@ -116,3 +116,8 @@ Coupon expires (email: Use "Save$$$" coupon for 10% off site wide. 100 ft Paraco
 Source: email from globaled@chapman.edu
 
 Attend Spring 2027 pre-departure orientation (email: Spring 2027 Semester Abroad Pre-Departure Orientation - Fri, Oct 9)
+
+## 2026-07-26
+Source: email from www.paracordgalaxy.com
+
+Use Lovecord coupon for paracord 10% discount (email: Paracord Specials, Beads/Charms. 10% Off Site Wide "Lovecord" Coupon to use at checkout.)
