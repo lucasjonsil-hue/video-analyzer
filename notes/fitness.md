@@ -533,3 +533,27 @@ The creator opens by addressing a common frustration: working out hard but not s
 You work out so hard, but you still can't see your abs. And you know why. It's because your nutrition isn't dialed in. If you struggle with nutrition, follow these five rules. This is as simple as it gets. If you follow these five rules, I guarantee you'll shed fat, build muscle, and most importantly of all, be healthier. Make sure you save this. Rule number one, eat real food. Don't over-complicate that, just eat real food. And it must sound weird to hear. Why do I need to be told to eat real food? But it's just the culture we live in nowadays, and I don't blame you. I don't care if those potato chips are roasted in avocado oil, they are still bullshit. Don't fall for the marketing. Make the chips at home yourself. That's the shift we need to make. Rule number two, always earn your first meal. I talked about this last week. And don't over-complicate it. Do not eat until you've exercised. What kind of exercise? How long? What time? Stop. Don't over-complicate it. Do not eat until you've exercised. Always earn your first meal. Rule number three, have protein with everything you eat. Everything you eat. Every time you put food in your mouth, protein must be involved. How much protein? Don't over-think it. Every meal you have protein. Doesn't matter how much, every meal you have protein. Rule number four, always have fiber with everything you eat. How much fiber? Where should the fiber come from? Don't over-think it. Every time you eat, eat fiber. And finally, rule number five. Stop eating three hours before you go to bed. Don't over-think it. What time do you go to bed? What's three hours before that? Stop eating then. Watch what happens to your sleep quality when you start doing that. And when your sleep quality goes up, so does your quality of life. And if you actually religiously follow each of these rules, for at least 90 days, and I'm not talking about half-ast following them for like a week or two, you actually diligently follow each rule for 90 days straight. It would be impossible for you to not see amazing results. Nutrition doesn't have to be complicated. We're not robots. We're not machines. We're animals. Nobody has to tell the wolf how to eat. He already knows. So do you. And if you want my help, you want me to coach you one on one, dialing your nutrition specific to you, hold you accountable, comment the word primal, and I'll send you the details. Peace.
 
 </details>
+
+## 2026-07-23 03:25 UTC
+Source: https://www.instagram.com/reel/DX7tqMxuY8f/
+Creator: alan perez
+
+A third-year engineering student shares his supplement protocol for passing finals, organized into morning, afternoon, and evening blocks. He recommends specific supplements like L-Theanine (300mg) for calm focus, and emphasizes that supplements only enhance studying — they don't replace it. The video ends with a reminder that actual studying is still required.
+
+The creator films himself in a car and outlines a 'brainmaxxing' supplement protocol designed to help engineering students pass finals. He structures the day into three study blocks: morning (tackle hardest material when the brain is most plastic/receptive), afternoon (use stamina-supporting supplements to push through fatigue during review and practice problems), and evening (6-8pm, no stimulation — use focus and memory supplements to wind down and consolidate the day's learning). One specific supplement mentioned is L-Theanine at 300mg for calm focus and attention span support, listed under an 'Alertness + BDNF Support' category. He acknowledges these supplements are meant to make studying more enjoyable and effective, not to replace actual studying. He closes with 'Good luck bros' and a lighthearted warning not to expect results while playing video games.
+
+- Morning block: tackle hardest material first when brain is most receptive
+- Afternoon block: use stamina supplements to sustain focus during review
+- Evening block (6-8pm): no stimulation, use calm focus supplements to consolidate memory
+- L-Theanine 300mg recommended for calm focus and attention span
+- Supplements enhance studying but do NOT replace it
+- Protocol based on personal experience as a third-year engineering student
+
+⚠️ Reliability (hype: mild):
+- [unverifiable] These supplements helped him pass exams as a third-year engineering student — Personal anecdotal claim with no academic performance data provided to verify.
+
+<details><summary>Full transcript</summary>
+
+These are the supplements I used to pass on my exams as a third year engineering student. First thing in the morning, get rid of the hardest material first. You want them knocked that out because your brain is plastic in the morning. It's getting more and more of everything. You put into it like a sponge. Pass forward into kind of the afternoon, middle of the day. You want stamina. Your brain's a little tired from the morning. So in order to keep going and reviewing and doing practice problems, you want these. Evening, you don't want stimulation. You got to go to bed. You want focus and memory. These are going to be your best bet in order to come your mind down and review everything that you did during the day. But don't think by just taking these and playing video games, you're going to pass your finals. These are meant to make studying enjoyable and enhance what's already there. This is what I use and I've gotten pretty far. So, there you go.
+
+</details>
