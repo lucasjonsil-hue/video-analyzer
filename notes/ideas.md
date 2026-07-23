@@ -474,3 +474,30 @@ The video captures a fan encounter at a Costco warehouse store. In the first fra
 All right Excuse me, are you Doctor Jake? No, I'm a fan are you two and now your podcast and stuff? No you know yeah, watch it. You talk baseball and pop culture Yeah, yeah Yeah, it's these famous, right? Yeah, how'd you discover me? I was loading on shorts and I saw your short film I was like, bro no one's like saying takes like you bro like people are like bro like too many too many grasses green Tigs, but you actually say what you think and 100% good a picture Yo, what's your Instagram hey there a great media you man. Hey, you have a great one. Thank you
 
 </details>
+
+## 2026-07-23 03:23 UTC
+Source: https://www.instagram.com/reel/DbCpyDytCjz/
+Creator: Haotian building apps
+DM-Followup: pending — comment 'CTO' to get: A more detailed guide on the money-making method shown in the video
+
+A creator claims to have found a 'money glitch' involving using AI to scrape Google News entertainment articles, recreate the websites with new logos, and republish them to earn ad revenue. The video is filmed late at night and promotes a method allegedly earning $1,000/day. The creator asks viewers to comment 'CTO' for a more detailed guide.
+
+The video opens with the creator, visibly excited at nearly 4 AM, claiming he discovered the easiest way to make $1,000 a day. He says all you need is a laptop, basic intelligence, and courage. He demonstrates his method: go to Google News, find entertainment articles likely to appeal to older audiences, copy the blog link, paste it into an AI tool (shown briefly as what appears to be a project management or site-builder interface), instruct the AI to recreate the site with a new logo, then publish it back on Google News to earn ad revenue. He frames this as a repeatable loop. The video ends with a call to action to comment 'CTO' for a full guide.
+
+- Claims to earn $1,000/day by scraping and republishing Google News entertainment articles using AI
+- Method involves copying article links and using an AI tool to recreate entire websites with new branding
+- Targets entertainment content appealing to older demographics
+- Video filmed at ~4 AM to convey urgency and authenticity
+- Asks viewers to comment 'CTO' for a detailed guide
+- Method likely violates copyright law and Google News publisher policies
+
+⚠️ Reliability (hype: heavy):
+- [dubious] This method earns $1,000 per day — No earnings proof is shown and ad revenue from republished news sites would be negligible without massive traffic, while also violating copyright and platform policies.
+- [dubious] Republished AI-recreated articles can be published back on Google News for ad revenue — Google News has strict publisher requirements and scraping/republishing others' content violates copyright law and Google's policies, making monetization nearly impossible legitimately.
+- [unverifiable] The entire site recreation process takes about 10 minutes using AI — The AI tool used is not clearly identified and the actual output quality or speed cannot be confirmed from the footage shown.
+
+<details><summary>Full transcript</summary>
+
+It's almost 4 a.m. and I think I just discovered the easiest way to make a thousand dollars a day I can't even sleep tonight. I just keep doing this method back to back Very all you need is a laptop two brain cells and some balls We're using AI. I don't want to talk too much. Let me just show you. I do is go to Google news and go to entertainment Look for anything that you think an old person would like copy the link to the blog come over to this website right here Just paste it in. I just tell it to make it with a new logo and launch it and boom in about 10 minutes I'll recreate the whole site with a new logo and launch it then I'll publish it back on Google news And I'll get paid for it. If you want a more in that guide just comment the word CTO and I got you
+
+</details>
