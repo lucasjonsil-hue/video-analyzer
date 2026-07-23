@@ -32,3 +32,6 @@ Creators whose videos contained dubious claims or heavy engagement-bait. More bu
 
 ## Bert | No-Chase Swing Trading for 9-5s
 - 2026-07-23 — Claude flagged Nike's market share loss to Hoka and On Running before a 45% drawdown — https://www.instagram.com/reel/DYpdESHDWAy/
+
+## Wassim Younes
+- 2026-07-23 — 774x faster than BeautifulSoup — https://www.instagram.com/reel/DX2orbYgPVI/?igsh=NTc4MTIwNjQ2YQ==
