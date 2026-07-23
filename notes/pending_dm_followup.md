@@ -71,3 +71,11 @@ Status: pending
 Comment keyword: CTO
 Promised: A more detailed guide on the money-making method shown in the video
 Filed under: ideas
+
+## 2026-07-23 03:25 UTC
+Source: https://www.instagram.com/reel/DYQEVXoyz9M/
+Creator: Amie Tollefsrud
+Status: pending
+Comment keyword: content calendar
+Promised: Step-by-step instructions including screenshots and exact prompts for setting up the automated content calendar task in Claude Cowork
+Filed under: ai_coding
