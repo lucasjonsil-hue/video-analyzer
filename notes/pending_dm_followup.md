@@ -103,3 +103,11 @@ Status: pending
 Comment keyword: store
 Promised: Link to try the Amboras platform
 Filed under: ideas
+
+## 2026-07-23 03:29 UTC
+Source: https://www.instagram.com/reel/DYQEVXoyz9M/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Amie Tollefsrud
+Status: pending
+Comment keyword: content calendar
+Promised: Step-by-step instructions on how to set up the Claude Cowork content calendar automation, including screenshots and exact prompts
+Filed under: ai_coding
