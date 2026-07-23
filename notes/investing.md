@@ -287,3 +287,30 @@ This appears to be a short-form social media video (likely TikTok or Instagram R
 
 ⚠️ Reliability (hype: mild):
 - [unverifiable] Hedge funds and insiders are selling stocks at the fastest pace in history — While insider selling data is tracked publicly, the claim of 'fastest pace in history' requires specific sourcing and timeframe context not provided in the video.
+
+## 2026-07-23 03:29 UTC
+Source: https://www.instagram.com/reel/DYpdESHDWAy/?igsh=NTc4MTIwNjQ2YQ==
+Creator: Bert | No-Chase Swing Trading for 9-5s
+DM-Followup: pending — comment 'prompts' to get: All three Claude AI stock analysis prompts (Bear Case, Conviction Score, Catalyst Test)
+
+A creator explains how he uses Claude AI to filter out bad stock picks using three specific prompts: a Bear Case analysis, a Conviction Score, and a catalyst pressure test. He claims this system helped him make $129,000 swing trading last year while working full-time, and cites a Nike example where the AI flagged issues that saved him from a 45% loss.
+
+The video opens with a hook about losing money on Instagram stock tips, then transitions to a walkthrough of a three-prompt Claude AI system for stock analysis. Prompt 1 is the 'Bear Case' (V2 Outlier Scan), which acts as a skeptical short-seller looking for red flags like insider selling, margin compression, market share loss, and guidance cuts. Prompt 2 is the 'Conviction Score' (V1 Core Scorer), which scores a stock out of 100 based on quality gates (ROIC ≥15%, positive FCF, net debt/EBITDA <2x, YoY revenue growth) and a discount gate, with tiers ranging from Best (80+) to Avoid (<50). Prompt 3 pressure-tests the catalyst/story behind the pick to see if it's real or already priced in. The creator gives a specific example of using this on Nike around $80 in August 2025, where Claude flagged market share losses to Hoka and On Running plus declining revenue, leading him to skip it and avoid a claimed 45% drawdown. The video ends with a CTA to comment 'prompts' to receive all three.
+
+- Uses three Claude AI prompts to filter stock picks: Bear Case, Conviction Score, and Catalyst Test
+- Bear Case prompt surfaces red flags like insider selling, moat erosion, margin compression
+- Conviction Score rates stocks out of 100 with quality and discount gates
+- Nike example: Claude flagged Hoka/On Running market share loss, saving from a claimed 45% drawdown
+- Claims $129,000 in swing trading profits last year while working full-time
+- Comment 'prompts' to receive all three Claude prompt templates
+
+⚠️ Reliability (hype: heavy):
+- [unverifiable] $129,000 made swing trading last year with a full-time job using this Claude system — No proof or screenshot is shown, and the figure could easily be fabricated or cherry-picked from a single trade.
+- [dubious] Nike dropped 45% after August 2025 when it was around $80 — The video was likely made in 2025 and Nike's stock trajectory and exact price levels at that date are unverifiable from this content alone.
+- [dubious] Claude can run a 'V2 Outlier Scan' and 'V1 Core Scorer' as named proprietary frameworks — These are user-defined prompt labels, not built-in Claude features; the naming implies official tool functionality that doesn't exist natively.
+
+<details><summary>Full transcript</summary>
+
+Have you ever bought a stock because you saw a reel on Instagram and lost money? Now this is how I use Claw to filter out the bad picks and it helped me make a $129,000 swing trading last year with a full time job. Now first I paste the pick into Claw with my Bearcase prompt. It surfaces every red flag from insider selling eroding moats and business deterioration like this. Now after that, if the Bearcase isn't fatal, I run my scoring prompt and it checks if the business is actually healthy and if the valuation actually makes sense. Now most picks fail right here. Then I use one more prompt to pressure test the catalyst. The story behind the pick. Claw tells me if it's real or already priced in. Now if a pick fails any one of these three, I skip it. I did this for Nike back in August 2025 when it was around $80. Clawed flagged the market share lost to Hoka and on plus declining revenue and I skipped it and it saved me from a 45% drawdown. Now if you want all three prompts, comment prompts and I'll send them to you.
+
+</details>
